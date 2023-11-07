@@ -1,0 +1,378 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat' !important;
+  font-size: 16px !important;
+}
+ul{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+li{
+  list-style-type: none;
+}
+img{
+  height: auto;
+}
+a{
+  text-decoration: none !important;
+}
+header{
+  position: relative;
+}
+.Strengthen-Your-Cyber-Defenses{
+  position: absolute;
+  top: 62px;
+  width: 600px;
+  top: 50%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+}
+.Strengthen-Your-Cyber-Defenses h4{
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 65%;
+}
+.Strengthen-Your-Cyber-Defenses p{
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 50%;
+  font-size: 19px;
+}
+footer{
+  background: #efefef;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+}
+.navbar-main-frame{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.navbar-menu{
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+.logo-frame-header{
+  width: 17%;
+}
+.header-menubar-middle{
+  width: 55%;
+}
+.header-menubar-right{
+  width: 28%;
+  text-align: right;
+}
+.header-menubar-middle ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.header-menubar-middle li{
+  margin-right: 30px;
+}
+.header-menubar-middle li a{
+  font-size: 20px;
+    color: #fff;
+}
+.header-menubar-middle li a:hover{
+  color:#eb5e26
+}
+.header-menubar-right a{
+  color: #fff;
+  text-transform: uppercase;
+  border: 1.3px solid #eb5e26;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.header-menubar-right a:hover{
+  background: #eb5e26;
+  color: #fff;
+}
+.footer-right-img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 40%;
+  overflow: hidden;
+  height: 100%;
+}
+.footer-right-img img{
+  width: 100%;
+  height: auto;
+}
+.footer-middle{
+  display: flex;
+}
+.footer-middle .footer-left{
+  width: 16%;
+}
+.footer-middle .footer-left img{
+  width: 130px;
+  height: auto;
+}
+.footer-middle .footer-left:nth-child(1){
+  width: 23%;
+}
+.footer-left ul li{
+  margin-bottom: 20px;
+}
+.footer-left ul li a{
+  color: #000;
+  font-weight: bold;
+}
+.testimonial-frame{
+  padding: 120px 0px;
+}
+.testimonial-frame-middle{
+  display: flex;  
+}
+.testimonial-frame-left{
+  width: 20%;
+}
+.testimonial-frame-left img{
+ width: 100%;
+}
+.testimonial-frame-left h4{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.testimonial-frame-left p{
+  font-size: 16px;
+  margin-bottom: 0px;  
+}
+.testimonial-frame-right{
+  width: 80%;
+  padding-left: 5%;
+}
+.testimonial-frame-right p{
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+.Ignite-Cybersecurity-frame {
+ position: relative;  
+}
+.Ignite-Cybersecurity-frame .container{
+  
+ }
+.Ignite-Cybersecurity-frame-img img{
+  width: 100%;
+}
+.Ignite-Cybersecurity-frame-cont{
+  position: absolute;
+  top: 62px;
+  width: 600px;
+  top: 50%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+}
+.ho-heading{
+  font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.br{
+  display: block;
+}
+.Ignite-Cybersecurity-frame-cont p{
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.Ignite-Cybersecurity-frame-cont p a{
+  background: #eb5e26;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 11px 30px;
+    display: inline-block;  
+    margin-top: 10px;
+}
+.Managed-Detection-frame{
+  background: #000;
+  padding: 80px 0px;
+}
+.Managed-Detection-frame-middle{
+  display: flex;
+  margin: 60px 0px;
+}
+.Managed-Detection-frame-middle-left{
+  width: 50%;
+  padding-right: 10%; 
+}
+.Managed-Detection-frame-middle-left h5{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.Managed-Detection-frame-middle-left p{
+  color:#fff;
+}
+.know-more a{
+    background: #eb5e26;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 15px;
+    display: inline-block;
+    font-size: 14px;
+}  
+.Excellence-in-Three-Steps-top{
+  display: flex;
+}
+.Excellence-in-Three-Steps-top-left{
+  width: 25%;
+}
+.Excellence-in-Three-Steps-top-left h3{
+  color: #000;
+}
+.Excellence-in-Three-Steps-top-right{
+  width: 70%;
+  margin-left: 5%;
+}
+.Excellence-in-Three-Steps-top-right p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.Eliminate-Complexity-main{
+  display: flex;
+  margin: 60px 0px;
+}
+.Eliminate-Complexity-main-left{
+  width: 35%;
+  padding-right: 5%;
+}
+.Eliminate-Complexity-main-left:last-child{
+  
+}
+.Eliminate-Complexity-main-left h2{
+    color: #eb5e26;
+    font-weight: bold;
+    font-size: 36px;
+}
+.Eliminate-Complexity-main-left h4{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+.Excellence-in-Three-Steps{
+  padding: 80px 0px;
+}
+
+.Ignite-Cybersecurity-frame.Eight-Framework{
+  
+}
+.Ignite-Cybersecurity-frame.Eight-Framework ul{
+  margin: 20px 0px !important;
+  margin-bottom: 40px !important;
+}
+.Ignite-Cybersecurity-frame.Eight-Framework ul li{
+    color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 25px !important;
+    font-size: 14px;
+}
+.Ignite-Cybersecurity-frame.Eight-Framework ul li:before {
+    color: #eb5e26;
+    content: "■";
+    display: inline-block;
+    font-weight: 700;
+    margin-left: -25px;
+    position: absolute;
+    width: 1em;
+    font-size: 22px;
+    top: -7px;
+}
+.Ignite-Cybersecurity-frame.Eight-Framework .Ignite-Cybersecurity-frame-cont{
+  left: 70%;
+  width: 680px;
+}
+.Ignite-Cybersecurity-frame.Eight-Framework .Ignite-Cybersecurity-frame-cont p{
+  margin-top: 10px;
+}
+.Security-Posture-frame{
+    background: #efefef;
+    padding: 80px 0px;
+}
+.Security-Posture-frame-top{
+  display: flex;
+}
+.Security-Posture-frame-top-left{
+  width: 50%;
+}
+.Security-Posture-frame-top-left h4{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 80%;
+}
+.Security-Posture-frame-top-right{
+  width: 50%;
+}
+.Security-Posture-frame-top-right p{
+  font-size: 20px;
+  width: 80%;
+}
+.Security-Posture-frame-bottom ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 85px !important;
+  width: 90%; 
+} 
+.Security-Posture-frame-bottom ul li{
+  width: 33%;
+  margin-bottom: 40px;
+  padding-right: 15%;
+}
+.Security-Posture-frame-bottom ul li img{
+    width: 55px;
+    margin-bottom: 16px;
+}
+.Security-Posture-frame-bottom ul li h4{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.Empowering-Organizations-top-h{
+  padding: 80px 0px;
+  position: relative;  
+  overflow: hidden;
+}
+.Empowering-Organizations-top-h-middle h3{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.Empowering-Organizations-top-h-middle p{
+  width: 55%;
+  margin: 45px 0px;
+}
+.Empowering-right-img{
+  position: absolute;
+  right: 0px;
+  bottom: -200px;
+  height: 100%;
+  overflow: hidden;
+}
+.Empowering-right-img img{
+  width: 80%;
+  float: right;
+}
+.header-video video{
+  width: 100%;
+}
