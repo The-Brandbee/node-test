@@ -1,9 +1,23 @@
+@font-face{
+  font-family:Poppins-Bold;
+  src:url('../app/fonts/Poppins-Bold.ttf');
+}
+@font-face{
+  font-family:Poppins-Light;
+  src:url('../app/fonts/Poppins-Light.ttf');
+}
 body{
   padding: 0px;
   margin: 0px;
-  font-family: 'Montserrat' !important;
+  font-family:Poppins-Light !important;
   font-size: 16px !important;
 }
+h1, h2, h3, h4 { 
+  font-family:Poppins-Bold !important;
+ }
+ p{
+  font-family:Poppins-Light !important;
+ }
 ul{
   padding: 0px !important;
   margin: 0px !important;
@@ -126,7 +140,7 @@ footer{
 }
 .footer-left ul li a{
   color: #000;
-  font-weight: bold;
+  font-family: Poppins-Bold !important;
 }
 .testimonial-frame{
   padding: 120px 0px;
@@ -365,9 +379,10 @@ footer{
 .Empowering-right-img{
   position: absolute;
   right: 0px;
-  bottom: -200px;
+  bottom: -258px;
   height: 100%;
   overflow: hidden;
+  width: 70%;
 }
 .Empowering-right-img img{
   width: 80%;
@@ -375,4 +390,336 @@ footer{
 }
 .header-video video{
   width: 100%;
+}
+
+
+/* about us page Start*/
+.Inner-page-banner-frame img{
+  width: 100%; 
+}
+.About-us-page .Empowering-right-img {
+  bottom: 0px;
+  width: 60%;    
+}
+.About-us-page .Empowering-right-img img{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.About-us-page .Empowering-Organizations-top-h-middle p {
+  width: 40%;
+} 
+.About-us-page .Empowering-Organizations-top-h{
+  padding-bottom: 0px;
+}
+.About-us-page .header-about{
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 28px;
+  margin-top: 5px;
+  font-family: Poppins-Light !important;
+}
+.Partners-about-sect{
+  background: #0a0e0f;
+  padding: 60px 0px;
+}
+.Partners-about-sect h3{
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.Partners-about-sect-middle{
+  display: flex;
+  align-items: center;
+  padding-bottom: 65px;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 50px;
+}
+.Partners-about-sect-middle-left{
+  width: 20%;
+  margin-right: 6%;
+}
+.Partners-about-sect-middle-left img{
+  width: 100%;
+}
+.Partners-about-sect-middle-right{
+  width: 74%;
+}
+.Partners-about-sect-middle-right  h4{
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.Partners-about-sect-middle-right  h4 span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.Partners-about-sect-middle-right  p{
+  color: #fff;
+  margin-bottom: 0px;
+}
+.Partners-about-sect-middle:nth-child(3){
+  margin-bottom: 0px;
+  border-bottom: 0px solid #707070;
+  padding-bottom: 40px;
+}
+.team-section-about-page{
+  padding: 70px 0px;
+}
+.team-section-about-page h3{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.team-section-middle{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 60px;
+}
+.team-section-middle-inner{
+  width: 30%;
+}
+.team-section-middle-inner img{
+  width: 75%;
+}
+.team-section-middle-inner h4{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.team-section-middle-inner h5{
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.team-section-middle:last-child{
+  justify-content: left;
+}
+.team-section-middle:last-child .team-section-middle-inner{
+  margin-right: 5%;     
+}
+.br.Commitment_Success{
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 5px;
+  text-transform: initial;
+  font-family: Poppins-Light !important;
+}
+.Unique-Approach-Simple-frame{
+  padding: 70px 0px;
+}
+.Unique-Approach-heading h3{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.Unique-Approach-heading h3 span{
+    text-transform: initial;
+    font-weight: normal;
+    display: block;
+    margin-top: 5px;
+    font-size: 36px;
+    font-family: Poppins-Light !important;
+}
+.Unique-Approach-Simple-middle{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.Unique-Approach-Simple-middle-left{
+  width: 30%;
+}
+.Unique-Approach-Simple-middle-left h4{
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+}
+.Unique-Approach-Simple-middle-left h4::after{
+    content: '';
+    border-bottom: 3px solid #eb5e26;
+    width: 120px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+}
+.Unique-Approach-Simple-middle-left ul{
+  padding: 0px !important;
+  margin-top: 50px !important;
+}
+.Unique-Approach-Simple-middle-left ul li{
+  position: relative;
+  margin-bottom: 25px;
+}
+.Unique-Approach-Simple-middle-left ul li:before {
+  color: #eb5e26;
+    content: ".";
+    display: inline-block;
+    font-weight: 700;
+    margin-left: -8px;
+    position: absolute;
+    width: 1em;
+    font-size: 22px;
+    top: -12px;
+}
+.Our-Values-middle-section-main{
+  padding: 80px 0px;
+  background: #efefef;
+}
+.Our-Values-middle-section-main-middle{
+  display: flex;
+  align-items: center;
+}
+.Our-Values-middle-section-main-middle-left{
+  width: 40%;
+}
+.Our-Values-middle-section-main-middle-right{
+  width: 60%;
+}
+.Our-Values-middle-section-main-middle-left img{
+  width: 100px;
+}
+.Our-Values-middle-section-main-middle-left h4{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.Our-Values-middle-section-main-middle-left h5{
+  font-size: 24px;
+  line-height: 35px;
+}
+.Our-Values-middle-section-main-middle-right ul{
+
+}
+.Our-Values-middle-section-main-middle-right ul li{
+  position: relative;
+  margin-bottom: 20px;
+}
+.Our-Values-middle-section-main-middle-right ul li span{
+  font-weight: bold;
+}
+.Our-Values-middle-section-main-middle-right ul li:before {
+  color: #eb5e26;
+  content: "■";
+  display: inline-block;
+  font-weight: 700;
+  margin-left: -25px;
+  position: absolute;
+  width: 1em;
+  font-size: 22px;
+  top: -7px;
+}
+.arrow-top-top{
+  position: absolute;
+  right: 26%;
+  background: #eb5e26;
+  border: 0px;
+  color: #fff;
+  padding: 15px 20px;
+  bottom: 75px;
+  text-transform: capitalize;
+}
+.arrow-top-top img{
+  width: 20px;
+}
+.Callum_Golding_frame_about{
+  padding: 70px 0px;
+}
+.Callum_Golding_frame_about-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.Callum_Golding_frame_about-middle-left{
+  width: 43%;
+}
+.Callum_Golding_frame_about-middle-left h3{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.Callum_Golding_frame_about-middle-left h5{
+  margin-bottom: 60px;
+}
+.Callum_Golding_frame_about-middle-left h5 span{
+  font-weight: bold;
+}
+.Callum_Golding_frame_about-middle-left ul{
+  display: flex;
+  justify-content: space-between;
+}
+.Callum_Golding_frame_about-middle-left ul li{
+ width: 46%;
+}
+.Callum_Golding_frame_about-middle-left ul li img{
+  width: 100%;
+}
+.Callum_Golding_frame_about-middle-left ul li h4{
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.Callum_Golding_frame_about-middle-right{
+  width: 47%;
+}
+.Unlocking-the-Full-Potential{
+  padding: 80px 0px;
+  background: #efefef;
+}
+.Unlocking-the-Full-Potential-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.Unlocking-the-Full-Potential-middle-left{
+  width: 40%;
+}
+.Unlocking-the-Full-Potential-middle-left img{
+  width: 120px;
+  margin-bottom: 20px;
+}
+.Unlocking-the-Full-Potential-middle-left h3{
+  font-size: 36px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.Unlocking-the-Full-Potential-middle-left h5{
+  font-weight: normal;
+  font-size: 26px;
+}
+.Unlocking-the-Full-Potential-middle-left p{
+  margin-top: 30px;
+}
+.about-bannner-contact{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  width: 100%;  
+}
+.about-bannner-contact h3{
+  font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    font-family: Poppins-Light !important;
+}
+.Partners-about-sect-middle-right h4 span{
+  font-family: Poppins-Light !important;
 }

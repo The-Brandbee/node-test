@@ -1,3 +1,5 @@
+"use client";
+import { useEffect } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
@@ -14,19 +16,33 @@ import Securityfour from "../app/img/it-icon-4.png";
 import Securityfive from "../app/img/it-icon-3.png";
 import Securitysix from "../app/img/it-icon-6.png";
 import EmpoweringRight from "../app/img/Organizations.png";
+import Main from "../app/img/logo.png";
 
 import Advocate from "../app/img/middle-banner.png";
 
 export default function Home() {
   return (
     <main>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Montserrat+One&display=optional"
-          rel="stylesheet"
-        />
-      </Head>
-      <Header />
+      <Head></Head>
+      <header>
+        <div className="header-video">
+          <video playsInline autoPlay loop muted>
+            <source
+              src={"https://thebrandbee.com/cyber-security.mp4"}
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <Header />
+        <div className="Strengthen-Your-Cyber-Defenses">
+          <h4>Strengthen Your Cyber Defenses</h4>
+          <p>Your Trusted Partner for Cybersecurity Services</p>
+          <div className="know-more">
+            <Link href="/">Know More</Link>
+          </div>
+        </div>
+      </header>
+
       <section className="Empowering-Organizations-top-h">
         <div className="container">
           <div className="Empowering-Organizations-top-h-middle">
