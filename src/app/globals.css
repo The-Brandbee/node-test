@@ -399,7 +399,7 @@ footer{
 }
 .About-us-page .Empowering-right-img {
   bottom: 0px;
-  width: 60%;    
+  width: 62%;    
 }
 .About-us-page .Empowering-right-img img{
   width: 100%;
@@ -723,4 +723,7 @@ footer{
 .Partners-about-sect-middle-right h4 span{
   font-family: Poppins-Light !important;
   font-size: 20px;
+}
+.Empowering-Organizations-top-h-middle{
+  margin-bottom: 80px;
 }
