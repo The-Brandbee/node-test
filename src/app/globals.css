@@ -415,7 +415,7 @@ footer{
 .About-us-page .header-about{
   font-weight: normal;
   text-transform: capitalize;
-  font-size: 28px;
+  font-size: 34px;
   margin-top: 5px;
   font-family: Poppins-Light !important;
 }
@@ -583,7 +583,7 @@ footer{
   width: 40%;
 }
 .Our-Values-middle-section-main-middle-right{
-  width: 60%;
+  width: 50%;
 }
 .Our-Values-middle-section-main-middle-left img{
   width: 100px;
@@ -607,7 +607,7 @@ footer{
   margin-bottom: 20px;
 }
 .Our-Values-middle-section-main-middle-right ul li span{
-  font-weight: bold;
+  font-family: Poppins-Bold !important;
 }
 .Our-Values-middle-section-main-middle-right ul li:before {
   color: #eb5e26;
@@ -683,7 +683,7 @@ footer{
   justify-content: space-between;
 }
 .Unlocking-the-Full-Potential-middle-left{
-  width: 40%;
+  width: 45%;
 }
 .Unlocking-the-Full-Potential-middle-left img{
   width: 120px;
@@ -722,4 +722,5 @@ footer{
 }
 .Partners-about-sect-middle-right h4 span{
   font-family: Poppins-Light !important;
+  font-size: 20px;
 }

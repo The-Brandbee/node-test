@@ -249,6 +249,29 @@ export default function about() {
               <h4>Protect the digital worker</h4>
               <ul>
                 <li>
+                  Automated Updates: Automate system updates, significantly
+                  cutting device management expenses while optimizing IT
+                  administration.
+                </li>
+                <li>
+                  Enhanced Efficiency: Boost IT efficiencies for new devices,
+                  apps, and infrastructure.
+                </li>
+                <li>
+                  Simplified Onboarding: Streamline onboarding processes with
+                  automated provisioning.
+                </li>
+                <li>
+                  Time and Cost Savings: Automate system updates and reduce IT
+                  management costs by up to 40%, along with cutting device
+                  management time by as much as 25%.
+                </li>
+              </ul>
+            </div>
+            <div className="Unique-Approach-Simple-middle-left">
+              <h4>Simplify IT Management</h4>
+              <ul>
+                <li>
                   Flexible Work Environment: Enable secure remote work from
                   anywhere, providing employees with flexibility.
                 </li>
@@ -265,31 +288,6 @@ export default function about() {
                   Enhanced Security: Implement a zero-trust security model,
                   reducing data breach risk by up to 50% and streamlining IAM
                   security management by as much as 50%.
-                </li>
-              </ul>
-            </div>
-            <div className="Unique-Approach-Simple-middle-left">
-              <h4>Simplify IT Management</h4>
-              <ul>
-                <li>
-                  Automated Updates: Automate system updates, significantly
-                  cutting device management expenses while optimizing IT
-                  administration.
-                </li>
-                <li>
-                  Time and Cost Savings: Automate system updates and reduce IT
-                  management costs by up to 40%, along with cutting device
-                  management time by as much as 25%.
-                </li>
-                <li>
-                  Time and Cost Savings: Automate system updates and reduce IT
-                  management costs by up to 40%, along with cutting device
-                  management time by as much as 25%.
-                </li>
-                <li>
-                  Time and Cost Savings: Automate system updates and reduce IT
-                  management costs by up to 40%, along with cutting device
-                  management time by as much as 25%.
                 </li>
               </ul>
             </div>
