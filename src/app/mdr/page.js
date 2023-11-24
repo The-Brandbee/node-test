@@ -8,7 +8,7 @@ import Footer from "../common/Footer.js";
 import Slidemdr from "../common/Slidemdr.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
-import Leveraging from "../img/Leveraging.png";
+import Leveraging from "../img/Leveraging.webp";
 import BenefitsOne from "../img/Benefits-1.png";
 import BenefitsTwo from "../img/Benefits-2.png";
 import BenefitsThree from "../img/Benefits-3.png";
@@ -33,11 +33,13 @@ export default function Home() {
           </video>
         </div>
         <Header />
-        <div className="Strengthen-Your-Cyber-Defenses mdr-page">
-          <h4>
-            What is <span>MDR?</span>
-          </h4>
-          <p>Proactive Cybersecurity Explained</p>
+        <div className="container Strengthen-cont-main">
+          <div className="Strengthen-Your-Cyber-Defenses mdr-page">
+            <h4>
+              What is <span>MDR?</span>
+            </h4>
+            <p>Proactive Cybersecurity Explained</p>
+          </div>
         </div>
       </header>
       <section className="Detection-Response-page">
@@ -72,6 +74,10 @@ export default function Home() {
         <div className="container">
           <div className="application-guarantees-frame-middle">
             <div className="application-guarantees-left">
+              <h4>
+                Harnessing Integrated Mobile Alerts for
+                <span> Comprehensive Cybersecurity</span>
+              </h4>
               <p>
                 Our integrated mobile application guarantees round-the-clock
                 alert coverage. It automatically sends SMS and phone alerts to

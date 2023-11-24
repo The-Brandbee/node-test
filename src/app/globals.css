@@ -623,7 +623,7 @@ footer{
 }
 .arrow-top-top{
   position: absolute;
-  right: 26%;
+  right: 28%;
   background: #eb5e26;
   border: 0px;
   color: #fff;
@@ -631,8 +631,16 @@ footer{
   bottom: 75px;
   text-transform: capitalize;
 }
+.container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses {
+  position: absolute;  
+  bottom: 0px;
+  width: 600px;
+  top: auto;
+  left: auto;
+  transform: initial;
+}
 .arrow-top-top img{
-  width: 20px;
+  width: 15px;
 }
 .Callum_Golding_frame_about{
   padding: 70px 0px;
@@ -767,6 +775,17 @@ footer{
 }
 .application-guarantees-left{
   width: 50%;
+}
+.application-guarantees-left h4{
+  color: #fff;
+  font-size: 27px;
+  line-height: 44px;
+  margin-bottom: 30px;
+}
+.application-guarantees-left h4 span{
+
+ display: block;
+
 }
 .application-guarantees-left p{
   color: #fff;
