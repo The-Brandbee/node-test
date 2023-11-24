@@ -53,8 +53,8 @@ header{
   color: #fff;
   margin-top: 20px;
   margin-bottom: 40px;
-  width: 50%;
-  font-size: 19px;
+  width: 70%;
+  font-size: 28px;
 }
 footer{
   background: #efefef;
@@ -66,6 +66,7 @@ footer{
   position: absolute;
   top: 0px;
   width: 100%;
+  z-index: 9;
 }
 .navbar-menu{
   display: flex;
@@ -404,7 +405,7 @@ footer{
 .About-us-page .Empowering-right-img img{
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 0px;          
 }
 .About-us-page .Empowering-Organizations-top-h-middle p {
   width: 40%;
@@ -726,4 +727,265 @@ footer{
 }
 .Empowering-Organizations-top-h-middle{
   margin-bottom: 80px;
+}
+
+
+/* MDR page start */
+.Strengthen-Your-Cyber-Defenses.mdr-page h4{
+  text-transform: none; 
+  font-size: 72px;
+  margin-top: 200px; 
+}
+.Strengthen-Your-Cyber-Defenses.mdr-page h4 span{
+  display: block;
+  color: #eb5e26;
+}
+.Detection-Response-page{
+  background: #2b828a;
+  color: #fff;
+  padding: 60px 0px; 
+  margin-top: -10px;
+}
+.Detection-Response-page-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.Detection-Response-page-middle-left{
+  width: 48%;
+}
+.Detection-Response-page-middle-left p{
+  margin: 0px;
+}
+.application-guarantees-frame{
+  background: #000;
+  padding: 50px 0px;
+}
+.application-guarantees-frame-middle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.application-guarantees-left{
+  width: 50%;
+}
+.application-guarantees-left p{
+  color: #fff;
+  margin: 0px;
+}
+.application-guarantees-right{
+  width: 45%;
+}
+.application-guarantees-right img{
+  width: 70%;
+}
+.Does-it-Work-frame{
+  padding: 40px 0px;
+  background: #efefef;
+}
+.Does-it-Work-frame-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.Does-it-Work-frame-middle-left{
+  width: 40%;
+}
+.Does-it-Work-frame-middle-right{
+  width: 45%;
+}
+.Does-it-Work-frame-middle-left h2{
+  font-size: 140px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 130px;
+}
+.Does-it-Work-frame-middle-left h3{
+  font-size: 48px;
+}
+.Does-it-Work-frame-middle-left h3 span{
+  color: #eb5e26;
+}
+.Does-it-Work-frame-middle-left h6{
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.Continuous-slider-main{
+  text-align: left;
+  width: 65%;
+}
+.carousel .slide .Continuous-slider-main img{
+  width: 100px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.Continuous-slider-main h4{
+  font-size: 22px;
+}
+.Continuous-slider-main p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.cder-ca-slider .carousel-status{
+  display: none;
+}
+.cder-ca-slider .carousel .control-dots{
+  bottom: -60px;
+  text-align: left;
+}
+.cder-ca-slider .carousel.carousel-slider{
+  overflow: initial;
+}
+.cder-ca-slider .carousel .control-dots .dot {
+  transition: opacity .25s ease-in;
+  opacity: 1;
+  filter: alpha(opacity=30);
+  box-shadow: inherit;
+  background: #acacac;
+  border-radius: 0px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 8px;
+}
+.cder-ca-slider .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+  background: #eb5e26;
+}
+.cder-ca-slider .carousel.carousel-slider .control-arrow {
+  background: #eb5e26 !important;
+    opacity: 1;
+    height: 32px;
+    width: 32px;
+    bottom: -62px;
+    position: absolute;
+    top: auto;
+}
+.cder-ca-slider .carousel.carousel-slider .control-arrow.control-prev {
+  left: auto;
+    right: 50px;
+}
+.cder-ca-slider .carousel.carousel-slider .control-arrow.control-prev:before{
+  position: relative;
+  top: -8px;
+  left: -2px;
+  background: url(../app/img/left-arrow.png);
+  border: 0px !important;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: 1px 11px;
+}
+.cder-ca-slider .carousel.carousel-slider .control-arrow.control-next:before{
+  position: relative;
+  top: -8px;
+  left: 1px;
+  border: 0px !important;
+  background: url(../app/img/left-arrow2.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: 1px 11px;
+}
+.cder-ca-slider .control-prev.control-disabled:before{
+  display: inline-block;
+  content: "";
+  margin: 0px 5px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+.cder-ca-slider .carousel .control-disabled.control-arrow{
+  display: initial;
+}
+.Hunting-Rules-frame-number{
+  padding: 45px 0px;
+  background: #000;
+}
+.Hunting-Rules-frame-number-middle-cont p{
+  color: #fff;
+}
+.Hunting-Rules-frame-number-middle-cont-number{
+  display: flex;
+  justify-content: space-between;
+}
+.Hunting-Rules-frame-number-middle-cont-number-left{
+  width: 30%;
+}
+.Hunting-Rules-frame-number-middle-cont-number-left p{
+ font-size: 20px;
+ color: #fff;
+}
+.Hunting-Rules-frame-number-middle-cont-number-left p span{
+  display: block;
+}
+.Hunting-Rules-frame-number-middle-cont-number-left h3{
+  color: #eb5e26;
+  font-size: 70px;
+  margin-top: 30px;
+}
+.Benefits-of-mdr-frame{
+  padding: 50px 0px;
+}
+.Benefits-of-mdr-frame-middle-top h2{
+  color: #eb5e26;
+  font-size: 60px;
+}
+.Benefits-of-mdr-frame-middle-top h2 span{
+    color: #000;
+    font-size: 34px;
+}
+.Benefits-of-mdr-frame-middle-top h6{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.Benefits-of-mdr-frame-middle-bottom{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Benefits-of-mdr-frame-middle-bottom-left{
+  width: 27%;
+  margin-right: 6%;
+  margin-top: 60px;
+}
+.Benefits-of-mdr-frame-middle-bottom-left img{
+  width: 85px;
+  margin-bottom: 25px;
+}
+.Benefits-of-mdr-frame-middle-bottom-left h4{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.Our-MDR-process{
+  background: #000;
+}
+.Our-MDR-process-middle-left h3{
+  color: #eb5e26;
+  font-size: 36px;
+}
+.Our-MDR-process-middle-left h3 span{
+  display: block;
+}
+.Our-MDR-process-middle-left h6{
+  color: #fff;
+  font-size: 22px;
+}
+.Our-MDR-process-middle-left h6 span{
+  display: block;
+}
+.Our-MDR-process-middle{
+  display: flex;
+}
+.Our-MDR-process-middle-right img{
+  width: 70%;
+  margin: 0 auto;
+  display: table;  
+}
+.Our-MDR-process-two{
+  background: url(../app/img/Process-2.png);
+  background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 90px 0px;
+    background-size: 53%;
 }
