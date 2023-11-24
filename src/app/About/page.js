@@ -20,7 +20,7 @@ import TeamSeven from "../img/team-7.png";
 import TeamEight from "../img/team-8.png";
 import Cybersecurity from "../img/about-3.png";
 import ourvalue from "../img/our-value.png";
-import CallumGolding from "../img/Callum-Golding.png";
+import CallumGolding from "../img/Callum-Golding.webp";
 import ShivamMalaviya from "../img/Shivam-Malaviya.png";
 import visionOne from "../img/vision-1.png";
 import visionTwo from "../img/vision-2.png";
