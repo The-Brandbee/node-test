@@ -26,7 +26,7 @@ function IndexPage() {
                 <Link href="/">Cyber Lighthouse</Link>
                 <div class="dropdown-content">
                   <Link href="/mdr">Managed Detection and Response</Link>
-                  <Link href="/About#our-team-se">What is a Modern SOC?</Link>
+                  <Link href="/modern-soc">What is a Modern SOC?</Link>
                 </div>
               </li>
               <li>

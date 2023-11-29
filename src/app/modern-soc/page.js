@@ -190,23 +190,38 @@ export default function modernsoc() {
             <ul>
               <li>
                 <Image src={ModernOne} alt="" />
-                <p>Global and distributed workforces</p>
+                <p>
+                  Global and distributed <br />
+                  workforces
+                </p>
               </li>
               <li>
                 <Image src={ModernTwo} alt="" />
-                <p>Multiple home/office networks</p>
+                <p>
+                  Multiple home/office <br />
+                  networks
+                </p>
               </li>
               <li>
                 <Image src={ModernThree} alt="" />
-                <p>Sharing and external Collaboration</p>
+                <p>
+                  Sharing and external <br />
+                  Collaboration
+                </p>
               </li>
               <li>
                 <Image src={ModernFour} alt="" />
-                <p>Multi-cloud access</p>
+                <p>
+                  Multi-cloud <br />
+                  access
+                </p>
               </li>
               <li>
                 <Image src={ModernFive} alt="" />
-                <p>Abundance of devices and IoT</p>
+                <p>
+                  Abundance of <br />
+                  devices and IoT
+                </p>
               </li>
             </ul>
           </div>

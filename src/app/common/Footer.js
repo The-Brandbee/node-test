@@ -20,9 +20,7 @@ function IndexPage() {
           </div>
           <div className="footer-left">
             <ul>
-              <li>
-                <Link href="/">Company</Link>
-              </li>
+              <li>Company</li>
               <li>
                 <Link href="/About">About Us</Link>
               </li>
@@ -36,9 +34,7 @@ function IndexPage() {
           </div>
           <div className="footer-left">
             <ul>
-              <li>
-                <Link href="/">Socials</Link>
-              </li>
+              <li>Socials</li>
               <li>
                 <Link href="">LinkedIn</Link>
               </li>

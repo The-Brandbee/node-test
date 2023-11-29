@@ -144,6 +144,10 @@ footer{
   color: #000;
   font-family: Poppins-Bold !important;
 }
+.footer-left ul li{
+  color: #000;
+  font-family: Poppins-Bold !important;
+}
 .testimonial-frame{
   padding: 120px 0px;
 }
@@ -1035,9 +1039,24 @@ footer{
 }
 .header-menubar-middle li .dropdown-content a{ 
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     padding: 5px 0px;
+}
+.header-menubar-middle li .dropdown-content a:hover{
+  padding-left: 5px; 
+}
+.header-menubar-middle li .dropdown-content::after {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: -12px;
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 18px solid #eb5e26;
+  clear: both;
 }
 .About-us-page.modernsoc-page-new .about-bannner-contact h3{
   text-align: left;
@@ -1059,11 +1078,12 @@ footer{
 }
 .classic-approach-yielded-frame .Eliminate-Complexity-main-left h4{
   color: #eb5e26;
+  font-size: 20px;
 }
 .classic-approach-yielded-frame .Eliminate-Complexity-main-left p{
   color: #fff;
   width: 75%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .classic-approach-yielded-frame .Eliminate-Complexity-main{
   margin: 0px 0px;
@@ -1097,7 +1117,7 @@ footer{
   margin-top: 40px;
 }
 .Transforming-Cybersecurity-Investigations-top h6{
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 60px;
 }
 .Transforming-Cybersecurity-Investigations-middle ul{
@@ -1121,7 +1141,6 @@ footer{
 }
 .Human-Centric-Security-frame-top{
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .Human-Centric-Security-frame-top-left{
@@ -1129,6 +1148,7 @@ footer{
 }
 .Human-Centric-Security-frame-top-right{
   width: 40%;
+  padding-left: 10%;
 }
 .Human-Centric-Security-frame-top-right p{
   margin: 0px;
@@ -1141,7 +1161,7 @@ footer{
   color: #eb5e26;
 }
 .Human-Centric-Security-frame-top-left h5{
-  font-size: 36px;
+  font-size: 45px;
 }
 .Human-Centric-Security-frame-top-left h5 span{
   color: #eb5e26;
