@@ -42,6 +42,7 @@ function IndexPage() {
           </div>
           <div className="footer-left">
             <ul>
+              <li>Privacy Statement</li>
               <li>
                 <Link href="/">Privacy Statement</Link>
               </li>

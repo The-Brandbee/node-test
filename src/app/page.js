@@ -38,7 +38,7 @@ export default function Home() {
           <h4>Strengthen Your Cyber Defenses</h4>
           <p>Your Trusted Partner for Cybersecurity Services</p>
           <div className="know-more">
-            <Link href="/">Know More</Link>
+            <Link href="/About">Know More</Link>
           </div>
         </div>
       </header>
@@ -63,7 +63,7 @@ export default function Home() {
               preemptive and seamlessly integrated into their operations.
             </p>
             <div className="know-more">
-              <Link href="/">Know More</Link>
+              <Link href="/About">Know More</Link>
             </div>
           </div>
         </div>
@@ -135,11 +135,11 @@ export default function Home() {
             </h3>
             <p>
               At CSP, we advocate the use of the Essential Eight (ES8), a
-              pragmatic{" "}
+              pragmatic
               <span className="br">
                 framework for enhancing an organisation's overall security
                 posture.
-              </span>{" "}
+              </span>
             </p>
             <ul>
               <li>
@@ -161,9 +161,11 @@ export default function Home() {
                 Microsoft 365 and Azure hybrid ecosystems.
               </li>
             </ul>
+            {/* 
             <div className="know-more">
               <Link href="/">Know More</Link>
             </div>
+            */}
           </div>
         </div>
       </section>
@@ -214,9 +216,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="know-more">
-            <Link href="/">Know More</Link>
-          </div>
         </div>
       </section>
       <section className="Managed-Detection-frame">
@@ -248,7 +247,7 @@ export default function Home() {
             </div>
           </div>
           <div className="know-more">
-            <Link href="/">Know More</Link>
+            <Link href="/mdr">Know More</Link>
           </div>
         </div>
       </section>
