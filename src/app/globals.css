@@ -94,6 +94,7 @@ footer{
 .header-menubar-middle li a{
   font-size: 20px;
     color: #fff;
+    padding: 10px 0px;
 }
 .header-menubar-middle li a:hover{
   color:#eb5e26
@@ -1013,4 +1014,177 @@ footer{
 }
 .Our-MDR-process-middle-right{
   width: 75%;
+}
+.header-menubar-middle li .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.header-menubar-middle li a{
+  position: relative;
+  display: inline-block;
+}
+.header-menubar-middle li:hover .dropdown-content {
+  display: block;
+  background: #eb5e26;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+.header-menubar-middle li .dropdown-content a{ 
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 0px;
+}
+.About-us-page.modernsoc-page-new .about-bannner-contact h3{
+  text-align: left;
+  font-family:Poppins-Bold !important;
+  font-size: 60px; 
+  text-transform: capitalize;
+}
+.About-us-page.modernsoc-page-new .Detection-Response-page {
+  background: #eb5e26;
+}
+.About-us-page.modernsoc-page-new .Detection-Response-page-middle .Detection-Response-page-middle-left:nth-child(1) p{
+  font-size: 28px;
+  width: 55%;
+}
+.classic-approach-yielded-frame{
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.classic-approach-yielded-frame .Eliminate-Complexity-main-left h4{
+  color: #eb5e26;
+}
+.classic-approach-yielded-frame .Eliminate-Complexity-main-left p{
+  color: #fff;
+  width: 75%;
+  margin-bottom: 40px;
+}
+.classic-approach-yielded-frame .Eliminate-Complexity-main{
+  margin: 0px 0px;
+}
+.modernsoc-page-new .Benefits-of-mdr-frame{
+  background: #000;
+  padding-bottom: 80px;
+}
+.modernsoc-page-new .Benefits-of-mdr-frame-middle-top h6{
+  color: #fff;
+  font-size: 20px;
+}
+.modernsoc-page-new .Benefits-of-mdr-frame-middle-bottom-left h4{
+  color: #eb5e26;
+}
+.modernsoc-page-new .Benefits-of-mdr-frame-middle-bottom-left p{
+  color: #fff;
+}
+.Transforming-Cybersecurity-Investigations{
+  padding: 50px 0px;
+}
+.Transforming-Cybersecurity-Investigations-top h2{
+  font-size: 60px;
+  color: #eb5e26;
+}
+.Transforming-Cybersecurity-Investigations-top h3{
+  font-size: 28px;
+  margin-top: 15px;
+}
+.Transforming-Cybersecurity-Investigations-top p{
+  margin-top: 40px;
+}
+.Transforming-Cybersecurity-Investigations-top h6{
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+.Transforming-Cybersecurity-Investigations-middle ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 50px !important;
+}
+.Transforming-Cybersecurity-Investigations-middle ul li{
+  width: 16%;
+}
+.Transforming-Cybersecurity-Investigations-middle ul li img{
+  width: 80px;
+}
+.Transforming-Cybersecurity-Investigations-middle ul li p{
+  margin-top: 25px;
+}
+.Human-Centric-Security-frame{
+  padding: 60px 0px;
+  background: #efefef;
+}
+.Human-Centric-Security-frame-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Human-Centric-Security-frame-top-left{
+  width: 40%;
+}
+.Human-Centric-Security-frame-top-right{
+  width: 40%;
+}
+.Human-Centric-Security-frame-top-right p{
+  margin: 0px;
+  margin-top: 100px;
+}
+.Human-Centric-Security-frame-top-left h3{
+  font-size: 74px;
+}
+.Human-Centric-Security-frame-top-left h3 span{
+  color: #eb5e26;
+}
+.Human-Centric-Security-frame-top-left h5{
+  font-size: 36px;
+}
+.Human-Centric-Security-frame-top-left h5 span{
+  color: #eb5e26;
+}
+.Inspired-by-Various-Disciplines{
+  margin-top: 45px;
+  display: flex;
+}
+.Inspired-by-Various-Disciplines-left{
+width: 24%;
+margin-right: 90px;
+}
+.Inspired-by-Various-Disciplines-right{
+  width: 24%;
+}
+.Inspired-by-Various-Disciplines h3{
+  color: #eb5e26;
+  font-size: 18px;
+  margin-bottom: 22px;
+  margin-top: 30px;
+}
+.Inspired-by-Various-Disciplines p{
+  margin-bottom: 20px;
+}
+.Inspired-by-Various-Disciplines p span{
+  font-family: Poppins-Bold !important;
+}
+.Human-Centric-Security-frame{
+  position: relative;
+}
+.Eliminate-img{
+  
+}
+.Eliminate-img img{
+  position: absolute;
+  width: 65%;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+@media all and (min-width:1630px) and (max-width:2200px){
+  .Eliminate-img img{
+    width: 55%;
+  }
 }

@@ -319,7 +319,7 @@ export default function about() {
           </div>
         </div>
       </section>
-      <section className="team-section-about-page">
+      <section className="team-section-about-page" id="our-team-se">
         <div className="container">
           <h3>Our Team</h3>
           <div className="team-section-middle">

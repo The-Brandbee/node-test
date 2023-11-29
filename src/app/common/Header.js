@@ -17,9 +17,17 @@ function IndexPage() {
             <ul>
               <li>
                 <Link href="/">Company </Link>
+                <div class="dropdown-content">
+                  <Link href="/About">About Us</Link>
+                  <Link href="/About#our-team-se">Meet The Team</Link>
+                </div>
               </li>
               <li>
                 <Link href="/">Cyber Lighthouse</Link>
+                <div class="dropdown-content">
+                  <Link href="/mdr">Managed Detection and Response</Link>
+                  <Link href="/About#our-team-se">What is a Modern SOC?</Link>
+                </div>
               </li>
               <li>
                 <Link href="/">Contact US</Link>
