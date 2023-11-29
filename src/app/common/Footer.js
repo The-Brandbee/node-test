@@ -36,7 +36,12 @@ function IndexPage() {
             <ul>
               <li>Socials</li>
               <li>
-                <Link href="">LinkedIn</Link>
+                <a
+                  href="https://www.linkedin.com/company/cspglobal1"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
               </li>
             </ul>
           </div>
@@ -44,7 +49,7 @@ function IndexPage() {
             <ul>
               <li>Privacy Statement</li>
               <li>
-                <Link href="/">Privacy Statement</Link>
+                <Link href="javascript:void(0)">Terms and Conditions</Link>
               </li>
             </ul>
           </div>
