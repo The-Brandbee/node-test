@@ -7,7 +7,7 @@ import Header from "../app/common/Header.js";
 import Footer from "../app/common/Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
-import testimonial from "../app/img/boy.png";
+import testimonial from "../app/img/mobo.jpg";
 import Cybersecurity from "../app/img/middle-banner2.png";
 import Securityone from "../app/img/it-icon-1.png";
 import Securitytwo from "../app/img/it-icon-2.png";
