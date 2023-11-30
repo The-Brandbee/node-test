@@ -1220,8 +1220,32 @@ margin-right: 90px;
 .Mobile_menu{
   display: none;
 }
-
+.header-video.mobile{
+  display: none;
+}
+.Ignite-Cybersecurity-frame-img img.mobile{
+ display: none;
+}
 @media all and (min-width:120px) and (max-width:670px){
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .Security-Posture-frame-bottom ul li img {
+    width: 45px;
+  }
+  .Ignite-Cybersecurity-frame-img img.desktop{
+    display: none;
+  }
+  .Ignite-Cybersecurity-frame-img img.mobile{
+    display: block;
+   }
+  .header-video.desktop{
+   display: none;
+  }
+  .header-video.mobile{
+    display: block;
+  }
   /*menu */
   .bm-menu-wrap {
     background: #08313aad;
@@ -1373,7 +1397,7 @@ text-align: center;
   .navbar-main-frame{
     position: relative;
     background: #022a3e;
-    padding: 15px 0px;
+    padding: 12px 0px;
   }
   .navbar-menu{
     margin-top: 0px;
@@ -1388,7 +1412,6 @@ text-align: center;
 .footer-middle {
   display: inline-block;
   width: 100%;
-  text-align: center;
 }
 .footer-middle .footer-left:nth-child(1) {
   width: 100%;
@@ -1453,7 +1476,7 @@ footer {
 }
 .Eliminate-Complexity-main {
   display: inline-block;
-  margin: 30px 0px;
+  margin: 20px 0px;
   width: 100%;
 }
 .Eliminate-Complexity-main-left {
@@ -1569,11 +1592,11 @@ p {
 .Strengthen-Your-Cyber-Defenses {
   width: 70%;
   top: 62%;
-  left: 40%;
+  left: 42%;
 }
 .Strengthen-Your-Cyber-Defenses h4{
-  font-size: 17px;
-  width: 60%;
+  font-size: 28px;
+  width: 100%;
 }
 .Strengthen-Your-Cyber-Defenses p {
   margin-top: 10px;
@@ -1585,11 +1608,365 @@ p {
   font-size: 12px;
   padding: 5px 10px;
 }
+.Security-Posture-frame-bottom ul li p{
+  width: 80%;
+}
+.testimonial-frame-right p{
+  margin-top: 10px;
+}
 .header-menubar-right{
   display: none;
 }
 .logo-frame-header {
   width: 50%;
+}
+.about-bannner-contact h3 {
+  font-size: 30px;
+  margin-top: 25px; 
+}
+.About-us-page .Empowering-Organizations-top-h-middle p {
+  width: 100%;
+}
+.Unlocking-the-Full-Potential-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Unlocking-the-Full-Potential-middle-left {
+  width: 100%;
+}
+.Unlocking-the-Full-Potential-middle-left h3 {
+  font-size: 24px;
+  
+}
+.Unlocking-the-Full-Potential-middle-left h5 {
+  font-size: 20px;
+}
+.Unlocking-the-Full-Potential-middle-left img {
+  width: 85px;
+}
+.Unlocking-the-Full-Potential {
+  padding: 30px 0px;
+}
+.About-us-page .header-about{
+  font-size: 28px;
+}
+.Callum_Golding_frame_about-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Callum_Golding_frame_about-middle-left {
+  width: 100%;
+}
+.Callum_Golding_frame_about-middle-left h3{
+  font-size: 24px;
+}
+.Callum_Golding_frame_about-middle-right {
+  width: 100%;
+}
+.Callum_Golding_frame_about {
+  padding: 30px 0px;
+}
+.Our-Values-middle-section-main-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Our-Values-middle-section-main-middle-left {
+  width: 100%;
+}
+.Our-Values-middle-section-main-middle-left img {
+  width: 70px;
+}
+.Our-Values-middle-section-main-middle-left h4 {
+  font-size: 24px;
+}
+.Our-Values-middle-section-main-middle-left h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.Our-Values-middle-section-main-middle-right {
+  width: 100%;
+}
+.Our-Values-middle-section-main-middle-right ul li:before{
+  margin-left: -15px;
+}
+.Our-Values-middle-section-main {
+  padding: 30px 0px;
+}
+.Unique-Approach-heading h3 {
+  font-size: 24px;
+}
+.Unique-Approach-heading h3 span{
+  font-size: 22px;
+}
+.Unique-Approach-Simple-middle {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+}
+.Unique-Approach-Simple-middle-left {
+  width: 100%;
+}
+.Unique-Approach-Simple-frame {
+  padding: 30px 0px;
+}
+.br.Commitment_Success{
+  font-size: 22px;
+}
+.team-section-about-page h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.team-section-middle {
+  display: inline-block;
+  width: 100%;
+  margin-top: 35px;
+}
+.team-section-middle-inner {
+  width: 100%;
+}
+.team-section-middle-inner h5{
+  margin-bottom: 20px;
+}
+.team-section-about-page {
+  padding: 30px 0px;
+}
+.Partners-about-sect {
+  padding: 30px 0px;
+}
+.Partners-about-sect h3 {
+  font-size: 24px;
+}
+.Partners-about-sect-middle {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.Partners-about-sect-middle-right {
+  width: 100%;
+}
+.Partners-about-sect-middle-right h4{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.Partners-about-sect-middle-left {
+  width: 50%;
+  margin-right: 0px;
+} 
+.container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses{
+  width: 80%;
+  bottom: 10px;
+}
+.Strengthen-Your-Cyber-Defenses.mdr-page h4 {
+  font-size: 32px;
+  margin-top: 0px;
+}
+.Detection-Response-page{
+  padding: 30px 0px;
+}
+.Detection-Response-page-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Detection-Response-page-middle-left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Our-MDR-process-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Our-MDR-process-middle-left {
+  width: 100%;
+}
+.Our-MDR-process-middle-left h3{
+  font-size: 24px;
+}
+.Our-MDR-process-middle-left h6{
+  font-size: 19px;
+}
+.Our-MDR-process-middle-left h6 span {
+  display: inline;
+}
+.Our-MDR-process-middle-right {
+  width: 100%;
+}
+.Benefits-of-mdr-frame-middle-top h2{
+  font-size: 34px;
+}
+.Benefits-of-mdr-frame-middle-top h6 {
+  font-size: 20px;
+}
+.Benefits-of-mdr-frame {
+  padding: 30px 0px;
+}
+.Benefits-of-mdr-frame-middle-bottom-left {
+  width: 100%;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.Benefits-of-mdr-frame-middle-bottom-left img {
+  width: 85px;
+  margin-bottom: 10px;
+} 
+.Hunting-Rules-frame-number {
+  padding: 30px 0px;
+}
+.Hunting-Rules-frame-number-middle-cont-number {
+  display: inline-block;
+  width: 100%;
+}
+.Hunting-Rules-frame-number-middle-cont-number-left {
+  width: 100%;
+}
+.Hunting-Rules-frame-number-middle-cont-number-left h3 {
+  font-size: 48px;
+  margin-top: 20px;
+}
+.Does-it-Work-frame-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Does-it-Work-frame-middle-left {
+  width: 100%;
+}
+.Does-it-Work-frame-middle-right {
+  width: 100%;
+}
+.Does-it-Work-frame-middle-left h2{
+  line-height: inherit;
+  font-size: 60px;
+}
+.Does-it-Work-frame-middle-left h3 {
+  font-size: 30px;
+}
+.Does-it-Work-frame-middle-left h6 {
+  font-size: 22px;
+  margin: 20px 0px;
+}
+.Continuous-slider-main {
+  text-align: left;
+  width: 100%;
+}
+.carousel .slide .Continuous-slider-main img {
+  width: 60px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.Continuous-slider-main h4 {
+  font-size: 18px;
+}
+.Continuous-slider-main p {
+  font-size: 16px;
+  margin-top: 10px;
+} 
+.application-guarantees-frame {
+  padding: 30px 0px;
+}
+.application-guarantees-frame-middle {
+  display: inline-block;
+  width: 100%;
+}
+.application-guarantees-left {
+  width: 100%;
+}
+.application-guarantees-left h4 {
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.application-guarantees-left h4 span {
+  display: initial;
+}
+.application-guarantees-right {
+  width: 100%;
+  margin-top: 20px;
+}
+.application-guarantees-right img {
+  width: 100%;
+}
+.About-us-page.modernsoc-page-new .about-bannner-contact h3{
+  font-size: 35px;
+}
+.About-us-page.modernsoc-page-new .Detection-Response-page-middle .Detection-Response-page-middle-left:nth-child(1) p {
+  font-size: 22px;
+  width: 100%;
+}
+.classic-approach-yielded-frame {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Human-Centric-Security-frame {
+  padding: 30px 0px;
+}
+.Human-Centric-Security-frame-top {
+  display: inline-block;
+  width: 100%;
+}
+.Human-Centric-Security-frame-top-left {
+  width: 100%;
+}
+.Human-Centric-Security-frame-top-right {
+  width: 100%;
+  padding-left: 0px;
+}
+.Human-Centric-Security-frame-top-left h3 {
+  font-size: 36px;
+}
+.Human-Centric-Security-frame-top-left h5 {
+  font-size: 22px;
+}
+.Human-Centric-Security-frame-top-left h5 br{
+  display: none;
+}
+.Human-Centric-Security-frame-top-right p {
+  margin: 0px;
+  margin-top: 30px;
+}
+.Inspired-by-Various-Disciplines {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.Inspired-by-Various-Disciplines-left {
+  width: 100%;
+  margin-right: 0px;
+}
+.Inspired-by-Various-Disciplines-right {
+  width: 100%;
+}
+.Eliminate-img img{
+  display: none;
+}
+.Transforming-Cybersecurity-Investigations {
+  padding: 30px 0px;
+}
+.Transforming-Cybersecurity-Investigations-top h2 {
+  font-size: 30px;
+}
+.Transforming-Cybersecurity-Investigations-top h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Transforming-Cybersecurity-Investigations-top p {
+  margin-top: 25px;
+}
+.Transforming-Cybersecurity-Investigations-top h6 {
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.Transforming-Cybersecurity-Investigations-middle ul {
+  display: flex;
+    flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 0px !important;
+  justify-content: space-around;
+}
+.Transforming-Cybersecurity-Investigations-middle ul li {
+  width: 45%;
+}
+.modernsoc-page-new .Benefits-of-mdr-frame {
+  padding-bottom: 40px;
 }
 }
 

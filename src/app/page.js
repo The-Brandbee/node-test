@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import testimonial from "../app/img/mobo.jpg";
 import Cybersecurity from "../app/img/middle-banner2.png";
+import CybersecurityMobile from "../app/img/CSP-1-mobile.png";
 import Securityone from "../app/img/it-icon-1.png";
 import Securitytwo from "../app/img/it-icon-2.png";
 import Securitythree from "../app/img/it-icon-5.png";
@@ -19,6 +20,7 @@ import EmpoweringRight from "../app/img/Organizations.png";
 import Main from "../app/img/logo.png";
 
 import Advocate from "../app/img/middle-banner.png";
+import AdvocateMobile from "../app/img/CSP-2-mobile.png";
 
 export default function Home() {
   return (
@@ -26,7 +28,7 @@ export default function Home() {
       <Head></Head>
       <header>
         <Header />
-        <div className="header-video">
+        <div className="header-video desktop">
           <video playsInline autoPlay loop muted>
             <source
               src={"https://thebrandbee.com/cyber-security.mp4"}
@@ -34,7 +36,14 @@ export default function Home() {
             />
           </video>
         </div>
-
+        <div className="header-video mobile">
+          <video playsInline autoPlay loop muted>
+            <source
+              src={"https://thebrandbee.com/CSP-mobile.mp4"}
+              type="video/mp4"
+            />
+          </video>
+        </div>
         <div className="Strengthen-Your-Cyber-Defenses">
           <h4>Strengthen Your Cyber Defenses</h4>
           <p>Your Trusted Partner for Cybersecurity Services</p>
@@ -49,9 +58,9 @@ export default function Home() {
           <div className="Empowering-Organizations-top-h-middle">
             <h3>
               Empowering Organizations
-              <span className="br">Through Tailored Cybersecurity</span>
-              <span className="br">Solutions - Meet CSP, Your</span>
-              <span className="br">Trusted Partner</span>
+              <span className="br"> Through Tailored Cybersecurity </span>
+              <span className="br"> Solutions - Meet CSP, Your </span>
+              <span className="br"> Trusted Partner </span>
             </h3>
             <p>
               CSP Group is the vanguard of hyper-vigilant cybersecurity, leading
@@ -126,7 +135,8 @@ export default function Home() {
       </section>
       <section className="Ignite-Cybersecurity-frame Eight-Framework">
         <div className="Ignite-Cybersecurity-frame-img">
-          <Image src={Advocate} alt="" />
+          <Image src={Advocate} alt="" className="desktop" />
+          <Image src={AdvocateMobile} alt="" className="mobile" />
         </div>
         <div className="container">
           <div className="Ignite-Cybersecurity-frame-cont">
@@ -145,21 +155,24 @@ export default function Home() {
             <ul>
               <li>
                 The Essential Eight (ES8) framework is the foundation for
-                improving security, and CSP takes it further with a Zero Trust
-                approach.
+                improving security, and CSP takes that one step further by
+                building a Zero Trust foundation.
               </li>
               <li>
-                The Essential Eight (ES8) framework is the foundation for
-                improving security, and CSP takes it further with a Zero Trust
-                approach.
+                CSP provide ES8 assessments along with bespoke reports and
+                roadmaps, that set you on a path to mitigating increasing levels
+                of tradecraft (i.e. tools, tactics, techniques and procedures).
               </li>
               <li>
-                CSP rapidly elevates your security maturity, focusing on
-                Microsoft 365 and Azure hybrid ecosystems.
+                CSP uses the Microsoft 365 cloud as its foundation along with
+                other strategic vendors for Application Control and App
+                Patching, and ensures you have everything you need to mature.
               </li>
               <li>
-                CSP rapidly elevates your security maturity, focusing on
-                Microsoft 365 and Azure hybrid ecosystems.
+                CSP takes you on a cybersecurity journey where increasing your
+                productivity and ROI are the forefront of every compliance
+                decision we make. Security and productivity are always
+                considered in tandem.
               </li>
             </ul>
             {/* 
@@ -254,7 +267,8 @@ export default function Home() {
       </section>
       <section className="Ignite-Cybersecurity-frame">
         <div className="Ignite-Cybersecurity-frame-img">
-          <Image src={Cybersecurity} alt="" />
+          <Image src={Cybersecurity} alt="" className="desktop" />
+          <Image src={CybersecurityMobile} alt="" className="mobile" />
         </div>
         <div className="container">
           <div className="Ignite-Cybersecurity-frame-cont">

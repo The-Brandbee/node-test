@@ -42,7 +42,7 @@ export default function about() {
           <div className="Empowering-Organizations-top-h-middle">
             <h3>
               Pioneering Progress in IT
-              <span className="br header-about">Our Founder's Vision</span>
+              <span className="br header-about"> Our Founder's Vision</span>
             </h3>
             <p>
               CSP's journey is rooted in a visionary quest to redefine the IT
@@ -304,6 +304,7 @@ export default function about() {
             <h3 className="ho-heading">
               Achieve More with Less
               <span className="br Commitment_Success">
+                {" "}
                 Our Commitment to Your Success
               </span>
             </h3>

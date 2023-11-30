@@ -24,6 +24,7 @@ export default function Home() {
     <main>
       <Head></Head>
       <header>
+        <Header />
         <div className="header-video">
           <video playsInline autoPlay loop muted>
             <source
@@ -32,7 +33,7 @@ export default function Home() {
             />
           </video>
         </div>
-        <Header />
+
         <div className="container Strengthen-cont-main">
           <div className="Strengthen-Your-Cyber-Defenses mdr-page">
             <h4>
@@ -52,7 +53,7 @@ export default function Home() {
                 safeguarding your digital assets. It's more than just a
                 monitoring system; it's a comprehensive strategy designed to
                 ensure your organization's resilience in the face of
-                ever-evolving cyber threats. At CSP Lighthouse is more than a
+                ever-evolving cyber threats. CSP Lighthouse is more than a
                 service; it's a proactive approach to safeguard your digital
                 assets.
               </p>
@@ -60,11 +61,11 @@ export default function Home() {
             <div className="Detection-Response-page-middle-left">
               <p>
                 Leveraging Microsoft Sentinel, a cloud-native logging solution,
-                CSP Lighthouse offers Security Information and Event Management
-                (SIEM) and Security Orchestration, Automation, and Response
-                (SOAR). This combination provides a single solution for attack
-                detection, threat visibility, proactive hunting, and threat
-                response.
+                CSP Lighthouse provides Security Information and Event
+                Management (SIEM) and Security Orchestration, Automation, and
+                Response (SOAR). This combination provides a single solution for
+                attack detection, threat visibility/intelligence, proactive
+                hunting, and threat response.
               </p>
             </div>
           </div>
@@ -188,7 +189,7 @@ export default function Home() {
                 <p>
                   With our 24x7x365 monitoring and advanced threat intelligence,
                   we ensure continuous attack detection. Our team is always
-                  vigilant, and ready to identify and respond to threats around
+                  vigilant and ready to identify and respond to threats around
                   the clock.
                 </p>
               </div>
