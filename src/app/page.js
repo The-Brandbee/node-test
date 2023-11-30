@@ -5,9 +5,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../app/common/Header.js";
 import Footer from "../app/common/Footer.js";
+import TestimonialSlide from "../app/common/TestimonialSlide.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
-import testimonial from "../app/img/mobo.jpg";
 import Cybersecurity from "../app/img/middle-banner2.png";
 import CybersecurityMobile from "../app/img/CSP-1-mobile.png";
 import Securityone from "../app/img/it-icon-1.png";
@@ -291,39 +291,7 @@ export default function Home() {
 
       <section className="testimonial-frame">
         <div className="container">
-          <div className="testimonial-frame-middle">
-            <div className="testimonial-frame-left">
-              <Image src={testimonial} alt="" />
-              <h4>Andrew Ramsey</h4>
-              <p>CEO Mobo Group</p>
-            </div>
-            <div className="testimonial-frame-right">
-              <p>
-                Choosing to work with Callum and his team at CSP in late 2022
-                was the single most valuable decision I made for the year. With
-                the support and guidance of Callum, he has assisted Mobo Group
-                in implementing the Essential 8 cyber security controls
-                necessary for us to achieve Right Fit For Risk accreditation to
-                ISO 27001. His proactive, responsive and supportive manner has
-                captivated the entire team at Mobo Group who have been
-                incredibly impressed by his work ethic and hard work in support
-                of our business. I will be forever grateful for Callum's
-                support, guidance, patience and understanding afforded to me in
-                completing the RFFR project and becoming our trusted managed
-                security service provider. I cannot imagine any IT provider
-                being able to match the flexibility and commitment he has made
-                to the hours of work needed by my side in this time of need.
-                When IT is not a language you speak well, there is nothing
-                better than finding someone to work with like Callum and the the
-                team at CSP. From my perspective they have demonstrated through
-                their actions how much they care for our business, they treat
-                the work they do as if it was for themselves and they clearly
-                want to see us succeed. This is a partnership which I suspect is
-                in its infancy, with much more value to be realised. Looking
-                forward to a strong future partnership.
-              </p>
-            </div>
-          </div>
+          <TestimonialSlide />
         </div>
       </section>
       <Footer />

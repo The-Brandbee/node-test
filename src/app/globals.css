@@ -159,6 +159,7 @@ footer{
 }
 .testimonial-frame-middle{
   display: flex;  
+  align-items: center;
 }
 .testimonial-frame-left{
   width: 20%;
@@ -171,10 +172,15 @@ footer{
   font-size: 22px;
   margin-top: 30px;
   margin-bottom: 0px;
+  text-align: left;
 }
 .testimonial-frame-left p{
   font-size: 16px;
   margin-bottom: 0px;  
+  text-align: left;
+}
+.cder-ca-slider.home-tston .carousel .control-dots .dot{
+  display: none !important;
 }
 .testimonial-frame-right{
   width: 80%;
@@ -183,6 +189,7 @@ footer{
 .testimonial-frame-right p{
   line-height: 26px;
   margin-bottom: 0px;
+  text-align: left;
 }
 .Ignite-Cybersecurity-frame {
  position: relative;  
@@ -937,6 +944,7 @@ footer{
 }
 .cder-ca-slider .carousel .control-disabled.control-arrow{
   display: initial;
+  background: #ccc !IMPORTANT;
 }
 .Hunting-Rules-frame-number{
   padding: 45px 0px;
@@ -1584,6 +1592,7 @@ p {
 }
 .testimonial-frame {
   padding: 30px 0px;
+  padding-bottom: 60px;
 }
 .testimonial-frame-left h4{
   font-size: 18px;
@@ -1719,7 +1728,7 @@ p {
 .team-section-middle {
   display: inline-block;
   width: 100%;
-  margin-top: 35px;
+  margin-top: 0px;
 }
 .team-section-middle-inner {
   width: 100%;
@@ -1752,6 +1761,7 @@ p {
 .Partners-about-sect-middle-left {
   width: 50%;
   margin-right: 0px;
+  margin-bottom: 20px;
 } 
 .container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses{
   width: 80%;
@@ -1834,7 +1844,7 @@ p {
   width: 100%;
 }
 .Does-it-Work-frame-middle-left h2{
-  line-height: inherit;
+  line-height: 55px;
   font-size: 60px;
 }
 .Does-it-Work-frame-middle-left h3 {
@@ -1967,6 +1977,32 @@ p {
 }
 .modernsoc-page-new .Benefits-of-mdr-frame {
   padding-bottom: 40px;
+}
+.Does-it-Work-frame{
+  padding: 30px 0px;
+}
+.Does-it-Work-frame-middle-left h6 br{
+  display: none;
+}
+.Our-MDR-process-two{
+  padding-top: 40px;
+}
+.Callum_Golding_frame_about-middle-left h5 {
+  margin-bottom: 30px;
+}
+.Callum_Golding_frame_about-middle-left ul li h4{
+  margin-top: 10px;
+  font-size: 14px;
+}
+.Our-Values-middle-section-main-middle-right ul li{
+  padding-left: 20px;
+}
+.cder-ca-slider.home-tston .carousel.carousel-slider .control-arrow{
+  bottom: auto;
+  top: -60px;
+}
+.cder-ca-slider.home-tston{
+ padding-top: 50px;
 }
 }
 
