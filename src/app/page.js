@@ -289,7 +289,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="testimonial-frame">
+      <section className="testimonial-frame desktop">
         <div className="container">
           <TestimonialSlide />
         </div>

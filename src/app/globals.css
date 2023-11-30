@@ -2003,8 +2003,35 @@ p {
 }
 .cder-ca-slider.home-tston{
  padding-top: 50px;
+} 
+.testimonial-frame.desktop{
+  padding-bottom: 0px;
 }
+.carousel .slider-wrapper.axis-horizontal .slider .slide:nth-child(1) .testimonial-frame-right{
+ display: none;
 }
+.carousel .slider-wrapper.axis-horizontal .slider .slide.selected:nth-child(1) .testimonial-frame-right{
+  display: block;
+ }
+ .carousel .slider-wrapper.axis-horizontal .slider .slide:nth-child(2) .testimonial-frame-right{
+  display: none;
+ }
+ .carousel .slider-wrapper.axis-horizontal .slider .slide.selected:nth-child(2) .testimonial-frame-right{
+   display: block;
+  }
+  .carousel .slider-wrapper.axis-horizontal .slider .slide:nth-child(3) .testimonial-frame-right{
+    display: none;
+   }
+   .carousel .slider-wrapper.axis-horizontal .slider .slide.selected:nth-child(3) .testimonial-frame-right{
+     display: block;
+    }
+    .carousel .slider-wrapper.axis-horizontal .slider .slide:nth-child(4) .testimonial-frame-right{
+      display: none;
+     }
+     .carousel .slider-wrapper.axis-horizontal .slider .slide.selected:nth-child(4) .testimonial-frame-right{
+       display: block;
+      }
+} 
 
 
 
