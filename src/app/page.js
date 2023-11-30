@@ -25,6 +25,7 @@ export default function Home() {
     <main>
       <Head></Head>
       <header>
+        <Header />
         <div className="header-video">
           <video playsInline autoPlay loop muted>
             <source
@@ -33,7 +34,7 @@ export default function Home() {
             />
           </video>
         </div>
-        <Header />
+
         <div className="Strengthen-Your-Cyber-Defenses">
           <h4>Strengthen Your Cyber Defenses</h4>
           <p>Your Trusted Partner for Cybersecurity Services</p>
@@ -130,7 +131,7 @@ export default function Home() {
         <div className="container">
           <div className="Ignite-Cybersecurity-frame-cont">
             <h3 className="ho-heading">
-              Strengthening <span className="br">Cybersecurity with the</span>
+              Strengthening <span className="br">Cybersecurity with the </span>
               <span className="br">Essential Eight Framework</span>
             </h3>
             <p>

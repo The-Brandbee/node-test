@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Main from "../img/logo.png";
+import MobileMenu from "../common/MobileMenu.js";
 
 function IndexPage() {
   return (
@@ -36,6 +37,9 @@ function IndexPage() {
           </div>
           <div className="header-menubar-right">
             <Link href="/"> Get in Touch </Link>
+          </div>
+          <div className="Mobile_menu">
+            <MobileMenu />
           </div>
         </div>
       </div>
