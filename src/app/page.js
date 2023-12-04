@@ -221,7 +221,7 @@ export default function Home() {
             </div>
             <div className="Eliminate-Complexity-main-left">
               <h2>3</h2>
-              <h4>Eliminate Complexity and Reduce Costs:</h4>
+              <h4>Protect The Modern Digital Worker:</h4>
               <p>
                 We harness the Microsoft E5 Security license, a world leader in
                 extended detection and response (XDR) solutions. Focusing on
@@ -291,6 +291,9 @@ export default function Home() {
 
       <section className="testimonial-frame desktop">
         <div className="container">
+          <div className="testimonial-frame-heading-main">
+            <h3>Client Experiences that Define Our Tech Legacy</h3>
+          </div>
           <TestimonialSlide />
         </div>
       </section>

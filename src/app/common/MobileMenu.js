@@ -54,7 +54,7 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
                   <AccordionItem>
                     <AccordionItemHeading>
-                      <AccordionItemButton>Company</AccordionItemButton>
+                      <AccordionItemButton>About Us</AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <div className="Menu-underLink">
@@ -71,9 +71,7 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
                   <AccordionItem>
                     <AccordionItemHeading>
-                      <AccordionItemButton>
-                        Cyber Lighthouse
-                      </AccordionItemButton>
+                      <AccordionItemButton>Services</AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <div className="Menu-underLink">

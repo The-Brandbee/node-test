@@ -55,10 +55,10 @@ export default function about() {
               and deploying Microsoft cloud technology, resulting in the
               evolution of businesses into secure, mobile, and modern
               workplaces. This success story served as the catalyst for the
-              creation of CSP Global. The founding team, comprising like-minded
-              cyber and cloud experts, came together to help organizations
-              realize the full potential of Microsoft's cloud ecosystem while
-              ensuring paramount security and compliance.
+              creation of CSP Global. The founding team, comprising of
+              like-minded cyber and cloud experts, came together to help
+              organizations realize the full potential of Microsoft's cloud
+              ecosystem and ensure paramount security and compliance.
             </p>
           </div>
         </div>
@@ -74,12 +74,11 @@ export default function about() {
               <h3>Vision for a Modern Tomorrow</h3>
               <h5>Unlocking the Full Potential of Cloud Technology</h5>
               <p>
-                Our vision is to be an esteemed cybersecurity partner, redeﬁning
-                how businesses thrive in the digital realm. We envision a world
-                where organizations operate with proactive preparedness and
-                Modern Workplace ecosystems, knowing they have the best
-                cybersecurity team by their side and enabling them to conﬁdently
-                navigate the evolving landscape.
+                We envision a world where organisations feel empowered by the
+                Modern Workplace, and where individuals can confidently and
+                securely navigate the evolving landscape. Our vision is to be an
+                esteemed cybersecurity partner and redeﬁne how businesses thrive
+                in the digital age.
               </p>
             </div>
             <div className="Unlocking-the-Full-Potential-middle-left">
@@ -123,20 +122,20 @@ export default function about() {
                 Fueled by an unyielding passion for innovation, Callum Golding
                 and Shivam Malaviya embarked on a remarkable journey that would
                 redefine the security landscape and founded CSP Lighthouse. With
-                over three decades of invaluable experience in the IT industry,
-                they not only advocated but also zealously deployed Microsoft's
-                cutting-edge cloud security technology, orchestrating a paradigm
-                shift in the way businesses operated. Under their visionary
-                leadership, enterprises evolved into secure, mobile, and modern
-                workplaces, effectively positioning them for success in the
-                digital age.
+                over three decades of invaluable experience in the IT industry
+                the pair not only advocated, but also zealously deployed
+                Microsoft's cutting-edge cloud security technology,
+                orchestrating a paradigm shift in the way businesses operated.
+                Under their visionary leadership, enterprises evolved into
+                secure, mobile, and modern workplaces, effectively positioning
+                them for success in the digital age.
               </p>
               <p>
                 Their dedication extended beyond mere technological
-                advancements. They wholeheartedly embraced the mission to
+                advancements. The pair wholeheartedly embraced the mission to
                 fortify cybersecurity compliance, leveraging established
                 frameworks such as the Essential Eight, Zero Trust, and NIST.
-                This commitment to enhancing digital security not only
+                This commitment to enhancing digital security has not only
                 safeguarded businesses but also empowered employees to
                 collaborate securely, fostering a culture of trust and
                 efficiency.
@@ -338,19 +337,7 @@ export default function about() {
                 consulting to organizations across the globe.
               </p>
             </div>
-            <div className="team-section-middle-inner">
-              <Image src={TeamTwo} alt="" />
-              <h4>Jacinta Ribény</h4>
-              <h5>Executive Assistant</h5>
-              <p>
-                Jacinta is a former elite gymnast and fitness instructor and
-                currently studying Journalism and Creative Writing at Adelaide
-                University. Her Modern Workplace research and marketing skills
-                are invaluable to the CSP team. Jacinta manages all this while
-                caring for a toddler and completing her university degree.
-                Superwoman!
-              </p>
-            </div>
+
             <div className="team-section-middle-inner">
               <Image src={TeamThree} alt="" />
               <h4>Shivam Malaviya</h4>
@@ -365,6 +352,18 @@ export default function about() {
                 implementing advanced security use cases for proactive defense
                 against cyber threats using Microsoft E5 security suite and KQL
                 Advanced Hunting.
+              </p>
+            </div>
+            <div className="team-section-middle-inner">
+              <Image src={TeamTwo} alt="" />
+              <h4>Jacinta Ribény</h4>
+              <h5>Executive Assistant</h5>
+              <p>
+                Jacinta is a former elite gymnast and fitness instructor, and is
+                completing a bachelor's degree in journalism and creative
+                writing at the University of Adelaide. Jacinta has been able to
+                transfer her marketing and communication skills to the workforce
+                and apply them to her role as Executive Assistant at CSP.
               </p>
             </div>
           </div>
@@ -416,7 +415,7 @@ export default function about() {
           <div className="team-section-middle">
             <div className="team-section-middle-inner">
               <Image src={TeamSeven} alt="" />
-              <h4>Monika</h4>
+              <h4>Monika Ahalawat</h4>
               <h5></h5>
               <p>
                 Meet Monika a seasoned cybersecurity professional with a passion
@@ -463,13 +462,13 @@ export default function about() {
                 <span>Founder of Spoon Tech</span>
               </h4>
               <p>
-                Adam is founder of Spoon Technologies and trusted partner of
-                CSP. He's a Solutions architect and engineer with 18 years'
-                experience in critical infrastructure. Managed global IT
-                environments, with a strong focus on cyber security, automation,
-                Linux/UNIX, network and compute infrastructure. Designed and
-                built mission-critical systems within, health, oil and gas, and
-                defence sectors.
+                Adam is the founder of Spoon Technologies and trusted partner of
+                CSP. As a solutions architect and engineer with 18 years'
+                experience, Adam has managed global IT environments with a
+                strong focus on cyber security, automation, Linux/UNIX, network,
+                and compute infrastructure. He has also designed and built
+                mission-critical systems within health, oil and gas, and defence
+                sectors.
               </p>
             </div>
           </div>

@@ -1234,6 +1234,17 @@ margin-right: 90px;
 .Ignite-Cybersecurity-frame-img img.mobile{
  display: none;
 }
+.testimonial-frame-heading-main h3{
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.testimonial-frame{
+  padding-top: 70px;
+}
 @media all and (min-width:120px) and (max-width:670px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
     padding-left: 20px !important;
