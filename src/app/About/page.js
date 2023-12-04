@@ -431,7 +431,7 @@ export default function about() {
             </div>
             <div className="team-section-middle-inner">
               <Image src={TeamEight} alt="" />
-              <h4>Yashwant</h4>
+              <h4>Yashawant Singh</h4>
               <h5></h5>
               <p>
                 Meet Yashwant, a seasoned Security professional with a passion
@@ -442,7 +442,7 @@ export default function about() {
                 event monitoring, Yashwant swiftly identifies and resolves
                 issues to minimize downtime and ensure a smooth operational
                 flow. He leverages Microsoft 365 and Azure security controls
-                with finesse, showcasing her in-depth knowledge of the security
+                with finesse, showcasing his in-depth knowledge of the security
                 landscape.
               </p>
             </div>
