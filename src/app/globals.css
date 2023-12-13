@@ -742,7 +742,7 @@ footer{
 .about-bannner-contact{
   position: absolute;
      top: 55%;
-    left: 13%;
+    left: 15%;
     transform: translate(-50%, -50%);
 }
 .about-bannner-contact h3{
@@ -1061,9 +1061,17 @@ footer{
     font-size: 15px;
     color: #fff;
     padding: 5px 0px;
+    transition: all .3s ease-in-out;
 }
 .header-menubar-middle li .dropdown-content a:hover{
-  padding-left: 5px; 
+  padding-left: 5px;
+   
+}
+.header-menubar-middle li .dropdown-content.Services-menu a:hover{
+  background: linear-gradient(267.06deg,rgba(35,46,65,0),#232e41)!important;
+    color: #fff;
+    padding-left: 0.5rem!important; 
+    border-left: 3px solid #2c4467;
 }
 .header-menubar-middle li .dropdown-content::after {
   content: '';
@@ -1264,9 +1272,10 @@ margin-right: 90px;
   width: 47%;
 }
 .header-menubar-middle li:hover .dropdown-content.Services-menu{
-  width: 760px;
+  width: 700px;
   padding-top: 30px;
 }
+
 @media all and (min-width:120px) and (max-width:670px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
     padding-left: 20px !important;
