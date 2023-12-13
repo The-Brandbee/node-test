@@ -6,7 +6,7 @@ import Link from "next/link";
 import Header from "../common/Header.js";
 import Footer from "../common/Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import About from "../img/about-banner.jpg";
+import About from "../img/about-banner.webp";
 import EmpoweringRight from "../img/about-2.png";
 import Adam from "../img/Adam.png";
 import Cyberops from "../img/Cyberops.png";

@@ -741,21 +741,16 @@ footer{
 }
 .about-bannner-contact{
   position: absolute;
-  top: 60%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  text-align: center;
-  width: 100%;  
+     top: 55%;
+    left: 13%;
+    transform: translate(-50%, -50%);
 }
 .about-bannner-contact h3{
   font-size: 36px;
     color: #fff;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     margin: 0px;
-    font-family: Poppins-Light !important;
 }
 .Partners-about-sect-middle-right h4 span{
   font-family: Poppins-Light !important;
@@ -1244,6 +1239,33 @@ margin-right: 90px;
 }
 .testimonial-frame{
   padding-top: 70px;
+}
+.dropdown-content-Services-menu-middle{
+  display: flex;
+  justify-content: space-between;
+} 
+.dropdown-content-Services-menu-middle-left-top h4{
+  font-size: 18px;
+    color: #fff;
+}
+.dropdown-content-Services-menu-middle-left-top p{
+  color: #fff;
+  font-size: 14px;
+}
+.dropdown-content-Services-menu-middle-left-top{
+  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg,#fff,rgba(38,208,124,0)) 1;
+}
+.dropdown-content-Services-menu-middle-left-bottom{
+  margin-top: 20px;
+}
+.dropdown-content-Services-menu-middle-left{
+  width: 47%;
+}
+.header-menubar-middle li:hover .dropdown-content.Services-menu{
+  width: 760px;
+  padding-top: 30px;
 }
 @media all and (min-width:120px) and (max-width:670px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
