@@ -29,7 +29,7 @@ export default function modernsoc() {
           <Image src={About} alt="" />
         </div>
 
-        <div className="about-bannner-contact">
+        <div className="about-bannner-contact Modern-SOC-main">
           <div className="container">
             <h3>Modern SOC</h3>
           </div>
