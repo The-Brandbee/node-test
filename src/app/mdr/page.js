@@ -223,6 +223,21 @@ export default function Home() {
                   elevating your security posture to new heights.
                 </p>
               </div>
+              <div className="Benefits-of-mdr-frame-middle-bottom-left">
+                <Image src={BenefitsFive} alt="" />
+                <h4>Threat Intelligence</h4>
+                <p>
+                  Our service delivers advanced, real-time insights into
+                  potential threats by aggregating and analysing vast amounts of
+                  data from diverse sources, including dark web forums,
+                  open-source feeds, and industry-specific repositories. By
+                  employing machine learning algorithms and sophisticated
+                  analytics, we can identify emerging threats, patterns, and
+                  indicators of compromise with far greater precision. Threat
+                  Intelligence allows our security team to stay ahead of cyber
+                  adversaries and respond swiftly to mitigate potential risks.
+                </p>
+              </div>
             </div>
           </div>
         </div>

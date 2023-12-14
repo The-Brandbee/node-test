@@ -385,7 +385,7 @@ export default function about() {
             <div className="team-section-middle-inner">
               <Image src={TeamFive} alt="" />
               <h4>Corey Wilson</h4>
-              <h5>Cybersecurity Analyst</h5>
+              <h5>SOC Analyst</h5>
               <p>
                 Corey is currently studying for a Bachelor of Networking and
                 Cybersecurity at the University of South Australia. He enjoys
@@ -416,7 +416,7 @@ export default function about() {
             <div className="team-section-middle-inner">
               <Image src={TeamSeven} alt="" />
               <h4>Monika Ahalawat</h4>
-              <h5></h5>
+              <h5>SOC Engineer </h5>
               <p>
                 Meet Monika a seasoned cybersecurity professional with a passion
                 for excellence and a proven track record in defending
@@ -432,7 +432,7 @@ export default function about() {
             <div className="team-section-middle-inner">
               <Image src={TeamEight} alt="" />
               <h4>Yashawant Singh</h4>
-              <h5></h5>
+              <h5>SOC Engineer</h5>
               <p>
                 Meet Yashwant, a seasoned Security professional with a passion
                 for ensuring the seamless operation of organizations digital
