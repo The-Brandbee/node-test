@@ -75,6 +75,13 @@ class MobileMenu extends React.Component {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <div className="Menu-underLink">
+                        <div className="Menu-underLink-heading">
+                          <h4>Detect & Respond (24x7)</h4>
+                          <p>
+                            Next-generation security operations geared for the
+                            Modern Workplace with the latest AI Technology
+                          </p>
+                        </div>
                         <ul>
                           <li>
                             <Link href="/mdr">
@@ -85,6 +92,25 @@ class MobileMenu extends React.Component {
                             <Link href="/modern-soc">
                               What is a Modern SOC?
                             </Link>
+                          </li>
+                        </ul>
+                        <div className="Menu-underLink-heading">
+                          <h4>Protect</h4>
+                          <p>
+                            Professional Services and compliance alignment to
+                            mitigate risks and reduce the attack surface area
+                          </p>
+                        </div>
+
+                        <ul>
+                          <li>
+                            <Link href="#">Security Uplifts</Link>
+                          </li>
+                          <li>
+                            <Link href="#">Essential Eight</Link>
+                          </li>
+                          <li>
+                            <Link href="#">Microsoft Cloud + Managed IT</Link>
                           </li>
                         </ul>
                       </div>

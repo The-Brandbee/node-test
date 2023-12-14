@@ -15,6 +15,7 @@ import BenefitsThree from "../img/Benefits-3.png";
 import BenefitsFour from "../img/Benefits-4.png";
 import structured from "../img/Process-1.png";
 import BenefitsFive from "../img/Benefits-5.png";
+import BenefitsSix from "../img/Benefits-6.png";
 import CountOne from "../Count/CountOne.js";
 import CountTwo from "../Count/CountTwo.js";
 import CountThree from "../Count/CountThree.js";
@@ -224,7 +225,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                <Image src={BenefitsFive} alt="" />
+                <Image src={BenefitsSix} alt="" />
                 <h4>Threat Intelligence</h4>
                 <p>
                   Our service delivers advanced, real-time insights into
