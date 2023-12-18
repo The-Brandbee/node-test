@@ -60,7 +60,7 @@ class MobileMenu extends React.Component {
                       <div className="Menu-underLink">
                         <ul>
                           <li>
-                            <Link href="/about">About Us</Link>
+                            <Link href="/About">About Us</Link>
                           </li>
                           <li>
                             <Link href="/About#our-team-se">Meet The Team</Link>
