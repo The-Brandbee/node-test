@@ -28,7 +28,7 @@ function IndexPage() {
                 <Link href="/About#our-team-se">Meet The Team</Link>
               </li>
               <li>
-                <Link href="">Contact Us</Link>
+                <Link href="/contactus">Contact Us</Link>
               </li>
             </ul>
           </div>

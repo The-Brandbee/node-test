@@ -61,7 +61,7 @@ function IndexPage() {
                 <Link href="/">Success Stories</Link>
               </li>
               <li>
-                <Link href="/">Contact US</Link>
+                <Link href="/contactus">Contact US</Link>
               </li>
             </ul>
           </div>
