@@ -23,7 +23,9 @@ import ourvalue from "../img/our-value.png";
 import CallumGolding from "../img/Callum-Golding.webp";
 import ShivamMalaviya from "../img/Shivam-Malaviya.png";
 import visionOne from "../img/vision-1.png";
-import Location from "../img/Location.png";
+import Location from "../img/location.png";
+import Phone from "../img/phone.png";
+import Email from "../img/email.png";
 
 export default function contactus() {
   return (
@@ -52,13 +54,13 @@ export default function contactus() {
               </div>
 
               <div className="contact-us-middle-main-m-left-con">
-                <Image src={Location} alt="" />
+                <Image src={Phone} alt="" />
                 <p>
                   <a href="tel:+1300199093">1300 199 093</a>
                 </p>
               </div>
               <div className="contact-us-middle-main-m-left-con">
-                <Image src={Location} alt="" />
+                <Image src={Email} alt="" />
                 <p>
                   <a href="mailto:info@csp.global">info@csp.global</a>
                 </p>
