@@ -60,7 +60,7 @@ class MobileMenu extends React.Component {
                       <div className="Menu-underLink">
                         <ul>
                           <li>
-                            <Link href="/About">About Us</Link>
+                            <Link href="/about">About Us</Link>
                           </li>
                           <li>
                             <Link href="/About#our-team-se">Meet The Team</Link>
@@ -118,7 +118,7 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <a href="/">
+                    <a href="/contactus">
                       <AccordionItemHeading>
                         <AccordionItemButton>Contact US</AccordionItemButton>
                       </AccordionItemHeading>
