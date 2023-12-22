@@ -1819,7 +1819,9 @@ p {
   width: 100%;
 }
 .Our-Values-middle-section-main-middle-right ul li:before{
-  margin-left: -15px;
+  margin-left: -30px;
+  font-size: 15px;
+  top: 0px;
 }
 .Our-Values-middle-section-main {
   padding: 30px 0px;
@@ -2161,6 +2163,12 @@ p {
       .Menu-underLink-heading p{
         font-size: 13px;
       }
+      .about-bannner-contact {
+        position: absolute;
+        top: 48%;
+        left: 7%;
+        transform: inherit;
+    }
 } 
 
 

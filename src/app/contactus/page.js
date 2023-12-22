@@ -65,7 +65,6 @@ export default function contactus() {
                         <input
                           type="text"
                           className="form-control"
-                          id="exampleInputEmail1"
                           placeholder="Name"
                           required
                         />
@@ -76,7 +75,6 @@ export default function contactus() {
                         <input
                           type="text"
                           className="form-control"
-                          id="exampleInputEmail1"
                           placeholder="Surname"
                           required
                         />
@@ -89,7 +87,6 @@ export default function contactus() {
                         <input
                           type="email"
                           className="form-control"
-                          id="exampleInputEmail1"
                           placeholder="Email"
                           required
                         />
@@ -100,7 +97,6 @@ export default function contactus() {
                         <input
                           type="text"
                           className="form-control"
-                          id="exampleInputEmail1"
                           placeholder="Company"
                           required
                         />
@@ -113,7 +109,6 @@ export default function contactus() {
                         <input
                           type="text"
                           className="form-control"
-                          id="exampleInputEmail1"
                           placeholder="Subject"
                           required
                         />
