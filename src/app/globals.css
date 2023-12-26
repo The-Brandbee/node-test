@@ -1328,6 +1328,11 @@ margin-right: 90px;
   height: 45px;
   margin-bottom: 22px;
 }
+.contact-us-page-main-from .form-group span{
+  margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+}
 .contact-us-page-main-from textarea.form-control{
   height: 130px;
 }

@@ -10,6 +10,7 @@ import About from "../img/contact.jpg";
 import Mapnew from "../img/mapnew.png";
 import Phone from "../img/phone.png";
 import Email from "../img/email.png";
+import Contact from "../common/Contact";
 
 export default function contactus() {
   return (
@@ -58,79 +59,8 @@ export default function contactus() {
                   security needs and goals. We will review your message and
                   contact you with the best solution for your situation.
                 </p>
-                <form role="form" className="contact-us-page-main-from">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Name"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Surname"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          className="form-control"
-                          placeholder="Email"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Company"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-12">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Subject"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          className="form-control"
-                          placeholder="Message"
-                          required
-                        ></textarea>
-                      </div>
-                    </div>
-                  </div>
 
-                  <button type="submit" className="btn btn-default">
-                    Submit
-                  </button>
-                </form>
+                <Contact />
               </div>
             </div>
           </div>

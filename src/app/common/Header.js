@@ -3,12 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import Main from "../img/logo.png";
 import MobileMenu from "../common/MobileMenu.js";
-import Meta from "../common/Meta.js";
 
 function IndexPage() {
   return (
     <>
-      <Meta />
       <div className="navbar-main-frame">
         <div className="container">
           <div className="navbar-menu">
