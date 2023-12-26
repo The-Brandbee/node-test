@@ -68,7 +68,7 @@ export default function Home() {
               evolving digital landscape, we function as the guiding beacon,
               enabling our clients to chart a proactive course that eliminates
               vulnerabilities, optimizes processes, and ensures security is
-              preemptive and seamlessly integrated into their operations.
+              preemptive and seamlessly integrated into their operation.
             </p>
             <div className="know-more">
               <Link href="/About">Know More</Link>
