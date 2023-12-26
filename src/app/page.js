@@ -18,11 +18,15 @@ import Securityfive from "../app/img/it-icon-3.png";
 import Securitysix from "../app/img/it-icon-6.png";
 import EmpoweringRight from "../app/img/Organizations.png";
 import Main from "../app/img/logo.png";
-
 import Advocate from "../app/img/middle-banner.png";
 import AdvocateMobile from "../app/img/CSP-2-mobile.png";
+import ReactGA from "react-ga4";
 
 export default function Home() {
+  const TRACKING_ID = "G-EY1S647KBZ";
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.send({ hitType: "pageview", page: "/" });
+
   return (
     <main>
       <Head></Head>
