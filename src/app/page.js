@@ -20,10 +20,21 @@ import EmpoweringRight from "../app/img/Organizations.png";
 import Main from "../app/img/logo.png";
 import Advocate from "../app/img/middle-banner.png";
 import AdvocateMobile from "../app/img/CSP-2-mobile.png";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <main>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-T1XJBZN8FJ');
+        `}
+      </Script>
       <header>
         <Header />
         <div className="header-video desktop">
