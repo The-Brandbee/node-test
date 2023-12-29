@@ -25,6 +25,13 @@ import Script from "next/script";
 export default function Home() {
   return (
     <main>
+      <Head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="=" />
+        <title></title>
+      </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
       <Script id="google-analytics">
         {`

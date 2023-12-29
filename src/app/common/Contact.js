@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { serviceContact } from "../services/serviceContact.js";
+import { redirect } from "next/navigation";
 
 export default class Contact extends Component {
   constructor(props) {
@@ -125,7 +126,7 @@ export default class Contact extends Component {
   }
   render() {
     if (this.state.redirect) {
-      //return (<Redirect to={'/'} />)
+      return redirect("/thankyou");
     }
 
     return (

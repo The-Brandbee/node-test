@@ -56,6 +56,11 @@ header{
   width: 70%;
   font-size: 28px;
 }
+.about-bannner-contact.Thank.you.for{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 footer{
   background: #efefef;
   padding-top: 70px;
@@ -274,6 +279,11 @@ footer{
 }
 .Excellence-in-Three-Steps-top-left{
   width: 25%;
+}
+.about-bannner-contact.Thank.you.for h3 {
+  text-align: center;
+ 
+  text-transform: capitalize;
 }
 .Excellence-in-Three-Steps-top-left h3{
   color: #000;
@@ -2174,6 +2184,16 @@ p {
         left: 7%;
         transform: inherit;
     }
+    .about-bannner-contact.Thank.you.for {
+      position: absolute;
+      top: 29%;
+      left: 10%;
+  }
+  .about-bannner-contact.Thank.you.for h3{
+    font-size: 18px;
+    margin-top: 50px;
+    text-transform: capitalize;
+  }
 } 
 
 

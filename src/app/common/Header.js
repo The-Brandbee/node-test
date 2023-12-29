@@ -69,12 +69,7 @@ function IndexPage() {
               </ul>
             </div>
             <div className="header-menubar-right">
-              <a
-                href="https://outlook.office365.com/book/CSPGlobal@csp.global/"
-                target="_blank"
-              >
-                Schedule online
-              </a>
+              <Link href="/contactus">Schedule online</Link>
             </div>
             <div className="Mobile_menu">
               <MobileMenu />
