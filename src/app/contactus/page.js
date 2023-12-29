@@ -32,10 +32,7 @@ export default function contactus() {
             <div className="contact-us-middle-main-m-left">
               <div className="contact-us-middle-main-m-left-con">
                 <Image src={Mapnew} alt="" />
-                <p>
-                  Westpac house, 91 king william street, adelaide, 5000, south
-                  australia
-                </p>
+                <p>CSP Global 124 City Road, London, EC1V 2NX</p>
               </div>
 
               <div className="contact-us-middle-main-m-left-con">
@@ -67,7 +64,7 @@ export default function contactus() {
         </div>
       </section>
       <section className="map-sect-contactus-page">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.268553712539!2d138.5960411743672!3d-34.9248011745238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0ced7df642edb%3A0xc9d4dc63940ed7a6!2s91%20King%20William%20St%2C%20Adelaide%20SA%205000%2C%20Australia!5e0!3m2!1sen!2sin!4v1702645514395!5m2!1sen!2sin"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.2675875233617!2d-0.09084038959127419!3d51.52665170918149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca60a8508e1%3A0x67693b0427fb6d46!2s124%20City%20Rd%2C%20London%20EC1V%202NX%2C%20UK!5e0!3m2!1sen!2sin!4v1703856117789!5m2!1sen!2sin"></iframe>
       </section>
 
       <Footer />

@@ -64,7 +64,7 @@ export default function Home() {
           <h4>Strengthen Your Cyber Defenses</h4>
           <p>Your Trusted Partner for Cybersecurity Services</p>
           <div className="know-more">
-            <Link href="/About">Know More</Link>
+            <Link href="/About">LEARN MORE</Link>
           </div>
         </div>
       </header>
@@ -89,7 +89,7 @@ export default function Home() {
               preemptive and seamlessly integrated into their operations.
             </p>
             <div className="know-more">
-              <Link href="/About">Know More</Link>
+              <Link href="/About">LEARN MORE</Link>
             </div>
           </div>
         </div>
@@ -277,7 +277,7 @@ export default function Home() {
             </div>
           </div>
           <div className="know-more">
-            <Link href="/mdr">Know More</Link>
+            <Link href="/mdr">LEARN MORE</Link>
           </div>
         </div>
       </section>
