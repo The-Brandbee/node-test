@@ -32,7 +32,11 @@ export default function contactus() {
             <div className="contact-us-middle-main-m-left">
               <div className="contact-us-middle-main-m-left-con">
                 <Image src={Mapnew} alt="" />
-                <p>CSP Global 124 City Road, London, EC1V 2NX</p>
+                <p>
+                  Westpac House, 91 King William Street, Adelaide, Australia
+                  (HQ) <br />
+                  124 City Road, London, EC1V 2NX
+                </p>
               </div>
 
               <div className="contact-us-middle-main-m-left-con">

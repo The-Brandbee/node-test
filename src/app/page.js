@@ -47,7 +47,9 @@ export default function Home() {
         <div className="header-video desktop">
           <video playsInline autoPlay loop muted>
             <source
-              src={"https://thebrandbee.com/cyber-security.mp4"}
+              src={
+                "https://cdn.shopify.com/videos/c/o/v/45133c2e990743bf8a845c1919f93919.mp4"
+              }
               type="video/mp4"
             />
           </video>
@@ -55,7 +57,9 @@ export default function Home() {
         <div className="header-video mobile">
           <video playsInline autoPlay loop muted>
             <source
-              src={"https://thebrandbee.com/CSP-mobile.mp4"}
+              src={
+                "https://cdn.shopify.com/videos/c/o/v/0af53c7ed89d4c5ea9b454bb0f8702d5.mp4"
+              }
               type="video/mp4"
             />
           </video>
@@ -230,9 +234,10 @@ export default function Home() {
               <h2>2</h2>
               <h4>Simplify Workflows for Efficiency:</h4>
               <p>
-                We help organizations streamline their complex licensing
-                structures and eliminate unnecessary IT products, reducing
-                patchwork solution costs by up to 60%.
+                We streamline IT workflows and reduce device management
+                overhead, enabling a focus on higher-value tasks such as defence
+                and response. Leveraging automation and modern technologies, we
+                cut device management by up to 25%.
               </p>
             </div>
             <div className="Eliminate-Complexity-main-left">
