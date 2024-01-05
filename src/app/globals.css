@@ -34,6 +34,9 @@ a{
 header{
   position: relative;
 }
+.further-down-section-middle img{
+  width: 100%;
+}
 .Strengthen-Your-Cyber-Defenses{
   position: absolute;
   top: 62px;

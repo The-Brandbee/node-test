@@ -11,10 +11,21 @@ import Mapnew from "../img/mapnew.png";
 import Phone from "../img/phone.png";
 import Email from "../img/email.png";
 import Contact from "../common/Contact";
+import Script from "next/script";
 
 export default function contactus() {
   return (
     <main className="About-us-page">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-T1XJBZN8FJ');
+        `}
+      </Script>
       <header>
         <Header />
         <div className="Inner-page-banner-frame">

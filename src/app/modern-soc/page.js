@@ -19,10 +19,21 @@ import ModernThree from "../img/Modern-3.png";
 import ModernFour from "../img/Modern-4.png";
 import ModernFive from "../img/Modern-5.png";
 import Eliminate from "../img/Eliminate.png";
+import Script from "next/script";
 
 export default function modernsoc() {
   return (
     <main className="About-us-page modernsoc-page-new">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-T1XJBZN8FJ');
+        `}
+      </Script>
       <header>
         <Header />
         <div className="Inner-page-banner-frame">

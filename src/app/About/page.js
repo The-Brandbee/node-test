@@ -24,10 +24,20 @@ import CallumGolding from "../img/Callum-Golding.webp";
 import ShivamMalaviya from "../img/Shivam-Malaviya.png";
 import visionOne from "../img/vision-1.png";
 import visionTwo from "../img/vision-2.png";
-
+import Script from "next/script";
 export default function about() {
   return (
     <main className="About-us-page">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-T1XJBZN8FJ');
+        `}
+      </Script>
       <header>
         <Header />
         <div className="Inner-page-banner-frame">
@@ -193,9 +203,9 @@ export default function about() {
                 </li>
 
                 <li>
-                  <span>Customer-Centricity:</span> We are future-oriented,
-                  preparing our clients for the challenges and opportunities
-                  that lie ahead in the digital landscape.
+                  <span>Customer-Centricity:</span> We are dedicated to
+                  providing exceptional service and support to meet their
+                  speciﬁc needs.
                 </li>
 
                 <li>
@@ -474,10 +484,14 @@ export default function about() {
           </div>
           <div className="Partners-about-sect-middle">
             <div className="Partners-about-sect-middle-left">
-              <Image src={Cyberops} alt="" />
+              <a href="https://www.cyberops.com.au/" target="_blank">
+                <Image src={Cyberops} alt="" />
+              </a>
             </div>
             <div className="Partners-about-sect-middle-right ">
-              <h4>Cyberops | Space, Cyber, Defence</h4>
+              <a href="https://www.cyberops.com.au/" target="_blank">
+                <h4>Cyberops | Space, Cyber, Defence</h4>
+              </a>
               <p>
                 Cyberops have been a trusted and strategic partner of CSP for
                 many years. They are experts in Defence, Cyber and Space and

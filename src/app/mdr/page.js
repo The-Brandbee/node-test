@@ -16,14 +16,27 @@ import BenefitsFour from "../img/Benefits-4.png";
 import structured from "../img/Process-1.png";
 import BenefitsFive from "../img/Benefits-5.png";
 import BenefitsSix from "../img/Benefits-6.png";
+import furtherOne from "../img/image003.jpg";
+import furtherTwo from "../img/image001.png";
 import CountOne from "../Count/CountOne.js";
 import CountTwo from "../Count/CountTwo.js";
 import CountThree from "../Count/CountThree.js";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <main>
       <Head></Head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-T1XJBZN8FJ');
+        `}
+      </Script>
       <header>
         <Header />
         <div className="header-video">
@@ -240,6 +253,16 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="further-down-section">
+        <div className="container">
+          <div className="further-down-section-middle">
+            <Image src={furtherOne} alt="" />
+          </div>
+          <div className="further-down-section-middle">
+            <Image src={furtherTwo} alt="" />
           </div>
         </div>
       </section>

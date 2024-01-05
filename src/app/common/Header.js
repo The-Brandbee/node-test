@@ -63,13 +63,10 @@ function IndexPage() {
                 <li>
                   <Link href="/">Success Stories</Link>
                 </li>
-                <li>
-                  <Link href="/contactus">Contact US</Link>
-                </li>
               </ul>
             </div>
             <div className="header-menubar-right">
-              <Link href="/contactus">Schedule online</Link>
+              <Link href="/contactus">Contact US</Link>
             </div>
             <div className="Mobile_menu">
               <MobileMenu />

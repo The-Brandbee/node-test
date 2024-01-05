@@ -9,6 +9,7 @@ import Slidemdr from "../common/Slidemdr.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import About from "../img/Thank-CSP.jpg";
+import Script from "next/script";
 
 export default function Home() {
   return (
