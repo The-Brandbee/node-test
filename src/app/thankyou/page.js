@@ -14,6 +14,7 @@ import Script from "next/script";
 export default function Home() {
   return (
     <main>
+      <Head></Head>
       <header>
         <Header />
         <div className="Inner-page-banner-frame">
