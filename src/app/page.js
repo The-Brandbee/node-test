@@ -21,10 +21,12 @@ import Main from "../app/img/logo.png";
 import Advocate from "../app/img/middle-banner.png";
 import AdvocateMobile from "../app/img/CSP-2-mobile.png";
 import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
   return (
     <>
+      <GoogleTagManager gtmId="GTM-PVLGJK24" />
       <main>
         <Head>
           <meta charset="utf-8" />
@@ -36,26 +38,7 @@ export default function Home() {
           <meta name="description" content="=" />
           <title></title>
         </Head>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-T1XJBZN8FJ" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-T1XJBZN8FJ');
-        `}
-        </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-1056812211" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'AW-1056812211');
-        `}
-        </Script>
+
         <header>
           <Header />
           <div className="header-video desktop">
