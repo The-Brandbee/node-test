@@ -10,24 +10,29 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import About from "../img/Thank-CSP.jpg";
 import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
   return (
-    <main>
-      <Head></Head>
-      <header>
-        <Header />
-        <div className="Inner-page-banner-frame">
-          <Image src={About} alt="" />
-        </div>
-        <div className="about-bannner-contact Thank you for">
-          <h3>
-            Thank you for connecting with us. <br />
-            Our team will contact you soon.
-          </h3>
-        </div>
-      </header>
-      <Footer />
-    </main>
+    <>
+      <GoogleTagManager gtmId="GTM-PVLGJK24" />
+
+      <main>
+        <Head></Head>
+        <header>
+          <Header />
+          <div className="Inner-page-banner-frame">
+            <Image src={About} alt="" />
+          </div>
+          <div className="about-bannner-contact Thank you for">
+            <h3>
+              Thank you for connecting with us. <br />
+              Our team will contact you soon.
+            </h3>
+          </div>
+        </header>
+        <Footer />
+      </main>
+    </>
   );
 }
