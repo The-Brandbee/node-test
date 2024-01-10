@@ -9,6 +9,10 @@ export const metadata = {
     " Expert Cybersecurity Solutions for unparalleled Modern Security - CSP",
   description:
     "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
+
+  alternates: {
+    canonical: "https://csp.global",
+  },
 };
 
 export default function RootLayout({ children }) {
