@@ -22,10 +22,10 @@ function IndexPage() {
             <ul>
               <li>Company</li>
               <li>
-                <Link href="/About">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li>
-                <Link href="/About#our-team-se">Meet The Team</Link>
+                <Link href="/about#our-team-se">Meet The Team</Link>
               </li>
               <li>
                 <Link href="/contact">Contact Us</Link>

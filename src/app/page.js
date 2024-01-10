@@ -65,7 +65,7 @@ export default function Home() {
             <h4>Strengthen Your Cyber Defenses</h4>
             <p>Your Trusted Partner for Cybersecurity Services</p>
             <div className="know-more">
-              <Link href="/About">LEARN MORE</Link>
+              <Link href="/about">LEARN MORE</Link>
             </div>
           </div>
         </header>
@@ -91,7 +91,7 @@ export default function Home() {
                 their operations.
               </p>
               <div className="know-more">
-                <Link href="/About">LEARN MORE</Link>
+                <Link href="/about">LEARN MORE</Link>
               </div>
             </div>
           </div>

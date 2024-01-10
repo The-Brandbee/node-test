@@ -18,9 +18,9 @@ function IndexPage() {
             <div className="header-menubar-middle">
               <ul>
                 <li>
-                  <Link href="/About">About Us </Link>
+                  <Link href="/about">About Us </Link>
                   <div class="dropdown-content">
-                    <Link href="/About#our-team-se">Meet The Team</Link>
+                    <Link href="/about#our-team-se">Meet The Team</Link>
                   </div>
                 </li>
                 <li>
