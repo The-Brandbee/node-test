@@ -66,7 +66,7 @@ function IndexPage() {
               </ul>
             </div>
             <div className="header-menubar-right">
-              <Link href="/contactus">Contact US</Link>
+              <Link href="/contact">Contact US</Link>
             </div>
             <div className="Mobile_menu">
               <MobileMenu />
