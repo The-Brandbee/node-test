@@ -10,9 +10,9 @@ import About from "../img/about-banner.webp";
 import EmpoweringRight from "../img/about-2.png";
 import Adam from "../img/Adam.png";
 import Cyberops from "../img/Cyberops.png";
-import TeamOne from "../img/team-1.png";
+import TeamOne from "../img/Callum.jpg";
 import TeamTwo from "../img/team-2.png";
-import TeamThree from "../img/team-3.png";
+import TeamThree from "../img/Shivam.jpg";
 import TeamFour from "../img/team-4.png";
 import TeamFive from "../img/team-5.png";
 import TeamSix from "../img/team-6.png";
@@ -333,14 +333,19 @@ export default function about() {
                 <h4>Callum Golding</h4>
                 <h5>Founder & Security Architect</h5>
                 <p>
-                  Callum has 20 years of experience working in IT. He founded
-                  CSP to provide cybersecurity and Microsoft cloud management
-                  services to small, medium and large organizations throughout
-                  Australia. CSP now delivers a range of “lighthouse” support
-                  services and is also a reseller of the world-leading
-                  compromise assessment scanner, Thor. Callum also provides
-                  subject matter expertise consulting to organizations across
-                  the globe.
+                  With almost two decades of experience in the IT industry,
+                  Callum is the driving force behind CSP over the last 5 years.
+                  His vision is to offer unparalleled cybersecurity services,
+                  assisting organizations in minimizing their attack surface
+                  area. CSP has evolved into a comprehensive provider of
+                  professional services and 24x7 Managed Detection Response
+                  (MDR). As a trusted reseller of Nextron Systems' Thor, one of
+                  the world's foremost compromise assessment scanners, CSP
+                  prides itself on delivering the right tool or service for the
+                  job. Aside from managing the day-to-day activities of the
+                  business, Callum also plays an active role in security uplift
+                  and compliance projects, routinely helping organizations solve
+                  their most urgent cybersecurity and IT challenges.
                 </p>
               </div>
 
@@ -361,6 +366,23 @@ export default function about() {
                 </p>
               </div>
               <div className="team-section-middle-inner">
+                <Image src={TeamSix} alt="" />
+                <h4>Tom Penfold</h4>
+                <h5>Leadership Team</h5>
+                <p>
+                  Tom is CSP's Senior Microsoft 365 Engineer. He brings a wealth
+                  of knowledge to the entire team and supports them as an
+                  escalation point. Tom is a Microsoft security and productivity
+                  expert and has obtained the AZ-104 Microsoft Azure
+                  Administrator qualification. His subject matter expertise, and
+                  an incredible eye for high-quality documentation, ensure that
+                  our internal and client Knowledge Base is of the highest
+                  standard possible.
+                </p>
+              </div>
+            </div>
+            <div className="team-section-middle">
+              <div className="team-section-middle-inner">
                 <Image src={TeamTwo} alt="" />
                 <h4>Jacinta Ribény</h4>
                 <h5>Executive Assistant</h5>
@@ -373,8 +395,6 @@ export default function about() {
                   CSP.
                 </p>
               </div>
-            </div>
-            <div className="team-section-middle">
               <div className="team-section-middle-inner">
                 <Image src={TeamFour} alt="" />
                 <h4>Jackie Ireland</h4>
@@ -402,21 +422,6 @@ export default function about() {
                   learning various network analysis skills during his studies.
                   He is excited to put these skills into action in his first
                   cybersecurity role with CSP.
-                </p>
-              </div>
-              <div className="team-section-middle-inner">
-                <Image src={TeamSix} alt="" />
-                <h4>Tom Penfold</h4>
-                <h5>Senior Microsoft 365 Engineer</h5>
-                <p>
-                  Tom is CSP's Senior Microsoft 365 Engineer. He brings a wealth
-                  of knowledge to the entire team and supports them as an
-                  escalation point. Tom is a Microsoft security and productivity
-                  expert and has obtained the AZ-104 Microsoft Azure
-                  Administrator qualification. His subject matter expertise, and
-                  an incredible eye for high-quality documentation, ensure that
-                  our internal and client Knowledge Base is of the highest
-                  standard possible.
                 </p>
               </div>
             </div>
