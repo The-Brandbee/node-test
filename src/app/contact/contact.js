@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "../img/contact.jpg";
 import Mapnew from "../img/mapnew.png";
 import Phone from "../img/phone.png";
+import Mi from "../img/Microsoft-Gold-Partner-Wizard-Cyber-small.png.png";
 import Email from "../img/email.png";
 import Contact from "../common/Contact";
 import Script from "next/script";
@@ -38,9 +39,12 @@ export default function contact() {
                   <Image src={Mapnew} alt="" />
                   <p>
                     Westpac House, 91 King William Street, Adelaide, Australia
-                    (HQ) <br />
-                    124 City Road, London, EC1V 2NX
+                    (HQ)
                   </p>
+                </div>
+                <div className="contact-us-middle-main-m-left-con">
+                  <Image src={Mapnew} alt="" />
+                  <p>124 City Road, London, EC1V 2NX</p>
                 </div>
 
                 <div className="contact-us-middle-main-m-left-con">
@@ -54,6 +58,9 @@ export default function contact() {
                   <p>
                     <a href="mailto:info@csp.global">info@csp.global</a>
                   </p>
+                </div>
+                <div className="mi-image-last-cont">
+                  <Image src={Mi} alt="" />
                 </div>
               </div>
               <div className="contact-us-middle-main-m-right">

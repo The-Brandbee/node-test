@@ -15,6 +15,7 @@ import TeamTwo from "../img/team-2.png";
 import TeamThree from "../img/Shivam.jpg";
 import TeamFour from "../img/team-4.png";
 import TeamFive from "../img/team-5.png";
+import Tom from "../img/tom.jpg";
 import TeamSix from "../img/team-6.png";
 import TeamSeven from "../img/team-7.png";
 import TeamEight from "../img/team-8.png";
@@ -326,7 +327,7 @@ export default function about() {
         </section>
         <section className="team-section-about-page" id="our-team-se">
           <div className="container">
-            <h3>Our Team</h3>
+            <h3>Leadership Team</h3>
             <div className="team-section-middle">
               <div className="team-section-middle-inner">
                 <Image src={TeamOne} alt="" />
@@ -366,9 +367,28 @@ export default function about() {
                 </p>
               </div>
               <div className="team-section-middle-inner">
+                <Image src={Tom} alt="" />
+                <h4>Tom Smiths</h4>
+                <h5>Global Sales Director</h5>
+                <p>
+                  Tom Smith is a veteran sales leader in the digital software
+                  and consulting ecosystems. With successful tenures leading
+                  global sales initiatives for; IBM, Salesforce and Omnicom. His
+                  great passion is building long standing relationships with
+                  customers through transparent communication, detailed needs
+                  analysis and providing valuable solutions that meet and exceed
+                  expectation. Whether it be increasing ROI or improving
+                  operational business processes for customers.
+                </p>
+              </div>
+            </div>
+            <br />
+            <h3>Our Team</h3>
+            <div className="team-section-middle">
+              <div className="team-section-middle-inner">
                 <Image src={TeamSix} alt="" />
                 <h4>Tom Penfold</h4>
-                <h5>Leadership Team</h5>
+                <h5>Senior Microsoft 365 Engineer</h5>
                 <p>
                   Tom is CSP's Senior Microsoft 365 Engineer. He brings a wealth
                   of knowledge to the entire team and supports them as an
@@ -380,8 +400,6 @@ export default function about() {
                   standard possible.
                 </p>
               </div>
-            </div>
-            <div className="team-section-middle">
               <div className="team-section-middle-inner">
                 <Image src={TeamTwo} alt="" />
                 <h4>Jacinta Ribény</h4>
@@ -409,6 +427,8 @@ export default function about() {
                   daily fight against cybercrime.
                 </p>
               </div>
+            </div>
+            <div className="team-section-middle">
               <div className="team-section-middle-inner">
                 <Image src={TeamFive} alt="" />
                 <h4>Corey Wilson</h4>
@@ -424,8 +444,6 @@ export default function about() {
                   cybersecurity role with CSP.
                 </p>
               </div>
-            </div>
-            <div className="team-section-middle">
               <div className="team-section-middle-inner">
                 <Image src={TeamSeven} alt="" />
                 <h4>Monika Ahalawat</h4>

@@ -45,6 +45,10 @@ header{
   left: 26%;
   transform: translate(-50%, -50%);
 }
+.mi-image-last-cont img{
+  width: 70%; 
+  margin-top: 20px;
+}
 .Strengthen-Your-Cyber-Defenses h4{
   font-size: 36px;
   color: #fff;
