@@ -355,20 +355,27 @@ export default function about() {
                 <h4>Shivam Malaviya</h4>
                 <h5>CTO and Co-founder of CSP Lighthouse</h5>
                 <p>
-                  Shivam has over 10 years experience working in the has
-                  obtained SC-200 and AZ-500 Microsoft qualifications. He
-                  provides CSP with Threat Hunting and Intelligence as well as
-                  Incident Response. He is a Passionate Information Security
-                  professional with rich and insightful 10+ years of experience
-                  with SOC and Threat Hunting. He performs research on Red Team
-                  techniques, threat hunting, and implementing advanced security
-                  use cases for proactive defense against cyber threats using
-                  Microsoft E5 security suite and KQL Advanced Hunting.
+                  With a decade of expertise in the cybersecurity domain, Shivam
+                  brings extensive experience to our team. Formerly at Open
+                  Systems, he successfully led a sizable SOC team before
+                  co-founding CSP Lighthouse. In his current role as Chief
+                  Technology Officer (CTO), Shivam plays a crucial role in
+                  overseeing, leading, and contributing his skills to our Modern
+                  Next-Gen Security Operation Centre. Additionally, he actively
+                  engages in providing Threat Hunting and Intelligence services
+                  for our clients. A dedicated Information Security
+                  professional, Shivam boasts over 10 years of insightful
+                  experience in SOC and Threat Hunting. His commitment is
+                  evident in his ongoing research, threat hunting strategies,
+                  and the implementation of advanced security use cases.
+                  Leveraging tools such as Microsoft XDR and KQL Advanced
+                  Hunting, he actively contributes proactive defense against
+                  cyber threats.
                 </p>
               </div>
               <div className="team-section-middle-inner">
                 <Image src={Tom} alt="" />
-                <h4>Tom Smiths</h4>
+                <h4>Tom Smith</h4>
                 <h5>Global Sales Director</h5>
                 <p>
                   Tom Smith is a veteran sales leader in the digital software
