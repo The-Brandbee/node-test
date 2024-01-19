@@ -25,8 +25,8 @@ function IndexPage() {
                 </li>
                 <li>
                   <Link href="/">Services</Link>
-                  <div class="dropdown-content Services-menu">
-                    <div className="dropdown-content-Services-menu-middle">
+                  <div class="dropdown-content Services-menu new">
+                    <div className="dropdown-content-Services-menu-middle ">
                       <div className="dropdown-content-Services-menu-middle-left">
                         <div className="dropdown-content-Services-menu-middle-left-top">
                           <h4>Protect</h4>
