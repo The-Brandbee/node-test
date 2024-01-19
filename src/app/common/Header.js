@@ -29,6 +29,20 @@ function IndexPage() {
                     <div className="dropdown-content-Services-menu-middle">
                       <div className="dropdown-content-Services-menu-middle-left">
                         <div className="dropdown-content-Services-menu-middle-left-top">
+                          <h4>Protect</h4>
+                          <p>
+                            Professional Services and compliance alignment to
+                            mitigate risks and reduce the attack surface area
+                          </p>
+                        </div>
+                        <div className="dropdown-content-Services-menu-middle-left-bottom">
+                          <Link href="#">Security Uplifts</Link>
+                          <Link href="#">Essential Eight</Link>
+                          <Link href="#">Microsoft Cloud + Managed IT</Link>
+                        </div>
+                      </div>
+                      <div className="dropdown-content-Services-menu-middle-left">
+                        <div className="dropdown-content-Services-menu-middle-left-top">
                           <h4>Detect & Respond (24x7)</h4>
                           <p>
                             Next-generation security operations geared for the
@@ -40,20 +54,6 @@ function IndexPage() {
                             Managed Detection and Response
                           </Link>
                           <Link href="/modern-soc">What is a Modern SOC?</Link>
-                        </div>
-                      </div>
-                      <div className="dropdown-content-Services-menu-middle-left">
-                        <div className="dropdown-content-Services-menu-middle-left-top">
-                          <h4>Protect</h4>
-                          <p>
-                            Professional Services and compliance alignment to
-                            mitigate risks and reduce the attack surface area
-                          </p>
-                        </div>
-                        <div className="dropdown-content-Services-menu-middle-left-bottom">
-                          <Link href="#">Security Uplifts</Link>
-                          <Link href="#">Essential Eight</Link>
-                          <Link href="#">Microsoft Cloud + Managed IT</Link>
                         </div>
                       </div>
                     </div>
