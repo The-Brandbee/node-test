@@ -34,7 +34,9 @@ export default function Home() {
           <div className="header-video">
             <video playsInline autoPlay loop muted>
               <source
-                src={"https://thebrandbee.com/CSP-MDR-Banner-Video.mp4"}
+                src={
+                  "https://cdn.shopify.com/videos/c/o/v/05ddb15ceb464f44af3a59e80f28d099.mp4"
+                }
                 type="video/mp4"
               />
             </video>
