@@ -8,7 +8,10 @@ import Response from "../img/responce.png";
 import Hunting from "../img/Threat-Hunting.png";
 import testimonial from "../img/mobo.jpg";
 import Axios from "../img/Axios.jpg";
+import Trinity from "../img/Trinity-main.png";
 import None from "../img/none.png";
+import Agos from "../img/agos.png";
+import Turb from "../img/Turb.png";
 import Image from "next/image";
 import Head from "next/head";
 
@@ -42,45 +45,26 @@ export default class TestimonialSlide extends Component {
         <Carousel
           infinite={true}
           autoPlay={this.props.deviceType !== "mobile" ? true : false}
-          autoPlaySpeed={5000}
+          autoPlaySpeed={500000}
           responsive={this.responsive}
         >
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={testimonial} alt="" />
+                <Image src={Trinity} alt="" />
               </div>
               <div className="testimonial-frame-right">
                 <p>
-                  Choosing to work with Callum and his team at CSP in late 2022
-                  was the single most valuable decision I made for the year.
-                  With the support and guidance of the CSP team, they assisted
-                  Mobo Group in implementing a rapid IT uplift, with the
-                  Essential 8 cybersecurity controls necessary for us to achieve
-                  Right Fit For Risk accreditation to ISO 27001.
-                </p>
-                <div className="sob-test">
-                  <h4>Andrew Ramsey</h4>
-                  <p>CEO Mobo Group</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="testimonial-frame-middle">
-              <div className="testimonial-frame-left">
-                <Image src={None} alt="" />
-              </div>
-              <div className="testimonial-frame-right">
-                <p>
-                  CSP helped guide us through our Essential Eight journey and
-                  significantly increased our overall maturity. Callum and his
-                  team had such a wealth of knowledge with a great ability to
-                  explain the most complex configurations in a simple way. We
-                  feel we are now in a much better position to defend ourselves
-                  than we were before! We look forward to working together in
-                  the future to navigate new Cyber Security challenges.
+                  On engaging with CSP, they listened very closely to our unique
+                  challenges as a college. They firstly helped increase our
+                  Essential Eight maturity, while also bolstering our Microsoft
+                  Cloud ecosystem. The team at CSP have a wealth of knowledge
+                  and were always ready to explain the more complex
+                  configurations in very simple terms so that we can scale our
+                  IT operation. We now feel far more confident in defending
+                  ourselves against threats than we did before. We will continue
+                  to work closely with CSP as we navigate new cyber and IT
+                  challenges.
                 </p>
                 <div className="sob-test">
                   <h4>Andrew Larner</h4>
@@ -89,28 +73,53 @@ export default class TestimonialSlide extends Component {
               </div>
             </div>
           </div>
-
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={None} alt="" />
+                <Image src={Agos} alt="" />
               </div>
               <div className="testimonial-frame-right">
                 <p>
-                  I can't recommend Callum and his team at CSPA highly enough -
-                  the planning and migration process was seamless, nothing is
-                  too much trouble and any issues are dealt with so efficiently.
-                  We all feel confident that our cybersecurity needs are in very
-                  safe hands
+                  It has been a real pleasure to work with CSP over the last
+                  year. We embarked on our journey with CSP with the challenge
+                  of having many disparate cybersecurity solutions in place,
+                  which was both operationally and financially inefficient.
+                  Since setting up Microsoft XDR, we now feel far more secure
+                  knowing all our assets are protected and visible under one
+                  roof. They have helped us improve IT efficiency when it comes
+                  to managing devices and data across the entire group, as well
+                  as adopt a more robust risk management culture.
                 </p>
                 <div className="sob-test">
-                  <h4>Angela Debenham</h4>
-                  <p>Finance and Admin Manager</p>
+                  <h4>IT Manager</h4>
+                  <p>Agostino Group </p>
                 </div>
               </div>
             </div>
           </div>
-
+          <div>
+            <div className="testimonial-frame-middle">
+              <div className="testimonial-frame-left">
+                <Image src={testimonial} alt="" />
+              </div>
+              <div className="testimonial-frame-right">
+                <p>
+                  Choosing to work with CSP in late 2022 was the single most
+                  valuable decision I made for the year. With the support and
+                  guidance of the entire team, they helped Mobo Group in
+                  implementing a rapid IT uplift, with the Essential 8
+                  cybersecurity controls necessary for us to achieve Right Fit
+                  for Risk accreditation to ISO 27001. CSP helped us identify
+                  and prioritize the most important risks we faced NFP with
+                  compliance and regulatory requirements.
+                </p>
+                <div className="sob-test">
+                  <h4>Andrew Ramsey</h4>
+                  <p>CEO Mobo Group</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
@@ -128,6 +137,27 @@ export default class TestimonialSlide extends Component {
                 <div className="sob-test">
                   <h4>Alistair Brierley - CTO</h4>
                   <p>Axiosdev</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="testimonial-frame-middle">
+              <div className="testimonial-frame-left">
+                <Image src={Turb} alt="" />
+              </div>
+              <div className="testimonial-frame-right">
+                <p>
+                  I can't recommend CSP and the team highly enough - the
+                  planning and migration process across from Google to Microsoft
+                  365 was seamless. Nothing is too much trouble for their
+                  support team and any issues are dealt with very efficiently.
+                  We all feel completely confident that our cybersecurity needs
+                  are in very safe hands!
+                </p>
+                <div className="sob-test">
+                  <h4>Angela Debenham</h4>
+                  <p>Finance and Admin Manager</p>
                 </div>
               </div>
             </div>
