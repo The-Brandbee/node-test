@@ -395,12 +395,12 @@ footer{
   display: flex;
   flex-wrap: wrap;
   margin-top: 85px !important;
-  width: 90%; 
+  width: 100%; 
 } 
 .Security-Posture-frame-bottom ul li{
   width: 33%;
-  margin-bottom: 40px;
-  padding-right: 15%;
+  margin-bottom: 30px;
+  padding-right: 2%;
 }
 .Security-Posture-frame-bottom ul li img{
     width: 55px;
@@ -430,7 +430,7 @@ footer{
 .Empowering-right-img{
   position: absolute;
   right: 0px;
-  bottom: -258px;
+  bottom: -390px;
   height: 100%;
   overflow: hidden;
   width: 70%;

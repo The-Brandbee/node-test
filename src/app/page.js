@@ -117,35 +117,64 @@ export default function Home() {
               <ul>
                 <li>
                   <Image src={Securityone} alt="" />
-                  <h4>IT Partner</h4>
-                  <p>Hybrid, Cloud and Modern Workplace Support</p>
+                  <h4>Modern Partner</h4>
+                  <p>
+                    Our range of managed services enable your organisation to
+                    utilise first-class IT and cybersecurity at a fraction of
+                    the cost of running it yourself. We specialize in helping
+                    existing IT departments and IT managers augment IT
+                    operations, with a proven track record (check out our
+                    testimonials!).
+                  </p>
                 </li>
                 <li>
                   <Image src={Securitytwo} alt="" />
                   <h4>Endpoint Protection</h4>
                   <p>
-                    Endpoint Detection & Response (EDR) Microsoft Defender XDR
+                    We are a Microsoft Security Solution Provider. We provide
+                    leading XDR, EDR and Application Control Endpoint
+                    protection.
                   </p>
                 </li>
                 <li>
                   <Image src={Securitythree} alt="" />
-                  <h4>Cloud Mobility</h4>
-                  <p>Mobility Firewall (SGN) Device Management (MDM) & BYOD</p>
+                  <h4>Detection & Response</h4>
+                  <p>
+                    Our 24x7 detection & response service uses advanced AI
+                    algorithms and Threat Intel to create a 360-degree
+                    human-refined cyber service, where we detect, investigate,
+                    and respond to cyber threats.
+                  </p>
                 </li>
                 <li>
                   <Image src={Securityfour} alt="" />
-                  <h4>ES8 Compliance</h4>
-                  <p>Essential Eight alignment Crafted hardening policies</p>
+                  <h4>Compliance</h4>
+                  <p>
+                    Fulfil compliance and regulatory requirements with our
+                    consultancy and implementation services, including ISO
+                    27001, NIST, Essential Eight and much more.
+                  </p>
                 </li>
                 <li>
                   <Image src={Securityfive} alt="" />
-                  <h4>Information Protection</h4>
-                  <p>Encrypt and Protect Sensitive Info Know your Data & DLP</p>
+                  <h4>Proof of Concept (see more with less)</h4>
+                  <p>
+                    We carry out comprehensive Microsoft Sentinel 'Proof of
+                    Concepts', to provide you with full visibility into the
+                    potential Attack Surface Area that your business is
+                    susceptible too. Bolstered with bespoke executive reports to
+                    provide analysis and measurement about your current Cyber
+                    Security posture.
+                  </p>
                 </li>
                 <li>
                   <Image src={Securitysix} alt="" />
-                  <h4>Cloud App Security</h4>
-                  <p>SaaS App Protection Shadow IT Threats</p>
+                  <h4>Professional Services</h4>
+                  <p>
+                    We provide a variety of consultancy services; from help with
+                    uplifts, security posture management, copilot AI adoption,
+                    Microsoft Intune (device management), DLP and much more.
+                  </p>
                 </li>
               </ul>
             </div>
