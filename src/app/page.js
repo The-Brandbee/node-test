@@ -69,6 +69,15 @@ export default function Home() {
             </div>
           </div>
         </header>
+        <section className="testimonial-frame desktop">
+          <div className="container">
+            <div className="testimonial-frame-heading-main n">
+              <p className="Testimonials-sub-m">Testimonials</p>
+              <h3>Client Experiences that Define Our Tech Legacy</h3>
+            </div>
+            <TestimonialSlide />
+          </div>
+        </section>
 
         <section className="Empowering-Organizations-top-h">
           <div className="container">
@@ -180,55 +189,36 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="Ignite-Cybersecurity-frame Eight-Framework">
-          <div className="Ignite-Cybersecurity-frame-img">
-            <Image src={Advocate} alt="" className="desktop" />
-            <Image src={AdvocateMobile} alt="" className="mobile" />
-          </div>
+        <section className="Managed-Detection-frame">
           <div className="container">
-            <div className="Ignite-Cybersecurity-frame-cont">
+            <div className="Managed-Detection-frame-top-heading">
               <h3 className="ho-heading">
-                Strengthening{" "}
-                <span className="br">Cybersecurity with the </span>
-                <span className="br">Essential Eight Framework</span>
+                Transforming Security with Managed Detection
+                <span className="br">& Response (MDR) and Modern SOC</span>
               </h3>
-              <p>
-                At CSP, we advocate the use of the Essential Eight (ES8), a
-                pragmatic
-                <span className="br">
-                  framework for enhancing an organisation's overall security
-                  posture.
-                </span>
-              </p>
-              <ul>
-                <li>
-                  The Essential Eight (ES8) framework is the foundation for
-                  improving security, and CSP takes that one step further by
-                  building a Zero Trust foundation.
-                </li>
-                <li>
-                  CSP provide ES8 assessments along with bespoke reports and
-                  roadmaps, that set you on a path to mitigating increasing
-                  levels of tradecraft (i.e. tools, tactics, techniques and
-                  procedures).
-                </li>
-                <li>
-                  CSP uses the Microsoft 365 cloud as its foundation along with
-                  other strategic vendors for Application Control and App
-                  Patching, and ensures you have everything you need to mature.
-                </li>
-                <li>
-                  CSP takes you on a cybersecurity journey where increasing your
-                  productivity and ROI are the forefront of every compliance
-                  decision we make. Security and productivity are always
-                  considered in tandem.
-                </li>
-              </ul>
-              {/* 
-            <div className="know-more">
-              <Link href="/">Know More</Link>
             </div>
-            */}
+            <div className="Managed-Detection-frame-middle">
+              <div className="Managed-Detection-frame-middle-left">
+                <h5>Managed Detection & Response (MDR):</h5>
+                <p>
+                  Our MDR services continuously monitor your environment, detect
+                  anomalies, and respond swiftly to emerging threats. We ensure
+                  your organization remains resilient through advanced threat
+                  hunting and incident response.
+                </p>
+              </div>
+              <div className="Managed-Detection-frame-middle-left">
+                <h5>Modern SOC (Security Operations Center):</h5>
+                <p>
+                  Our Modern SOC, equipped with cutting-edge technology and
+                  expert analysts, proactively defends your digital assets.
+                  Together, MDR and Modern SOC form an impenetrable barrier
+                  against the evolving threat landscape.
+                </p>
+              </div>
+            </div>
+            <div className="know-more">
+              <Link href="/mdr">LEARN MORE</Link>
             </div>
           </div>
         </section>
@@ -282,39 +272,59 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="Managed-Detection-frame">
-          <div className="container">
-            <div className="Managed-Detection-frame-top-heading">
-              <h3 className="ho-heading">
-                Transforming Security with Managed Detection
-                <span className="br">& Response (MDR) and Modern SOC</span>
-              </h3>
-            </div>
-            <div className="Managed-Detection-frame-middle">
-              <div className="Managed-Detection-frame-middle-left">
-                <h5>Managed Detection & Response (MDR):</h5>
-                <p>
-                  Our MDR services continuously monitor your environment, detect
-                  anomalies, and respond swiftly to emerging threats. We ensure
-                  your organization remains resilient through advanced threat
-                  hunting and incident response.
-                </p>
-              </div>
-              <div className="Managed-Detection-frame-middle-left">
-                <h5>Modern SOC (Security Operations Center):</h5>
-                <p>
-                  Our Modern SOC, equipped with cutting-edge technology and
-                  expert analysts, proactively defends your digital assets.
-                  Together, MDR and Modern SOC form an impenetrable barrier
-                  against the evolving threat landscape.
-                </p>
-              </div>
-            </div>
-            <div className="know-more">
-              <Link href="/mdr">LEARN MORE</Link>
-            </div>
+        {/*  <section className="Ignite-Cybersecurity-frame Eight-Framework">
+          <div className="Ignite-Cybersecurity-frame-img">
+            <Image src={Advocate} alt="" className="desktop" />
+            <Image src={AdvocateMobile} alt="" className="mobile" />
           </div>
-        </section>
+          <div className="container">
+            <div className="Ignite-Cybersecurity-frame-cont">
+              <h3 className="ho-heading">
+                Strengthening{" "}
+                <span className="br">Cybersecurity with the </span>
+                <span className="br">Essential Eight Framework</span>
+              </h3>
+              <p>
+                At CSP, we advocate the use of the Essential Eight (ES8), a
+                pragmatic
+                <span className="br">
+                  framework for enhancing an organisation's overall security
+                  posture.
+                </span>
+              </p>
+              <ul>
+                <li>
+                  The Essential Eight (ES8) framework is the foundation for
+                  improving security, and CSP takes that one step further by
+                  building a Zero Trust foundation.
+                </li>
+                <li>
+                  CSP provide ES8 assessments along with bespoke reports and
+                  roadmaps, that set you on a path to mitigating increasing
+                  levels of tradecraft (i.e. tools, tactics, techniques and
+                  procedures).
+                </li>
+                <li>
+                  CSP uses the Microsoft 365 cloud as its foundation along with
+                  other strategic vendors for Application Control and App
+                  Patching, and ensures you have everything you need to mature.
+                </li>
+                <li>
+                  CSP takes you on a cybersecurity journey where increasing your
+                  productivity and ROI are the forefront of every compliance
+                  decision we make. Security and productivity are always
+                  considered in tandem.
+                </li>
+              </ul>*/}
+        {/* 
+            <div className="know-more">
+              <Link href="/">Know More</Link>
+            </div>
+            */}
+        {/*  </div>
+          </div>
+        </section>*/}
+
         <section className="Ignite-Cybersecurity-frame">
           <div className="Ignite-Cybersecurity-frame-img">
             <Image src={Cybersecurity} alt="" className="desktop" />
@@ -339,15 +349,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="testimonial-frame desktop">
-          <div className="container">
-            <div className="testimonial-frame-heading-main n">
-              <p className="Testimonials-sub-m">Testimonials</p>
-              <h3>Client Experiences that Define Our Tech Legacy</h3>
-            </div>
-            <TestimonialSlide />
-          </div>
-        </section>
         <Footer />
       </main>
     </>

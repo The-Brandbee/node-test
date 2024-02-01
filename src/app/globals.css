@@ -430,13 +430,13 @@ footer{
 .Empowering-right-img{
   position: absolute;
   right: 0px;
-  bottom: -390px;
+  bottom: -320px;
   height: 100%;
   overflow: hidden;
   width: 70%;
 }
-.Empowering-right-img img{
-  width: 80%;
+.Empowering-right-img img{ 
+  width: 85%;
   float: right;
 }
 .header-video video{
@@ -929,17 +929,18 @@ footer{
   right: 0px;
   bottom: 0px;
 }
-.Testimonials-sub-m{
+.Testimonials-sub-m{ 
   font-size: 16px;
-  color: #121212;
-  line-height: 1.3;
-  padding: 7px 15px 7px;
-  font-weight: 400;
-  border-radius: 25px;
-  border: 1px solid #6b6b6b;
-  display: inline-block;
-  margin-bottom: 17px;
-  font-family: Poppins-Bold !important;
+    color: #fff;
+    line-height: 1.3;
+    padding: 7px 15px 7px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid #fff; 
+    display: inline-block;
+    margin-bottom: 17px;
+    font-family: Poppins-Bold !important;
+    background: #eb5e26;
 }
 .testimonial-frame-heading-main.n{
  text-align: center;
