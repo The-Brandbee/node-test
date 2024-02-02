@@ -171,14 +171,46 @@ footer{
   padding: 70px 0px;
 }
 .testimonial-frame-middle{
-  display: flex;  
-  align-items: center;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: 0 auto;
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 8px 24px hsla(210,8%,62%,.2);
+    padding: 5%;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+.testimonial-frame-left img {
+  filter: grayscale(100%);
+}
+.react-multi-carousel-item.react-multi-carousel-item--active ~ .react-multi-carousel-item.react-multi-carousel-item--active .testimonial-frame-middle{ 
+  border: 1.5px solid #eb5e26;
+  transition: transform .2s; 
+  transform: scale(1.1);
+}
+.react-multi-carousel-item.react-multi-carousel-item--active ~ .react-multi-carousel-item.react-multi-carousel-item--active .testimonial-frame-middle .testimonial-frame-left img { 
+  filter: inherit;
+}
+.react-multi-carousel-item.react-multi-carousel-item--active ~ .react-multi-carousel-item.react-multi-carousel-item--active ~  .react-multi-carousel-item.react-multi-carousel-item--active .testimonial-frame-middle{ 
+  border: 0px solid #eb5e26;
+  transform: scale(1);
+}
+.react-multi-carousel-item.react-multi-carousel-item--active ~ .react-multi-carousel-item.react-multi-carousel-item--active ~  .react-multi-carousel-item.react-multi-carousel-item--active .testimonial-frame-middle .testimonial-frame-left img{ 
+  filter: grayscale(100%);
+}
+
+
 .testimonial-frame-left{
-  width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-frame-left-right img{
+  width: 90px !important;
+      align-items: center;
 }
 .testimonial-frame-left img{
  width: 100px;
@@ -946,7 +978,17 @@ footer{
  text-align: center;
 }
 .sob-test{ 
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+}
+.rain-main-images{
+  position: absolute;
+  height: 88%;
+  width: 100%;
+  left: 1%;
+  top: 4%; 
+}
+.rain-main-images-main{
+  position: relative;
 }
 .cder-ca-slider .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
   background: #eb5e26;
@@ -1600,6 +1642,12 @@ margin-right: 90px;
 }
 .blog-detail .presscoverage-main-frame-middle-left {
   width: 100%;
+}
+.eJaloq{
+  background:#eb5e2633  !important;
+}
+.hBjsWU{
+  border-top: 2px dotted #eb5e2633 !important;
 }
 /* blog page end */
 

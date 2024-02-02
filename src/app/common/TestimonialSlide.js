@@ -9,6 +9,8 @@ import Hunting from "../img/Threat-Hunting.png";
 import testimonial from "../img/mobo.jpg";
 import Axios from "../img/Axios.jpg";
 import Trinity from "../img/Trinity-main.png";
+import Ticon from "../img/trst-icon.png";
+
 import None from "../img/none.png";
 import Agos from "../img/agos.png";
 import Turb from "../img/Turb.png";
@@ -51,7 +53,12 @@ export default class TestimonialSlide extends Component {
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={Trinity} alt="" />
+                <div className="testimonial-frame-left">
+                  <Image src={Trinity} alt="" />
+                </div>
+                <div className="testimonial-frame-left-right">
+                  <Image src={Ticon} alt="" />
+                </div>
               </div>
               <div className="testimonial-frame-right">
                 <p>
@@ -76,8 +83,14 @@ export default class TestimonialSlide extends Component {
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={Agos} alt="" />
+                <div className="testimonial-frame-left">
+                  <Image src={Agos} alt="" />
+                </div>
+                <div className="testimonial-frame-left-right">
+                  <Image src={Ticon} alt="" />
+                </div>
               </div>
+
               <div className="testimonial-frame-right">
                 <p>
                   It has been a real pleasure to work with CSP over the last
@@ -100,7 +113,12 @@ export default class TestimonialSlide extends Component {
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={testimonial} alt="" />
+                <div className="testimonial-frame-left">
+                  <Image src={testimonial} alt="" />
+                </div>
+                <div className="testimonial-frame-left-right">
+                  <Image src={Ticon} alt="" />
+                </div>
               </div>
               <div className="testimonial-frame-right">
                 <p>
@@ -123,7 +141,12 @@ export default class TestimonialSlide extends Component {
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={Axios} alt="" />
+                <div className="testimonial-frame-left">
+                  <Image src={Axios} alt="" />
+                </div>
+                <div className="testimonial-frame-left-right">
+                  <Image src={Ticon} alt="" />
+                </div>
               </div>
               <div className="testimonial-frame-right">
                 <p>
@@ -145,7 +168,12 @@ export default class TestimonialSlide extends Component {
           <div>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
-                <Image src={Turb} alt="" />
+                <div className="testimonial-frame-left">
+                  <Image src={Turb} alt="" />
+                </div>
+                <div className="testimonial-frame-left-right">
+                  <Image src={Ticon} alt="" />
+                </div>
               </div>
               <div className="testimonial-frame-right">
                 <p>

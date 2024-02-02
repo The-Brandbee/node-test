@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
+import { Rain } from "react-rainfall";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../app/common/Header.js";
@@ -69,13 +70,19 @@ export default function Home() {
             </div>
           </div>
         </header>
+
         <section className="testimonial-frame desktop">
           <div className="container">
             <div className="testimonial-frame-heading-main n">
               <p className="Testimonials-sub-m">Testimonials</p>
               <h3>Client Experiences that Define Our Tech Legacy</h3>
             </div>
-            <TestimonialSlide />
+            <div className="rain-main-images-main">
+              <div className="rain-main-images">
+                <Rain />
+              </div>
+              <TestimonialSlide />
+            </div>
           </div>
         </section>
 
