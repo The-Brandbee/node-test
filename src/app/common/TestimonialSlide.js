@@ -127,16 +127,17 @@ export default class TestimonialSlide extends Component {
               </div>
               <div className="testimonial-frame-right">
                 <p>
-                  CSP were able to help us apply industry-standard hardening
-                  best practices to our Office 365 instance, our internal
-                  network and all of our devices and servers. They were also
-                  able to assist in organising our licenses to make sure we are
-                  getting the best value for money. They are always willing to
-                  help and we will continue to rely on their services.
+                  We have found that when working with suppliers in the past,
+                  the service tends to start out well but drops off over time.
+                  With CSP, we are pleased to say that this has never happened!
+                  The service we received day to day over the last two years has
+                  been great. This is why we've recently re-signed with them as
+                  our 24x7 MDR cybersecurity partner and really feel like we
+                  couldn't be in better hands!
                 </p>
                 <div className="sob-test">
-                  <h4>Alistair Brierley - CTO</h4>
-                  <p>Axiosdev</p>
+                  <h4>Scott Ayton</h4>
+                  <p>Technical Director</p>
                 </div>
               </div>
             </div>
