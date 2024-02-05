@@ -75,7 +75,7 @@ export default function Home() {
           <div className="container">
             <div className="testimonial-frame-heading-main n">
               <p className="Testimonials-sub-m">Testimonials</p>
-              <h3>Client Experiences that Define Our Tech Legacy</h3>
+              <h3>WHAT OUR CUSTOMERS SAY</h3>
             </div>
             <div className="rain-main-images-main">
               <div className="rain-main-images">
