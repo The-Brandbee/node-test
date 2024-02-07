@@ -44,25 +44,32 @@ export default function about() {
         <section className="Empowering-Organizations-top-h">
           <div className="container">
             <div className="Empowering-Organizations-top-h-middle">
+              <h3>Who We Are</h3>
+              <p>
+                CSP's founder and CEO, Callum Golding, is a seasoned IT and
+                cybersecurity professional with over two decades of experience
+                supporting the business community. CSP has achieved renowned
+                success providing tailored and customer centric IT services to
+                partners across many industries. CSP simplifies and empowers
+                companies with cutting edge threat protection and IT services
+                that keep organizations safe, 24x7.
+              </p>
               <h3>
-                Pioneering Progress in IT
-                <span className="br header-about"> Our Founder's Vision</span>
+                <span className="br header-about"> Our Founders Vision </span>
               </h3>
               <p>
-                CSP's journey is rooted in a visionary quest to redefine the IT
-                industry. Founded by Callum Golding, a seasoned IT professional
-                with over two decades of experience, CSP embarked on a mission
-                to empower businesses with cutting-edge technology.
-              </p>
-              <p>
-                Callum's expertise led to a profound transformation, advocating
-                and deploying Microsoft cloud technology, resulting in the
-                evolution of businesses into secure, mobile, and modern
-                workplaces. This success story served as the catalyst for the
-                creation of CSP Global. The founding team, comprising of
-                like-minded cyber and cloud experts, came together to help
-                organizations realize the full potential of Microsoft's cloud
-                ecosystem and ensure paramount security and compliance.
+                With our extensive range of Cyber Security services across the
+                entire spectrum, our primary mission is to deliver a tailored
+                and highly personalized service (a reputation we are proudly
+                known for among our clients 😊). At CSP, we invest time and
+                effort to fully understand each customer's unique requirements
+                and risk profiles. This enables us to craft tailored and robust
+                solutions that are both cost-effective and resilient, allowing
+                clients to concentrate on other important aspects of the
+                business. Our dedicated team of cybersecurity professionals is
+                committed to maximizing the benefits of Microsoft's cloud
+                ecosystem while ensuring world-class security and compliance
+                standards are expertly managed.
               </p>
             </div>
           </div>

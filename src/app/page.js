@@ -89,7 +89,7 @@ export default function Home() {
 
         <section className="Empowering-Organizations-top-h">
           <div className="container">
-            <div className="Empowering-Organizations-top-h-middle">
+            <div className="Empowering-Organizations-top-h-middle new-all">
               <EmpoweringOrganizations />
             </div>
           </div>
