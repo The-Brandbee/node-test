@@ -7,6 +7,7 @@ import Link from "next/link";
 import Header from "../app/common/Header.js";
 import Footer from "../app/common/Footer.js";
 import TestimonialSlide from "../app/common/TestimonialSlide.js";
+import EmpoweringOrganizations from "../app/common/EmpoweringOrganizations.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Cybersecurity from "../app/img/middle-banner2.png";
@@ -89,26 +90,7 @@ export default function Home() {
         <section className="Empowering-Organizations-top-h">
           <div className="container">
             <div className="Empowering-Organizations-top-h-middle">
-              <h3>
-                Empowering Organizations
-                <span className="br"> Through Tailored Cybersecurity </span>
-                <span className="br"> Solutions - Meet CSP, Your </span>
-                <span className="br"> Trusted Partner </span>
-              </h3>
-              <p>
-                CSP Group is the vanguard of hyper-vigilant cybersecurity,
-                leading organizations through the intricacies of the digital
-                age. We empower businesses to streamline IT operations, fortify
-                their digital workforce, and enhance overall efficiency. In a
-                constantly evolving digital landscape, we function as the
-                guiding beacon, enabling our clients to chart a proactive course
-                that eliminates vulnerabilities, optimizes processes, and
-                ensures security is preemptive and seamlessly integrated into
-                their operations.
-              </p>
-              <div className="know-more">
-                <Link href="/about">LEARN MORE</Link>
-              </div>
+              <EmpoweringOrganizations />
             </div>
           </div>
           <div className="Empowering-right-img">

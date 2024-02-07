@@ -320,7 +320,7 @@ export default function about() {
                 security, efficiency, and success.
               </p>
               <p>
-                <Link href="/">Get in Touch</Link>
+                <Link href="/contact">Get in Touch</Link>
               </p>
             </div>
           </div>

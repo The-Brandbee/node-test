@@ -450,19 +450,18 @@ footer{
   overflow: hidden;
 }
 .Empowering-Organizations-top-h-middle h3{
-  font-size: 36px;
+  font-size: 30px;
   color: #000;
   font-weight: bold;
-  text-transform: uppercase;
 }
 .Empowering-Organizations-top-h-middle p{
-  width: 55%;
+  width: 100%;
   margin: 45px 0px;
 }
 .Empowering-right-img{
   position: absolute;
   right: 0px;
-  bottom: -320px;
+  bottom: -150px;
   height: 100%;
   overflow: hidden;
   width: 70%;
@@ -814,10 +813,23 @@ footer{
   font-size: 20px;
 }
 .Empowering-Organizations-top-h-middle{
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  width: 40%;
 }
-
-
+.Next-Gen-middle-frame{
+  margin-bottom: 60px;
+  margin-top: 10%;
+}
+.Empowering-Organizations-top-h-middle .react-multiple-carousel__arrow{
+    min-width: 25px;
+    min-height: 25px;
+}
+.Empowering-Organizations-top-h-middle .react-multiple-carousel__arrow::before {
+  font-size: 13px;
+}
+.Empowering-Organizations-top-h-middle .cder-ca-slide .react-multiple-carousel__arrow--left {
+  right: 65px;
+}
 /* MDR page start */
 .Strengthen-Your-Cyber-Defenses.mdr-page h4{
   text-transform: none; 
@@ -2488,6 +2500,9 @@ p {
     margin-top: 50px;
     text-transform: capitalize;
   }
+  .Empowering-Organizations-top-h-middle {
+    width: 100%;
+}
 } 
 
 
@@ -2495,5 +2510,17 @@ p {
 @media all and (min-width:1630px) and (max-width:2200px){
   .Eliminate-img img{
     width: 55%;
+  }
+  .Empowering-right-img{
+    bottom: -30px;
+  }
+}
+@media all and (min-width:2200px) and (max-width:2700px){
+  
+  .Empowering-right-img{
+    bottom: 0px;
+  }
+  .Empowering-right-img img {
+    width: 75%;
   }
 }

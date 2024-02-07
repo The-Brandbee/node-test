@@ -210,14 +210,14 @@ export default class Contact extends Component {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/*<div className="row">
             <div className="col-md-12">
               <div className="form-group">
                 <input
                   type="text"
                   name="subject"
                   id="subject"
-                  placeholder="Company *"
+                  placeholder="subject *"
                   className="big-input form-control"
                   required=""
                   onChange={this.onChange}
@@ -227,7 +227,7 @@ export default class Contact extends Component {
                 </span>
               </div>
             </div>
-          </div>
+          </div>*/}
           <div className="row">
             <div className="col-md-12">
               <div className="form-group">
