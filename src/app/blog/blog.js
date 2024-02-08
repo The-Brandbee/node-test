@@ -10,6 +10,7 @@ import BlogPost from "../component/BlogPost";
 import RecentPosts from "../component/RecentPosts.js";
 import Script from "next/script";
 import Search from "../img/search.png";
+import BlogmainBanner from "../img/CSP-Blog-Header-Banner.jpg";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function blog() {
@@ -21,14 +22,7 @@ export default function blog() {
         <header>
           <Header />
           <div className="header-video">
-            <video playsInline autoPlay loop muted>
-              <source
-                src={
-                  "https://cdn.shopify.com/videos/c/o/v/05ddb15ceb464f44af3a59e80f28d099.mp4"
-                }
-                type="video/mp4"
-              />
-            </video>
+            <Image src={BlogmainBanner} alt="" />
           </div>
 
           <div className="container Strengthen-cont-main">

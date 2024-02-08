@@ -21,7 +21,7 @@ import Securitysix from "../app/img/it-icon-6.png";
 import EmpoweringRight from "../app/img/Organizations.png";
 import Main from "../app/img/logo.png";
 import Advocate from "../app/img/middle-banner.png";
-import AdvocateMobile from "../app/img/CSP-2-mobile.png";
+import EmpoweringRightMail from "../app/img/CSP-WEBSITE-ILLUSTRATION.jpg";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
 
@@ -87,14 +87,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="Empowering-Organizations-top-h">
-          <div className="container">
-            <div className="Empowering-Organizations-top-h-middle new-all">
-              <EmpoweringOrganizations />
-            </div>
+        <section className="Empowering-Organizations-top-h new-addhome-ne">
+          <div className="Empowering-Organizations-top-h-new-addhome-ne-top">
+            <Image src={EmpoweringRightMail} alt="" />
           </div>
-          <div className="Empowering-right-img">
-            <Image src={EmpoweringRight} alt="" />
+          <div className="Empowering-Organizations-top-h-new-addhome-ne-top-middle-con">
+            <div className="container">
+              <div className="Empowering-Organizations-top-h-middle new-all">
+                <EmpoweringOrganizations />
+              </div>
+            </div>
           </div>
         </section>
         <section className="Security-Posture-frame">

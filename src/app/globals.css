@@ -449,15 +449,32 @@ footer{
   position: relative;  
   overflow: hidden;
 }
+.Empowering-Organizations-top-h.new-addhome-ne{
+position: relative;
+padding: 0px;
+}
+.Empowering-Organizations-top-h.new-addhome-ne img{
+  width: 100%;
+}
 .Empowering-Organizations-top-h-middle h3{
   font-size: 36px;
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
 }
+.header-video img{
+  width: 100%;
+}
 .Empowering-Organizations-top-h-middle p{
   width: 100%;
   margin: 45px 0px;
+}
+.Empowering-Organizations-top-h-new-addhome-ne-top-middle-con{
+  position: absolute;
+  width: 100%;
+  top: 40%; 
+  left: 0%;
+ 
 }
 .Empowering-right-img{
   position: absolute;
@@ -1664,7 +1681,42 @@ margin-right: 90px;
 }
 /* blog page end */
 
+.Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Next-Gen-middle-frame {
+  margin-bottom: 0px;
+  margin-top: 0%;
+}
+.Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle.new-all {
+  margin-bottom: 0px;
+  width: 45%; 
+}
+.Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle h3{
+  color: #fff;
+}
+.Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+}
 @media all and (min-width:120px) and (max-width:670px){
+  .Empowering-Organizations-top-h-new-addhome-ne-top-middle-con{
+    background: url(../app/img/CSP-WEBSITE-ILLUSTRATION.jpg);
+    position: relative;
+    top: 0px;
+    position: relative;
+    top: 0px;
+    padding: 70px 0px;
+    background-size: cover;
+  }
+  .Empowering-Organizations-top-h-new-addhome-ne-top{
+    display: none;
+  }
+  .Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle.new-all {
+    margin-bottom: 0px;
+    width: 100%;
+}
+.Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle p br{
+display: none;
+}
   .contact-us-middle-main-m {
     display: inline-block;
     width: 100%;

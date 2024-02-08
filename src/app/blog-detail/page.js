@@ -12,6 +12,7 @@ import RecentPosts from "../component/RecentPosts.js";
 import Header from "../common/Header.js";
 import Footer from "../common/Footer.js";
 import { GoogleTagManager } from "@next/third-parties/google";
+import BlogmainBanner from "../img/CSP-Blog-Header-Banner.jpg";
 
 class BlogDetail extends React.Component {
   componentDidMount() {
@@ -34,7 +35,7 @@ class BlogDetail extends React.Component {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const blogId = urlParams.get("blogid");
-    fetch(`https://delos.athenaeducation.co.in/api/blogs/${blogId}`)
+    fetch(`http://13.200.84.179:7036/api/blogs/${blogId}`)
       .then((res) => res.json())
       .then((json) => {
         this.setState({
@@ -59,14 +60,7 @@ class BlogDetail extends React.Component {
           <header>
             <Header />
             <div className="header-video">
-              <video playsInline autoPlay loop muted>
-                <source
-                  src={
-                    "https://cdn.shopify.com/videos/c/o/v/05ddb15ceb464f44af3a59e80f28d099.mp4"
-                  }
-                  type="video/mp4"
-                />
-              </video>
+              <Image src={BlogmainBanner} alt="" />
             </div>
           </header>
           <div className="pmp-profile-page">

@@ -59,9 +59,8 @@ export default class TestimonialSlide extends Component {
           <div className="Next-Gen-middle-frame">
             <h3>Beyond Technology</h3>
             <p>
-              Executive cyber reports that make sense. Analysts can verify
-              <br /> risk activity directly via Microsoft Teams with CSP "engage
-              cards".
+              Executive cyber reports that make sense. Analysts can verify risk
+              activity directly via Microsoft Teams with CSP "engage cards".
             </p>
             <div className="know-more">
               <Link href="/about">LEARN MORE</Link>
