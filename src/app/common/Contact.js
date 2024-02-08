@@ -210,7 +210,7 @@ export default class Contact extends Component {
               </div>
             </div>
           </div>
-          {/*<div className="row">
+          <div className="row">
             <div className="col-md-12">
               <div className="form-group">
                 <input
@@ -227,7 +227,7 @@ export default class Contact extends Component {
                 </span>
               </div>
             </div>
-          </div>*/}
+          </div>
           <div className="row">
             <div className="col-md-12">
               <div className="form-group">
