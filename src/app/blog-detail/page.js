@@ -95,7 +95,7 @@ class BlogDetail extends React.Component {
                   </div>
                   <div className="col-md-4">
                     <div className="search-box-blog-right-main">
-                      <div className="search-box-blog">
+                      <div className="search-box-blog none">
                         <form action="#">
                           <input
                             type="text"
