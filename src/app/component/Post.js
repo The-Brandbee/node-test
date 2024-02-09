@@ -40,9 +40,7 @@ const Posts = ({ posts, loading }) => {
               </div>
             </div>
             <div className="presscoverage-main-frame-middle-right">
-              <img
-                src={"https://delos.athenaeducation.co.in/" + post.detailimage}
-              />
+              <img src={"https://cms.csplighthouse.com/" + post.detailimage} />
             </div>
           </div>
         </div>

@@ -41,7 +41,7 @@ export default function about() {
             <h3>About Us</h3>
           </div>
         </header>
-        <section className="Empowering-Organizations-top-h">
+        <section className="Empowering-Organizations-top-h none">
           <div className="container">
             <div className="Empowering-Organizations-top-h-middle">
               <h3>Who We Are</h3>
@@ -77,39 +77,45 @@ export default function about() {
             <Image src={EmpoweringRight} alt="" />
           </div>
         </section>
-        <section className="Unlocking-the-Full-Potential">
+        <section className="Unlocking-the-Full-Potential new-add">
           <div className="container">
             <div className="Unlocking-the-Full-Potential-middle">
               <div className="Unlocking-the-Full-Potential-middle-left">
                 <Image src={visionOne} alt="" />
-                <h3>Vision for a Modern Tomorrow</h3>
-                <h5>Unlocking the Full Potential of Cloud Technology</h5>
+                <h3>Who We Are</h3>
                 <p>
-                  We envision a world where organisations feel empowered by the
-                  Modern Workplace, and where individuals can confidently and
-                  securely navigate the evolving landscape. Our vision is to be
-                  an esteemed cybersecurity partner and redeﬁne how businesses
-                  thrive in the digital age.
+                  CSP's founder and CEO, Callum Golding, is a seasoned IT and
+                  cybersecurity professional with over two decades of experience
+                  supporting the business community. CSP has achieved renowned
+                  success providing tailored and customer centric IT services to
+                  partners across many industries. CSP simplifies and empowers
+                  companies with cutting edge threat protection and IT services
+                  that keep organizations safe, 24x7.
                 </p>
               </div>
               <div className="Unlocking-the-Full-Potential-middle-left">
                 <Image src={visionTwo} alt="" />
-                <h3>Our Ongoing Mission</h3>
-                <h5>Safeguarding Your Data - Today and Tomorrow</h5>
+                <h3>Our Founders Vision</h3>
+
                 <p>
-                  Our mission is to lead organizations into the digital age with
-                  proactive and robust cybersecurity solutions. We are committed
-                  to simplifying IT management, preemptively securing digital
-                  workforces, and optimizing operational efficiency. By
-                  empowering our clients with unwavering foresight, we ensure
-                  they stay ahead of emerging threats and conﬁdently seize every
-                  opportunity.
+                  With our extensive range of Cyber Security services across the
+                  entire spectrum, our primary mission is to deliver a tailored
+                  and highly personalized service (a reputation we are proudly
+                  known for among our clients 😊). At CSP, we invest time and
+                  effort to fully understand each customer's unique requirements
+                  and risk profiles. This enables us to craft tailored and
+                  robust solutions that are both cost-effective and resilient,
+                  allowing clients to concentrate on other important aspects of
+                  the business. Our dedicated team of cybersecurity
+                  professionals is committed to maximizing the benefits of
+                  Microsoft's cloud ecosystem while ensuring world-class
+                  security and compliance standards are expertly managed.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="Callum_Golding_frame_about">
+        <section className="Callum_Golding_frame_about none">
           <div className="container">
             <div className="Callum_Golding_frame_about-middle">
               <div className="Callum_Golding_frame_about-middle-left">

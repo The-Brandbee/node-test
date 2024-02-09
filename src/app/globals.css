@@ -126,6 +126,12 @@ footer{
   background: transparent;
   color: #fff;
 }
+.Unlocking-the-Full-Potential.new-add{
+ background: #fff;
+}
+.none{
+  display: none;
+}
 .footer-right-img{
   position: absolute;
   right: 0px;
