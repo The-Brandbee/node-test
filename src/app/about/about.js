@@ -60,8 +60,8 @@ export default function about() {
               <p>
                 With our extensive range of Cyber Security services across the
                 entire spectrum, our primary mission is to deliver a tailored
-                and highly personalized service a reputation we are proudly
-                known for among our clients. At CSP, we invest time and effort
+                and highly personalized service (a reputation we are proudly
+                known for among our clients!). At CSP, we invest time and effort
                 to fully understand each customer's unique requirements and risk
                 profiles. This enables us to craft tailored and robust solutions
                 that are both cost-effective and resilient, allowing clients to
@@ -100,16 +100,16 @@ export default function about() {
                 <p>
                   With our extensive range of Cyber Security services across the
                   entire spectrum, our primary mission is to deliver a tailored
-                  and highly personalized service a reputation we are proudly
-                  known for among our clients. At CSP, we invest time and effort
-                  to fully understand each customer's unique requirements and
-                  risk profiles. This enables us to craft tailored and robust
-                  solutions that are both cost-effective and resilient, allowing
-                  clients to concentrate on other important aspects of the
-                  business. Our dedicated team of cybersecurity professionals is
-                  committed to maximizing the benefits of Microsoft's cloud
-                  ecosystem while ensuring world-class security and compliance
-                  standards are expertly managed.
+                  and highly personalized service (a reputation we are proudly
+                  known for among our clients!). At CSP, we invest time and
+                  effort to fully understand each customer's unique requirements
+                  and risk profiles. This enables us to craft tailored and
+                  robust solutions that are both cost-effective and resilient,
+                  allowing clients to concentrate on other important aspects of
+                  the business. Our dedicated team of cybersecurity
+                  professionals is committed to maximizing the benefits of
+                  Microsoft's cloud ecosystem while ensuring world-class
+                  security and compliance standards are expertly managed.
                 </p>
               </div>
             </div>

@@ -63,7 +63,7 @@ function IndexPage() {
                 <li>
                   <Link href="/#Testimonialsall">Success Stories</Link>
                 </li>
-                <li>
+                <li className="none">
                   <Link href="/blog">Blog</Link>
                 </li>
               </ul>
