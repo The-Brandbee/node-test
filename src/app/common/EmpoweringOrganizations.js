@@ -43,7 +43,7 @@ export default class TestimonialSlide extends Component {
               <br /> Microsoft Experts. Tailored for you!
             </p>
             <div className="know-more">
-              <Link href="/about">LEARN MORE</Link>
+              <Link href="/mdr">LEARN MORE</Link>
             </div>
           </div>
           <div className="Next-Gen-middle-frame">
@@ -72,7 +72,7 @@ export default class TestimonialSlide extends Component {
               Finger on the pulse. Threat intelligence <br /> designed for you!
             </p>
             <div className="know-more">
-              <Link href="/about">LEARN MORE</Link>
+              <Link href="/modern-soc">LEARN MORE</Link>
             </div>
           </div>
         </Carousel>

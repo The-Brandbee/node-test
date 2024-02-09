@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </header>
 
-        <section className="testimonial-frame desktop">
+        <section className="testimonial-frame desktop" id="Testimonialsall">
           <div className="container">
             <div className="testimonial-frame-heading-main n">
               <p className="Testimonials-sub-m">Testimonials</p>

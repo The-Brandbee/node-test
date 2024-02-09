@@ -30,7 +30,7 @@ export default function blog() {
               <h4>
                 <span>Blog</span>
               </h4>
-              <p>Proactive Cybersecurity Explained</p>
+              <p></p>
             </div>
           </div>
         </header>

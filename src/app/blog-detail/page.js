@@ -35,7 +35,7 @@ class BlogDetail extends React.Component {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const blogId = urlParams.get("blogid");
-    fetch(`http://13.200.84.179:7036/api/blogs/${blogId}`)
+    fetch(`https://cms.csplighthouse.com/api/blogs/${blogId}`)
       .then((res) => res.json())
       .then((json) => {
         this.setState({

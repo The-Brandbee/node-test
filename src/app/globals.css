@@ -120,9 +120,10 @@ footer{
   border-radius: 30px;
   display: inline-block;
   margin-top: 10px;
+  background: #eb5e26;
 }
 .header-menubar-right a:hover{
-  background: #eb5e26;
+  background: transparent;
   color: #fff;
 }
 .footer-right-img{
@@ -1694,8 +1695,8 @@ margin-right: 90px;
 }
 .Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle p{
   color: #fff;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 34px;
 }
 @media all and (min-width:120px) and (max-width:670px){
   .Empowering-Organizations-top-h-new-addhome-ne-top-middle-con{

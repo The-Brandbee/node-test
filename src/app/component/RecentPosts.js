@@ -10,7 +10,7 @@ const RecentPosts = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);
-      const res = await axios.get("http://13.200.84.179:7036/api/blogs/");
+      const res = await axios.get("https://cms.csplighthouse.com/api/blogs/");
       setPosts(res.data);
       setLoading(false);
     };
