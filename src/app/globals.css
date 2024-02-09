@@ -1705,6 +1705,52 @@ margin-right: 90px;
   line-height: 34px;
 }
 @media all and (min-width:120px) and (max-width:670px){
+  .presscoverage-main-frame-middle-left {
+    margin-right: 0px;
+    width: 100%;
+}
+.presscoverage-main-frame-middle-left-heading-middle p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.presscoverage-main-frame-middle-right {
+  width: 100%;
+  margin-top: 20px;
+}
+.presscoverage-main-frame-middle-left-heading h2 {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 0;
+}
+.presscoverage-main-frame-middle-left-heading-middle h5 {
+  font-size: 14px;
+  margin-top: 18px;
+}
+  .presscoverage-main-frame-middle {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.presscoverage-main-frame {
+  padding: 30px 0px;
+}
+.footer-top-map-img-button-link{
+  font-size: 14px;
+}
+.blog-detail .presscoverage-main-frame-middle-right {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.blog-list-frame-right ul li{
+  font-size: 14px;
+}
+.presscoverage-main-frame .container.mt-5{
+  margin-top: 20px!important;
+}
+.search-box-blog-right-main {
+  padding-left: 0px;
+  padding: 0px 20px;
+}
   .Empowering-Organizations-top-h-new-addhome-ne-top-middle-con{
     background: url(../app/img/CSP-WEBSITE-ILLUSTRATION.jpg);
     position: relative;

@@ -63,6 +63,9 @@ function IndexPage() {
                 <li>
                   <Link href="/#Testimonialsall">Success Stories</Link>
                 </li>
+                <li>
+                  <Link href="/blog">Blog</Link>
+                </li>
               </ul>
             </div>
             <div className="header-menubar-right">
