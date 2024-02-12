@@ -92,6 +92,10 @@ export default function about() {
                   companies with cutting edge threat protection and IT services
                   that keep organizations safe, 24x7.
                 </p>
+
+                <div className="know-more">
+                  <Link href="/contact">BOOK A MEETING</Link>
+                </div>
               </div>
               <div className="Unlocking-the-Full-Potential-middle-left">
                 <Image src={visionTwo} alt="" />
@@ -345,7 +349,7 @@ export default function about() {
               <div className="team-section-middle-inner">
                 <Image src={TeamOne} alt="" />
                 <h4>Callum Golding</h4>
-                <h5>Founder & Security Architect</h5>
+                <h5>Founder & CEO</h5>
                 <p>
                   With almost two decades of experience in the IT industry,
                   Callum is the driving force behind CSP over the last 5 years.
@@ -366,7 +370,7 @@ export default function about() {
               <div className="team-section-middle-inner">
                 <Image src={TeamThree} alt="" />
                 <h4>Shivam Malaviya</h4>
-                <h5>CTO and Co-founder of CSP Lighthouse</h5>
+                <h5>CTO & Co-founder</h5>
                 <p>
                   With a decade of expertise in the cybersecurity domain, Shivam
                   brings extensive experience to our team. Formerly at Open
@@ -389,7 +393,7 @@ export default function about() {
               <div className="team-section-middle-inner">
                 <Image src={Tom} alt="" />
                 <h4>Tom Smith</h4>
-                <h5>Global Sales Director</h5>
+                <h5>Director of Sales Operations</h5>
                 <p>
                   Tom Smith is a veteran sales leader in the digital software
                   and consulting ecosystems. With successful tenures leading
