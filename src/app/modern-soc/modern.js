@@ -32,9 +32,8 @@ export default function modernsoc() {
           <div className="Inner-page-banner-frame">
             <Image src={About} alt="" />
           </div>
-
-          <div className="about-bannner-contact Modern-SOC-main">
-            <div className="container">
+          <div className="container">
+            <div className="about-bannner-contact Modern-SOC-main">
               <h3>Modern SOC</h3>
             </div>
           </div>

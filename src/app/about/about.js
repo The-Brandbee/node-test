@@ -37,8 +37,10 @@ export default function about() {
           <div className="Inner-page-banner-frame">
             <Image src={About} alt="" />
           </div>
-          <div className="about-bannner-contact">
-            <h3>About Us</h3>
+          <div className="container">
+            <div className="about-bannner-contact new-new">
+              <h3>About Us</h3>
+            </div>
           </div>
         </header>
         <section className="Empowering-Organizations-top-h none">
@@ -92,6 +94,7 @@ export default function about() {
                   companies with cutting edge threat protection and IT services
                   that keep organizations safe, 24x7.
                 </p>
+                <br />
 
                 <div className="know-more">
                   <Link href="/contact">BOOK A MEETING</Link>
@@ -271,29 +274,6 @@ export default function about() {
                 <h4>Simplify IT Management</h4>
                 <ul>
                   <li>
-                    Flexible Work Environment: Enable secure remote work from
-                    anywhere, providing employees with flexibility.
-                  </li>
-                  <li>
-                    Robust Data Protection: Reduce the risk of data breaches
-                    while safeguarding identities, devices, apps, and data.
-                  </li>
-                  <li>
-                    Integrated Security: Decrease security costs with
-                    pre-integrated identity, endpoint management, and security
-                    solutions, advancing a zero-trust architecture.
-                  </li>
-                  <li>
-                    Enhanced Security: Implement a zero-trust security model,
-                    reducing data breach risk by up to 50% and streamlining IAM
-                    security management by as much as 50%.
-                  </li>
-                </ul>
-              </div>
-              <div className="Unique-Approach-Simple-middle-left">
-                <h4>Protect digital worker</h4>
-                <ul>
-                  <li>
                     Automated Updates: Automate system updates, significantly
                     cutting device management expenses while optimizing IT
                     administration.
@@ -310,6 +290,29 @@ export default function about() {
                     Time and Cost Savings: Automate system updates and reduce IT
                     management costs by up to 40%, along with cutting device
                     management time by as much as 25%.
+                  </li>
+                </ul>
+              </div>
+              <div className="Unique-Approach-Simple-middle-left">
+                <h4>Protect digital worker</h4>
+                <ul>
+                  <li>
+                    Flexible Work Environment: Enable secure remote work from
+                    anywhere, providing employees with flexibility.
+                  </li>
+                  <li>
+                    Robust Data Protection: Reduce the risk of data breaches
+                    while safeguarding identities, devices, apps, and data.
+                  </li>
+                  <li>
+                    Integrated Security: Decrease security costs with
+                    pre-integrated identity, endpoint management, and security
+                    solutions, advancing a zero-trust architecture.
+                  </li>
+                  <li>
+                    Enhanced Security: Implement a zero-trust security model,
+                    reducing data breach risk by up to 50% and streamlining IAM
+                    security management by as much as 50%.
                   </li>
                 </ul>
               </div>

@@ -46,12 +46,7 @@ class BlogDetail extends React.Component {
   }
   render() {
     const { DataisLoaded, item } = this.state;
-    if (!DataisLoaded)
-      return (
-        <div>
-          <h1> Plese wait some time.... </h1>{" "}
-        </div>
-      );
+    if (!DataisLoaded) return <div></div>;
     return (
       <>
         <Head></Head>

@@ -823,8 +823,14 @@ padding: 0px;
     left: 15%;
     transform: translate(-50%, -50%);
 }
+.about-bannner-contact.new-new{
+  transform: initial;
+  left: auto;
+}
+
 .about-bannner-contact.Modern-SOC-main{
-  left: 22%;
+  left: auto;
+  transform: initial;
 }
 .about-bannner-contact h3{
   font-size: 36px;

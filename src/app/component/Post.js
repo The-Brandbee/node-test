@@ -31,8 +31,7 @@ const Posts = ({ posts, loading }) => {
                     className="footer-top-map-img-button-link"
                     href={`/blog-detail?blogid=${post._id}`}
                   >
-                    {" "}
-                    Read more{" "}
+                    Read more
                     <span>
                       <Image src={ArrowOne} className="normal" alt="" />
                       <Image src={Arrowtwo} className="normal-ho" alt="" />
