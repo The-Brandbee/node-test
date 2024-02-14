@@ -38,7 +38,6 @@ export default function Home() {
           />
           <meta name="robots" content="index, follow" />
           <meta name="description" content="=" />
-          <title></title>
         </Head>
 
         <header>

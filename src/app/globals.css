@@ -827,6 +827,10 @@ padding: 0px;
   transform: initial;
   left: auto;
 }
+.blog-middle-mm img{
+    width: 100% !important;
+    height: auto !important;
+}
 
 .about-bannner-contact.Modern-SOC-main{
   left: auto;

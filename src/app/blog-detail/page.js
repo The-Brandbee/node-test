@@ -58,7 +58,7 @@ class BlogDetail extends React.Component {
               <Image src={BlogmainBanner} alt="" />
             </div>
           </header>
-          <div className="pmp-profile-page">
+          <div className="pmp-profile-page blog-main-middle-detail">
             <section className="presscoverage-main-frame">
               <div className="container">
                 <div className="row">
@@ -79,6 +79,7 @@ class BlogDetail extends React.Component {
                               <Image src={Cal} alt="" /> {item.date}
                             </h5>
                             <div
+                              className="blog-middle-mm"
                               dangerouslySetInnerHTML={{
                                 __html: item.main_desc,
                               }}

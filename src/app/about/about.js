@@ -97,7 +97,9 @@ export default function about() {
                 <br />
 
                 <div className="know-more">
-                  <Link href="/contact">BOOK A MEETING</Link>
+                  <a href="https://csp.expert/book" target="_blank">
+                    BOOK A MEETING
+                  </a>
                 </div>
               </div>
               <div className="Unlocking-the-Full-Potential-middle-left">

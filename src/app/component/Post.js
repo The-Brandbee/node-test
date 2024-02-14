@@ -14,7 +14,7 @@ const Posts = ({ posts, loading }) => {
       {posts
         .map((post) => (
           <div key={post.id}>
-            <div className="presscoverage-main-frame-middle">
+            <div className="presscoverage-main-frame-middle blog-main-middle">
               <div className="presscoverage-main-frame-middle-left">
                 <div className="presscoverage-main-frame-middle-left-heading">
                   <h3 className="none">Category</h3>
