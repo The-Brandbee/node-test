@@ -16,7 +16,7 @@ const YourComponent = () => {
         className={isClassAdded ? "your-added-class" : ""}
       >
         <iframe
-          src="https://www.youtube.com/embed/7gu3NFhdkYk"
+          src="https://www.youtube.com/embed/7gu3NFhdkYk?autoplay=1&mute=1"
           frameborder="0"
           allowfullscreen
         ></iframe>
