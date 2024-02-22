@@ -37,6 +37,64 @@ header{
 .further-down-section-middle img{
   width: 100%;
 }
+.about-bannner-contact-video-frame{
+  position: absolute;
+    width: 100%;
+    top: 22%;
+    display: flex;
+    left: 0px;
+    height: 100%;
+}
+#about-video-frame{
+  display: none;
+}
+#about-video-frame ~ button{
+  position: absolute;
+    left: 5%;
+    top: -20%;
+}
+.know-more.BOOK-A-MEETING{
+  margin-bottom: 40px;
+}
+.your-added-class ~ button{
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+}
+.your-added-class ~ button div{
+  display: none !important;
+}
+#about-video-frame ~ button div{
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #eb5e26;
+    width: 200px;
+}
+#about-video-frame ~ button div:hover{
+  border: 1.3px solid #eb5e26;
+  background: transparent;
+}
+.your-added-class{
+  display: block !important;
+}
+.your-added-class ~ button{
+  display: block !important;
+}
+#about-video-frame iframe{
+  width: 100% !important;
+  height: 430px !important;
+}
+.about-bannner-contact-video-frame button{
+  width: 10%;
+  height: 80%;
+  background: transparent;
+  border: 0pc;
+}
+.about-bannner-contact-video-frame #about-video-frame{
+  width: 80%;
+}
 .Strengthen-Your-Cyber-Defenses{
   position: absolute;
   top: 62px;
@@ -2619,6 +2677,16 @@ p {
   .Empowering-Organizations-top-h-middle.new-all {
     width: 100%;
 }
+#about-video-frame ~ button div{
+  width: 160px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+#about-video-frame iframe {
+  width: 100% !important;
+  height: 165px !important;
+  margin-top: 10px;
+}
 } 
 
 
@@ -2630,9 +2698,14 @@ p {
   .Empowering-right-img{
     bottom: -30px;
   }
+  #about-video-frame ~ button {
+    left: 12%;
+}
 }
 @media all and (min-width:2200px) and (max-width:2700px){
-  
+  #about-video-frame ~ button {
+    left: 22%;
+}
   .Empowering-right-img{
     bottom: 0px;
   }

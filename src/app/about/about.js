@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../page.module.css";
 import Link from "next/link";
 import Header from "../common/Header.js";
+import Video from "../common/AboutVideo.js";
 import Footer from "../common/Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "../img/about-banner.webp";
@@ -40,6 +41,9 @@ export default function about() {
           <div className="container">
             <div className="about-bannner-contact new-new">
               <h3>About Us</h3>
+            </div>
+            <div className="about-bannner-contact-video-frame">
+              <Video />
             </div>
           </div>
         </header>
@@ -94,9 +98,8 @@ export default function about() {
                   companies with cutting edge threat protection and IT services
                   that keep organizations safe, 24x7.
                 </p>
-                <br />
 
-                <div className="know-more">
+                <div className="know-more BOOK-A-MEETING">
                   <a href="https://csp.expert/book" target="_blank">
                     BOOK A MEETING
                   </a>
