@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Play from "../img/play-icon.png";
+import Image from "next/image";
 
 const YourComponent = () => {
   const [isClassAdded, setClassAdded] = useState(false);
@@ -24,7 +26,12 @@ const YourComponent = () => {
 
       <button onClick={handleToggleClass}>
         {isClassAdded ? "" : ""}
-        <div>Watch Our Video</div>
+        <div className="Watch-Our-Video">
+          <div className="Watch-Our-Video-left">
+            <Image src={Play} alt="" />
+          </div>
+          <div>Watch Our Video</div>
+        </div>
       </button>
     </>
   );

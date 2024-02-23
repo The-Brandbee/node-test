@@ -53,6 +53,9 @@ header{
     left: 5%;
     top: -20%;
 }
+.Watch-Our-Video{
+  display: flex;
+}
 .know-more.BOOK-A-MEETING{
   margin-bottom: 40px;
 }
@@ -64,17 +67,26 @@ header{
 .your-added-class ~ button div{
   display: none !important;
 }
-#about-video-frame ~ button div{
-    color: #fff;
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: 50px;
-    background: #eb5e26;
-    width: 200px;
+#about-video-frame ~ button .Watch-Our-Video{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Poppins-Bold !important;
+  align-items: center;
+  width: 220px;
+  text-align: left;
+  justify-content: space-evenly;
+}
+#about-video-frame ~ button .Watch-Our-Video img{
+  margin-right: 0px;
+}
+.Watch-Our-Video-left{
+  margin-right: 15px;
+  border: 1.7px solid #eb5e26;
+  padding: 25px 25px;
+  border-radius: 50px; 
 }
 #about-video-frame ~ button div:hover{
-  border: 1.3px solid #eb5e26;
-  background: transparent;
+ 
 }
 .your-added-class{
   display: block !important;
@@ -2677,10 +2689,23 @@ p {
   .Empowering-Organizations-top-h-middle.new-all {
     width: 100%;
 }
-#about-video-frame ~ button div{
-  width: 160px;
-  margin-top: 20px;
+#about-video-frame ~ button div{ 
+  margin-top: 10px;
   font-size: 12px;
+  margin-right: 10px;
+}
+#about-video-frame ~ button .Watch-Our-Video{
+  justify-content: unset;
+}
+#about-video-frame ~ button .Watch-Our-Video img {
+  margin-right: 0px;
+  width: 20px;
+}
+.Watch-Our-Video-left {
+  margin-right: 0px;
+  border: 1.7px solid #eb5e26;
+  padding: 10px 10px;
+  border-radius: 40px;
 }
 #about-video-frame iframe {
   width: 100% !important;
@@ -2690,8 +2715,12 @@ p {
 } 
 
 
-
-@media all and (min-width:1630px) and (max-width:2200px){
+@media all and (min-width:1570px) and (max-width:1620px){
+  #about-video-frame ~ button {
+    left: 9%;
+}
+}
+@media all and (min-width:1630px) and (max-width:1889px){
   .Eliminate-img img{
     width: 55%;
   }
@@ -2701,6 +2730,17 @@ p {
   #about-video-frame ~ button {
     left: 12%;
 }
+}
+@media all and (min-width:1890px) and (max-width:2200px){
+  .Eliminate-img img{
+    width: 55%;
+  }
+  .Empowering-right-img{
+    bottom: -30px;
+  }
+  #about-video-frame ~ button {
+    left: 15%;
+} 
 }
 @media all and (min-width:2200px) and (max-width:2700px){
   #about-video-frame ~ button {
