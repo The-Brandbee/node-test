@@ -2716,11 +2716,33 @@ p {
 
 
 @media all and (min-width:1570px) and (max-width:1620px){
+  .about-bannner-contact.new-new{
+    top: 65%;
+  }
   #about-video-frame ~ button {
     left: 9%;
 }
+.Watch-Our-Video-left{
+  padding: 45px 45px;
+  border-radius: 80px;
+  border: 2px solid #eb5e26;
+}
+#about-video-frame ~ button .Watch-Our-Video{
+  width: 290px;
+}
 }
 @media all and (min-width:1630px) and (max-width:1889px){
+  .about-bannner-contact.new-new{
+    top: 65%;
+  }
+  .Watch-Our-Video-left{
+    padding: 45px 45px;
+    border-radius: 80px;
+    border: 2px solid #eb5e26;
+  }
+  #about-video-frame ~ button .Watch-Our-Video{
+    width: 290px;
+  }
   .Eliminate-img img{
     width: 55%;
   }
@@ -2732,6 +2754,17 @@ p {
 }
 }
 @media all and (min-width:1890px) and (max-width:2200px){
+  .about-bannner-contact.new-new{
+    top: 65%;
+  }
+  .Watch-Our-Video-left{
+    padding: 45px 45px;
+    border-radius: 80px;
+    border: 2px solid #eb5e26;
+  }
+  #about-video-frame ~ button .Watch-Our-Video{
+    width: 290px;
+  }
   .Eliminate-img img{
     width: 55%;
   }
@@ -2743,6 +2776,9 @@ p {
 } 
 }
 @media all and (min-width:2200px) and (max-width:2700px){
+  .about-bannner-contact.new-new{
+    top: 65%;
+  }
   #about-video-frame ~ button {
     left: 22%;
 }
