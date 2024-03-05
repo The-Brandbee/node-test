@@ -1510,6 +1510,7 @@ margin-right: 90px;
 .contact-us-middle-main-m{
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .contact-us-middle-main-m-left{
   width: 35%;
@@ -2711,6 +2712,31 @@ p {
   width: 100% !important;
   height: 165px !important;
   margin-top: 10px;
+}
+.contact-us-middle-main {
+  padding: 25px 0px;
+}
+.about-bannner-contact h3 {
+  font-size: 22px;
+}
+.contact-us-middle-main-m-left{
+  margin-top: 30px;
+}
+.contact-us-middle-main-m-left-con{
+  margin-bottom: 15px;
+}
+.contact-us-middle-main-m-left-con img {
+  width: 35px;
+  height: 35px;
+}
+.contact-us-middle-main-m-left-con p { 
+  margin-left: 10px;
+}
+.contact-us-page-main-from .form-control{
+  font-size: 14px; 
+}
+.contact-us-middle-main-m-right-middle{
+  padding: 20px 20px;   
 }
 } 
 

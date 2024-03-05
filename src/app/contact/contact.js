@@ -34,6 +34,18 @@ export default function contact() {
         <section className="contact-us-middle-main">
           <div className="container">
             <div className="contact-us-middle-main-m">
+              <div className="contact-us-middle-main-m-right">
+                <div className="contact-us-middle-main-m-right-middle">
+                  <p>
+                    You can also fill out the form below to send us a message.
+                    Please provide as much detail as possible about your cyber
+                    security needs and goals. We will review your message and
+                    contact you with the best solution for your situation.
+                  </p>
+
+                  <Contact />
+                </div>
+              </div>
               <div className="contact-us-middle-main-m-left">
                 <div className="contact-us-middle-main-m-left-con">
                   <Image src={Mapnew} alt="" />
@@ -61,18 +73,6 @@ export default function contact() {
                 </div>
                 <div className="mi-image-last-cont">
                   <Image src={Mi} alt="" />
-                </div>
-              </div>
-              <div className="contact-us-middle-main-m-right">
-                <div className="contact-us-middle-main-m-right-middle">
-                  <p>
-                    You can also fill out the form below to send us a message.
-                    Please provide as much detail as possible about your cyber
-                    security needs and goals. We will review your message and
-                    contact you with the best solution for your situation.
-                  </p>
-
-                  <Contact />
                 </div>
               </div>
             </div>

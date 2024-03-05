@@ -8,7 +8,7 @@ export default function InnerBlog() {
   );
 }
 export const metadata = {
-  /*title: "Csp: Blog",
+  /*title: "",
   description: "",*/
   alternates: {
     canonical: "https://csp.global/blog",
