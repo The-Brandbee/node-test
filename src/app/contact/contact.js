@@ -34,6 +34,9 @@ export default function contact() {
         <section className="contact-us-middle-main">
           <div className="container">
             <div className="contact-us-middle-main-m">
+              <div className="mi-image-last-cont mobile-contact">
+                <Image src={Mi} alt="" />
+              </div>
               <div className="contact-us-middle-main-m-right">
                 <div className="contact-us-middle-main-m-right-middle">
                   <p>
@@ -47,8 +50,8 @@ export default function contact() {
                 </div>
               </div>
               <div className="contact-us-middle-main-m-left">
-                <div className="contact-us-middle-main-m-left-con">
-                  <Image src={Mapnew} alt="" />
+                <div className="contact-us-middle-main-m-left-con dektop-contact">
+                  <Image className="dektop-contactimg" src={Mapnew} alt="" />
                   <p>
                     Westpac House, 91 King William Street, Adelaide, Australia
                     (HQ)
@@ -71,7 +74,7 @@ export default function contact() {
                     <a href="mailto:info@csp.global">info@csp.global</a>
                   </p>
                 </div>
-                <div className="mi-image-last-cont">
+                <div className="mi-image-last-cont desktop">
                   <Image src={Mi} alt="" />
                 </div>
               </div>
