@@ -333,7 +333,7 @@ export default function Home() {
                 </span>
               </p>
               <p>
-                <Link href="/">Take Command of Your Security Now!</Link>
+                <Link href="/contact">Take Command of Your Security Now!</Link>
               </p>
             </div>
           </div>
