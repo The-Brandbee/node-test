@@ -1,5 +1,5 @@
 export function serviceContact(type, userData) {
-  let BaseUrl = "https://cdn.thebrandbee.com/api/";
+  let BaseUrl = "https://nustockimages.in/api/";
   //console.log('checker', JSON.stringify(userData));
   return new Promise((resolve, reject) => {
     fetch(BaseUrl + type, {
