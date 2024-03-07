@@ -1832,10 +1832,157 @@ margin-right: 90px;
  display: none;
 }
 .slick-initialized .slick-slide:last-child img{
- z-index: 999999999999999999;
+ z-index: 999999999999999999;  
+}
+
+/* security-uplifts */
+.security-uplifts-page-main .header-video:before{
+  content: "";
+    position: absolute;
+    background: #00000063;
+    height: 99.3%;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.security-uplifts-page-main .container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses{
+  z-index: 9999;
+}
+.security-uplifts-page-main .header-video video{
+  clip-path: inset(1px 1px);
+}
+.security-uplifts-page-main .Strengthen-Your-Cyber-Defenses h4{
+  width: 100%;
+  font-size: 60px;
+}
+.security-uplifts-page-main .Strengthen-Your-Cyber-Defenses p{
+  font-size: 22px;
+}
+.security-uplifts-page-main .container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses{
+  bottom: 10%;
+}
+.security-uplifts-page-main .Strengthen-Your-Cyber-Defenses.mdr-page h4 span strong{
+  color: #fff;
+}
+.security-uplifts-page-main .Detection-Response-page {
+  background: #ea5e26;
+}
+.security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left h4{
+  color: #fff;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left h4 span{
+  color: #ea5e26;
+}
+.security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left p {
+  font-size: 14px;
+}
+.security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number{
+  justify-content: normal;
+}
+.security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left {
+  width: 30%;
+}
+.security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left h3{
+  color: #eb5e26;
+  font-size: 53px;
+  font-family: Poppins-Light !important;
+}
+.Benefits-of-mdr-frame-middle-top h2 {
+  font-size:34px;
+}
+.security-uplifts-page-main .Benefits-of-mdr-frame{
+   background: #efefef;
+}
+.security-uplifts-page-main .Benefits-of-mdr-frame-middle-bottom-left img {
+  margin-bottom: 15px;
+}
+.security-uplifts-page-main  .Benefits-of-mdr-frame-middle-bottom-left
+{
+  margin-top: 20px;
+}
+.Empowering-Cybersecurity-frame-top{
+  display: flex;
+  justify-content: space-between;
+}
+.Empowering-Cybersecurity-frame-top-left{
+  width: 40%;
+}
+.Empowering-Cybersecurity-frame-top-right{
+  width: 55%;
+}
+.Empowering-Cybersecurity-frame-top-right p span{
+  color: #eb5e26;
+  font-family: Poppins-Bold !important;
+}
+.Empowering-Cybersecurity-frame{
+  padding: 60px 0px;
+}
+.Empowering-Cybersecurity-frame-top-left h3{
+  font-size: 46px;
+}
+.Empowering-Cybersecurity-frame-top-left h3 span{
+  color: #eb5e26;
+}
+.Empowering-Cybersecurity-frame-bottom{
+  margin-top: 50px;
+}
+.Empowering-Cybersecurity-frame-bottom{
+  background: #ea5e26;
+  padding: 40px;
+  border-radius: 10px;
+}
+.Empowering-Cybersecurity-frame-bottom p{
+  color: #000;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.Empowering-Cybersecurity-frame-bottom h5{
+  font-family: Poppins-Bold !important;
+  font-size: 18px;
 }
 @media all and (min-width:120px) and (max-width:670px){
- 
+  .Empowering-Cybersecurity-frame-top {
+    display: inline-block;
+  }
+  .Empowering-Cybersecurity-frame-top-right {
+    width: 100%;
+}
+.Empowering-Cybersecurity-frame {
+  padding: 30px 0px;
+}
+.Empowering-Cybersecurity-frame-bottom h5 {
+  font-size: 15px;
+}
+.Empowering-Cybersecurity-frame-bottom {
+  margin-top: 10px;
+}
+  .Empowering-Cybersecurity-frame-top-left {
+    width: 100%;
+}
+.Empowering-Cybersecurity-frame-top-left h3 {
+  font-size: 24px;
+}
+.Empowering-Cybersecurity-frame-top-left h3 br{
+  display: none;
+}
+  .security-uplifts-page-main .Strengthen-Your-Cyber-Defenses h4{
+    font-size: 22px !important;
+  }
+  .security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left h4{
+    font-size: 30px;
+  }
+  .security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left h3{
+    font-size: 40px;
+  }
+  .security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left {
+    width: 100%;
+}
+  .security-uplifts-page-main .Strengthen-Your-Cyber-Defenses p {
+    font-size: 14px;
+}
   .LighthouseSlide-main-frame0slide .slick-next {
     right: 0px;
     bottom: -10px;
