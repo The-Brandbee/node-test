@@ -12,7 +12,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div className="cder-ca-slider">
-      <Carousel>
+      <Carousel autoPlay>
         <div>
           <div className="Continuous-slider-main">
             <Image src={Leveraging} alt="" />
