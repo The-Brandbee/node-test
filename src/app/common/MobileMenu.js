@@ -104,7 +104,9 @@ class MobileMenu extends React.Component {
 
                         <ul>
                           <li>
-                            <Link href="#">Security Uplifts</Link>
+                            <Link href="/security-uplifts">
+                              Security Uplifts
+                            </Link>
                           </li>
                           <li>
                             <Link href="#">Essential Eight</Link>

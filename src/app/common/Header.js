@@ -36,7 +36,7 @@ function IndexPage() {
                           </p>
                         </div>
                         <div className="dropdown-content-Services-menu-middle-left-bottom">
-                          <Link href="#">Security Uplifts</Link>
+                          <Link href="/security-uplifts">Security Uplifts</Link>
                           <Link href="#">Essential Eight</Link>
                           <Link href="#">Microsoft Cloud + Managed IT</Link>
                         </div>
