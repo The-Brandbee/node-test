@@ -7,6 +7,7 @@ import LighthouseSlideTwo from "../img/lighthouse-slide-2.jpg";
 import LighthouseSlidethree from "../img/lighthouse-slide-3.jpg";
 import LighthouseSlidefour from "../img/lighthouse-slide-4.jpg";
 import LighthouseSlidefive from "../img/lighthouse-slide-5.jpg";
+import LighthouseSlidefiveN from "../img/lighthouse-slide-5-n.jpg";
 import LighthouseSlidesix from "../img/lighthouse-slide-6.jpg";
 import LighthouseSlideseven from "../img/lighthouse-slide-7.jpg";
 import LighthouseSlideeight from "../img/lighthouse-slide-8.jpg";
@@ -40,6 +41,9 @@ function Fade() {
           </div>
           <div>
             <Image src={LighthouseSlidefive} />
+          </div>
+          <div>
+            <Image src={LighthouseSlidefiveN} />
           </div>
           <div>
             <Image src={LighthouseSlidesix} />
