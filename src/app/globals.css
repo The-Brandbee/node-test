@@ -1530,8 +1530,37 @@ margin-right: 90px;
   width: 47%;
 }
 .header-menubar-middle li:hover .dropdown-content.Services-menu{
-  width: 700px;
+  width: 950px;
   padding-top: 30px;
+}
+.right-head-menu-main-PRODUCT-TOUR{
+  padding: 5px 20px;
+}
+.right-head-menu-main-PRODUCT-TOUR img{
+   width: 100%;
+}
+.right-head-menu-main-PRODUCT-TOUR .text {
+  padding: 20px 20px;
+  text-align: center;
+}
+.eyebrow{
+    margin-bottom: 6px;
+    color: #fff;
+}
+.right-head-menu-main-PRODUCT-TOUR .title {
+  font-family: Poppins-Bold !important;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #fff;
+}
+.header-menubar-middle li .dropdown-content.Services-menu .right-head-menu-main-PRODUCT-TOUR .button.button-small{
+  margin: 20px auto 0;
+  font-size: 12px;
+    padding: 7px 16px !important;
+    background: #08324d !important; 
+    text-transform: uppercase;
+    border: 0px !important;
+    border-radius: 100px;
 }
 .about-bannner-contact.Contact-Us{
   transform: inherit;
@@ -2895,6 +2924,10 @@ p {
       }
       .Menu-underLink-heading p{
         font-size: 13px;
+        margin-bottom: 0px;
+      }
+      .Menu-underLink-heading{
+        margin-top: 20px; 
       }
       .about-bannner-contact {
         position: absolute;

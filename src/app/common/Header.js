@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Main from "../img/logo.png";
+import MenuImage from "../img/Menu-Image.jpg";
 import MobileMenu from "../common/MobileMenu.js";
 
 function IndexPage() {
@@ -38,7 +39,7 @@ function IndexPage() {
                         <div className="dropdown-content-Services-menu-middle-left-bottom">
                           <Link href="/security-uplifts">Security Uplifts</Link>
                           <Link href="#">Essential Eight</Link>
-                          <Link href="#">Microsoft Cloud + Managed IT</Link>
+                          {/* <Link href="#">Microsoft Cloud + Managed IT</Link> */}
                         </div>
                       </div>
                       <div className="dropdown-content-Services-menu-middle-left">
@@ -54,6 +55,22 @@ function IndexPage() {
                             Managed Detection and Response
                           </Link>
                           <Link href="/modern-soc">What is a Modern SOC?</Link>
+                        </div>
+                      </div>
+                      <div className="dropdown-content-Services-menu-middle-left right-head-menu">
+                        <div className="right-head-menu-main-PRODUCT-TOUR">
+                          <Image src={MenuImage} alt="" />
+                          <div className="text">
+                            <p className="eyebrow">Product Tour</p>
+                            <p className="title">Lighthouse MXDR Platform</p>
+
+                            <Link
+                              className="button button-small"
+                              href="/lighthouse-platform"
+                            >
+                              Take the Tour
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>

@@ -93,8 +93,9 @@ export default function Home() {
 
                   <p>
                     Reduction in the likelihood of a breach by adopting
-                    Microsoft Security. Forrester, Total Economic Impact of
-                    Microsoft Security
+                    Microsoft Security.
+                    <br /> - Forrester, Total Economic Impact of Microsoft
+                    Security
                   </p>
                 </div>
                 <div className="Hunting-Rules-frame-number-middle-cont-number-left">
@@ -104,7 +105,8 @@ export default function Home() {
 
                   <p>
                     of all successful ransomware compromises originate through
-                    unmanaged devices. Microsoft Digital Defence Report 2023
+                    unmanaged devices.
+                    <br />- Microsoft Digital Defence Report 2023
                   </p>
                 </div>
               </div>

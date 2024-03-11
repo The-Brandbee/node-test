@@ -94,6 +94,7 @@ class MobileMenu extends React.Component {
                             </Link>
                           </li>
                         </ul>
+
                         <div className="Menu-underLink-heading">
                           <h4>Protect</h4>
                           <p>
@@ -111,8 +112,22 @@ class MobileMenu extends React.Component {
                           <li>
                             <Link href="#">Essential Eight</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="#">Microsoft Cloud + Managed IT</Link>
+                          </li> */}
+                        </ul>
+
+                        <div className="Menu-underLink-heading">
+                          <h4>Product Tour</h4>
+                          <p>
+                            <b>Lighthouse MXDR Platform</b>
+                          </p>
+                        </div>
+                        <ul>
+                          <li>
+                            <Link href="/lighthouse-platform">
+                              TAKE THE TOUR
+                            </Link>
                           </li>
                         </ul>
                       </div>
