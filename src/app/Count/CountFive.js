@@ -9,7 +9,7 @@ const CountFive = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      {counterOn && <CountUp start={0} end={85} duration={5} delay={0} />} %
+      {counterOn && <CountUp start={0} end={72} duration={5} delay={0} />} %
     </ScrollTrigger>
   );
 };

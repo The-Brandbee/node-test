@@ -1,8 +1,9 @@
 import SecurityMani from "../security-uplifts/security-uplifts.js";
 
 export const metadata = {
-  /*title: "",
-  description: "",*/
+  title: "Security Uplifts",
+  description:
+    "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
   alternates: {
     canonical: "https://csp.global/mdr",
   },

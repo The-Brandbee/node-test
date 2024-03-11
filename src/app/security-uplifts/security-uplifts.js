@@ -92,9 +92,9 @@ export default function Home() {
                   </h3>
 
                   <p>
-                    of major outages stem from staff failing to follow
-                    procedures or from flaws in the processes and procedures
-                    themselves. - Uptime Institute, 2022
+                    Reduction in the likelihood of a breach by adopting
+                    Microsoft Security. Forrester, Total Economic Impact of
+                    Microsoft Security
                   </p>
                 </div>
                 <div className="Hunting-Rules-frame-number-middle-cont-number-left">
@@ -103,9 +103,8 @@ export default function Home() {
                   </h3>
 
                   <p>
-                    of companies who engaged an MSP saved 1-24% in annual IT
-                    costs, 33% saved 25-49%, while 13% reported savings of more
-                    than 50%. - Comptia
+                    of all successful ransomware compromises originate through
+                    unmanaged devices. Microsoft Digital Defence Report 2023
                   </p>
                 </div>
               </div>
