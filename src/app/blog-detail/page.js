@@ -33,13 +33,13 @@ export async function generateMetadata({ params, searchParams }) {
       title: blog.heading,
       description: blog.description,
       openGraph: {
-        images: blog.image,
+        images: "https://cms.csplighthouse.com/" + blog.image,
       },
     };
   } catch (error) {
     console.log("Erorr", error);
     return {
-      title: "CSP: Blog11",
+      title: "CSP: Blog",
     };
   }
 }
