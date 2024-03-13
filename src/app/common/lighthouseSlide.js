@@ -12,6 +12,7 @@ import LighthouseSlidesix from "../img/lighthouse-slide-6.jpg";
 import LighthouseSlideseven from "../img/lighthouse-slide-7.jpg";
 import LighthouseSlideeight from "../img/lighthouse-slide-8.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 function Fade() {
   const settings = {
@@ -52,7 +53,9 @@ function Fade() {
             <Image src={LighthouseSlideseven} />
           </div>
           <div>
-            <Image src={LighthouseSlideeight} />
+            <Link href="/contact">
+              <Image src={LighthouseSlideeight} />
+            </Link>
           </div>
         </Slider>
       </div>

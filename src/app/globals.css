@@ -1860,7 +1860,7 @@ margin-right: 90px;
 .mi-image-last-cont.mobile-contact{
  display: none;
 }
-.slick-initialized .slick-slide:last-child img{
+.slick-initialized .slick-slide:last-child{
  z-index: 999999999999999999;  
 }
 
