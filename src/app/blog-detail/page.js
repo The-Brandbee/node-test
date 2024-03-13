@@ -34,6 +34,11 @@ export async function generateMetadata({ params, searchParams }) {
       description: blog.description,
       openGraph: {
         images: "https://cms.csplighthouse.com/" + blog.image,
+        title: blog.heading,
+        description: blog.description,
+      },
+      alternates: {
+        canonical: "https://csp.global/blog-detail?blogid=" + blogId,
       },
     };
   } catch (error) {
