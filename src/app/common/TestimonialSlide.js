@@ -93,15 +93,15 @@ export default class TestimonialSlide extends Component {
 
               <div className="testimonial-frame-right">
                 <p>
-                  It has been a real pleasure to work with CSP over the last
-                  year. We embarked on our journey with CSP with the challenge
-                  of having many disparate cybersecurity solutions in place,
-                  which was both operationally and financially inefficient.
-                  Since setting up Microsoft XDR, we now feel far more secure
-                  knowing all our assets are protected and visible under one
-                  roof. They have helped us improve IT efficiency when it comes
-                  to managing devices and data across the entire group, as well
-                  as adopt a more robust risk management culture.
+                  It has been a real pleasure to work with CSP. We embarked on
+                  our journey with CSP with the challenge of having many
+                  disparate cybersecurity solutions in place, which was both
+                  operationally and financially inefficient. Since setting up
+                  Microsoft XDR, we now feel far more secure knowing all our
+                  assets are protected and visible under one roof. They have
+                  helped us improve IT efficiency when it comes to managing
+                  devices and data across the entire group, as well as adopt a
+                  more robust risk management culture.
                 </p>
                 <div className="sob-test">
                   <h4>IT Manager</h4>

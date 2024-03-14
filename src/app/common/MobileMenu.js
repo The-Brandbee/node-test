@@ -96,7 +96,7 @@ class MobileMenu extends React.Component {
                         </ul>
 
                         <div className="Menu-underLink-heading">
-                          <h4>Protect</h4>
+                          <h4>Protect & Enable</h4>
                           <p>
                             Professional Services and compliance alignment to
                             mitigate risks and reduce the attack surface area
