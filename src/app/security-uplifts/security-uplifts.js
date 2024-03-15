@@ -225,7 +225,10 @@ export default function Home() {
                   Scores rise by 30-50% after security uplift. This comes from a
                   combination of our unique methodology of Eliminate, Simplify,
                   and Protect, combined with our leading commitment to industry
-                  standard <span>cyber frameworks.</span>
+                  standard
+                  <Link href="cybersecurityframework">
+                    <span> cyber frameworks.</span>
+                  </Link>
                 </p>
               </div>
             </div>

@@ -1972,7 +1972,353 @@ margin-right: 90px;
   font-family: Poppins-Bold !important;
   font-size: 18px;
 }
+
+/* cybersecurityframework page */
+.cybersecurityframework-main-page .Detection-Response-page{
+  background: #ea5e26;
+  padding: 20px 0px;
+}
+.cybersecurityframework-main-page .Detection-Response-page-middle-left p:nth-child(1){
+   margin-bottom: 20px;
+}
+.cybersecurityframework-main-page .Detection-Response-page-middle-left img{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+}
+.cybersecurityframework-main-page .Detection-Response-page-middle{
+  align-items: center;
+}
+.cybersecurityframework-main-page .about-bannner-contact h3{
+  text-transform: capitalize;
+  font-size: 46px;
+}
+.cybersecurityframework-main-page .about-bannner-contact h3 span{
+ color: #ea5e26;
+}
+.cybersecurityframework-main-page .about-bannner-contact.Modern-SOC-main{
+  top: auto;
+  bottom: 10%;
+}
+.cybersecurityframework-main-page .Hunting-Rules-frame-number{
+  background: #fff;
+}
+.cybersecurityframework-main-page .Hunting-Rules-frame-number-middle-cont-number-left h4 {
+  color: #000;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.cybersecurityframework-main-page .Hunting-Rules-frame-number-middle-cont-number-left h4 span {
+  color: #ea5e26;
+}
+.cybersecurityframework-main-page .Hunting-Rules-frame-number-middle-cont-number-left p {
+  font-size: 14px;
+  color: #000;
+}
+.cybersecurityframework-main-page .Hunting-Rules-frame-number-middle-cont-number-left h3 {
+  color: #eb5e26;
+  font-size: 53px;
+  font-family: Poppins-Light !important;
+}
+.Framework-Deconstructed-frame{
+  background: #efefef;
+  padding: 60px 0px;
+}
+.Framework-Deconstructed-frame-middle h3{
+  font-size: 46px;
+}
+.Framework-Deconstructed-frame-middle span{
+  color: #eb5e26;
+}
+.Framework-Deconstructed-frame-middle ul{
+  margin-top: 40px !important;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.Framework-Deconstructed-frame-middle ul li{
+  width: 48%;
+  background: #ea5e26;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 35px 35px;
+}
+.Framework-Deconstructed-frame-middle ul li:hover{
+  background: #000;
+}
+.Role-of-Essential-Eight{
+  padding: 60px 0px;
+}
+.Role-of-Essential-Eight-top{
+  display: flex;
+  justify-content: space-between;
+}
+.Role-of-Essential-Eight-top h3{
+  font-size: 46px;
+}
+.Role-of-Essential-Eight-top h3 span{
+  color: #eb5e26;
+}
+.Role-of-Essential-Eight-top-left{
+ width: 40%;
+}
+.Role-of-Essential-Eight-top-right{
+  width: 60%;
+}
+.Role-of-Essential-Eight-bottom{
+margin-top: 30px;
+}
+.Role-of-Essential-Eight-bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px !important;
+}
+.Role-of-Essential-Eight-bottom ul li{
+width: 30%;
+margin-bottom: 20px;
+position: relative;
+list-style: none;
+
+margin-right: 3%;
+}
+.Role-of-Essential-Eight-bottom ul li h5{
+  font-family: Poppins-Bold !important;
+  font-size: 16px;
+}
+.Role-of-Essential-Eight-bottom ul li::after { 
+  top: -6px;
+    content: "■";
+    list-style-type: square;
+    position: absolute;
+    font-size: 18px;
+    left: -16px;
+    height: 20px;
+    color: #ea5e26;
+ 
+}
+.Role-of-Essential-Eight .container{
+  position: relative;
+}
+.CybersecurityframeworkThree{
+  position: absolute;
+  right: 7%; 
+  bottom: -60px;
+}
+.CybersecurityframeworkThree img{ 
+  width: 270px;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame {
+  padding: 40px 0px;
+  background: transparent;
+  position: relative;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame::before {
+  content: "";
+    position: absolute;
+    left: 0px;
+    background: #eb5e26;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    top: 0px;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame::after {
+  content: "";
+    position: absolute;
+    right: 0px;
+    background: #000;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    top: 0px;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame-middle-left h3 span{
+  color: #fff;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame-middle-left p{
+  font-size: 18px;
+}
+.cybersecurityframework-main-page .Continuous-slider-main h4{
+  color: #eb5e26;
+}
+.cybersecurityframework-main-page .Continuous-slider-main p{
+  color: #fff;
+}
+.Identify-See-the-Unseen .Identify-See-the-Unseen-middle{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+  align-items: center;
+}
+.Identify-See-the-Unseen-middle-left ul li {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.Identify-See-the-Unseen-middle-left ul li h5{
+  font-family: Poppins-Bold !important;
+}
+.Identify-See-the-Unseen-middle-left ul li h5 span{
+  color: #ea5e26;
+}
+.Identify-See-the-Unseen-middle-left ul li p{
+  
+}
+.Identify-See-the-Unseen-middle-left{
+  width: 30%;
+}
+.Identify-See-the-Unseen-middle-middle{
+  width: 30%;
+}
+.Identify-See-the-Unseen-middle-middle img{
+  width: 100%;
+}
+.Role-of-Zero-Trust-Methodology{
+  background: #000;
+  padding: 60px 0px;
+}
+.Role-of-Zero-Trust-Methodology-top h3{
+color: #fff;
+font-size: 48px;
+}
+.Role-of-Zero-Trust-Methodology-top h3 span{
+  color: #ea5e26;
+}
+.Role-of-Zero-Trust-Methodology-top p{
+  color: #fff;
+  width: 70%;
+  }
+  .Role-of-Zero-Trust-Methodology-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .Role-of-Zero-Trust-Methodology-bottom-left{
+    width: 30%;
+  }
+  .Role-of-Zero-Trust-Methodology-bottom-left p{
+    color: #fff;
+  }
+  .Role-of-Zero-Trust-Methodology-bottom-left h4{
+    color: #ea5e26;
+    font-size: 18px;
+  }
+/* cybersecurityframework page end*/
+
 @media all and (min-width:120px) and (max-width:670px){
+  .cybersecurityframework-main-page .Does-it-Work-frame .container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .cybersecurityframework-main-page .Does-it-Work-frame-middle-left{
+    background: #ea5e26;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .cybersecurityframework-main-page .Does-it-Work-frame-middle-left p {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+  .cybersecurityframework-main-page .Does-it-Work-frame-middle-right{
+   background: #000;
+   padding-left: 20px !important;
+   padding-right: 20px !important;
+   padding-top: 20px !important;
+   padding-bottom: 50px !important;
+  }
+  .Role-of-Zero-Trust-Methodology-bottom-left {
+    width: 100%;
+    
+}
+.Role-of-Zero-Trust-Methodology-top p {
+  width: 100%;
+}
+.Role-of-Zero-Trust-Methodology-top h3 {
+  font-size: 34px;
+}
+.Role-of-Zero-Trust-Methodology-top h3 br{
+  display: none;
+}
+.Role-of-Zero-Trust-Methodology-bottom {
+  display: inline-block;
+  margin-top: 10px;
+}
+.Role-of-Zero-Trust-Methodology-bottom-left h4 br{
+  display: none;
+}
+  .cybersecurityframework-main-page .about-bannner-contact h3{
+    font-size: 22px;
+  }
+  .Framework-Deconstructed-frame-middle ul li {
+    width: 100%;
+  }
+  .Role-of-Essential-Eight-top {
+    display: inline-block;
+    width: 100%;
+}
+.Role-of-Essential-Eight-top-left {
+  width: 100%;
+}
+.Role-of-Essential-Eight-top h3 {
+  font-size: 34px;
+  word-wrap: break-word;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame::before{
+  background: transparent;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame::after{
+  background: transparent;
+}
+.Identify-See-the-Unseen-middle-left {
+  width: 100%;
+}
+.Identify-See-the-Unseen-middle-middle {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.Identify-See-the-Unseen-middle-middle img {
+  width: 60%;
+  margin: 0 auto;
+  display: table;
+}
+.Identify-See-the-Unseen .Identify-See-the-Unseen-middle {
+  display: inline-block;
+  width: 100%;
+  padding: 30px 0px;
+  align-items: center;
+}
+.Role-of-Essential-Eight-top h3 br{
+  display: none;
+}
+.Role-of-Essential-Eight-top-right {
+  width: 100%;
+}
+.Role-of-Essential-Eight-bottom ul li {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  list-style: none;
+  margin-right: 0%;
+}
+.CybersecurityframeworkThree img {
+  width: 100px;
+}
+  .cybersecurityframework-main-page .Hunting-Rules-frame-number-middle-cont-number-left h4 {
+    font-size: 34px;
+  }
+  .Framework-Deconstructed-frame-middle h3 {
+    font-size: 34px;
+}
+
+  .cybersecurityframework-main-page .about-bannner-contact h3 br{
+    display: none;
+  }
   .Empowering-Cybersecurity-frame-top {
     display: inline-block;
   }
@@ -3000,6 +3346,9 @@ p {
 
 
 @media all and (min-width:1570px) and (max-width:1620px){
+  .CybersecurityframeworkThree img {
+    width: 350px;
+}
   .about-bannner-contact.new-new{
     top: 65%;
   }
@@ -3016,6 +3365,9 @@ p {
 }
 }
 @media all and (min-width:1630px) and (max-width:1889px){
+  .CybersecurityframeworkThree img {
+    width: 350px;
+}
   .about-bannner-contact.new-new{
     top: 65%;
   }
@@ -3058,8 +3410,14 @@ p {
   #about-video-frame ~ button {
     left: 15%;
 } 
+.CybersecurityframeworkThree img{
+  width: 370px; 
+}
 }
 @media all and (min-width:2200px) and (max-width:2700px){
+  .CybersecurityframeworkThree img{
+    width: 370px; 
+  }
   .about-bannner-contact.new-new{
     top: 65%;
   }
