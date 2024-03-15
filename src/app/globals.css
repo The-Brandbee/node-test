@@ -2210,6 +2210,9 @@ font-size: 48px;
 /* cybersecurityframework page end*/
 
 @media all and (min-width:120px) and (max-width:670px){
+  .Role-of-Essential-Eight-top h3 span{
+    padding-left: 5px;
+  }
   .cybersecurityframework-main-page .Does-it-Work-frame .container{
     padding-left: 0px !important;
     padding-right: 0px !important;
