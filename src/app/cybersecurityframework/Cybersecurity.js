@@ -170,8 +170,7 @@ export default function cybersecurityframework() {
                   <br />
                   <span>
                     Cybersecurity
-                    <br />
-                    Framework
+                    <br /> Framework
                   </span>
                 </h3>
               </div>
