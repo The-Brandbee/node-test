@@ -160,7 +160,7 @@ export default function cybersecurityframework() {
             </div>
           </div>
         </section>
-        <section className="Role-of-Essential-Eight">
+        <section className="Role-of-Essential-Eight" id="essentialeight">
           <div className="container">
             <div className="Role-of-Essential-Eight-top">
               <div className="Role-of-Essential-Eight-top-left">
@@ -262,7 +262,7 @@ export default function cybersecurityframework() {
             </div>
           </div>
         </section>
-        <section className="Does-it-Work-frame">
+        <section className="Does-it-Work-frame" id="nist">
           <div className="container">
             <div className="Does-it-Work-frame-middle">
               <div className="Does-it-Work-frame-middle-left">
@@ -364,7 +364,7 @@ export default function cybersecurityframework() {
             </div>
           </div>
         </section>
-        <section className="Role-of-Zero-Trust-Methodology">
+        <section className="Role-of-Zero-Trust-Methodology" id="zerotrust">
           <div className="container">
             <div className="Role-of-Zero-Trust-Methodology-top">
               <h3>

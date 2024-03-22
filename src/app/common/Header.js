@@ -81,6 +81,16 @@ function IndexPage() {
                   <Link href="/#Testimonialsall">Success Stories</Link>
                 </li>
                 <li>
+                  <Link href="#">Compliance</Link>
+                  <div class="dropdown-content">
+                    <Link href="/frameworks#essentialeight">
+                      Essential Eight
+                    </Link>
+                    <Link href="/frameworks#nist">NIST</Link>
+                    <Link href="/frameworks#zerotrust">Zero Trust</Link>
+                  </div>
+                </li>
+                <li>
                   <Link href="/blog">Blog</Link>
                 </li>
               </ul>

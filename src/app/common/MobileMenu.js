@@ -135,6 +135,33 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>Compliance</AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <div className="Menu-underLink">
+                        <ul>
+                          <li>
+                            <a href="https://csp.global/frameworks#essentialeight">
+                              Essential Eight
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://csp.global/frameworks#nist">
+                              NIST
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://csp.global/frameworks#zerotrust">
+                              Zero Trust
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+
+                  <AccordionItem>
                     <a href="/blog">
                       <AccordionItemHeading>
                         <AccordionItemButton>Blog</AccordionItemButton>

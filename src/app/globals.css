@@ -210,6 +210,7 @@ footer{
 }
 .header-menubar-middle li{
   margin-right: 30px;
+  position: relative;
 }
 .header-menubar-middle li a{
   font-size: 20px;
@@ -2211,7 +2212,7 @@ font-size: 48px;
 
 @media all and (min-width:120px) and (max-width:670px){
   .cybersecurityframework-main-page .Does-it-Work-frame{
-    padding-top: 0px;
+    padding-top: 0px; 
   }
   .Role-of-Essential-Eight-top h3 span{
     padding-left: 5px;
@@ -2555,7 +2556,7 @@ display: none;
     content: inherit;
 }
 .dropdown.mobilemenu-new .accordion__item:nth-child(4) .accordion__button::after {
-    content: inherit;
+   
 }
 .dropdown.mobilemenu-new .accordion__item:nth-child(5) .accordion__button::after {
     content: inherit;
