@@ -196,7 +196,7 @@ footer{
   width: 17%;
 }
 .header-menubar-middle{
-  width: 55%;
+  width: 62%;
 }
 .header-menubar-right{
   width: 28%;
@@ -1342,7 +1342,7 @@ padding: 0px;
   clear: both;
 }
 .header-menubar-middle li .dropdown-content.Services-menu.new::after{
-  left: 140px;
+  left: 20px;
 }
 .About-us-page.modernsoc-page-new .about-bannner-contact h3{
   text-align: left;
@@ -1531,7 +1531,7 @@ margin-right: 90px;
   width: 47%;
 }
 .header-menubar-middle li:hover .dropdown-content.Services-menu{
-  width: 950px;
+  width: 870px;
   padding-top: 30px;
 }
 .right-head-menu-main-PRODUCT-TOUR{
