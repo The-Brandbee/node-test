@@ -43,8 +43,7 @@ export default function cybersecurityframework() {
               <h3>
                 Next-Gen
                 <br /> Cybersecurity
-                <br /> Framework
-                <br /> <span>Unveiled</span>
+                <br /> <span>Framework</span>
               </h3>
             </div>
           </div>

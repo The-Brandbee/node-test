@@ -67,7 +67,7 @@ export default function Home() {
                   As a Microsoft Gold partner, now called Microsoft Security
                   Solutions Provider, we have expertise across the entire
                   Microsoft 365 and Azure digital estate. After our Initial
-                  Security Review (ISR) we then provide a tailored roadmap to
+                  Security Review (ISR), we then provide a tailored roadmap to
                   uplift your security posture. This involves the careful
                   implementation of some 1500 settings and controls across the
                   most important aspects of your ecosystem:
@@ -134,8 +134,8 @@ export default function Home() {
                     Configuration:
                   </h4>
                   <p>
-                    We provide over a 1000 baseline security settings protecting
-                    all your workstations and mobile devices.
+                    We provide over 1500 baseline security settings to protect
+                    devices, emails, data, apps and cloud portals.
                   </p>
                 </div>
                 <div className="Benefits-of-mdr-frame-middle-bottom-left">
@@ -240,6 +240,9 @@ export default function Home() {
               <p>
                 Copy our “OUR UNIQUE APPROACH IS SIMPLE: Eliminate Simplify
                 Protect” section from the About Us page.
+              </p>
+              <p className="Find_Out_More">
+                <Link href="/contact">Find Out More &gt; </Link>
               </p>
             </div>
           </div>

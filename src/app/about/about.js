@@ -58,7 +58,7 @@ export default function about() {
                 success providing tailored and customer centric IT services to
                 partners across many industries. CSP simplifies and empowers
                 companies with cutting edge threat protection and IT services
-                that keep organizations safe, 24x7.
+                that keep organizations safe 24x7.
               </p>
               <h3>
                 <span className="br header-about"> Our Founders Vision </span>
@@ -96,7 +96,7 @@ export default function about() {
                   success providing tailored and customer centric IT services to
                   partners across many industries. CSP simplifies and empowers
                   companies with cutting edge threat protection and IT services
-                  that keep organizations safe, 24x7.
+                  that keep organizations safe 24x7.
                 </p>
 
                 <div className="know-more BOOK-A-MEETING">
