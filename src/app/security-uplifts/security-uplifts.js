@@ -237,10 +237,7 @@ export default function Home() {
                 Contact us to uplift your digital estate and improve your
                 security posture
               </h5>
-              <p>
-                Copy our “OUR UNIQUE APPROACH IS SIMPLE: Eliminate Simplify
-                Protect” section from the About Us page.
-              </p>
+              <p>OUR UNIQUE APPROACH IS SIMPLE: Eliminate Simplify Protect.</p>
               <p className="Find_Out_More">
                 <Link href="/contact">Find Out More &gt; </Link>
               </p>
