@@ -185,10 +185,10 @@ export default function cybersecurityframework() {
                 <p>
                   When all eight are implemented, even to maturity level 1, your
                   organization will see a significant reduction in the chances
-                  of a successful attack. CSP have helped across industries,
-                  whether it be not-for-profits attempting to attain a Right Fit
-                  for Risk milestones or to rapidly uplift an entity applying
-                  for the Defense Industry Security Program (DISP).
+                  of a successful attack. CSP have helped across many Australian
+                  industries, whether it be not-for-profits attempting to attain
+                  a Right Fit for Risk milestones or to rapidly uplift an entity
+                  applying for the Defense Industry Security Program (DISP).
                 </p>
               </div>
             </div>

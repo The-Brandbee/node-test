@@ -34,55 +34,63 @@ export default function contact() {
         <section className="contact-us-middle-main">
           <div className="container">
             <div className="contact-us-middle-main-m">
-              <div className="mi-image-last-cont mobile-contact">
-                <Image src={Mi} alt="" />
-              </div>
               <div className="contact-us-middle-main-m-right">
                 <div className="contact-us-middle-main-m-right-middle">
-                  <p>
-                    You can also fill out the form below to send us a message.
-                    Please provide as much detail as possible about your cyber
-                    security needs and goals. We will review your message and
-                    contact you with the best solution for your situation.
-                  </p>
-
                   <Contact />
                 </div>
               </div>
-              <div className="contact-us-middle-main-m-left">
-                <div className="contact-us-middle-main-m-left-con dektop-contact">
-                  <Image className="dektop-contactimg" src={Mapnew} alt="" />
+              <div className="contact-us-middle-main-m-left new-cont">
+                <h3>
+                  How do our <br /> Guardians help <br /> you{" "}
+                  <span>stay ahead?</span>
+                </h3>
+                <div className="Discover-contact-us-page">
+                  <h5>Discover:</h5>
                   <p>
-                    Westpac House, 91 King William Street, Adelaide, Australia
-                    (HQ)
+                    We first want to hear about your most recent cybersecurity
+                    and IT challenges.
                   </p>
                 </div>
-                <div className="contact-us-middle-main-m-left-con">
-                  <Image src={Mapnew} alt="" />
-                  <p>124 City Road, London, EC1V 2NX</p>
-                </div>
-
-                <div className="contact-us-middle-main-m-left-con">
-                  <Image src={Phone} alt="" />
+                <div className="Discover-contact-us-page">
+                  <h5>Demo:</h5>
                   <p>
-                    <a href="tel:+1300199093">1300 199 093</a>
+                    We then take you on a tour of our{" "}
+                    <a href="/lighthouse-platform">Lighthouse Platform</a>
                   </p>
                 </div>
-                <div className="contact-us-middle-main-m-left-con">
-                  <Image src={Email} alt="" />
+                <div className="Discover-contact-us-page">
+                  <h5>Future:</h5>
                   <p>
-                    <a href="mailto:info@csp.global">info@csp.global</a>
+                    We provide personalized ideas for a future with less cyber
+                    challenges and more IT enablement.
                   </p>
-                </div>
-                <div className="mi-image-last-cont desktop">
-                  <Image src={Mi} alt="" />
+                  <p>
+                    Are we a good fit? Let's find out - complete the form to get
+                    started.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="map-sect-contactus-page">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.2675875233617!2d-0.09084038959127419!3d51.52665170918149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca60a8508e1%3A0x67693b0427fb6d46!2s124%20City%20Rd%2C%20London%20EC1V%202NX%2C%20UK!5e0!3m2!1sen!2sin!4v1703856117789!5m2!1sen!2sin"></iframe>
+        <section className="contact-us-addrs">
+          <div className="container">
+            <h3>Global Locations</h3>
+            <div className="Australia-min-f">
+              <h5>Australia (HQ)</h5>
+              <p>
+                Westpac House, 91 King William <br />
+                Street, Adelaide, Australia (HQ)
+                <br />
+                <a href="Tel:1300199093">1300 199 093</a>
+                <br /> <a href="mailto:info@csp.global">info@csp.global</a>
+              </p>
+            </div>
+            <div className="Australia-min-f">
+              <h5>UK Office</h5>
+              <p>124 City Road, London, EC1V 2NX</p>
+            </div>
+          </div>
         </section>
 
         <Footer />

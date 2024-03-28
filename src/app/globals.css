@@ -31,6 +31,24 @@ img{
 a{
   text-decoration: none !important;
 }
+.contact-us-middle-main-m-left.new-cont h3{
+  font-size: 42px;
+  color: #000;
+  font-weight: bold;
+}
+.contact-us-middle-main-m-left.new-cont h3 span{
+  color: #ea5e26;
+}
+.contact-us-middle-main-m-left.new-cont .Discover-contact-us-page h5{
+  font-family: Poppins-Bold !important;
+  font-size: 17px;
+}
+.contact-us-middle-main-m-left.new-cont .Discover-contact-us-page{
+  margin-top: 30px;
+} 
+.contact-us-middle-main-m-left.new-cont .Discover-contact-us-page a{
+  color: #ea5e26;
+}
 .lighthouseplatform-header{
   background: #000;
   padding-top: 190px;
@@ -1583,7 +1601,7 @@ margin-right: 90px;
   flex-direction: row-reverse;
 }
 .contact-us-middle-main-m-left{
-  width: 35%;
+  width: 40%;
   padding-top: 20px;
 }
 .contact-us-middle-main-m-right{
@@ -1639,8 +1657,35 @@ margin-right: 90px;
   background: #efefef;
   padding: 40px 30px;
   border-radius: 6px;
+  margin-top: 40px;
 }
+.contact-us-addrs{
+  background: url(../app/img/cont-us-b.jpg);
+  padding: 70px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-us-addrs h3{
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.Australia-min-f{
 
+}
+.Australia-min-f h5{
+  color: #fff;
+  font-family: Poppins-Bold !important;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.Australia-min-f p{
+  color: #fff;
+  margin-bottom: 30px;
+}
+.Australia-min-f p a{
+  color: #fff;
+}
 /* blog page start */
 .search-box-blog-right-main {
   padding-left: 60px;
@@ -2209,11 +2254,17 @@ font-size: 48px;
   }
   .Role-of-Zero-Trust-Methodology-bottom-left h4{
     color: #ea5e26;
-    font-size: 18px;
+    font-size: 18px; 
   }
 /* cybersecurityframework page end*/
 
 @media all and (min-width:120px) and (max-width:670px){
+  .contact-us-middle-main-m-left.new-cont h3 br{
+    display: none;
+  }
+  .contact-us-middle-main-m-left.new-cont h3 {
+    font-size: 30px;
+  }
   .cybersecurityframework-main-page .Does-it-Work-frame{
     padding-top: 0px; 
   }
