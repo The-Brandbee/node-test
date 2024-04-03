@@ -91,7 +91,7 @@ function IndexPage() {
                   </div>
                 </li>
                 <li>
-                  <Link href="/blog">Blog</Link>
+                  <Link href="https://blog.csp.global">Blog</Link>
                 </li>
               </ul>
             </div>

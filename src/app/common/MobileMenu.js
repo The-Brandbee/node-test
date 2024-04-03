@@ -162,7 +162,7 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <a href="/blog">
+                    <a href="https://blog.csp.global/">
                       <AccordionItemHeading>
                         <AccordionItemButton>Blog</AccordionItemButton>
                       </AccordionItemHeading>
