@@ -1,25 +1,24 @@
 "use client";
-import React from "react";
-import Cal from "../img/cla-b.png";
-import ArrowOne from "../img/arrow-1.png";
-import Arrowtwo from "../img/arrow-2.png";
+import { useEffect } from "react";
 import Image from "next/image";
-import Head from "next/head";
+import styles from "../page.module.css";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import Footer from "../common/Footer.js";
-import Slidemdr from "../common/Slidemdr.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Montserrat } from "next/font/google";
-import Leveraging from "../img/Leveraging.webp";
-import BenefitsOne from "../img/security-icon-1.png";
-import BenefitsTwo from "../img/security-icon-2.png";
-import BenefitsThree from "../img/security-icon-3.png";
-import BenefitsFour from "../img/security-icon-4.png";
-import BenefitsFive from "../img/security-icon-5.png";
-import BenefitsSix from "../img/security-icon-6.png";
-import CountTwo from "../Count/CountFive.js";
-import CountThree from "../Count/countFour.js";
+import About from "../img/modern-soc-banner.jpg";
+import BenefitsOne from "../img/Dynamic-1.png";
+import BenefitsTwo from "../img/Dynamic-2.png";
+import BenefitsThree from "../img/Dynamic-3.png";
+import BenefitsFour from "../img/Dynamic-4.png";
+import BenefitsFive from "../img/Dynamic-5.png";
+import BenefitsSix from "../img/Dynamic-6.png";
+import ModernOne from "../img/Modern-1.png";
+import ModernTwo from "../img/Modern-2.png";
+import ModernThree from "../img/Modern-3.png";
+import ModernFour from "../img/Modern-4.png";
+import ModernFive from "../img/Modern-5.png";
+import Eliminate from "../img/Eliminate.png";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
 
@@ -30,32 +29,19 @@ const Posts = ({ posts, loading }) => {
 
   return (
     <>
-      <Head></Head>
       <GoogleTagManager gtmId="GTM-PVLGJK24" />
-      <main className="security-uplifts-page-main">
+      <main className="About-us-page modernsoc-page-new">
         {posts.map((post) => (
           <div key={post.id}>
             <header>
               <Header />
-              <div className="header-video">
-                <video playsInline autoPlay loop muted>
-                  <source
-                    src={
-                      "https://cdn.thebrandbee.com/video/CSP-Global-Video.mp4"
-                    }
-                    type="video/mp4"
-                  />
-                </video>
+              <div className="Inner-page-banner-frame">
+                <Image src={About} alt="" />
               </div>
 
-              <div className="container Strengthen-cont-main">
-                <div className="Strengthen-Your-Cyber-Defenses mdr-page">
-                  <h4
-                    dangerouslySetInnerHTML={{
-                      __html: post.bannerheading,
-                    }}
-                  />
-                  <p>{post.bannertext}</p>
+              <div className="container">
+                <div className="about-bannner-contact Modern-SOC-main">
+                  <h3>Modern SOC</h3>
                 </div>
               </div>
             </header>
@@ -63,80 +49,69 @@ const Posts = ({ posts, loading }) => {
               <div className="container">
                 <div className="Detection-Response-page-middle">
                   <div className="Detection-Response-page-middle-left">
-                    <p>{post.subsection1}</p>
+                    <p>{post.heading}</p>
                   </div>
                   <div className="Detection-Response-page-middle-left">
-                    <p>{post.subsection2}</p>
+                    <p>{post.description}</p>
                   </div>
                 </div>
               </div>
             </section>
-
-            <section className="Hunting-Rules-frame-number">
+            <section className="classic-approach-yielded-frame">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: post.pointsection,
+                }}
+              />
+            </section>
+            <section className="Human-Centric-Security-frame">
+              <div className="Eliminate-img">
+                <Image src={Eliminate} alt="" />
+              </div>
               <div className="container">
-                <div className="Hunting-Rules-frame-number-middle">
-                  <div className="Hunting-Rules-frame-number-middle-cont-number">
-                    <div className="Hunting-Rules-frame-number-middle-cont-number-left">
-                      <h4>
-                        Did You <span>Know?</span>
-                      </h4>
-                    </div>
-                    <div className="Hunting-Rules-frame-number-middle-cont-number-left">
-                      <h3>
-                        <CountTwo />
-                      </h3>
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: post.section72,
-                        }}
-                      />
-                    </div>
-                    <div className="Hunting-Rules-frame-number-middle-cont-number-left">
-                      <h3>
-                        <CountThree />
-                      </h3>
-
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: post.section80,
-                        }}
-                      />
-                    </div>
+                <div className="Human-Centric-Security-frame-top">
+                  <div className="Human-Centric-Security-frame-top-left">
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: post.soc2heading,
+                      }}
+                    />
+                  </div>
+                  <div className="Human-Centric-Security-frame-top-right">
+                    <p>{post.socsidetext}</p>
+                  </div>
+                </div>
+                <div className="Inspired-by-Various-Disciplines">
+                  <div className="Inspired-by-Various-Disciplines-left">
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: post.textbox1,
+                      }}
+                    />
+                  </div>
+                  <div className="Inspired-by-Various-Disciplines-right">
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: post.textbox2,
+                      }}
+                    />
                   </div>
                 </div>
               </div>
             </section>
-            <div
-              dangerouslySetInnerHTML={{
-                __html: post.keybenefitsection,
-              }}
-            />
-            <section className="Empowering-Cybersecurity-frame">
-              <div className="container">
-                <div className="Empowering-Cybersecurity-frame-top">
-                  <div className="Empowering-Cybersecurity-frame-top-left">
-                    <h3
-                      dangerouslySetInnerHTML={{
-                        __html: post.empowering,
-                      }}
-                    />
-                  </div>
-                  <div className="Empowering-Cybersecurity-frame-top-right">
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.empoweringtext,
-                      }}
-                    />
-                  </div>
-                </div>
-                <div className="Empowering-Cybersecurity-frame-bottom">
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: post.lastsection,
-                    }}
-                  />
-                </div>
-              </div>
+            <section className="Transforming-Cybersecurity-Investigations">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: post.modernsoc,
+                }}
+              />
+            </section>
+            <section className="Benefits-of-mdr-frame">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: post.lastsection,
+                }}
+              />
             </section>
             <Footer />
           </div>
