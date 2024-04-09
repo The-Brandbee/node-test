@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Posts from "../security-uplifts/post.js";
+import Posts from "../modern-soc/post.js";
 import axios from "axios";
 
 const BlogPost = () => {
