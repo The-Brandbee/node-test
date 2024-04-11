@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
@@ -24,6 +25,20 @@ import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
+  const [dataNew, setDataNew] = useState("");
+  // Call the API and log the data to the console
+  const fetchData = async () => {
+    const response = await fetch("https://cms.csplighthouse.com/api/corporate");
+    const data = await response.json();
+    setDataNew(data[0]);
+    console.log(data[0]);
+    console.log(data[0].bannerheading);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <>
       <Head></Head>
@@ -44,10 +59,10 @@ export default function Home() {
 
           <div className="container Strengthen-cont-main">
             <div className="Strengthen-Your-Cyber-Defenses mdr-page">
-              <h4>
-                What is <span>MDR?</span>
-              </h4>
-              <p>Proactive Cybersecurity Explained</p>
+              <h4 dangerouslySetInnerHTML={{ __html: dataNew.bannerheading }} />
+              <p
+                dangerouslySetInnerHTML={{ __html: dataNew.bannersubheading }}
+              />
             </div>
           </div>
         </header>
@@ -55,27 +70,10 @@ export default function Home() {
           <div className="container">
             <div className="Detection-Response-page-middle">
               <div className="Detection-Response-page-middle-left">
-                <p>
-                  MDR, or Managed Detection & Response, is a cutting-edge
-                  cybersecurity service that takes a proactive approach to
-                  safeguarding your digital assets. It's more than just a
-                  monitoring system; it's a comprehensive strategy designed to
-                  ensure your organization's resilience in the face of
-                  ever-evolving cyber threats. CSP Lighthouse is more than a
-                  service; it's a proactive approach to safeguard your digital
-                  assets.
-                </p>
+                <p dangerouslySetInnerHTML={{ __html: dataNew.lefttextbox }} />
               </div>
               <div className="Detection-Response-page-middle-left">
-                <p>
-                  Leveraging Microsoft Sentinel, a cloud-native logging
-                  solution, CSP Lighthouse provides Security Information and
-                  Event Management (SIEM) and Security Orchestration,
-                  Automation, and Response (SOAR). This combination provides a
-                  single solution for attack detection, threat
-                  visibility/intelligence, proactive hunting, and threat
-                  response.
-                </p>
+                <p dangerouslySetInnerHTML={{ __html: dataNew.righttextbox }} />
               </div>
             </div>
           </div>
@@ -84,21 +82,10 @@ export default function Home() {
           <div className="container">
             <div className="application-guarantees-frame-middle">
               <div className="application-guarantees-left">
-                <h4>
-                  Harnessing Integrated Mobile Alerts for
-                  <span> Comprehensive Cybersecurity</span>
-                </h4>
-                <p>
-                  Our integrated mobile application guarantees round-the-clock
-                  alert coverage. It automatically sends SMS and phone alerts to
-                  the on-call team, ensuring high-severity alerts are never
-                  missed. CSP Lighthouse collaborates seamlessly with integrated
-                  security mechanisms throughout Microsoft Defender, Cloud App
-                  Security, and Microsoft Endpoint Manager (Intune) portals.
-                  CSP's MDR empowers your organization to excel in the
-                  ever-evolving landscape of cybersecurity and compliance,
-                  taking your digital defense to the next level.
-                </p>
+                <h4
+                  dangerouslySetInnerHTML={{ __html: dataNew.harnessheading }}
+                />
+                <p dangerouslySetInnerHTML={{ __html: dataNew.harnesstext }} />
               </div>
               <div className="application-guarantees-right">
                 <Image src={Leveraging} alt="" />
@@ -110,21 +97,13 @@ export default function Home() {
           <div className="container">
             <div className="Does-it-Work-frame-middle">
               <div className="Does-it-Work-frame-middle-left">
-                <h2>How</h2>
-                <h3>
-                  Does it <span>Work?</span>
-                </h3>
-                <h6>
-                  The MDR Operational <br />
-                  Framework
-                </h6>
-                <p>
-                  MDR operates by actively monitoring your digital environment,
-                  not just for known threats but for any anomalies and unusual
-                  patterns of behavior that could signal an impending attack.
-                  This proactive approach is what sets MDR apart from
-                  traditional cybersecurity solutions.
-                </p>
+                <div
+                  dangerouslySetInnerHTML={{ __html: dataNew.howworkheading }}
+                />
+                <h6
+                  dangerouslySetInnerHTML={{ __html: dataNew.howsubheading }}
+                />
+                <p dangerouslySetInnerHTML={{ __html: dataNew.howtext }} />
               </div>
               <div className="Does-it-Work-frame-middle-right">
                 <Slidemdr />
@@ -173,78 +152,7 @@ export default function Home() {
           </div>
         </section>
         <section className="Benefits-of-mdr-frame">
-          <div className="container">
-            <div className="Benefits-of-mdr-frame-middle">
-              <div className="Benefits-of-mdr-frame-middle-top">
-                <h2>
-                  Benefits <span>of MDR</span>
-                </h2>
-                <h6>Fortifying Your Cybersecurity</h6>
-              </div>
-              <div className="Benefits-of-mdr-frame-middle-bottom">
-                <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                  <Image src={BenefitsOne} alt="" />
-                  <h4>Complete Threat Visibility</h4>
-                  <p>
-                    Our MDR service delivers comprehensive awareness of all
-                    activities within your network, whether on-premises, in the
-                    cloud, or within hybrid environments. You gain unparalleled
-                    visibility into your digital landscape.
-                  </p>
-                </div>
-                <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                  <Image src={BenefitsTwo} alt="" />
-                  <h4>Constant Attack Detection</h4>
-                  <p>
-                    With our 24x7x365 monitoring and advanced threat
-                    intelligence, we ensure continuous attack detection. Our
-                    team is always vigilant and ready to identify and respond to
-                    threats around the clock.
-                  </p>
-                </div>
-                <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                  <Image src={BenefitsThree} alt="" />
-                  <h4>Reduce Pressure on your Internal Team</h4>
-                  <p>
-                    Our team takes on the management and monitoring of your
-                    system, including threat investigation and triage. This
-                    significantly reduces the workload on your internal security
-                    team, allowing them to focus on strategic tasks.
-                  </p>
-                </div>
-                <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                  <Image src={BenefitsFour} alt="" />
-                  <h4>Rapid Incident Response</h4>
-                  <p>
-                    By efficiently managing and organizing alerts, we not only
-                    reduce the impact of irrelevant incidents but also provide
-                    actionable response guidance for real threats. Swift
-                    incident response is a cornerstone of our service.
-                  </p>
-                </div>
-                <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                  <Image src={BenefitsFive} alt="" />
-                  <h4>Elevate Security Capabilities</h4>
-                  <p>
-                    MDR empowers your organization to swiftly enhance its threat
-                    detection and response capabilities without the need for
-                    heavy investments in infrastructure and personnel. It's the
-                    key to elevating your security posture to new heights.
-                  </p>
-                </div>
-                <div className="Benefits-of-mdr-frame-middle-bottom-left">
-                  <Image src={BenefitsSix} alt="" />
-                  <h4>Threat Intelligence</h4>
-                  <p>
-                    Our service delivers advanced, real-time insights into
-                    potential threats by aggregating and analysing vast amounts
-                    of data from diverse sources, including dark web forums,
-                    open-source feeds, and industry-specific repositories.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div dangerouslySetInnerHTML={{ __html: dataNew.benefitofmdr }} />
         </section>
         <section className="further-down-section">
           <div className="container">
@@ -261,12 +169,14 @@ export default function Home() {
             <div className="container">
               <div className="Our-MDR-process-middle">
                 <div className="Our-MDR-process-middle-left">
-                  <h3>
-                    What Is <span>Our Process?</span>
-                  </h3>
-                  <h6>
-                    Our MDR process <span>follows a structured</span> approach:
-                  </h6>
+                  <h3
+                    dangerouslySetInnerHTML={{
+                      __html: dataNew.ourprocessheading,
+                    }}
+                  />
+                  <h6
+                    dangerouslySetInnerHTML={{ __html: dataNew.ourprocesstext }}
+                  />
                 </div>
                 <div className="Our-MDR-process-middle-right">
                   <Image src={structured} alt="" />
