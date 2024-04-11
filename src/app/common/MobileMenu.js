@@ -162,6 +162,26 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>Resources</AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <div className="Menu-underLink">
+                        <ul>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="https://cms.csplighthouse.com/public/uploads/Feature-Comparison-Matrix.pdf"
+                            >
+                              Feature Comparison Matrix
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+
+                  <AccordionItem>
                     <a href="https://blog.csp.global/">
                       <AccordionItemHeading>
                         <AccordionItemButton>Blog</AccordionItemButton>

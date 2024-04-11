@@ -91,6 +91,18 @@ function IndexPage() {
                   </div>
                 </li>
                 <li>
+                  <Link href="#">Resources</Link>
+                  <div class="dropdown-content max">
+                    <a
+                      target="_blank"
+                      href="https://cms.csplighthouse.com/public/uploads/Feature-Comparison-Matrix.pdf"
+                    >
+                      Feature Comparison Matrix
+                    </a>
+                  </div>
+                </li>
+
+                <li>
                   <Link href="https://blog.csp.global">Blog</Link>
                 </li>
               </ul>

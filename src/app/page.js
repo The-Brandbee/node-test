@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Rain } from "react-rainfall";
 import Head from "next/head";
@@ -26,6 +26,19 @@ import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
+  const [dataNew, setDataNew] = useState("");
+  // Call the API and log the data to the console
+  const fetchData = async () => {
+    const response = await fetch("https://cms.csplighthouse.com/api/overview");
+    const data = await response.json();
+    setDataNew(data[0]);
+    console.log(data[0]);
+    console.log(data[0].bannerheading);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
   return (
     <>
       <GoogleTagManager gtmId="GTM-PVLGJK24" />
@@ -63,8 +76,8 @@ export default function Home() {
             </video>
           </div>
           <div className="Strengthen-Your-Cyber-Defenses">
-            <h4>Strengthen Your Cyber Defenses</h4>
-            <p>Your Trusted Partner for Cybersecurity Services</p>
+            <h4 dangerouslySetInnerHTML={{ __html: dataNew.bannerheading }} />
+            <p dangerouslySetInnerHTML={{ __html: dataNew.bannertext }} />
             <div className="know-more">
               <Link href="/contact"> Get started &gt; </Link>
             </div>
@@ -99,168 +112,21 @@ export default function Home() {
           </div>
         </section>
         <section className="Security-Posture-frame">
-          <div className="container">
-            <div className="Security-Posture-frame-top">
-              <div className="Security-Posture-frame-top-left">
-                <h4>Enhancing Your Security Posture and Productivity</h4>
-              </div>
-              <div className="Security-Posture-frame-top-right">
-                <p>
-                  Our services are designed to protect your organization,
-                  streamline processes, and ensure compliance with industry
-                  standards.
-                </p>
-              </div>
-            </div>
-            <div className="Security-Posture-frame-bottom">
-              <ul>
-                <li>
-                  <Image src={Securityone} alt="" />
-                  <h4>Modern Partner</h4>
-                  <p>
-                    Our range of managed services enable your organisation to
-                    utilise first-class IT and cybersecurity at a fraction of
-                    the cost of running it yourself. We specialize in helping
-                    existing IT departments and IT managers augment IT
-                    operations, with a proven track record (check out our
-                    testimonials!).
-                  </p>
-                </li>
-                <li>
-                  <Image src={Securitytwo} alt="" />
-                  <h4>Endpoint Protection</h4>
-                  <p>
-                    We are a Microsoft Security Solution Provider. We provide
-                    leading XDR, EDR and Application Control Endpoint
-                    protection.
-                  </p>
-                </li>
-                <li>
-                  <Image src={Securitythree} alt="" />
-                  <h4>Detection & Response</h4>
-                  <p>
-                    Our 24x7 detection & response service uses advanced AI
-                    algorithms and Threat Intel to create a 360-degree
-                    human-refined cyber service, where we detect, investigate,
-                    and respond to cyber threats.
-                  </p>
-                </li>
-                <li>
-                  <Image src={Securityfour} alt="" />
-                  <h4>Compliance</h4>
-                  <p>
-                    Fulfil compliance and regulatory requirements with our
-                    consultancy and implementation services, including ISO
-                    27001, NIST, Essential Eight and much more.
-                  </p>
-                </li>
-                <li>
-                  <Image src={Securityfive} alt="" />
-                  <h4>Proof of Concept (see more with less)</h4>
-                  <p>
-                    We carry out comprehensive Microsoft Sentinel 'Proof of
-                    Concepts', to provide you with full visibility into the
-                    potential Attack Surface Area that your business is
-                    susceptible too. Bolstered with bespoke executive reports to
-                    provide analysis and measurement about your current Cyber
-                    Security posture.
-                  </p>
-                </li>
-                <li>
-                  <Image src={Securitysix} alt="" />
-                  <h4>Professional Services</h4>
-                  <p>
-                    We provide a variety of consultancy services; from help with
-                    uplifts, security posture management, copilot AI adoption,
-                    Microsoft Intune (device management), DLP and much more.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <div
+            dangerouslySetInnerHTML={{ __html: dataNew.enhancingyousecurity }}
+          />
         </section>
         <section className="Managed-Detection-frame">
-          <div className="container">
-            <div className="Managed-Detection-frame-top-heading">
-              <h3 className="ho-heading">
-                Transforming Security with Managed Detection
-                <span className="br">& Response (MDR) and Modern SOC</span>
-              </h3>
-            </div>
-            <div className="Managed-Detection-frame-middle">
-              <div className="Managed-Detection-frame-middle-left">
-                <h5>Managed Detection & Response (MDR):</h5>
-                <p>
-                  Our MDR services continuously monitor your environment, detect
-                  anomalies, and respond swiftly to emerging threats. We ensure
-                  your organization remains resilient through advanced threat
-                  hunting and incident response.
-                </p>
-              </div>
-              <div className="Managed-Detection-frame-middle-left">
-                <h5>Modern SOC (Security Operations Center):</h5>
-                <p>
-                  Our Modern SOC, equipped with cutting-edge technology and
-                  expert analysts, proactively defends your digital assets.
-                  Together, MDR and Modern SOC form an impenetrable barrier
-                  against the evolving threat landscape.
-                </p>
-              </div>
-            </div>
-            <div className="know-more">
-              <Link href="/mdr">LEARN MORE</Link>
-            </div>
-          </div>
+          <div
+            dangerouslySetInnerHTML={{ __html: dataNew.transformingsecurity }}
+          />
         </section>
         <section className="Excellence-in-Three-Steps">
-          <div className="container">
-            <div className="Excellence-in-Three-Steps-top">
-              <div className="Excellence-in-Three-Steps-top-left">
-                <h3 className="ho-heading">
-                  Cybersecurity Excellence in Three Steps
-                </h3>
-              </div>
-              <div className="Excellence-in-Three-Steps-top-right">
-                <p>
-                  Our approach to cybersecurity revolves around three key
-                  principles: Eliminate, Simplify, and Protect. We enable you to
-                  achieve more with less and unlock the full potential of cloud
-                  technology while safeguarding your digital estate.
-                </p>
-              </div>
-            </div>
-            <div className="Eliminate-Complexity-main">
-              <div className="Eliminate-Complexity-main-left">
-                <h2>1</h2>
-                <h4>Eliminate Complexity and Reduce Costs:</h4>
-                <p>
-                  We help organizations streamline their complex licensing
-                  structures and eliminate unnecessary IT products, reducing
-                  patchwork solution costs by up to 60%.
-                </p>
-              </div>
-              <div className="Eliminate-Complexity-main-left">
-                <h2>2</h2>
-                <h4>Simplify Workflows for Efficiency:</h4>
-                <p>
-                  We streamline IT workflows and reduce device management
-                  overhead, enabling a focus on higher-value tasks such as
-                  defence and response. Leveraging automation and modern
-                  technologies, we cut device management by up to 25%.
-                </p>
-              </div>
-              <div className="Eliminate-Complexity-main-left">
-                <h2>3</h2>
-                <h4>Protect Modern Digital Worker:</h4>
-                <p>
-                  We harness the Microsoft E5 Security license, a world leader
-                  in extended detection and response (XDR) solutions. Focusing
-                  on Zero Trust and Essential Eight frameworks, we optimize
-                  critical areas to reduce data breach risk by up to 50%.
-                </p>
-              </div>
-            </div>
-          </div>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: dataNew.cybersecurityexcellence,
+            }}
+          />
         </section>
         {/*  <section className="Ignite-Cybersecurity-frame Eight-Framework">
           <div className="Ignite-Cybersecurity-frame-img">
@@ -322,19 +188,11 @@ export default function Home() {
           </div>
           <div className="container">
             <div className="Ignite-Cybersecurity-frame-cont">
-              <h3 className="ho-heading">
-                Ignite Cybersecurity Transformation with
-                <span className="br">CSP</span>
-              </h3>
-              <p>
-                Your Trusted Partner for Comprehensive Cybersecurity
-                <span className="br">
-                  Solutions, Empowering Your Digital Future
-                </span>
-              </p>
-              <p>
-                <Link href="/contact">Take Command of Your Security Now!</Link>
-              </p>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: dataNew.ignitecybersecurity,
+                }}
+              />
             </div>
           </div>
         </section>
