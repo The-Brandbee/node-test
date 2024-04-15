@@ -51,7 +51,7 @@ export default function TestimonialSlide() {
       <Carousel
         infinite={true}
         autoPlay={true}
-        autoPlaySpeed={5000}
+        autoPlaySpeed={10000}
         responsive={responsive}
       >
         {testimonials.map((testimonial, index) => (
