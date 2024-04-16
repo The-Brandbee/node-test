@@ -2046,6 +2046,10 @@ margin-right: 90px;
   text-transform: capitalize;
   font-size: 46px;
 }
+.cybersecurityframework-main-page.enablement-main-page-list .about-bannner-contact h3{
+  font-family: Poppins-Light !important;
+  text-transform: uppercase;
+}
 .cybersecurityframework-main-page .about-bannner-contact h3 span{
  color: #ea5e26;
 }
@@ -2261,6 +2265,260 @@ font-size: 48px;
   }
 /* cybersecurityframework page end*/
 
+/* enablement start */
+.The-Future-of-ICT-frame{
+  padding: 60px 0px;
+}
+.The-Future-of-ICT-frame-top h3{
+  text-transform: uppercase;
+}
+.The-Future-of-ICT-frame-top h5{
+  font-size: 28px;
+}
+.The-Future-of-ICT-frame-top p{
+  padding: 30px 0px;
+}
+.The-Future-of-ICT-frame-bottom ul{
+  display: flex;
+  justify-content: space-between;
+}
+.The-Future-of-ICT-frame-bottom ul li{
+  width: 23%;
+}
+.Does-it-Work-frame.Enablement-ex{
+  padding: 0px 0px;
+}
+ .Does-it-Work-frame.Enablement-ex::before{
+  background: #efefef;
+}
+.Does-it-Work-frame.Enablement-ex::after{
+  background: #efefef;
+}
+.cybersecurityframework-main-page .Does-it-Work-frame.Enablement-ex .Does-it-Work-frame-middle-left h3 span{
+  color: #000;
+  font-family: Poppins-Bold !important;
+  font-size: 24px;
+}
+.Does-it-Work-frame.Enablement-ex .Does-it-Work-frame-middle-left h3{
+color: #ea5e26;
+font-family: Poppins-Light !important;
+text-transform: uppercase;
+}
+.Does-it-Work-frame.Enablement-ex .Does-it-Work-frame-middle-left h5{
+  font-family: Poppins-Bold !important;
+  margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Does-it-Work-frame.Enablement-ex .Does-it-Work-frame-middle{
+  align-items: center;
+}
+.Does-it-Work-frame.Enablement-ex .Does-it-Work-frame-middle-right{
+  background: #ea5e26;
+  padding-bottom: 40px;
+}
+.Does-it-Work-frame.Enablement-ex .Continuous-slider-main h4{
+ color: #000;
+ font-size: 18px;
+}
+.Does-it-Work-frame.Enablement-ex .Continuous-slider-main p{
+ color: #000;
+ font-size: 18px;
+}
+.Does-it-Work-frame.Enablement-ex .Continuous-slider-main {
+  text-align: left;
+  width: 100%; 
+}
+.Does-it-Work-frame.Enablement-ex .Continuous-slider-main span{
+  color: #fff;
+}
+.Does-it-Work-frame.Enablement-ex .Continuous-slider-main img{
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+.Does-it-Work-frame.Enablement-ex .Continuous-slider-main-bottom{
+  padding: 5px 30px;
+}
+.Does-it-Work-frame.Enablement-ex .cder-ca-slider .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+  background: #000;
+}
+.Does-it-Work-frame.Enablement-ex .cder-ca-slider .carousel .control-dots .dot{
+  background: #fff;
+}
+.Does-it-Work-frame.Enablement-ex .cder-ca-slider .carousel .control-dots{
+  left: 5%;
+}
+.Does-it-Work-frame.Enablement-ex .cder-ca-slider .carousel .control-disabled.control-arrow {
+  background: #000 ! IMPORTANT;
+}
+.Does-it-Work-frame.Enablement-ex .cder-ca-slider .carousel.carousel-slider .control-arrow{
+  background: #000 ! IMPORTANT;
+  right: 40px;
+}
+.Does-it-Work-frame.Enablement-ex .cder-ca-slider .carousel.carousel-slider .control-arrow.control-prev{
+  right: 90px;
+}
+.Understanding-the-Need .Understanding-the-Need-top{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding: 60px 0px;
+}
+.Understanding-the-Need .Understanding-the-Need-top h5{
+  font-size: 32px;
+}
+.Understanding-the-Need .Understanding-the-Need-top ul li{
+  position: relative;
+  margin-bottom: 20px;
+  font-family: Poppins-Bold !important;
+  font-size: 14px;
+  line-height: 25px;
+}
+.Understanding-the-Need .Understanding-the-Need-top ul li::after {
+  top: -3px;
+  content: "■";
+  list-style-type: square;
+  position: absolute;
+  font-size: 18px;
+  left: -22px;
+  height: 20px;
+  color: rgb(234, 94, 38);
+}
+.Understanding-the-Need-top-left{
+width: 40%;
+}
+.Understanding-the-Need-top-right{
+  width: 47%;
+}
+.Understanding-the-Need{
+  background: #efefef;
+}
+.Understanding-the-Need-top.mbottom{
+ display: inline-block;
+ width: 100%;
+
+}
+.Understanding-the-Need-top.mbottom .Understanding-the-Need-top-right ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 96%;
+  margin: 0 auto !important;
+  margin-left: 5%;
+  padding-top: 30px !important;
+}
+.Understanding-the-Need-top.mbottom .Understanding-the-Need-top-right ul li{
+  width: 50%;
+}
+.Understanding-the-Need-top.mbottom .Understanding-the-Need-top-right {
+  width: 100%;
+}
+.Security-Posture-frame.enablement{
+  background: #fff; 
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-left h4 span{
+color: #ea5e26; 
+display: block;
+font-family: Poppins-Light !important;
+font-size: 50px;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-left h4{
+  width: 100%;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-left {
+  width: 36%;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-right{
+  width: 64%;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-right p{
+  width: 100%;
+  font-size: 16px;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-bottom ul li img{
+  width: 70px;
+}
+.enablement-main-page-list .Managed-Detection-frame-top-heading h3 span{
+  color: #ea5e26;
+}
+.enablement-main-page-list .Managed-Detection-frame-top-heading p{
+  color: #fff;
+}
+.enablement-main-page-list .Managed-Detection-frame-middle-left h5{
+  position: relative; 
+}
+.enablement-main-page-list .Managed-Detection-frame-middle-left h5::after {
+  top: 14px;
+  content: "";
+  position: absolute;
+  font-size: 18px;
+  height: 20px;
+  border-bottom: 3px solid rgb(234, 94, 38);
+  width: 150px;
+  left: 0px;
+} 
+.enablement-main-page-list .Managed-Detection-frame-middle-left p {
+  margin-top: 40px;
+}
+.Ignite-Cybersecurity-frame.gooter .ho-heading{
+  text-transform: capitalize;
+  font-size: 27px;
+}
+.Leveraging-Microsoft-Adoption{
+  padding: 40px 0px;
+}
+.Leveraging-Microsoft-Adoption h3 span{
+  display: block;
+  font-family: Poppins-Light !important;
+}
+.Leveraging-Microsoft-Adoption h3{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Leveraging-Microsoft-Adoption-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.Leveraging-Microsoft-Adoption-bottom-left{
+  width: 45%;
+}
+.Leveraging-Microsoft-Adoption-bottom-right{
+  width: 50%;
+}
+.Leveraging-Microsoft-Adoption-bottom img{
+  width: 100%;
+}
+.Leveraging-Microsoft-Adoption-top{
+  margin-bottom: 40px;
+}
+.Leveraging-Microsoft-Adoption-bottom h4{
+  font-size: 18px;
+}
+.Leveraging-Microsoft-Adoption-bottom ul{
+  margin-top: 30px !important;
+  margin-left: 28px !important;
+}
+.Leveraging-Microsoft-Adoption-bottom ul li{
+  margin-bottom: 15px;
+  position: relative;
+}
+.Leveraging-Microsoft-Adoption-bottom ul li span{
+  font-family: Poppins-Bold !important;
+}
+.Leveraging-Microsoft-Adoption-bottom ul li::after {
+  top: -3px;
+  content: "■";
+  list-style-type: square;
+  position: absolute;
+  font-size: 18px;
+  left: -22px;
+  height: 20px;
+  color: rgb(234, 94, 38);
+}
+.Leveraging-Microsoft-Adoption.Group{
+  background: #efefef;
+}
+/* enablement end */
 @media all and (min-width:120px) and (max-width:670px){
   .contact-us-middle-main-m-left.new-cont h3 br{
     display: none;
