@@ -3664,6 +3664,72 @@ p {
 .contact-us-middle-main-m-right-middle{
   padding: 20px 20px;   
 }
+.The-Future-of-ICT-frame-bottom ul {
+  display: inline-block;
+  width: 100%;
+}
+.The-Future-of-ICT-frame-bottom ul li {
+width: 100%;   
+} 
+.enablement-main-page-list .Does-it-Work-frame-middle-left{
+background: #efefef;
+}
+.enablement-main-page-list .carousel .slide .Continuous-slider-main img{
+width: 100%;
+}
+.enablement-main-page-list .Ignite-Cybersecurity-frame {
+  padding-bottom: 30px;
+}
+.Understanding-the-Need .Understanding-the-Need-top {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding: 30px 0px;
+}
+.Understanding-the-Need-top-left {
+  width: 100%;
+}
+.Understanding-the-Need-top-right {
+  width: 90%;
+  margin: 0 auto;
+}
+.Understanding-the-Need .Understanding-the-Need-top h5 {
+  font-size: 26px;
+}
+.Understanding-the-Need-top.mbottom .Understanding-the-Need-top-right ul li {
+  width: 45%;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-left {
+  width: 100%;
+}
+.Security-Posture-frame.enablement .Security-Posture-frame-top-right {
+  width: 100%;
+}
+.Leveraging-Microsoft-Adoption-bottom {
+  display: inline-block;
+  width: 100%;
+}
+.Leveraging-Microsoft-Adoption-bottom-left {
+  width: 100%;
+}
+.Leveraging-Microsoft-Adoption-bottom-right {
+  width: 100%;
+} 
+.Ignite-Cybersecurity-frame.gooter .ho-heading {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.Leveraging-Microsoft-Adoption.Group .Leveraging-Microsoft-Adoption-bottom{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.cybersecurityframework-main-page.enablement-main-page-list .Does-it-Work-frame{
+  overflow: hidden;
+}
+.cybersecurityframework-main-page.enablement-main-page-list .Security-Posture-frame-bottom ul li p {
+  width: 100%;
+}
 } 
 
 
@@ -3752,4 +3818,7 @@ p {
   .Empowering-right-img img {
     width: 75%;
   }
+
+
+
 }

@@ -22,11 +22,10 @@ export default function Home() {
               <p>
                 Cyberattacks are on the rise, with hackers targeting
                 organizations of all sizes.{" "}
-                <span>In 2021, there were 1,862 reported data breaches,</span>{" "}
-                exposing <span>over 808 million records.</span> CSP Global
-                combats this threat through advanced encryption and access
-                controls, ensuring data confidentiality and limiting
-                unauthorized access.
+                <span>In 2021, there were 1,862</span> reported data breaches,{" "}
+                exposing over 808 million records. CSP Global combats this
+                threat through advanced encryption and access controls, ensuring
+                data confidentiality and limiting unauthorized access.
               </p>
             </div>
           </div>
