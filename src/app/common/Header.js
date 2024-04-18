@@ -38,8 +38,9 @@ function IndexPage() {
                         </div>
                         <div className="dropdown-content-Services-menu-middle-left-bottom">
                           <Link href="/security-uplifts">Security Uplifts</Link>
-                          <Link href="/enablement">Enablement</Link>
+
                           <Link href="/frameworks">Cyber Frameworks</Link>
+                          <Link href="/enablement">Enablement</Link>
                         </div>
                       </div>
                       <div className="dropdown-content-Services-menu-middle-left">

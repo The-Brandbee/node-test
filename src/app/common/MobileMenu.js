@@ -109,11 +109,12 @@ class MobileMenu extends React.Component {
                               Security Uplifts
                             </Link>
                           </li>
-                          <li>
-                            <Link href="/enablement">Enablement</Link>
-                          </li>
+
                           <li>
                             <Link href="/frameworks">Cyber Frameworks</Link>
+                          </li>
+                          <li>
+                            <Link href="/enablement">Enablement</Link>
                           </li>
                         </ul>
 
