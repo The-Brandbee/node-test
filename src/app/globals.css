@@ -1329,7 +1329,7 @@ padding: 0px;
 .header-menubar-middle li:hover .dropdown-content {
   display: block;
   background: #eb5e26;
-  padding: 20px 10px;
+  padding: 20px 20px; 
   border-radius: 10px;
   margin-top: 0px;
 }
@@ -1560,6 +1560,7 @@ margin-right: 90px;
 }
 .right-head-menu-main-PRODUCT-TOUR{
   padding: 5px 20px;
+  padding-right: 0px;
 }
 .right-head-menu-main-PRODUCT-TOUR img{
    width: 100%;
