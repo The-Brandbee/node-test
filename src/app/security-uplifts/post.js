@@ -128,7 +128,7 @@ const Posts = ({ posts, loading }) => {
                       }}
                     />
                     <div class="know-more">
-                      <Link href="/contact"> Get started &gt; </Link>
+                      <Link href="/contact"> GET SECURED &gt; </Link>
                     </div>
                   </div>
                 </div>
