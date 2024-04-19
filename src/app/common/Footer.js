@@ -4,6 +4,7 @@ import Image from "next/image";
 import Footerlogo from "../img/footer.png";
 import Footerright from "../img/footer-cut.png";
 import rightarrow from "../img/right-arrow.png";
+import Mi from "../img/Microsoft-Gold-Partner-Wizard-Cyber-small.png.png";
 
 function IndexPage() {
   return (
@@ -17,6 +18,9 @@ function IndexPage() {
             <Link href="/">
               <Image src={Footerlogo} alt="" />
             </Link>
+            <div className="footer-left-mi">
+              <Image src={Mi} alt="" />
+            </div>
           </div>
           <div className="footer-left">
             <ul>

@@ -280,6 +280,10 @@ footer{
   width: 130px;
   height: auto;
 }
+.footer-middle .footer-left .footer-left-mi img{
+  width: 70%;
+  margin-top: 40px;
+}
 .footer-middle .footer-left:nth-child(1){
   width: 23%;
 }
