@@ -43,6 +43,14 @@ function IndexPage() {
                   LinkedIn
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCn2zfMTAc-S3oxgko0nFE1w"
+                  target="_blank"
+                >
+                  Youtube
+                </a>
+              </li>
             </ul>
           </div>
           <div className="footer-left">

@@ -100,8 +100,17 @@ const Posts = ({ posts, loading }) => {
                 <div className="Unlocking-the-Full-Potential-middle">
                   <div className="Unlocking-the-Full-Potential-middle-left">
                     <Image src={visionOne} alt="" />
-                    <h3>{post.whoweareheading}</h3>
-                    <p>{post.whowearetext}</p>
+
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: post.whoweareheading,
+                      }}
+                    />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.whowearetext,
+                      }}
+                    />
 
                     <div className="know-more BOOK-A-MEETING">
                       <a href="https://csp.expert/book" target="_blank">
@@ -111,8 +120,18 @@ const Posts = ({ posts, loading }) => {
                   </div>
                   <div className="Unlocking-the-Full-Potential-middle-left">
                     <Image src={visionTwo} alt="" />
-                    <h3>{post.ourfounderheading}</h3>
-                    <p>{post.foundervisiontext}</p>
+
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: post.ourfounderheading,
+                      }}
+                    />
+
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.foundervisiontext,
+                      }}
+                    />
                   </div>
                 </div>
               </div>

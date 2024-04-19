@@ -127,15 +127,18 @@ const Posts = ({ posts, loading }) => {
                         __html: post.empoweringtext,
                       }}
                     />
+                    <div class="know-more">
+                      <Link href="/contact"> Get started &gt; </Link>
+                    </div>
                   </div>
                 </div>
-                <div className="Empowering-Cybersecurity-frame-bottom">
+                {/* <div className="Empowering-Cybersecurity-frame-bottom">
                   <div
                     dangerouslySetInnerHTML={{
                       __html: post.lastsection,
                     }}
                   />
-                </div>
+                </div>*/}
               </div>
             </section>
             <Footer />
