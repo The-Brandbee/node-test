@@ -123,8 +123,8 @@ export default function Home() {
             <div className="Does-it-Work-frame-middle">
               <div className="Does-it-Work-frame-middle-left">
                 <h3>
-                  <span>ENABLEMENT</span> <br />
-                  Example
+                  {/*<span>ENABLEMENT</span> <br /> */}
+                  ENABLEMENT
                 </h3>
                 <h5>Information Protection</h5>
                 <p>
