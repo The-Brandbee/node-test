@@ -12,7 +12,11 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div className="cder-ca-slider">
-      <Carousel autoPlay>
+      <Carousel
+        autoPlay
+        preventMovementUntilSwipeScrollTolerance={true}
+        swipeScrollTolerance={50}
+      >
         <div>
           <div className="Continuous-slider-main">
             <Image src={Leveraging} alt="" />

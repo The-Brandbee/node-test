@@ -13,7 +13,10 @@ import Escalating from "../img/enablement-banner-4.jpg";
 export default function Home() {
   return (
     <div className="cder-ca-slider">
-      <Carousel>
+      <Carousel
+        preventMovementUntilSwipeScrollTolerance={true}
+        swipeScrollTolerance={50}
+      >
         <div>
           <div className="Continuous-slider-main">
             <Image src={Escalating} alt="" />
