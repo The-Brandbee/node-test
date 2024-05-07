@@ -81,7 +81,7 @@ export default function Home() {
                 <li>
                   <h4>Strategic Advice:</h4>
                   <p>
-                    enhanced strategic advice translates technological solutions
+                    Enhanced strategic advice translates technological solutions
                     into solving real business challenges, ensuring alignment
                     with organizational objectives.
                   </p>
@@ -126,7 +126,7 @@ export default function Home() {
                   {/*<span>ENABLEMENT</span> <br /> */}
                   ENABLEMENT
                 </h3>
-                <h5>Information Protection</h5>
+                <h5>Data Security & Information Protection</h5>
                 <p>
                   In today's digital landscape, protecting sensitive information
                   is paramount. CSP Global understands the escalating threats

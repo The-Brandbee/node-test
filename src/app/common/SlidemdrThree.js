@@ -8,7 +8,7 @@ import Response from "../img/responce.png";
 import Hunting from "../img/Threat-Hunting.png";
 import Image from "next/image";
 import Head from "next/head";
-import Escalating from "../img/enablement-banner-2.jpg";
+import Escalating from "../img/enablement-banner-4.jpg";
 
 export default function Home() {
   return (
