@@ -79,7 +79,7 @@ function IndexPage() {
                 </li>
 
                 <li>
-                  <Link href="/#Testimonialsall">Success Stories</Link>
+                  <Link href="/success-stories">Success Stories</Link>
                 </li>
                 <li>
                   <Link href="#">Compliance</Link>
@@ -104,7 +104,7 @@ function IndexPage() {
                       target="_blank"
                       href="https://cms.csplighthouse.com/public/uploads/CSP-datasheet.pdf"
                     >
-                      Data Sheet
+                      Datasheet
                     </a>
                   </div>
                 </li>

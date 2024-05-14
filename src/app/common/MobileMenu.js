@@ -134,6 +134,15 @@ class MobileMenu extends React.Component {
                       </div>
                     </AccordionItemPanel>
                   </AccordionItem>
+                  <AccordionItem>
+                    <Link href="https://csp.global/success-stories">
+                      <AccordionItemHeading>
+                        <AccordionItemButton>
+                          Success Stories
+                        </AccordionItemButton>
+                      </AccordionItemHeading>
+                    </Link>
+                  </AccordionItem>
 
                   <AccordionItem>
                     <AccordionItemHeading>
@@ -182,7 +191,7 @@ class MobileMenu extends React.Component {
                               target="_blank"
                               href="https://cms.csplighthouse.com/public/uploads/CSP-datasheet.pdf"
                             >
-                              Data Sheet
+                              Datasheet
                             </a>
                           </li>
                         </ul>
