@@ -80,7 +80,7 @@ function IndexPage() {
 
       <script
         src="https://static.soulmachines.com/widget-snippet-1.12.0.min.js"
-        data-sm-api-key="eyJzb3VsSWQiOiJkZG5hLWNzcC1nbG9iYWxhZDhjLS1leHBsb3JlciIsImF1dGhTZXJ2ZXIiOiJodHRwczovL2RoLnNvdWxtYWNoaW5lcy5jbG91ZC9hcGkvand0IiwiYXV0aFRva2VuIjoiYXBpa2V5X3YxXzA2N2NjOTRlLTM5MjYtNDlhNC1iMDVjLTU1YzhiYWU3MjkxNCJ9"
+        data-sm-api-key="eyJzb3VsSWQiOiJkZG5hLWNzcC1nbG9iYWxhZDhjLS1leHBsb3JlciIsImF1dGhTZXJ2ZXIiOiJodHRwczovL2RoLnNvdWxtYWNoaW5lcy5jbG91ZC9hcGkvand0IiwiYXV0aFRva2VuIjoiYXBpa2V5X3YxX2NhMjdmMGM5LWE2MGQtNDc3OC05YWU1LWM2ZmI3YTFmNmE1YyJ9"
         async
       />
     </footer>
