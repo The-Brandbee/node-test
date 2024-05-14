@@ -5,6 +5,7 @@ import Footerlogo from "../img/footer.png";
 import Footerright from "../img/footer-cut.png";
 import rightarrow from "../img/right-arrow.png";
 import Mi from "../img/Microsoft-Gold-Partner-Wizard-Cyber-small.png.png";
+import SoulMachinesWidget from "../SoulMachinesWidget.js";
 
 function IndexPage() {
   return (
@@ -75,6 +76,8 @@ function IndexPage() {
       >
         <Image src={rightarrow} alt="" />
       </button>
+
+      <SoulMachinesWidget />
     </footer>
   );
 }
