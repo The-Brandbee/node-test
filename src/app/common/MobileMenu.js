@@ -177,6 +177,14 @@ class MobileMenu extends React.Component {
                               Feature Comparison Matrix
                             </a>
                           </li>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="https://cms.csplighthouse.com/public/uploads/CSP-datasheet.pdf"
+                            >
+                              Data Sheet
+                            </a>
+                          </li>
                         </ul>
                       </div>
                     </AccordionItemPanel>

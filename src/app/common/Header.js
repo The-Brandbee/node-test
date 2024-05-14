@@ -100,6 +100,12 @@ function IndexPage() {
                     >
                       Feature Comparison Matrix
                     </a>
+                    <a
+                      target="_blank"
+                      href="https://cms.csplighthouse.com/public/uploads/CSP-datasheet.pdf"
+                    >
+                      Data Sheet
+                    </a>
                   </div>
                 </li>
 
