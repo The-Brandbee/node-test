@@ -2701,7 +2701,23 @@ font-size: 50px;
   background: #efefef;
 }
 /* enablement end */
+.Streamlined-IT-Infrastructure-frame-bottom ul.collaborative-middle-frame-main li{
+  width: 70%;
+}
+.Streamlined-IT-Infrastructure-frame-bottom ul.collaborative-middle-frame-main{
+  justify-content: center;
+}
 @media all and (min-width:120px) and (max-width:670px){
+  .Streamlined-IT-Infrastructure-frame-bottom ul li span{
+    height: 140%;
+    margin-right: 20px;
+  }
+  .success-stories-main-page br{
+    display: none;
+  }
+  .Streamlined-IT-Infrastructure-frame-bottom ul.collaborative-middle-frame-main li {
+    width: 100%;
+}
   .tab-col-middle-logo .react-tabs__tab-list .react-tabs__tab--selected:after{
     left: 40px;
   }
@@ -2743,22 +2759,24 @@ font-size: 50px;
 .Streamlined-IT-Infrastructure-frame-bottom ul li {
   width: 100%;
   margin-bottom: 25px;
+  display: flex;
 }
 .Streamlined-IT-Infrastructure-frame-bottom ul li img {
   width: 30px;
 }
 .Streamlined-IT-Infrastructure-frame-bottom ul{
   margin-top: 40px !important;
+  
 }
 .Streamlined-IT-Infrastructure-frame-top h5 {
-  font-size: 36px;
+  font-size: 26px;
 }
 .Streamlined-IT-Infrastructure-frame-top h2 {
   
-  font-size: 36px;
+  font-size: 26px;
 }
 .About-The-Company-sto-bottom-two-left h4{
-  font-size: 36px; 
+  font-size: 26px; 
 }
   .contact-us-middle-main-m-left.new-cont h3 br{
     display: none;

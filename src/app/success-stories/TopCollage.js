@@ -230,7 +230,7 @@ export default function TopCollage() {
             </section>
             <section className="About-The-Company-sto-bottom">
               <div className="container">
-                <div className="About-The-Company-sto-bottom-two one">
+                <div className="About-The-Company-sto-bottom-two">
                   <div className="About-The-Company-sto-bottom-two-left">
                     <h3>Services Offered:</h3>
                     <h4>
@@ -273,27 +273,6 @@ export default function TopCollage() {
                     </ul>
                   </div>
                 </div>
-                <div className="About-The-Company-sto-bottom-two">
-                  <div className="About-The-Company-sto-bottom-two-left">
-                    <h3>Our Solutions:</h3>
-                    <h4>
-                      Comprehensive <br />
-                      IT Strategy
-                    </h4>
-                  </div>
-                  <div className="About-The-Company-sto-bottom-two-right">
-                    <ul>
-                      <li>
-                        CSP Global devised a comprehensive strategy tailored to
-                        address the organization's IT challenges effectively,
-                        integrating Essential Eight alignment, Microsoft 365 and
-                        Azure uplift, Intune Hybrid Device Management, Active
-                        Directory hardening, vendor consolidation, and DLP
-                        implementation.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </section>
             <section className="Ignite-Cybersecurity-frame">
@@ -303,18 +282,41 @@ export default function TopCollage() {
               </div>
               <div className="container">
                 <div className="Ignite-Cybersecurity-frame-cont">
-                  <h2>The Result:</h2>
+                  <h2>OUR SOLUTIONS:</h2>
                   <h3 class="ho-heading">
-                    Streamlined Infrastructure &
-                    <span class="br">Enhanced Security</span>
+                    COMPREHENSIVE
+                    <span class="br">IT STRATEGY</span>
                   </h3>
                   <p>
-                    The collaborative efforts between CSP Global and the
-                    organization yielded a streamlined IT infrastructure,
-                    bolstering efficiency, enhancing cybersecurity, and reducing
-                    complexities, marking a significant success in optimizing
-                    operations and securing sensitive data.
+                    CSP Global devised a comprehensive strategy tailored to
+                    address the organization's IT challenges effectively,
+                    integrating Essential Eight alignment, Microsoft 365 and
+                    Azure uplift, Intune Hybrid Device Management, Active
+                    Directory hardening, vendor consolidation, and DLP
+                    implementation.
                   </p>
+                </div>
+              </div>
+            </section>
+            <section className="Streamlined-IT-Infrastructure-frame">
+              <div className="container">
+                <div className="Streamlined-IT-Infrastructure-frame-top">
+                  <h2>The Result</h2>
+                  <h5>Streamlined Infrastructure & Enhanced Security</h5>
+                </div>
+                <div className="Streamlined-IT-Infrastructure-frame-bottom">
+                  <ul className="collaborative-middle-frame-main">
+                    <li>
+                      <span>
+                        <Image src={StreamlinedIcon} alt="" className="" />
+                      </span>
+                      The collaborative efforts between CSP Global and the
+                      organization yielded a streamlined IT infrastructure,
+                      bolstering efficiency, enhancing cybersecurity, and
+                      reducing complexities, marking a significant success in
+                      optimizing operations and securing sensitive data.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </section>
@@ -341,7 +343,7 @@ export default function TopCollage() {
             </section>
             <section className="About-The-Company-sto-bottom">
               <div className="container">
-                <div className="About-The-Company-sto-bottom-two one">
+                <div className="About-The-Company-sto-bottom-two">
                   <div className="About-The-Company-sto-bottom-two-left">
                     <h3>Services Offered:</h3>
                     <h4>
@@ -385,28 +387,6 @@ export default function TopCollage() {
                     </ul>
                   </div>
                 </div>
-                <div className="About-The-Company-sto-bottom-two">
-                  <div className="About-The-Company-sto-bottom-two-left">
-                    <h3>Our Solutions: </h3>
-                    <h4>
-                      Tailored <br />
-                      Cybersecurity <br />
-                      Strategies
-                    </h4>
-                  </div>
-                  <div className="About-The-Company-sto-bottom-two-right">
-                    <ul>
-                      <li>
-                        CSP Global devised tailored strategies, integrating ISO
-                        27001 implementation, Essential Eight alignment,
-                        Microsoft 365 and Azure uplift, Intune Hybrid Device
-                        Management, Managed Detection and Response, and vendor
-                        consolidation to address the organization's
-                        cybersecurity challenges effectively.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </section>
             <section className="Ignite-Cybersecurity-frame">
@@ -416,18 +396,42 @@ export default function TopCollage() {
               </div>
               <div className="container">
                 <div className="Ignite-Cybersecurity-frame-cont">
-                  <h2>The Results:</h2>
+                  <h2>Our Solutions:</h2>
                   <h3 class="ho-heading">
-                    Enhanced Security
-                    <span class="br">& Efficiency</span>
+                    Tailored Cybersecurity
+                    <span class="br">Strategies</span>
                   </h3>
                   <p>
-                    The collaborative efforts between CSP Global and the
-                    organization resulted in strengthened cybersecurity
-                    measures, optimized operations, and enhanced risk management
-                    capabilities, marking a significant success in safeguarding
-                    sensitive data and mitigating security threats.
+                    CSP Global devised tailored strategies, integrating ISO
+                    27001 implementation, Essential Eight alignment, Microsoft
+                    365 and Azure uplift, Intune Hybrid Device Management,
+                    Managed Detection and Response, and vendor consolidation to
+                    address the organization's cybersecurity challenges
+                    effectively.
                   </p>
+                </div>
+              </div>
+            </section>
+            <section className="Streamlined-IT-Infrastructure-frame">
+              <div className="container">
+                <div className="Streamlined-IT-Infrastructure-frame-top">
+                  <h2>The Result</h2>
+                  <h5>Enhanced Security & Efficiency</h5>
+                </div>
+                <div className="Streamlined-IT-Infrastructure-frame-bottom">
+                  <ul className="collaborative-middle-frame-main">
+                    <li>
+                      <span>
+                        <Image src={StreamlinedIcon} alt="" className="" />
+                      </span>
+                      The collaborative efforts between CSP Global and the
+                      organization resulted in strengthened cybersecurity
+                      measures, optimized operations, and enhanced risk
+                      management capabilities, marking a significant success in
+                      safeguarding sensitive data and mitigating security
+                      threats.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </section>
