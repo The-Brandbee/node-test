@@ -24,6 +24,7 @@ import Advocate from "../app/img/middle-banner.png";
 import EmpoweringRightMail from "../app/img/CSP-WEBSITE-ILLUSTRATION.jpg";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
+import VideoIcon from "../app/img/csp-video-icon.png";
 
 export default function Home() {
   const [dataNew, setDataNew] = useState("");
@@ -75,11 +76,26 @@ export default function Home() {
               />
             </video>
           </div>
-          <div className="Strengthen-Your-Cyber-Defenses">
-            <h4 dangerouslySetInnerHTML={{ __html: dataNew.bannerheading }} />
-            <p dangerouslySetInnerHTML={{ __html: dataNew.bannertext }} />
-            <div className="know-more">
-              <Link href="/contact"> Get started &gt; </Link>
+          <div className="container">
+            <div className="Strengthen-Your-Cyber-Defenses">
+              <h4 dangerouslySetInnerHTML={{ __html: dataNew.bannerheading }} />
+              <p dangerouslySetInnerHTML={{ __html: dataNew.bannertext }} />
+              <div className="know-more">
+                <Link href="/contact"> Get started &gt; </Link>
+              </div>
+            </div>
+            <div className="video-icon-img-video-home-page">
+              <a
+                href="https://www.youtube.com/watch?v=FD62mAyg6Pk"
+                target="_blank"
+              >
+                <div className="video-icon-img-video-home-page-middle">
+                  <h4>
+                    Watch Our <span>Video</span>
+                  </h4>
+                  <Image src={VideoIcon} alt="icon" className="" />
+                </div>
+              </a>
             </div>
           </div>
         </header>
