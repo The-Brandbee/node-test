@@ -217,7 +217,7 @@ export default function TopCollage() {
                     <p>Industry: Oil & Gas</p>
                   </div>
                   <div className="About-The-Company-sto-bo-right">
-                    <h4>About the Company</h4>
+                    <h4>About The Company</h4>
                     {/*<h5>The Challenge: IT System Fragmentation</h5>
                     <p>
                       Navigating fragmented IT systems and cybersecurity
