@@ -38,7 +38,7 @@ export default function TopCollage() {
                     <p>Industry: Education</p>
                   </div>
                   <div className="About-The-Company-sto-bo-right">
-                    <h4>About The Company: Trinity College</h4>
+                    <h4>About The Company</h4>
                     <p>
                       The Trinity College story began in 1984 when a small group
                       of committed families from Gawler began operation with 27
@@ -217,12 +217,20 @@ export default function TopCollage() {
                     <p>Industry: Oil & Gas</p>
                   </div>
                   <div className="About-The-Company-sto-bo-right">
-                    <h4>About the Company: Agostino Group</h4>
-                    <h5>The Challenge: IT System Fragmentation</h5>
+                    <h4>About the Company</h4>
+                    {/*<h5>The Challenge: IT System Fragmentation</h5>
                     <p>
                       Navigating fragmented IT systems and cybersecurity
                       vulnerabilities posed significant hurdles for the
                       organization's efficiency and security.
+                    </p>*/}
+                    <p>
+                      Agostino Group has become one of South Australia's more
+                      significant operations. All businesses operate within -
+                      and are motivated by - highly competitive environments ,
+                      resulting in the delivery of consistent quality and a keen
+                      appreciation of customer service and enduring
+                      partnerships.
                     </p>
                   </div>
                 </div>
@@ -330,7 +338,7 @@ export default function TopCollage() {
                     <p>Industry: Non-Profit Organization</p>
                   </div>
                   <div className="About-The-Company-sto-bo-right">
-                    <h4>About The Company: Mobo Group</h4>
+                    <h4>About The Company</h4>
                     <h5>The Challenges: Cybersecurity Risk Management</h5>
                     <p>
                       Navigating cybersecurity risks while ensuring the right
