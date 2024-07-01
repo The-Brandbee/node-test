@@ -4130,3 +4130,19 @@ width: 100%;
 
 
 }
+
+
+@media all and (min-width:1600px) and (max-width:2800px){
+
+  .video-icon-img-video-home-page {
+    position: absolute; 
+    width: 1320px;
+    top: 40%;
+    right: auto;
+    max-width: 1320px;
+}
+.video-icon-img-video-home-page a{
+  float: right;
+  margin-right: 30px;  
+}
+}
