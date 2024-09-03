@@ -65,6 +65,9 @@ function IndexPage() {
               <li>
                 <Link href="javascript:void(0)">Terms and Conditions</Link>
               </li>
+              <li>
+                <Link href="/privacy-policy">Privacy Policy </Link>
+              </li>
             </ul>
           </div>
         </div>
