@@ -11,8 +11,10 @@ import About from "../img/about-banner.webp";
 import EmpoweringRight from "../img/about-2.png";
 import Adam from "../img/Adam.png";
 import Cyberops from "../img/Cyberops.png";
-import TeamOne from "../img/Callum.jpg";
-import TeamTwo from "../img/team-2.png";
+import TeamOne from "../img/cal.jpg";
+import TeamOneee from "../img/Shivam-Malaviya.png";
+import TeamTwwo from "../img/image2.png";
+import TeamTwo from "../img/team-2.webp";
 import TeamThree from "../img/Shivam.jpg";
 import TeamFour from "../img/team-4.png";
 import TeamFive from "../img/team-5.png";
@@ -233,68 +235,81 @@ const Posts = ({ posts, loading }) => {
             <section className="team-section-about-page" id="our-team-se">
               <div className="container">
                 <h3>Leadership Team</h3>
-                <div className="team-section-middle">
+                <div className="team-section-middle top-new-frame">
                   <div className="team-section-middle-inner">
-                    <Image src={TeamOne} alt="" />
                     <h4>Callum Golding</h4>
                     <h5>Founder & CEO</h5>
-                    <p>
-                      With almost two decades of experience in the IT industry,
-                      Callum is the driving force behind CSP over the last 5
-                      years. His vision is to offer unparalleled cybersecurity
-                      services, assisting organizations in minimizing their
-                      attack surface area. CSP has evolved into a comprehensive
-                      provider of professional services and 24x7 Managed
-                      Detection Response (MDR). As a trusted reseller of Nextron
-                      Systems' Thor, one of the world's foremost compromise
-                      assessment scanners, CSP prides itself on delivering the
-                      right tool or service for the job. Aside from managing the
-                      day-to-day activities of the business, Callum also plays
-                      an active role in security uplift and compliance projects,
-                      routinely helping organizations solve their most urgent
-                      cybersecurity and IT challenges.
-                    </p>
+                    <Image src={TeamOne} alt="" />
+                    <div className="top-new-frame-hover">
+                      <div className="top-new-frame-hover-inner2">
+                        <h4>Callum Golding</h4>
+                        <h5>Founder & CEO</h5>
+                        <p>
+                          With nearly two decades of experience in the IT
+                          industry, Callum has been the driving force behind
+                          CSP. His vision was to offer unparalleled IT services,
+                          with cybersecurity taking centre stage. Under his
+                          leadership, CSP evolved into a holistic service
+                          provider delivering enablement and IT support,
+                          compliance alignment, and 24x7 Managed Detection and
+                          Response (MDR). In addition to managing the day-to-day
+                          activities of the business, Callum actively
+                          participates in uplifts and compliance projects,
+                          staying at the coalface of technology developments.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="team-section-middle-inner">
+                    <h4>Shivam Malaviya</h4>
+                    <h5>CTO & Co-founder</h5>
+                    <Image src={TeamOneee} alt="" />
+                    <div className="top-new-frame-hover">
+                      <div className="top-new-frame-hover-inner2">
+                        <h4>Shivam Malaviya</h4>
+                        <h5>CTO & Co-founder</h5>
+                        <p>
+                          With a decade of expertise in cybersecurity, Shivam
+                          brings extensive experience to our team. At Open
+                          Systems, he successfully led a sizable SOC team before
+                          co-founding CSP Lighthouse. As our Chief Technology
+                          Officer (CTO), Shivam oversees and leads our Modern
+                          Next-Gen Security Operation Centre, contributing his
+                          skills and knowledge. He also provides Threat Hunting
+                          and Intelligence services for our clients.
+                        </p>
+                        <p>
+                          A dedicated Information Security professional, Shivam
+                          has over 10 years of experience in SOC and Threat
+                          Hunting. His commitment is evident in his ongoing
+                          research, threat hunting strategies, and the
+                          implementation of advanced security use cases.
+                        </p>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="team-section-middle-inner">
-                    <Image src={TeamThree} alt="" />
-                    <h4>Shivam Malaviya</h4>
-                    <h5>CTO & Co-founder</h5>
-                    <p>
-                      With a decade of expertise in the cybersecurity domain,
-                      Shivam brings extensive experience to our team. Formerly
-                      at Open Systems, he successfully led a sizable SOC team
-                      before co-founding CSP Lighthouse. In his current role as
-                      Chief Technology Officer (CTO), Shivam plays a crucial
-                      role in overseeing, leading, and contributing his skills
-                      to our Modern Next-Gen Security Operation Centre.
-                      Additionally, he actively engages in providing Threat
-                      Hunting and Intelligence services for our clients. A
-                      dedicated Information Security professional, Shivam boasts
-                      over 10 years of insightful experience in SOC and Threat
-                      Hunting. His commitment is evident in his ongoing
-                      research, threat hunting strategies, and the
-                      implementation of advanced security use cases. Leveraging
-                      tools such as Microsoft XDR and KQL Advanced Hunting, he
-                      actively contributes proactive defense against cyber
-                      threats.
-                    </p>
-                  </div>
-                  <div className="team-section-middle-inner">
-                    <Image src={Tom} alt="" />
-                    <h4>Tom Smith</h4>
+                    <h4>Tom Smith </h4>
                     <h5>Director of Sales Operations</h5>
-                    <p>
-                      Tom Smith is a veteran sales leader in the digital
-                      software and consulting ecosystems. With successful
-                      tenures leading global sales initiatives for; IBM,
-                      Salesforce and Omnicom. His great passion is building long
-                      standing relationships with customers through transparent
-                      communication, detailed needs analysis and providing
-                      valuable solutions that meet and exceed expectation.
-                      Whether it be increasing ROI or improving operational
-                      business processes for customers.
-                    </p>
+                    <Image src={TeamTwwo} alt="" />
+                    <div className="top-new-frame-hover">
+                      <div className="top-new-frame-hover-inner2">
+                        <h4>Tom Smith </h4>
+                        <h5>Director of Sales Operations</h5>
+                        <p>
+                          Tom Smith is a veteran sales leader in the digital
+                          software and consulting ecosystems. With successful
+                          tenures leading global sales initiatives for; IBM,
+                          Salesforce and Omnicom. His great passion is building
+                          long standing relationships with customers through
+                          transparent communication, detailed needs analysis and
+                          providing valuable solutions that meet and exceed
+                          expectation. Whether it be increasing ROI or improving
+                          operational business processes for customers.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <br />
