@@ -278,13 +278,6 @@ const Posts = ({ posts, loading }) => {
                           skills and knowledge. He also provides Threat Hunting
                           and Intelligence services for our clients.
                         </p>
-                        <p>
-                          A dedicated Information Security professional, Shivam
-                          has over 10 years of experience in SOC and Threat
-                          Hunting. His commitment is evident in his ongoing
-                          research, threat hunting strategies, and the
-                          implementation of advanced security use cases.
-                        </p>
                       </div>
                     </div>
                   </div>
