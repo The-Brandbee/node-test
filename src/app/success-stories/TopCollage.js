@@ -131,10 +131,7 @@ export default function TopCollage() {
               <div className="container">
                 <div className="Ignite-Cybersecurity-frame-cont">
                   <h2>Our Solution:</h2>
-                  <h3 class="ho-heading">
-                    Tailored IT Strategy
-                    <span class="br">Implementation</span>
-                  </h3>
+                  <h3 class="ho-heading">Tailored IT Implementation</h3>
                   <p>
                     CSP Global devised a comprehensive strategy tailored to
                     Trinity College's needs, integrating Essential Eight
