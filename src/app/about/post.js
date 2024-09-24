@@ -313,102 +313,105 @@ const Posts = ({ posts, loading }) => {
                   </div>
                 </div>
                 <br />
-                <h3>Our Team</h3>
-                <div className="team-section-middle">
-                  <div className="team-section-middle-inner">
-                    <Image src={TeamSix} alt="" />
-                    <h4>Tom Penfold</h4>
-                    <h5>Senior Microsoft 365 Engineer</h5>
-                    <p>
-                      Tom is CSP's Senior Microsoft 365 Engineer. He brings a
-                      wealth of knowledge to the entire team and supports them
-                      as an escalation point. Tom is a Microsoft security and
-                      productivity expert and has obtained the AZ-104 Microsoft
-                      Azure Administrator qualification. His subject matter
-                      expertise, and an incredible eye for high-quality
-                      documentation, ensure that our internal and client
-                      Knowledge Base is of the highest standard possible.
-                    </p>
+                <div className="none">
+                  <h3>Our Team</h3>
+                  <div className="team-section-middle">
+                    <div className="team-section-middle-inner">
+                      <Image src={TeamSix} alt="" />
+                      <h4>Tom Penfold</h4>
+                      <h5>Senior Microsoft 365 Engineer</h5>
+                      <p>
+                        Tom is CSP's Senior Microsoft 365 Engineer. He brings a
+                        wealth of knowledge to the entire team and supports them
+                        as an escalation point. Tom is a Microsoft security and
+                        productivity expert and has obtained the AZ-104
+                        Microsoft Azure Administrator qualification. His subject
+                        matter expertise, and an incredible eye for high-quality
+                        documentation, ensure that our internal and client
+                        Knowledge Base is of the highest standard possible.
+                      </p>
+                    </div>
+                    <div className="team-section-middle-inner">
+                      <Image src={TeamTwo} alt="" />
+                      <h4>Jacinta Ribény</h4>
+                      <h5>Executive Assistant</h5>
+                      <p>
+                        Jacinta is a former elite gymnast and fitness
+                        instructor, and is completing a bachelor's degree in
+                        journalism and creative writing at the University of
+                        Adelaide. Jacinta has been able to transfer her
+                        marketing and communication skills to the workforce and
+                        apply them to her role as Executive Assistant at CSP.
+                      </p>
+                    </div>
+                    <div className="team-section-middle-inner">
+                      <Image src={TeamFour} alt="" />
+                      <h4>Jackie Ireland</h4>
+                      <h5>Operations Manager</h5>
+                      <p>
+                        Jackie has 30+ years of experience working with a
+                        variety of technology companies. She helps CSP continue
+                        to run as efficiently and effectively as possible using
+                        a wide range of SaaS automation and integration tools.
+                        As the backbone of operations, she helps oversee our
+                        24/7 global MDR service and ensures our SOC team has all
+                        the resources they need in their daily fight against
+                        cybercrime.
+                      </p>
+                    </div>
                   </div>
-                  <div className="team-section-middle-inner">
-                    <Image src={TeamTwo} alt="" />
-                    <h4>Jacinta Ribény</h4>
-                    <h5>Executive Assistant</h5>
-                    <p>
-                      Jacinta is a former elite gymnast and fitness instructor,
-                      and is completing a bachelor's degree in journalism and
-                      creative writing at the University of Adelaide. Jacinta
-                      has been able to transfer her marketing and communication
-                      skills to the workforce and apply them to her role as
-                      Executive Assistant at CSP.
-                    </p>
-                  </div>
-                  <div className="team-section-middle-inner">
-                    <Image src={TeamFour} alt="" />
-                    <h4>Jackie Ireland</h4>
-                    <h5>Operations Manager</h5>
-                    <p>
-                      Jackie has 30+ years of experience working with a variety
-                      of technology companies. She helps CSP continue to run as
-                      efficiently and effectively as possible using a wide range
-                      of SaaS automation and integration tools. As the backbone
-                      of operations, she helps oversee our 24/7 global MDR
-                      service and ensures our SOC team has all the resources
-                      they need in their daily fight against cybercrime.
-                    </p>
-                  </div>
-                </div>
-                <div className="team-section-middle">
-                  <div className="team-section-middle-inner">
-                    <Image src={TeamFive} alt="" />
-                    <h4>Corey Wilson</h4>
-                    <h5>SOC Analyst</h5>
-                    <p>
-                      Corey is currently studying for a Bachelor of Networking
-                      and Cybersecurity at the University of South Australia. He
-                      enjoys researching the latest attacks in Cyberspace and
-                      learning new mitigation strategies for responding to
-                      emerging threats. Corey has been leveraging the Essential
-                      Eight framework and learning various network analysis
-                      skills during his studies. He is excited to put these
-                      skills into action in his first cybersecurity role with
-                      CSP.
-                    </p>
-                  </div>
-                  <div className="team-section-middle-inner">
-                    <Image src={TeamSeven} alt="" />
-                    <h4>Monika Ahalawat</h4>
-                    <h5>SOC Engineer </h5>
-                    <p>
-                      Meet Monika a seasoned cybersecurity professional with a
-                      passion for excellence and a proven track record in
-                      defending organizations against digital threats. With a
-                      wealth of experience and a remarkable skill set, Monika is
-                      our trusted guardian in the ever-evolving world of
-                      cybersecurity. She specializes in conducting end-to-end
-                      security incident investigations, analysis, and triage.
-                      Her ability to excel in endpoint forensics and root cause
-                      analysis has saved organizations from countless security
-                      breaches.
-                    </p>
-                  </div>
-                  <div className="team-section-middle-inner">
-                    <Image src={TeamEight} alt="" />
-                    <h4>Yashawant Singh</h4>
-                    <h5>SOC Engineer</h5>
-                    <p>
-                      Meet Yashwant, a seasoned Security professional with a
-                      passion for ensuring the seamless operation of
-                      organizations digital infrastructure. With a wealth of
-                      experience in managing user configurations, security, and
-                      networking systems, Yashawant is our unwavering defender.
-                      With a vigilant eye on incident and event monitoring,
-                      Yashwant swiftly identifies and resolves issues to
-                      minimize downtime and ensure a smooth operational flow. He
-                      leverages Microsoft 365 and Azure security controls with
-                      finesse, showcasing his in-depth knowledge of the security
-                      landscape.
-                    </p>
+                  <div className="team-section-middle">
+                    <div className="team-section-middle-inner">
+                      <Image src={TeamFive} alt="" />
+                      <h4>Corey Wilson</h4>
+                      <h5>SOC Analyst</h5>
+                      <p>
+                        Corey is currently studying for a Bachelor of Networking
+                        and Cybersecurity at the University of South Australia.
+                        He enjoys researching the latest attacks in Cyberspace
+                        and learning new mitigation strategies for responding to
+                        emerging threats. Corey has been leveraging the
+                        Essential Eight framework and learning various network
+                        analysis skills during his studies. He is excited to put
+                        these skills into action in his first cybersecurity role
+                        with CSP.
+                      </p>
+                    </div>
+                    <div className="team-section-middle-inner">
+                      <Image src={TeamSeven} alt="" />
+                      <h4>Monika Ahalawat</h4>
+                      <h5>SOC Engineer </h5>
+                      <p>
+                        Meet Monika a seasoned cybersecurity professional with a
+                        passion for excellence and a proven track record in
+                        defending organizations against digital threats. With a
+                        wealth of experience and a remarkable skill set, Monika
+                        is our trusted guardian in the ever-evolving world of
+                        cybersecurity. She specializes in conducting end-to-end
+                        security incident investigations, analysis, and triage.
+                        Her ability to excel in endpoint forensics and root
+                        cause analysis has saved organizations from countless
+                        security breaches.
+                      </p>
+                    </div>
+                    <div className="team-section-middle-inner">
+                      <Image src={TeamEight} alt="" />
+                      <h4>Yashawant Singh</h4>
+                      <h5>SOC Engineer</h5>
+                      <p>
+                        Meet Yashwant, a seasoned Security professional with a
+                        passion for ensuring the seamless operation of
+                        organizations digital infrastructure. With a wealth of
+                        experience in managing user configurations, security,
+                        and networking systems, Yashawant is our unwavering
+                        defender. With a vigilant eye on incident and event
+                        monitoring, Yashwant swiftly identifies and resolves
+                        issues to minimize downtime and ensure a smooth
+                        operational flow. He leverages Microsoft 365 and Azure
+                        security controls with finesse, showcasing his in-depth
+                        knowledge of the security landscape.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
