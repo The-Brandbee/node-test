@@ -84,6 +84,10 @@ export default function TopCollage() {
                         the combined power of both platforms to optimize device
                         management and security protocols.
                       </li>
+                      <li>
+                        Windows 11 upgrade across the entire managed device
+                        fleet (800+ devices)
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -108,15 +112,17 @@ export default function TopCollage() {
                         Microsoft 365 and <br />
                         Azure uplift.
                       </li>
-                      <li>
-                        Implemented efficient Intune Hybrid Device Management
-                        for seamless <br />
-                        device control.
-                      </li>
+
                       <li>
                         Streamlined Trinity College's vendor landscape through
                         consolidation for <br />
                         optimized operations.
+                      </li>
+                      <li>
+                        Intune device architecture and design. Windows 11
+                        automated copilot provisioning. Over 500 settings
+                        deployed as part of the Windows 11 upgrade process,
+                        improving both security and user experience.
                       </li>
                     </ul>
                   </div>
