@@ -106,6 +106,12 @@ function IndexPage() {
                     >
                       Datasheet
                     </a>
+                    <a
+                      target="_blank"
+                      href="https://blog.csp.global/wp-content/uploads/2024/10/South-Australia-Globally-Connected.pdf"
+                    >
+                      South Australia - Globally Connected
+                    </a>
                   </div>
                 </li>
 

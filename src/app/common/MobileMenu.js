@@ -194,6 +194,14 @@ class MobileMenu extends React.Component {
                               Datasheet
                             </a>
                           </li>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="https://blog.csp.global/wp-content/uploads/2024/10/South-Australia-Globally-Connected.pdf"
+                            >
+                              South Australia - Globally Connected
+                            </a>
+                          </li>
                         </ul>
                       </div>
                     </AccordionItemPanel>
