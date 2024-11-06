@@ -2952,22 +2952,27 @@ font-size: 50px;
 .Streamlined-IT-Infrastructure-frame-bottom ul.collaborative-middle-frame-main{
   justify-content: center;
 }
-.Recommended-Solutions-main-frame-middle {
-  display: inline-block;
-  justify-content: space-between;   
-  margin-top: 30px;
-}
-.Recommended-Solutions-main-frame-middle-left {
-  width: 100%;
-}
-.Recommended-Solutions-main-frame-middle-right {
-  width: 100%;
-}
-.phase-main-middle-frame-middle h4 {
- 
-  margin-top: 10px;
+
+.Strengthen-Your-Cyber-Defenses.mdr-page.ai-readiness{
+  z-index: 1 !important;
 }
 @media all and (min-width:120px) and (max-width:670px){
+  .Recommended-Solutions-main-frame-middle {
+    display: inline-block;
+    justify-content: space-between;   
+    margin-top: 30px;
+  } 
+  .Recommended-Solutions-main-frame-middle-left {
+    width: 100%;
+  }
+  .Recommended-Solutions-main-frame-middle-right {
+    width: 100%;
+  }
+  .phase-main-middle-frame-middle h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
   .security-uplifts-page-main .header-video.ai-readiness:before {
     height: 97%;
 }

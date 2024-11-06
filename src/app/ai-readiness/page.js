@@ -1,11 +1,11 @@
 import SecurityMani from "../ai-readiness/ai-readiness.js";
 
 export const metadata = {
-  title: "Security Uplifts",
+  title: "AI READINESS CSP",
   description:
     "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
   alternates: {
-    canonical: "https://csp.global/mdr",
+    canonical: "https://csp.global//ai-readiness",
   },
   openGraph: {
     images:

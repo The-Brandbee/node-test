@@ -60,7 +60,7 @@ const Posts = ({ posts, loading }) => {
               </div>
 
               <div className="container Strengthen-cont-main">
-                <div className="Strengthen-Your-Cyber-Defenses mdr-page">
+                <div className="Strengthen-Your-Cyber-Defenses mdr-page ai-readiness">
                 <h4>AI READINESS</h4>
                 <p>Preparing Your Business for AI Adoption</p>
                 </div>
