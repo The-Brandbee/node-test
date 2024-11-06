@@ -32,6 +32,159 @@ a{
   text-decoration: none !important;
 }
 
+
+/*AI READINESS start */
+
+.security-uplifts-page-main.ai-readiness .Detection-Response-page-middle-left{
+width: 100%;
+}
+.ai-readiness-tab-frame{
+  padding: 60px 0px;
+}
+.ai-readiness-tab-frame .accordion__button {
+  background-color: transparent;
+  position: relative;
+  font-weight: 600;
+  color: #ea5e26;
+}
+.ai-readiness-tab-frame .accordion__button:hover {
+  background-color: transparent;
+}
+.ai-readiness-tab-frame .accordion{
+  border: 0px;
+}
+.ai-readiness-tab-frame .accordion__button:before{
+  float: right;
+  margin-top: 0px;
+  background: url(../app/img/arrow-down-squar.png);
+  border: 0px;
+  width: 25px;
+  height: 25px;
+  transform: initial;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+.ai-readiness-tab-frame .accordion__button[aria-expanded='true']::before, .accordion__button[aria-selected='true']::before {
+  transform: rotate(181deg);
+}
+.ai-readiness-tab-frame .accordion__button:after{
+  content: '';
+  width: 87%;
+  height: 2px;
+  border-bottom: 1.5px solid #ea5e26;
+  position: absolute;
+  left: 90px;
+  top: 29px;
+}
+.ai-readiness-tab-frame .accordion__item + .accordion__item {
+  border-top: 0px solid rgba(0, 0, 0, 0.1);
+}
+.ai-readiness-tab-frame .accordion__item{
+  margin-bottom: 30px;
+}
+.phase-main-middle-frame-middle-left-img-two{
+  background: #ea5e26;
+  border-radius: 100%;
+  padding: 20px;
+}
+.ai-readiness-tab-frame .accordion__panel{
+  padding-top: 0px;           
+}
+.phase-main-middle-frame-middle h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.phase-main-middle-frame-middle p{
+  font-size: 16px;      
+}
+.phase-main-middle-frame-middle{
+  margin-top: 40px;
+  display: flex;
+}
+.phase-main-middle-frame-middle-left{
+width:65%;
+
+}
+.phase-main-middle-frame-middle-right{
+width:35%;
+padding-left:5%;
+}
+.phase-main-middle-frame-middle-right img{
+  width: 100%;
+}
+.phase-main-middle-frame-middle ul{
+  margin-top: 60px !important;
+}
+.phase-main-middle-frame-middle ul li{ 
+  display: flex;
+  margin-bottom: 30px;
+}
+.phase-main-middle-frame-middle ul li .phase-main-middle-frame-middle-left-img-two img{
+  width: 60px;
+}
+.phase-main-middle-frame-middle-left-img-right{
+  padding-left: 20px;
+}
+.phase-main-middle-frame-middle-left-img-right h5{
+  font-family: Poppins-Bold !important;
+  font-size: 16px;
+}
+.phase-main-middle-frame-middle-left-img-right p{
+   font-size: 15px;
+}
+.Recommended-Solutions-main-frame{
+  background: #F6F6F6;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.Recommended-Solutions-main-frame-middle{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.Recommended-Solutions-main-frame-middle h5{
+  font-family: Poppins-Bold !important;
+  font-size: 16px;
+  color:#EA5E26;
+}
+.Recommended-Solutions-main-frame-middle p a{
+  background: #EA5E26;
+  color: #fff;
+  border-radius: 25px;
+  padding: 8px 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.Recommended-Solutions-main-frame-middle-left{
+width:47%;
+}
+.Recommended-Solutions-main-frame-middle-right{
+  width:47%;
+}
+.phase-main-middle-frame.PHASE-2 .phase-main-middle-frame-middle-right{
+  padding-left: 0px;
+  padding-right: 5%;
+}
+.Building-an-AI-Ready-Culture h3{
+ color: #EA5E26;
+ text-transform: none;
+ font-size: 27px;
+}
+.Building-an-AI-Ready-Culture p{
+  margin-top: 20px !important;
+}
+.Building-an-AI-Ready-Culture{
+  background: #0000007D;
+  padding: 30px;
+}
+.security-uplifts-page-main .header-video.ai-readiness:before{
+  height: 98.7%;
+}
+/*AI READINESS end */
+
+
+
 /*PrivacyPolicy start */
 
 .About-The-Company-sto-bottom.PrivacyPolicy-main-page{
@@ -2799,7 +2952,43 @@ font-size: 50px;
 .Streamlined-IT-Infrastructure-frame-bottom ul.collaborative-middle-frame-main{
   justify-content: center;
 }
+.Recommended-Solutions-main-frame-middle {
+  display: inline-block;
+  justify-content: space-between;   
+  margin-top: 30px;
+}
+.Recommended-Solutions-main-frame-middle-left {
+  width: 100%;
+}
+.Recommended-Solutions-main-frame-middle-right {
+  width: 100%;
+}
+.phase-main-middle-frame-middle h4 {
+ 
+  margin-top: 10px;
+}
 @media all and (min-width:120px) and (max-width:670px){
+  .security-uplifts-page-main .header-video.ai-readiness:before {
+    height: 97%;
+}
+.phase-main-middle-frame-middle-left {
+  width: 100%;
+}
+.phase-main-middle-frame-middle-right {
+  width: 100%;
+  padding-left: 0px;
+}
+.phase-main-middle-frame-middle {
+  margin-top: 40px;
+  display: inline-block;
+}
+.Building-an-AI-Ready-Culture {
+  background: transparent;
+  padding: 30px;
+}
+.ai-readiness-tab-frame .accordion__button:after {
+  width: 53%;
+}
   .team-section-middle.top-new-frame .team-section-middle-inner{
     margin-bottom: 30px;
   }
