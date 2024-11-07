@@ -152,8 +152,8 @@ const Posts = ({ posts, loading }) => {
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
                                   <h5>AI Adoption</h5>
-                                  <p>AI Adoption
-                                  Be clear about your technology security and have a roadmap in place that has strategic aims and the capacity to continually report on achieved outcomes. Start with educating key stakeholders around the “art of the possible” with a free AI education session. Then move into a more intensive sprint for multiple staff that helps you get started with high impact areas/use cases, aimed at your specific business.</p>
+                                  <p>
+                                  Develop strategic aims and the capacity to continually report on achieved outcomes. Begin with the “art of the possible”, our free AI education session. Then, move into a more intensive sprint involving key stakeholders and get into the weeds with high impact areas/use cases, aimed at your specific business objectives.</p>
                                   <p><a href="https://clarity.video/watch/83fd155d-7abe-44f1-b7ab-0a5f8fde16c8" target="_blank">Watch the video</a></p>
                                 </div>
                            </div>
