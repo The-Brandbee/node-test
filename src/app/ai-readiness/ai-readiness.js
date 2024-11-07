@@ -117,6 +117,7 @@ const Posts = ({ posts, loading }) => {
                                 </div>
                               </div>
                               <div className="phase-main-middle-frame-middle-left-img-right">
+                                <h5>Optimize your Data</h5>
                                 <p>
                                 More than 80% of business executives believe data leakage is among the biggest threats. Review your permissions at scale and use optimization for removing ROT data (redundant, obsolete and trivial) to a more secure and cost-effective location.
                                 </p>
@@ -147,12 +148,13 @@ const Posts = ({ posts, loading }) => {
                            <div className="Recommended-Solutions-main-frame-middle">
                                 <div className="Recommended-Solutions-main-frame-middle-left">
                                   <h5>Technology partnerships</h5>
-                                  <p>Engage expert companies, such as CSP Global and our trusted channel partners, to get the most out of your technology investments and have SLA support around the clock.</p>
+                                  <p>Engage expert companies - such as CSP Global and their AI delivery partner – and find ways to get the most out of your technology investments. Make sure you consider device, data and endpoint security, and look at options for SLA support around the clock before implementing AI products. Your partner should be able to find Shadow AI in your organization and help create AI fair use policies.</p>
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
                                   <h5>AI Adoption</h5>
-                                  <p>Once you are clear about data security and have a roadmap in place, you will be ready to take AI to the next level. Our channel partner delivers a free introductory session, and a four-week intensive sprint geared specifically for your business and your industry with resources.</p>
-                                  <p><a href="#">Watch the video</a></p>
+                                  <p>AI Adoption
+                                  Be clear about your technology security and have a roadmap in place that has strategic aims and the capacity to continually report on achieved outcomes. Start with educating key stakeholders around the “art of the possible” with a free AI education session. Then move into a more intensive sprint for multiple staff that helps you get started with high impact areas/use cases, aimed at your specific business.</p>
+                                  <p><a href="https://clarity.video/watch/83fd155d-7abe-44f1-b7ab-0a5f8fde16c8" target="_blank">Watch the video</a></p>
                                 </div>
                            </div>
                        </div>
