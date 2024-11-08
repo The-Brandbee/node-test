@@ -16,9 +16,6 @@ import BenefitsThree from "../img/Path-37.png";
 import BenefitsFour from "../img/futuristic-computer.png";
 import BenefitsFive from "../img/Web_Optimizatio.png";
 import BenefitsSix from "../img/Ai-ready.jpg";
-
-
-
 import {
   Accordion,
   AccordionItem,
@@ -30,12 +27,7 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 import { GoogleTagManager } from "@next/third-parties/google";
-
-const Posts = ({ posts, loading }) => {
-  if (loading) {
-    return <h2></h2>;
-  }
-
+export default function Home() {
   return (
     <>
       <Head></Head>
@@ -316,8 +308,6 @@ const Posts = ({ posts, loading }) => {
           </div>
        
       </main>
-    </>
+    </> 
   );
-};
-
-export default Posts;
+}
