@@ -1,4 +1,4 @@
-import Ain from "../deepak/ai.js";
+import Ain from "./ai.js";
 
 export const metadata = {
   /*title: "",
