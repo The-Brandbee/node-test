@@ -49,7 +49,7 @@ const Posts = ({ posts, loading }) => {
                 <video playsInline autoPlay loop muted>
                   <source
                     src={
-                      "http://blog.csp.global/wp-content/uploads/2024/11/CSP-AI-Banner-Video-2.mp4"
+                      "https://blog.csp.global/wp-content/uploads/2024/11/CSP-AI-Banner-Video-2.mp4"
                     }
                     type="video/mp4"
                   />
