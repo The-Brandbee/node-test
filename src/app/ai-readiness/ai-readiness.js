@@ -153,7 +153,8 @@ const Posts = ({ posts, loading }) => {
                            <div className="Recommended-Solutions-main-frame-middle">
                                 <div className="Recommended-Solutions-main-frame-middle-left">
                                   <h5>Technology partnerships</h5>
-                                  <p>Engage expert companies - such as CSP Global and their AI delivery partner – and find ways to get the most out of your technology investments. Make sure you consider device, data and endpoint security, and look at options for SLA support around the clock before implementing AI products. Your partner should be able to find Shadow AI in your organization and help create AI fair use policies.</p>
+                                  <p>Engage expert companies - such as CSP Global and their AI delivery partner - and find ways to get the most out of your technology investments. Make sure you consider device, data and endpoint security, and look at options for SLA support around the clock before implementing AI products. Your partner should be able to find Shadow AI in your organization and help create AI fair use policies.</p>
+                                  <p><a href="https://outlook.office365.com/owa/calendar/MeetUsCopy@csp.global/bookings/" target="_blank">Book Discussion</a></p>
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
                                   <h5>AI Adoption</h5>
@@ -180,8 +181,8 @@ const Posts = ({ posts, loading }) => {
                         <Image src={BenefitsFour} alt="" />
                         </div>
                         <div className="phase-main-middle-frame-middle-left">
-                          <h4>Establishing a Firm Foundation</h4>
-                          <p>AI needs an upgraded infrastructure. Making sure that all hardware, software, and networking elements are fine-tuned will help reduce potential bottlenecks. Many enterprises simply avoid upgrading their infrastructure, which causes various inefficiencies in performance once AI is deployed. Scalable infrastructure offers the promise that companies will have seamless AI operations across all departments.</p>
+                          <h4>Endpoint Security and Monitoring </h4>
+                          <p>AI systems often handle sensitive data, making them attractive targets for cyberattacks. Effective device management and security monitoring help ensure that all devices accessing AI systems are secure and compliant with regulatory standards. AI can introduce new vulnerabilities and attack surfaces. By maintaining strong security monitoring, organizations can detect and mitigate potential threats early, reducing the risk of data breaches and other security incidents.</p>
                           <ul>
                           <li>
                               <div className="phase-main-middle-frame-middle-left-img">
@@ -223,8 +224,8 @@ const Posts = ({ posts, loading }) => {
                                   <p>This helps in managing everything centrally so that policies keep the devices secure, minimizing the risk of vulnerabilities. It also allows for remote management, updating of policies, standardization, and compliance, across a distributed ecosystem.</p>
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
-                                  <h5>Data Optimization </h5>
-                                  <p>More than 80% of business executives believe data leakage is among the biggest threats. Powered by advanced AI, Data Optimization is the next generation of information lifecycle management allowing you to have complete control from creation to archive through a central interface. Successfully govern by deleting or retaining ROT data (Redundant, Obsolete and Trivial) before introducing AI into your environment. </p>
+                                  <h5>Microsoft Sentinel</h5>
+                                  <p>This is real-time threat detection providing deep visibility into AI systems. Sentinel will neatly integrate with existing infrastructure, offering enriching analytics and reporting.</p>
                                   
                                 </div>
                            </div>
@@ -243,8 +244,8 @@ const Posts = ({ posts, loading }) => {
                        <h3>Governance and Compliance</h3>
                        <div className="phase-main-middle-frame-middle">
                         <div className="phase-main-middle-frame-middle-left">
-                          <h4>Ensure Secure AI Operations</h4>
-                          <p>Industry regulations aim to ensure that one doesn't get fined, while on the other hand, they help rebuild trust. Given that 73% of businesses remain worried about the risks AI poses to cybersecurity, one needs to have a solid governance structure. Being out of compliance could mean one risks very heavy fines and reputational damage, and continuous checks will be important. Strong governance engenders consumer confidence in how an organization applies AI.</p>
+                          <h4>Frameworks and Data Security</h4>
+                          <p>The Zero Trust model forms a crucial foundation for the use of AI in the corporate context. In an era where data is both a valuable resource and a potential security risk, Zero Trust’s “never trust, always verify” philosophy guarantees the security and integrity of data. This minimizes the risk of unauthorized access and data breaches. It is essential to store, manage and categorise your data effectively and prevent unintended access to sensitive information. This includes revoking outdated permissions, identifying and protecting sensitive data, and monitoring for anomalies and potential risks.</p>
                           <ul>
                            
                             <li>
@@ -287,9 +288,8 @@ const Posts = ({ posts, loading }) => {
                            <h3>Recommended Solutions</h3>
                            <div className="Recommended-Solutions-main-frame-middle">
                                 <div className="Recommended-Solutions-main-frame-middle-left">
-                                  <h5>Copilot for Microsoft 365</h5>
-                                  <p>This tool offers end-to-end governance by automating data labelling and classification across systems. It helps organizations stay compliant with evolving regulations while managing sensitive data efficiently.</p>
-                                  <p><b>Additional Benefits:</b> Copilot inherits all existing labels and protections applied to files, ensuring AI-generated content maintains the same security protocols. It also supports real-time monitoring of data usage, helping organizations prevent unauthorized access and comply with data regulations.</p>
+                                  <h5>Data Optimization</h5>
+                                  <p>More than 80% of business executives believe data leakage is among the biggest threats. Powered by advanced AI, Data Optimization is the next generation of information lifecycle management allowing you to have complete control from creation to archive through a central interface. Successfully govern by deleting or retaining ROT data (Redundant, Obsolete and Trivial) before introducing AI into your environment.</p>
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
                                   <h5>Microsoft Purview</h5>
