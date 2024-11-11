@@ -13,6 +13,7 @@ import Leveraging from "../img/Path-icon.png";
 import BenefitsOne from "../img/data-management.png";  
 import BenefitsTwo from "../img/business-person.png";
 import BenefitsThree from "../img/Path-37.png";
+import ArrowOneNew from "../img/AI-Framework.png";
 import BenefitsFour from "../img/futuristic-computer.png";
 import BenefitsFive from "../img/Web_Optimizatio.png";
 import BenefitsSix from "../img/Ai-ready.jpg";
@@ -90,9 +91,16 @@ const Posts = ({ posts, loading }) => {
                        <h3>AI Risk Assessment</h3>
                        <div className="phase-main-middle-frame-middle">
                         <div className="phase-main-middle-frame-middle-left">
-                          <h4>Risk Identification and Mitigation</h4>
-                          <p>AI introduces several security vulnerabilities, such as leakage and compliance risks. It is very crucial to have an AI Readiness security roadmap before moving ahead with implementation. According to expert professionals, ignoring the assessment of AI risk may lead to unexpected reversals in operations, along with huge losses in terms of money or data. Early detection of a threat ensures seamless integration and stability for the long term.</p>
-                          <ul>
+                          <h4>AI Unified Framework </h4>
+                          <p>AI introduces several security vulnerabilities, such as leakage and compliance risks. Ignoring the assessment of AI risk may lead to unexpected reversals in operations, along with huge losses in terms of money or data. That is why it is crucial to have an AI Framework and security roadmap before moving ahead with any implementation. This can be done in parallel with Innovation. We recommend starting with a cybersecurity assessment along with a 4-week innovation sprint.</p>
+                          
+                          <div class="introduces-New">
+                          
+                            <Link href="/contact">
+                        <Image src={ArrowOneNew} alt="" />
+                        </Link>
+                          </div>
+                         {/* <ul>
                             <li>
                               <div className="phase-main-middle-frame-middle-left-img">
                                 <div className="phase-main-middle-frame-middle-left-img-two">
@@ -133,7 +141,7 @@ const Posts = ({ posts, loading }) => {
                               </div>
 
                             </li>
-                          </ul>
+                          </ul>*/}
                         </div>
                         <div className="phase-main-middle-frame-middle-right">
                         <Image src={Arrowtwo} alt="" />
@@ -166,7 +174,7 @@ const Posts = ({ posts, loading }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <div className="phase-main-middle-frame PHASE-2">
-                       <h3>Infrastructure and Data Preparation</h3>
+                       <h3>Device Management and Monitoring </h3>
                        <div className="phase-main-middle-frame-middle">
                        <div className="phase-main-middle-frame-middle-right">
                         <Image src={BenefitsFour} alt="" />
@@ -175,17 +183,15 @@ const Posts = ({ posts, loading }) => {
                           <h4>Establishing a Firm Foundation</h4>
                           <p>AI needs an upgraded infrastructure. Making sure that all hardware, software, and networking elements are fine-tuned will help reduce potential bottlenecks. Many enterprises simply avoid upgrading their infrastructure, which causes various inefficiencies in performance once AI is deployed. Scalable infrastructure offers the promise that companies will have seamless AI operations across all departments.</p>
                           <ul>
-                            <li>
+                          <li>
                               <div className="phase-main-middle-frame-middle-left-img">
                                 <div className="phase-main-middle-frame-middle-left-img-two">
-                                <Image src={BenefitsFive} alt="" />
+                                <Image src={ArrowOne} alt="" />
                                 </div>
                               </div>
                               <div className="phase-main-middle-frame-middle-left-img-right">
-                                <h5>Data Optimization</h5>
-                                <p>
-                                Revise access rights to data, classify data according to sensitivity, and eliminate permissions on data that are no longer current.
-                                </p>
+                                <h5>Ongoing Monitoring</h5>
+                                <p>Perform ongoing monitoring of the data access and usage of AI to prevent data leakage and non-compliant activities.</p>
                               </div>
 
                             </li>
@@ -198,7 +204,7 @@ const Posts = ({ posts, loading }) => {
                               <div className="phase-main-middle-frame-middle-left-img-right">
                                 <h5>Centralized Device Management</h5>
                                 <p>
-                                Centrally manage and monitor devices, IoT, and mobile using Microsoft Intune.
+                                In more than 90% of cases where attacks progressed to ransom stage, the attacker had leveraged unmanaged devices in the network. Ensure only compliant and corporate-managed devices can access your resources. This also improves the end user experience.
                                  </p>
                               </div>
 
@@ -210,15 +216,15 @@ const Posts = ({ posts, loading }) => {
 
                        </div>
                        <div className="Recommended-Solutions-main-frame">
-                           <h3>Tools to Consider</h3>
+                           <h3>Recommended Solutions</h3>
                            <div className="Recommended-Solutions-main-frame-middle">
                                 <div className="Recommended-Solutions-main-frame-middle-left">
-                                  <h5>Intune by Microsoft</h5>
-                                  <p>This helps in managing everything centrally so that policies keep the devices secure, minimizing the risk of vulnerabilities. It also allows for remote management and updating of policies across a distributed environment.</p>
+                                  <h5>Microsoft Intune</h5>
+                                  <p>This helps in managing everything centrally so that policies keep the devices secure, minimizing the risk of vulnerabilities. It also allows for remote management, updating of policies, standardization, and compliance, across a distributed ecosystem.</p>
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
-                                  <h5>Microsoft Sentinel</h5>
-                                  <p>This is real-time threat detection providing deep visibility into AI systems. Sentinel will neatly integrate with existing infrastructure, offering enriching analytics and reporting.</p>
+                                  <h5>Data Optimization </h5>
+                                  <p>More than 80% of business executives believe data leakage is among the biggest threats. Powered by advanced AI, Data Optimization is the next generation of information lifecycle management allowing you to have complete control from creation to archive through a central interface. Successfully govern by deleting or retaining ROT data (Redundant, Obsolete and Trivial) before introducing AI into your environment. </p>
                                   
                                 </div>
                            </div>
@@ -255,15 +261,18 @@ const Posts = ({ posts, loading }) => {
                               </div>
 
                             </li>
+                          
                             <li>
                               <div className="phase-main-middle-frame-middle-left-img">
                                 <div className="phase-main-middle-frame-middle-left-img-two">
-                                <Image src={ArrowOne} alt="" />
+                                <Image src={BenefitsFive} alt="" />
                                 </div>
                               </div>
                               <div className="phase-main-middle-frame-middle-left-img-right">
-                                <h5>Ongoing Monitoring</h5>
-                                <p>Perform ongoing monitoring of the data access and usage of AI to prevent data leakage and non-compliant activities.</p>
+                                <h5>Data Optimization</h5>
+                                <p>
+                                Revise access rights to data, classify data according to sensitivity, and eliminate permissions on data that are no longer current.
+                                </p>
                               </div>
 
                             </li>
@@ -275,7 +284,7 @@ const Posts = ({ posts, loading }) => {
 
                        </div>
                        <div className="Recommended-Solutions-main-frame">
-                           <h3>Compliance Tools</h3>
+                           <h3>Recommended Solutions</h3>
                            <div className="Recommended-Solutions-main-frame-middle">
                                 <div className="Recommended-Solutions-main-frame-middle-left">
                                   <h5>Copilot for Microsoft 365</h5>
