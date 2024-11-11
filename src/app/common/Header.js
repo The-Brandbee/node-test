@@ -41,7 +41,7 @@ function IndexPage() {
 
                           <Link href="/frameworks">Cyber Frameworks</Link>
                           <Link href="/enablement">Enablement</Link>
-                          <Link href="/ai-readiness">Ai Readiness</Link>
+                          <Link href="/ai-readiness">AI Readiness</Link>
                         </div>
                       </div>
                       <div className="dropdown-content-Services-menu-middle-left">
