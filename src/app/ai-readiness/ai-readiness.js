@@ -13,7 +13,7 @@ import Leveraging from "../img/Path-icon.png";
 import BenefitsOne from "../img/data-management.png";  
 import BenefitsTwo from "../img/business-person.png";
 import BenefitsThree from "../img/Path-37.png";
-import ArrowOneNew from "../img/AI-Framework.png";
+import ArrowOneNew from "../img/New-Project.png";
 import BenefitsFour from "../img/futuristic-computer.png";
 import BenefitsFive from "../img/Web_Optimizatio.png";
 import BenefitsSix from "../img/Ai-ready.jpg";
@@ -154,7 +154,7 @@ const Posts = ({ posts, loading }) => {
                                 <div className="Recommended-Solutions-main-frame-middle-left">
                                   <h5>Technology partnerships</h5>
                                   <p>Engage expert companies - such as CSP Global and their AI delivery partner - and find ways to get the most out of your technology investments. Make sure you consider device, data and endpoint security, and look at options for SLA support around the clock before implementing AI products. Your partner should be able to find Shadow AI in your organization and help create AI fair use policies.</p>
-                                  <p><a href="https://outlook.office365.com/owa/calendar/MeetUsCopy@csp.global/bookings/" target="_blank">Book Discussion</a></p>
+                                  <p><a href="https://outlook.office365.com/owa/calendar/AIInnovationSecurity@csp.global/bookings/" target="_blank">Book Discussion</a></p>
                                 </div>
                                 <div className="Recommended-Solutions-main-frame-middle-right">
                                   <h5>AI Adoption</h5>
