@@ -9,7 +9,7 @@ export const metadata = {
   },
   openGraph: {
     images:
-      "https://cms.csplighthouse.com/public/uploads/blogs/blogs31a094f7cd7a260a28be8d150e4a99fc.png",
+      "https://csp.global/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FNew-Project.5ba5b460.png&w=750&q=75",
   },
 };
 
