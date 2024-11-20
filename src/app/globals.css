@@ -32,7 +32,133 @@ a{
   text-decoration: none !important;
 }
 
+/* next step page */
+.security-uplifts-page-main.ai-readiness.nextsteps-frame .ai-readiness p a{
+  background: #EA5E26;
+  color: #fff;
+  padding: 8px 25px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 26px;
+  margin-top: 20px;
+}
+.nextsteps-frame .ai-readiness-tab-frame .accordion__button:after{
+  border-bottom: 0px solid #ea5e26;
+}
+.nextsteps-frame .ai-readiness-tab-frame .accordion__button{
+  font-family: Poppins-Bold !important;
+  font-size: 24px;
+  line-height: 40px;
+}
+.nextsteps-frame .ai-readiness-tab-frame .accordion__button span{
+ display: block;
+ color: #000;
+}
+.nextsteps-frame .ai-readiness-tab-frame .accordion__item{
+  box-shadow: 15px 15px 25px #0000001A;
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 1px solid #ea5e26;
+}
+.nextsteps-frame .ai-readiness-tab-frame .accordion__item + .accordion__item{
+  border: 1px solid #ea5e26;
+}
+.nextsteps-frame .inner-page-mhg{
 
+}
+.nextsteps-frame .inner-page-mhg h4{
+  font-family: Poppins-Bold !important;
+  color: #EA5E26;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.nextsteps-frame .inner-page-mhg h5{ 
+  font-family: Poppins-Bold !important;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.nextsteps-frame .inner-page-mhg p{
+  
+}   
+.nextsteps-frame .inner-page-mhg p a{
+  background: #EA5E26;
+  color: #fff;
+  padding: 8px 25px;
+  display: table;
+  font-size: 18px;
+  border-radius: 26px;
+  margin-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+} 
+.nextsteps-frame .inner-page-mhg ul{
+  padding-left: 20px !important;
+}   
+.nextsteps-frame .inner-page-mhg ul li{
+  list-style-type: disc;
+  margin: 11px 0px;
+}    
+.nextsteps-frame .inner-page-mhg ul li::marker {
+  color: #EA5E26; 
+}
+.nextsteps-frame .Key-benefits-workshop{
+  background: #DEDEDE;
+  padding: 60px 0px;
+}
+.nextsteps-frame .Key-benefits-workshop-middle{
+
+}
+.nextsteps-frame .Key-benefits-workshop-middle h3{
+  font-size: 24px;
+}
+.nextsteps-frame .Key-benefits-workshop-middle ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px !important;
+}
+.nextsteps-frame .Key-benefits-workshop-middle ul li{
+  background: #fff;
+  border-radius: 5px;
+  width: 19%;
+  padding: 10px 15px;
+}
+.nextsteps-frame .Key-benefits-workshop-middle.bottom ul li{
+  width: 24%;
+}
+.Key-benefits-workshop-middle-cr{
+
+}
+.Key-benefits-workshop-middle-cr img{
+  width: 40px;
+  margin-top: 15px;
+}
+.Key-benefits-workshop-middle-cr p{
+  margin: 0px;
+  margin-top: 15px;
+}
+.Key-benefits-workshop-middle-cr p span{
+  font-weight: bold;
+}
+.Key-benefits-workshop-middle.bottom{
+margin-top: 70px;
+}
+.nextsteps-frame .Key-benefits-workshop-middle.bottom p a {
+  background: #EA5E26;
+  color: #fff;
+  padding: 8px 25px;
+  display: table;
+  font-size: 18px;
+  border-radius: 26px;
+  margin-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.nextsteps-frame .Detection-Response-page{
+  padding: 20px 0px;
+}
+/*next step end */
 /*AI READINESS start */
 
 .introduces-New img{
@@ -2963,7 +3089,47 @@ font-size: 50px;
 .Strengthen-Your-Cyber-Defenses.mdr-page.ai-readiness{
   z-index: 1 !important;
 }
+.nextsteps-frame .Strengthen-Your-Cyber-Defenses.mdr-page.ai-readiness.right{
+  right: 6%;
+  width: 25%;
+}
+.nextsteps-frame .Strengthen-Your-Cyber-Defenses.mdr-page.ai-readiness.right video{
+  width: 100%;
+}
+.nextsteps-frame .container.Strengthen-cont-main{
+  position: relative;
+}
 @media all and (min-width:120px) and (max-width:670px){
+  .nextsteps-frame .container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses {
+    width: 50%;
+  }
+  .security-uplifts-page-main.nextsteps-frame .Strengthen-Your-Cyber-Defenses h4 {
+    font-size: 14px !important;
+}
+.security-uplifts-page-main.ai-readiness.nextsteps-frame .ai-readiness p a{
+  padding: 5px 18px;
+  font-size: 16px;
+}
+.nextsteps-frame .ai-readiness-tab-frame .accordion__button {
+  font-size: 18px;
+  line-height: 27px;
+}
+.nextsteps-frame .inner-page-mhg h4{
+  font-size: 14px;
+}
+.nextsteps-frame .inner-page-mhg h5{
+  font-size: 14px;
+}
+.nextsteps-frame .Key-benefits-workshop-middle ul li{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.nextsteps-frame .Key-benefits-workshop-middle ul {
+  display: inline-block;
+}
+.nextsteps-frame .Key-benefits-workshop-middle.bottom ul li {
+  width: 100%;
+}
   .Recommended-Solutions-main-frame-middle {
     display: inline-block;
     justify-content: space-between;   
