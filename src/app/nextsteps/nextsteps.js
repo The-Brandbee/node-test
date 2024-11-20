@@ -115,7 +115,7 @@ const Posts = ({ posts, loading }) => {
                         <li>Interactive session focused on how Copilot, ChatGPT, and Custom GPTs can integrate into participants’ workflows</li>
                         <li>Set expectations for the week ahead</li>
                        </ul>
-                       <p><a href="#">Buy Now</a></p>
+                      
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
