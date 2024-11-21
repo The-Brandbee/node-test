@@ -88,6 +88,8 @@ function IndexPage() {
         data-sm-api-key="eyJzb3VsSWQiOiJkZG5hLWNzcC1nbG9iYWxhZDhjLS1leHBsb3JlciIsImF1dGhTZXJ2ZXIiOiJodHRwczovL2RoLnNvdWxtYWNoaW5lcy5jbG91ZC9hcGkvand0IiwiYXV0aFRva2VuIjoiYXBpa2V5X3YxXzA2N2NjOTRlLTM5MjYtNDlhNC1iMDVjLTU1YzhiYWU3MjkxNCJ9"
         async
       />
+
+       
     </footer>
   );
 }

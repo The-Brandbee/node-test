@@ -21,7 +21,6 @@ import InconEight from "../img/nextsteps-con-8.png";
 import BenefitsSixx from "../img/insentra.png";
 
 
-
 import {
   Accordion,
   AccordionItem,
@@ -52,10 +51,10 @@ const Posts = ({ posts, loading }) => {
                 <Image src={About} alt="" />
               </div>
               <div className="container Strengthen-cont-main">
-                <div className="Strengthen-Your-Cyber-Defenses mdr-page ai-readiness">
+              <div className="Strengthen-Your-Cyber-Defenses mdr-page ai-readiness">
                 <h4>EXCLUSIVE 4-WEEK GENERATIVE AI SPRINT AGENDA</h4>
                 <div className="BenefitsSixx-main">  
-                <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                
                 <Image src={BenefitsSixx} alt="" />
                 </div>
                
@@ -82,7 +81,7 @@ const Posts = ({ posts, loading }) => {
                  
                 </div>
               </div>
-            </section>
+            </section> 
 
 
             <section className="ai-readiness-tab-frame">
@@ -133,8 +132,24 @@ const Posts = ({ posts, loading }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <div className="inner-page-mhg">
+                       <h4>Objective:</h4>
+                       <p>Provide feedback and guidance, focusing on Microsoft Copilot, ChatGPT, Custom GPTs, and generative AI tools, to enhance participants' practical use of AI.</p>
+                       <h4>Agenda:</h4>
+                       <h5>Review of Progress</h5>
+                       <ul>
+                        <li>Participants share experiences with Copilot, ChatGPT, and Custom GPTs, using stored prompts for tasks such as meeting preparation and objection handling</li>
+                       </ul>
+                       <h5>Targeted Q&A on Copilot, ChatGPT, and Custom GPTs</h5>
+                       <ul>
+                        <li>Focused guidance on maximising Microsoft Copilot for automating reports, meeting notes, and documentation</li>
+                        <li>Discussion on using ChatGPT and Custom GPTs for content generation and refining sales approaches using Challenger techniques</li>
+                       </ul>
+                       <h5>Next Steps & Recommendations</h5>
+                       <ul>
+                        <li>Personalised recommendations for refining stored prompts and further exploring Copilot, ChatGPT, and Custom GPT features</li>
+                       </ul>
                        
-                       <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                      
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -147,8 +162,32 @@ const Posts = ({ posts, loading }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <div className="inner-page-mhg">
+                       <h4>Objective:</h4>
+                       <p>Build on Week 1 with more advanced training on Microsoft Copilot, ChatGPT, Custom GPTs, and generative AI, refining crafted prompts for repeatable outcomes.</p>
+                       <h4>Agenda:</h4>
+                       <h5>Advanced Generative AI Tools & Features </h5>
+                       <ul>
+                        <li>Advanced features of Microsoft Copilot for complex documents, workflows, and integration with Microsoft tools like Excel and Outlook</li>
+                       <li>
+                       Deep dive into ChatGPT, Custom GPTs, and Anthropic Claude for content creation and client presentations
+                       </li>
+                       <li>
+                       Focus on refining crafted prompts for meeting preparation, handling objections, and reframing client conversations using Challenger Sales techniques
+                       </li>
+                       </ul>
+                       <h5>Hands-on Demonstration</h5>
+                       <ul>
+                        <li>Advanced use of Generative AI for automation of content creation, documents, and outputs</li>
+                        <li>Complex prompt creation using ChatGPT, Custom GPTs, and Prompt Buddy for consistent results in sales, marketing, and client interactions</li>
+                        <li>Showcase tools like DALL-E, Veed.io, and Synthesia for high-quality content creation</li>
+                       </ul>
+                       <h5>Q&A and Troubleshooting</h5>
+                       <ul>
+                        <li>Address specific challenges and refine the use of Copilot, ChatGPT, Custom GPTs, and other generative AI tools.</li>
+                        <li>Optimise stored prompts for client-facing scenarios and productivity.</li>
+                       </ul>
                       
-                       <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                      
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -161,8 +200,28 @@ const Posts = ({ posts, loading }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <div className="inner-page-mhg">
+                       <h4>Objective:</h4>
+                       <p>Address remaining questions and fine-tune participants’ use of Microsoft Copilot, ChatGPT, Custom GPTs, and generative AI for long-term productivity.</p>
+                       <h4>Agenda:</h4>
+                       <h5>Review of Week 3 Progress</h5>
+                       <ul>
+                        <li>Participants share successes and challenges with Copilot, ChatGPT, Custom GPTs, and generative AI tools</li>
+                        <li>Refine the use of stored prompts for repeatable, high-impact outcomes in client meetings and objection handling</li>
+                       </ul>
+                       <h5>Focused Q&A on Copilot, ChatGPT, and Custom GPTs</h5>
+                       <ul>
+                        <li>Final troubleshooting and guidance on using Microsoft Copilot for automation and documentation</li>
+                        <li>Tailored feedback on using ChatGPT, Custom GPTs, and Copilot for reframing client perspectives and driving results</li>
+                       <li>Further optimisation of crafted prompts for business success</li>
+                       </ul>
+                       <h5>Sprint Conclusion & Next Steps</h5>
+                       <ul>
+                        <li>Recap of key takeaways, including advanced use of Copilot, ChatGPT, Custom GPTs, and generative AI tools</li>
+                        <li>Guidance on continued adoption for long-term growth and productivity</li>
+                        <li>Resources for further learning and exploration of AI capabilities</li>
+                       </ul>
+                       
                       
-                       <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>

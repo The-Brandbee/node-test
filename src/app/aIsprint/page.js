@@ -1,7 +1,7 @@
-import Nextsteps from "./nextsteps.js";
+import Nextsteps from "./aIsprintInner";
 
 export const metadata = {
-  title: "Nextsteps CSP",
+  title: "AIsprint CSP",
   description:
     "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
   alternates: {

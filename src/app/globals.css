@@ -3099,7 +3099,28 @@ font-size: 50px;
 .nextsteps-frame .container.Strengthen-cont-main{
   position: relative;
 }
+.nextsteps-frame .Inner-page-banner-frame img{
+  height: 800px;
+}
+.BenefitsSixx-main img{
+  width: 250px;
+  height: auto;
+  margin-right: 9%;
+}
+.BenefitsSixx-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  }
+  .nextsteps-frame .BenefitsSixx-main p{
+    width: auto;
+  }
 @media all and (min-width:120px) and (max-width:670px){
+  .nextsteps-frame .Inner-page-banner-frame img{
+    height: auto;
+  }
   .nextsteps-frame .container.Strengthen-cont-main .Strengthen-Your-Cyber-Defenses {
     width: 50%;
   }
