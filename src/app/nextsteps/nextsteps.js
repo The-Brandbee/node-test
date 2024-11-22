@@ -55,7 +55,7 @@ const Posts = ({ posts, loading }) => {
                 <div className="Strengthen-Your-Cyber-Defenses mdr-page ai-readiness">
                 <h4>EXCLUSIVE 4-WEEK GENERATIVE AI SPRINT AGENDA</h4>
                 <div className="BenefitsSixx-main">  
-                <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                <p><a target="_blank" href="https://buy.stripe.com/00g3dBbSGbSY7y8aEF">Buy Now</a></p>
                 <Image src={BenefitsSixx} alt="" />
                 </div>
                
@@ -112,12 +112,12 @@ const Posts = ({ posts, loading }) => {
                        <h5>Hands-on Demonstration</h5>
                        <ul>
                         <li>Show-and-tell: Practical use cases, emphasising Microsoft Copilot for document creation, task automation, and meeting preparation</li>
-                        <li>Demonstration of stored prompts for repeatable outcomes, including handling objections, meeting preparation, and using Challenger Sales techniques to reframe client perspectives.</li>
-                        <li>Introduction to Custom GPTs tailored for specific roles</li>
+                        <li>Demonstration of stored prompts for repeatable outcomes, including handling data, financial reports, meeting management, and using generative ai tools to drive business results.</li>
+                        <li>Introduction to Custom GPTs and agents tailored for specific roles</li>
                        </ul>
                        <h5>Q&A and Discussion</h5>
                        <ul>
-                        <li>Interactive session focused on how Copilot, ChatGPT, and Custom GPTs can integrate into participants’ workflows</li>
+                        <li>Interactive session focused on how Copilot, ChatGPT, and Custom GPTs can integrate into participants' workflows</li>
                         <li>Set expectations for the week ahead</li>
                        </ul>
                       
@@ -134,7 +134,7 @@ const Posts = ({ posts, loading }) => {
                 <AccordionItemPanel>
                 <div className="inner-page-mhg">
                        
-                       <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                       <p><a target="_blank" href="https://buy.stripe.com/00g3dBbSGbSY7y8aEF">Buy Now</a></p>
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -148,7 +148,7 @@ const Posts = ({ posts, loading }) => {
                 <AccordionItemPanel>
                 <div className="inner-page-mhg">
                       
-                       <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                       <p><a target="_blank" href="https://buy.stripe.com/00g3dBbSGbSY7y8aEF">Buy Now</a></p>
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -162,7 +162,7 @@ const Posts = ({ posts, loading }) => {
                 <AccordionItemPanel>
                 <div className="inner-page-mhg">
                       
-                       <p><a target="_blank" href="https://buy.stripe.com/9AQcObbSGcX205GaEE">Buy Now</a></p>
+                       <p><a target="_blank" href="https://buy.stripe.com/00g3dBbSGbSY7y8aEF">Buy Now</a></p> 
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -183,7 +183,7 @@ const Posts = ({ posts, loading }) => {
               
               <div className="container">
                  <div className="Key-benefits-workshop-middle">
-                    <h3>Key benefits of the Zero Trust workshop</h3>
+                    <h3>Key benefits of our Zero Trust report</h3>
                     <ul>
                       <li>
                         <div className="Key-benefits-workshop-middle-cr">
@@ -219,7 +219,7 @@ const Posts = ({ posts, loading }) => {
                     </ul>
                  </div>
                  <div className="Key-benefits-workshop-middle bottom">
-                    <h3>Key benefits of the Zero Trust workshop</h3>
+                    <h3>Who should attend our Zero Trust workshop</h3>
                     <ul>
                       <li>
                         <div className="Key-benefits-workshop-middle-cr">
