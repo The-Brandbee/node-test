@@ -2497,6 +2497,25 @@ margin-right: 90px;
 .security-uplifts-page-main .Detection-Response-page {
   background: #ea5e26;
 }
+.register-interest a{
+  background: #ea5e26;
+    color: #fff;
+    margin-top: 39px;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-size: 18px;
+    transition: transform .2s;
+}
+.register-interest a:hover{
+  transform: scale(1.1);
+}
+.register-interest{
+  text-align: center;
+}
+.security-uplifts-page-main.nextsteps-frame .Detection-Response-page{
+  margin: 0px;
+}
 .security-uplifts-page-main .Hunting-Rules-frame-number-middle-cont-number-left h4{
   color: #fff;
   font-size: 70px;
@@ -3117,6 +3136,7 @@ font-size: 50px;
   .nextsteps-frame .BenefitsSixx-main p{
     width: auto;
   }
+
 @media all and (min-width:120px) and (max-width:670px){
   .BenefitsSixx-main img {
     width: 75px;

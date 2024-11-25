@@ -84,6 +84,11 @@ const Posts = ({ posts, loading }) => {
               </div>
             </section>
 
+   <div className="container">
+    <div className="register-interest">
+    <a target="_blank" href="https://share.hsforms.com/1tZAQ8c3qQoGxBB_dZ9kChwqo6we">Register Interest</a>
+    </div>
+   </div>
 
             <section className="ai-readiness-tab-frame">
             <div className="container">
