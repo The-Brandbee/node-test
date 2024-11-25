@@ -86,7 +86,7 @@ const Posts = ({ posts, loading }) => {
 
    <div className="container">
     <div className="register-interest">
-    <a target="_blank" href="https://share.hsforms.com/1tZAQ8c3qQoGxBB_dZ9kChwqo6we">Register Interest</a>
+    <a target="_blank" href="https://www.insentragroup.com/au/services/generative-ai-series/csp-global/sprint%20-2/contact-us/">Register Interest</a>
     </div>
    </div>
 
