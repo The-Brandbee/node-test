@@ -1,7 +1,7 @@
 import SecurityMani from "../ai-readiness/ai-readiness.js";
 
 export const metadata = {
-  title: "AI READINESS CSP",
+  title: "AI Readiness CSP",
   description:
     "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
   alternates: {
