@@ -675,7 +675,7 @@ header{
   margin-top: 20px;
   margin-bottom: 40px;
   width: 70%;
-  font-size: 28px;
+  font-size: 22px;
 }
 .about-bannner-contact.Thank.you.for{
   position: absolute;
@@ -1037,7 +1037,7 @@ footer{
   width: 50%;
 }
 .Security-Posture-frame-top-left h4{
-  font-size: 36px;
+  font-size: 34px;
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
@@ -2455,8 +2455,19 @@ margin-right: 90px;
 }
 .Empowering-Organizations-top-h-new-addhome-ne-top-middle-con .Empowering-Organizations-top-h-middle p{
   color: #fff;
-  font-size: 26px;
-  line-height: 34px;
+  font-size: 19px;
+  line-height: 31px;
+}
+.Empowering-Organizations-top-h.new-addhome-ne{
+  position: relative;
+}
+.Empowering-Organizations-top-h.new-addhome-ne::before{
+position: absolute;
+height: 100%;
+width: 100%;
+content: "";
+left: 0px;
+background: #00000063;
 }
 .mi-image-last-cont.mobile-contact{
  display: none;
