@@ -64,16 +64,10 @@ export default function Home() {
         <section className="The-Future-of-ICT-frame">
           <div className="container">
             <div className="The-Future-of-ICT-frame-top">
-              <h3>The Future of ICT</h3>
-              <h5>The Significance of Enablement</h5>
+              <h3>THE FUTURE OF ICT MANAGED SERVICES</h3>
+              <h5>Synergistic, Strategic, and Secure</h5>
               <p>
-                In today's dynamic IT landscape, enablement plays a pivotal role
-                in empowering organizations to stay ahead and leverage
-                innovative technology. We take a holistic approach to IT and
-                believe that enablement is a crucial step in becoming a Modern
-                Workplace that takes advantage of new technologies securely and
-                helps you realize the greatest return on your Microsoft
-                licencing investment
+              At CSP, we did do not fit the traditional Managed Service Provider or “MSP” mould. We realize that to withstand the pressures of running a hybrid cloud digital ecosystem, organizations need more than just a help desk and occasional site visits. They need a TSP or Technology Solutions Provider. Here are the key benefits.
               </p>
             </div>
             <div className="The-Future-of-ICT-frame-bottom">
