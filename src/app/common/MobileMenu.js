@@ -114,7 +114,7 @@ class MobileMenu extends React.Component {
                             <Link href="/frameworks">Cyber Frameworks</Link>
                           </li>
                           <li>
-                            <Link href="/enablement">Technology Service Provider</Link>
+                            <Link href="/technology-service-provider">Technology Service Provider</Link>
                           </li>
                           <li>
                           <Link href="/ai-readiness">AI Readiness</Link>

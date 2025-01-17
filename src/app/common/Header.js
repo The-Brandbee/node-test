@@ -40,7 +40,7 @@ function IndexPage() {
                           <Link href="/security-uplifts">Security Uplifts</Link>
 
                           <Link href="/frameworks">Cyber Frameworks</Link>
-                          <Link href="/enablement">Technology Service Provider</Link>
+                          <Link href="/technology-service-provider">Technology Service Provider</Link>
                           <Link href="/ai-readiness">AI Readiness</Link>
                         </div>
                       </div>
