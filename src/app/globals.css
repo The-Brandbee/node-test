@@ -3151,7 +3151,31 @@ font-size: 50px;
     padding-left: 5px;  
     color: #eb5e26;
   } 
+  .home-new-add-service-main p{
+    color: #fff;
+    padding: 25px;
+    margin-top: 5px;
+    font-size: 14px;
+    padding-bottom: 180px;
+  }
+  .home-new-add-service-main .team-section-middle.top-new-frame .team-section-middle-inner{
+    margin-right: 0px;
+    width: 24%;
+  }
+  .home-new-add-service-main .team-section-middle.top-new-frame{
+    justify-content: space-between;
+  }
+  .home-new-add-service-main{
+    margin-top: 50px;
+  }
 @media all and (min-width:120px) and (max-width:670px){
+  .home-new-add-service-main p{
+    padding-bottom: 220px;
+  }
+  .home-new-add-service-main .team-section-middle.top-new-frame .team-section-middle-inner {
+    margin-right: 0px;
+    width: 100%;
+}
   .BenefitsSixx-main img {
     width: 75px;
     height: auto;
@@ -3959,7 +3983,7 @@ p {
   margin-top: 10px;
   margin-bottom: 15px;
   width: 90%;
-  font-size: 14px;
+  font-size: 16px;
 }
 .know-more a{
   font-size: 12px;
