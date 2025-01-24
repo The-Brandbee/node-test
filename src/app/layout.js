@@ -6,7 +6,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title:
-    " Expert Cybersecurity Solutions for unparalleled Modern Security - CSP",
+    "CSP Global | Australia's Leading Technology Solution Provider | IT Managed Services",
   description:
     "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
 
