@@ -31,7 +31,21 @@ img{
 a{
   text-decoration: none !important;
 }
-
+.Strengthen-Your-Cyber-Defenses{
+  z-index: 9999;
+}
+.video-icon-img-video-home-page{
+  z-index: 9999;
+}
+.header-video:before {
+  content: "";
+  position: absolute;
+  background: #00000063;
+  height: 99.3%;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
 /* next step page */
 .security-uplifts-page-main.ai-readiness.nextsteps-frame .ai-readiness p a{
   background: #EA5E26;

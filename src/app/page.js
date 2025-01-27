@@ -60,7 +60,7 @@ export default function Home() {
             <video playsInline autoPlay loop muted>
               <source
                 src={
-                  "https://cdn.shopify.com/videos/c/o/v/45133c2e990743bf8a845c1919f93919.mp4"
+                  "https://cdn.thebrandbee.com/video/Website-Homepage-2.mp4"
                 }
                 type="video/mp4"
               />
@@ -70,7 +70,7 @@ export default function Home() {
             <video playsInline autoPlay loop muted>
               <source
                 src={
-                  "https://cdn.shopify.com/videos/c/o/v/0af53c7ed89d4c5ea9b454bb0f8702d5.mp4"
+                  "https://cdn.thebrandbee.com/video/Website-Homepage-2.mp4"
                 }
                 type="video/mp4"
               />
@@ -109,9 +109,9 @@ export default function Home() {
             </div>
     <div className="home-new-add-service-main-middle">
            <div className="team-section-middle top-new-frame">
-                            <div className="team-section-middle-inner">
+                            <div className="team-section-middle-inner"> 
                               <h4>GUARDIAN</h4>
-                              <p>Our Next-Gen Managed Serivce lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
+                              <p>Our Next-Gen Managed Services lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
@@ -125,7 +125,7 @@ export default function Home() {
                             </div>
                             <div className="team-section-middle-inner">
                               <h4>LIGHTHOUSE</h4>
-                              <p>Our expert detection and response team is armed with threat intel and resources that guarantee an enhanced security posture. </p>
+                              <p>Our expert detection and response team are armed with Threat Intel and resources that guarantee enhanced security posture.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
@@ -140,8 +140,8 @@ export default function Home() {
           
                             <div className="team-section-middle-inner">
                               <h4>AUTOPILOT</h4>
-                              <p>
-                              Our automation experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools
+                              <p> 
+                              Our automation experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools.
                               </p>
                               
                               <div className="top-new-frame-hover">
