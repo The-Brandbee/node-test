@@ -60,17 +60,17 @@ export default function Home() {
             <video playsInline autoPlay loop muted>
               <source
                 src={
-                  "https://cdn.thebrandbee.com/video/Website-Homepage-2.mp4"
+                  "https://cdn.thebrandbee.com/video/WebsiteHomepage-new.mp4"
                 }
                 type="video/mp4"
               />
             </video>
           </div>
           <div className="header-video mobile">
-            <video playsInline autoPlay loop muted>
+            <video playsInline autoPlay loop muted>  
               <source
                 src={
-                  "https://cdn.thebrandbee.com/video/Website-Homepage-2.mp4"
+                  "https://cdn.thebrandbee.com/video/WebsiteHomepage-new.mp4"
                 }
                 type="video/mp4"
               />
@@ -105,7 +105,7 @@ export default function Home() {
 <div className="container">
 <div className="testimonial-frame-heading-main n">
              
-              <h3>Services</h3>
+              <h3>It Services</h3>
             </div>
     <div className="home-new-add-service-main-middle">
            <div className="team-section-middle top-new-frame">
