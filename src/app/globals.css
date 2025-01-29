@@ -3183,8 +3183,7 @@ font-size: 50px;
   .home-new-add-service-main .team-section-middle.top-new-frame .team-section-middle-inner{
     margin-right: 0px;
     width: 24%;
-    box-shadow: 0 8px 24px hsla(210, 8%, 62%, .2);
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   }
   .home-new-add-service-main .team-section-middle.top-new-frame{
     justify-content: space-between;
