@@ -16,11 +16,11 @@ import Securityone from "../app/img/it-icon-1.png";
 import Securitytwo from "../app/img/it-icon-2.png";
 import Securitythree from "../app/img/it-icon-5.png";
 import Securityfour from "../app/img/it-icon-4.png";
-import Securityfive from "../app/img/it-icon-3.png";
-import Securitysix from "../app/img/it-icon-6.png";
-import EmpoweringRight from "../app/img/Organizations.png";
+import Compass from "../app/img/Compass.png";
+import Autopilot from "../app/img/Autopilot.png";
+import Lighthouse from "../app/img/Lighthouse.png";
 import Main from "../app/img/logo.png";
-import Advocate from "../app/img/middle-banner.png";
+import Guardian from "../app/img/Guardian.png";
 import EmpoweringRightMail from "../app/img/CSP-WEBSITE-ILLUSTRATION.jpg";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -110,6 +110,7 @@ export default function Home() {
     <div className="home-new-add-service-main-middle">
            <div className="team-section-middle top-new-frame">
                             <div className="team-section-middle-inner"> 
+                            <Image src={Guardian} alt="icon" className="" />
                               <h4>GUARDIAN</h4>
                               <p>Our Next-Gen Managed Services lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
                               
@@ -124,6 +125,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="team-section-middle-inner">
+                            <Image src={Lighthouse} alt="icon" className="" />
                               <h4>LIGHTHOUSE</h4>
                               <p>Our expert detection and response team are armed with Threat Intel and resources that guarantee enhanced security posture.</p>
                               
@@ -139,6 +141,7 @@ export default function Home() {
                             </div>
           
                             <div className="team-section-middle-inner">
+                            <Image src={Autopilot} alt="icon" className="" />
                               <h4>AUTOPILOT</h4>
                               <p> 
                               Our automation experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools.
@@ -155,6 +158,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="team-section-middle-inner">
+                            <Image src={Compass} alt="icon" className="" />
                               <h4>COMPASS</h4>
                               <p>Strategic technology guidance that bridges business and IT. Our virtual advisory service aligns technology investments with your goals, delivering clear, actionable insights that drive security, compliance, governance, and operational efficiency.</p>
                               

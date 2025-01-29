@@ -1269,6 +1269,14 @@ color: #fff;
   color: #fff;
   padding-left: 25px;
 }
+.team-section-middle.top-new-frame .team-section-middle-inner img{
+  width: 80px !important;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.team-section-middle.top-new-frame .team-section-middle-inner p{
+  padding-top: 15px;
+}
 .team-section-middle.top-new-frame .team-section-middle-inner h5{ 
   color: #fff;
   padding-left: 25px;
@@ -3175,6 +3183,8 @@ font-size: 50px;
   .home-new-add-service-main .team-section-middle.top-new-frame .team-section-middle-inner{
     margin-right: 0px;
     width: 24%;
+    box-shadow: 0 8px 24px hsla(210, 8%, 62%, .2);
+    
   }
   .home-new-add-service-main .team-section-middle.top-new-frame{
     justify-content: space-between;
