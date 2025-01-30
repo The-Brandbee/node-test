@@ -3983,6 +3983,7 @@ p {
   width: 90%;
   top: 25%;
   left: 5%;
+  z-index: 1;
 }
 .video-icon-img-video-home-page {
   position: absolute;
