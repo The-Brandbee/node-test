@@ -112,7 +112,7 @@ export default function Home() {
                             <div className="team-section-middle-inner"> 
                             <Image src={Guardian} alt="icon" className="" />
                               <h4>GUARDIAN</h4>
-                              <p>Our Next-Gen Managed Services lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
+                              <p>Our Next-Gen <span>Managed Services</span> lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
@@ -127,7 +127,7 @@ export default function Home() {
                             <div className="team-section-middle-inner">
                             <Image src={Lighthouse} alt="icon" className="" />
                               <h4>LIGHTHOUSE</h4>
-                              <p>Our expert detection and response team are armed with Threat Intel and resources that guarantee enhanced security posture.</p>
+                              <p>Our <span>Cybersecurity</span> expert detection and response team are armed with Threat Intel and resources that guarantee enhanced security posture.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
@@ -144,7 +144,7 @@ export default function Home() {
                             <Image src={Autopilot} alt="icon" className="" />
                               <h4>AUTOPILOT</h4>
                               <p> 
-                              Our automation experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools.
+                              Our <span>automation</span> experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools.
                               </p>
                               
                               <div className="top-new-frame-hover">
@@ -160,7 +160,7 @@ export default function Home() {
                             <div className="team-section-middle-inner">
                             <Image src={Compass} alt="icon" className="" />
                               <h4>COMPASS</h4>
-                              <p>Strategic technology guidance that bridges business and IT. Our virtual advisory service aligns technology investments with your goals, delivering clear, actionable insights that drive security, compliance, governance, and operational efficiency.</p>
+                              <p><span>Strategic</span> technology guidance that bridges business and IT. Our virtual advisory service aligns technology investments with your goals, delivering clear, actionable insights that drive security, compliance, governance, and operational efficiency.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">

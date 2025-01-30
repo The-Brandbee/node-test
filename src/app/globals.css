@@ -1277,6 +1277,10 @@ color: #fff;
 .team-section-middle.top-new-frame .team-section-middle-inner p{
   padding-top: 15px;
 }
+.team-section-middle.top-new-frame .team-section-middle-inner p span{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0px;
+}
 .team-section-middle.top-new-frame .team-section-middle-inner h5{ 
   color: #fff;
   padding-left: 25px;
