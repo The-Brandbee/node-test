@@ -30,14 +30,13 @@ function IndexPage() {
                     <div className="dropdown-content-Services-menu-middle ">
                       <div className="dropdown-content-Services-menu-middle-left">
                         <div className="dropdown-content-Services-menu-middle-left-top">
-                          <h4>Protect & Enable</h4>
+                          <h4>CSP Compass</h4>
                           <p>
-                            Professional Services and compliance alignment to
-                            mitigate risks and reduce the attack surface area
+                          Strategic technology advisory services delivering actionable insights and roadmaps aligned with your business objectives and compliance needs
                           </p>
                         </div>
                         <div className="dropdown-content-Services-menu-middle-left-bottom">
-                          <Link href="/security-uplifts">Security Uplifts</Link>
+                          
 
                           <Link href="/frameworks">Cyber Frameworks</Link>
                           <Link href="/technology-service-provider">Technology Service Provider</Link>
@@ -46,10 +45,9 @@ function IndexPage() {
                       </div>
                       <div className="dropdown-content-Services-menu-middle-left">
                         <div className="dropdown-content-Services-menu-middle-left-top">
-                          <h4>Detect & Respond (24x7)</h4>
+                          <h4>CSP Lighthouse</h4> 
                           <p>
-                            Next-generation security operations geared for the
-                            Modern Workplace with the latest AI Technology
+                          Dedicated detection and response team armed with latest threat intel will guard against cyber threats around the clock. 
                           </p>
                         </div>
                         <div className="dropdown-content-Services-menu-middle-left-bottom">
@@ -57,6 +55,7 @@ function IndexPage() {
                             Managed Detection and Response
                           </Link>
                           <Link href="/modern-soc">What is a Modern SOC?</Link>
+                          <Link href="/security-uplifts">Security Uplifts</Link>
                         </div>
                       </div>
                       <div className="dropdown-content-Services-menu-middle-left right-head-menu">

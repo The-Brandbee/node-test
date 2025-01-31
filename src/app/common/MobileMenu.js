@@ -76,10 +76,9 @@ class MobileMenu extends React.Component {
                     <AccordionItemPanel>
                       <div className="Menu-underLink">
                         <div className="Menu-underLink-heading">
-                          <h4>Detect & Respond (24x7)</h4>
+                        <h4>CSP Compass</h4>
                           <p>
-                            Next-generation security operations geared for the
-                            Modern Workplace with the latest AI Technology
+                          Strategic technology advisory services delivering actionable insights and roadmaps aligned with your business objectives and compliance needs
                           </p>
                         </div>
                         <ul>
@@ -96,10 +95,9 @@ class MobileMenu extends React.Component {
                         </ul>
 
                         <div className="Menu-underLink-heading">
-                          <h4>Protect & Enable</h4>
+                        <h4>CSP Lighthouse</h4> 
                           <p>
-                            Professional Services and compliance alignment to
-                            mitigate risks and reduce the attack surface area
+                          Dedicated detection and response team armed with latest threat intel will guard against cyber threats around the clock. 
                           </p>
                         </div>
 
