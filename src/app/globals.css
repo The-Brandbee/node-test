@@ -32,10 +32,10 @@ a{
   text-decoration: none !important;
 }
 .Strengthen-Your-Cyber-Defenses{
-  z-index: 9999;
+  z-index: 1;
 }
 .video-icon-img-video-home-page{
-  z-index: 9999;
+  z-index: 1;
 }
 .header-video:before {
   content: "";
@@ -728,6 +728,38 @@ footer{
     height: 100%;
     align-items: center;
     position: relative;
+   
+}
+.header-menubar-middle ul.new-droup-down-middle{
+  display: inline-block;
+}
+.header-menubar-middle ul.new-droup-down-middle li .new-droup-down-main{
+display: flex;
+justify-content: space-between;
+}
+.header-menubar-middle ul.new-droup-down-middle li {
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-menubar-middle ul.new-droup-down-middle li:last-child{
+  border-bottom: 0px solid #fff;
+}
+.new-droup-down-main-left{
+  width: 15%;
+}
+.new-droup-down-main-left img{
+  width: 100%;
+}
+.new-droup-down-main-right{
+  width: 80%;
+}
+.new-droup-down-main-right h3{
+  font-size: 14px;
+}
+.new-droup-down-main-right p{
+  font-size: 13px;
+  margin-bottom: 0px;
 }
 .header-menubar-middle li{
   margin-right: 30px;
