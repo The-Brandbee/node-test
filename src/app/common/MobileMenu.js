@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
+import One from "../img/Strategy-and-Advisory.png";
+import Two from "../img/Defence-Industry-Security-Program.png";
+import Three from "../img/Cyber-Security-Uplift.png";
+import Four from "../img/GovernanceRisk-and-Compliance.png";
+import Five from "../img/Vulnerability-Assessments.png";
+import Six from "../img/Threat-Intelligence.png";
 import { slide as Menu } from "react-burger-menu";
 import {
   Accordion,
@@ -74,65 +80,88 @@ class MobileMenu extends React.Component {
                       <AccordionItemButton>Services</AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <div className="Menu-underLink">
-                        <div className="Menu-underLink-heading">
-                        <h4>CSP Compass</h4>
-                          <p>
-                          Strategic technology advisory services delivering actionable insights and roadmaps aligned with your business objectives and compliance needs
-                          </p>
-                        </div>
-                        <ul>
+                    <ul className="new-droup-down-middle mobile">
                           <li>
-                            <Link href="/mdr">
-                              Managed Detection and Response
-                            </Link>
+                          <Link href="/technology-service-provider">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={One} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Strategy and <br/>Advisory </h3>
+                                     <p>Strategic guidance bridging business goals and technology.</p>
+                                  </div>
+                              </div>
+                            </Link> 
                           </li>
                           <li>
-                            <Link href="/modern-soc">
-                              What is a Modern SOC?
-                            </Link>
-                          </li>
-                        </ul>
-
-                        <div className="Menu-underLink-heading">
-                        <h4>CSP Lighthouse</h4> 
-                          <p>
-                          Dedicated detection and response team armed with latest threat intel will guard against cyber threats around the clock. 
-                          </p>
-                        </div>
-
-                        <ul>
-                          <li>
-                            <Link href="/security-uplifts">
-                              Security Uplifts
-                            </Link>
-                          </li>
-
-                          <li>
-                            <Link href="/frameworks">Cyber Frameworks</Link>
+                          <Link href="https://blog.csp.global/preparing-for-disp-eligibility-aligning-with-essential-eight-maturity-level-two/">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Two} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Defence Industry <br/>Security Program </h3>
+                                     <p>Get DISP-ready with enhanced technology and controls.</p>
+                                  </div>
+                              </div>
+                            </Link> 
                           </li>
                           <li>
-                            <Link href="/technology-service-provider">Technology Service Provider</Link>
+                          <Link href="/security-uplifts">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Three} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Cyber Security <br/>Uplift</h3>
+                                     <p>Significantly improve device, data and identity posture.</p>
+                                  </div>
+                              </div>
+                            </Link> 
                           </li>
                           <li>
-                          <Link href="/ai-readiness">AI Readiness</Link>
+                          <Link href="/technology-service-provider">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Four} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Governance, Risk <br/>and Compliance </h3>
+                                     <p>Manage risk and meet regulatory compliance obligations.</p>
+                                  </div>
+                              </div>
+                            </Link> 
                           </li>
-                        </ul>
-
-                        <div className="Menu-underLink-heading">
-                          <h4>Product Tour</h4>
-                          <p>
-                            <b>Lighthouse MXDR Platform</b>
-                          </p>
-                        </div>
-                        <ul>
                           <li>
-                            <Link href="/lighthouse-platform">
-                              TAKE THE TOUR
-                            </Link>
+                          <Link href="/technology-service-provider">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Five} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Vulnerability <br/>Assessments</h3>
+                                     <p>Continuously scan for vulnerabilities within your ecosystem.</p>
+                                  </div>
+                              </div>
+                            </Link> 
                           </li>
-                        </ul>
-                      </div>
+                          <li>
+                          <Link href="/technology-service-provider">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Six} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Threat <br/>Intelligence</h3>
+                                     <p>Understand the threat landscape with unparalleled precision.</p>
+                                  </div>
+                              </div>
+                            </Link> 
+                          </li>
+                         </ul>
+                    
+                     
                     </AccordionItemPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -145,32 +174,7 @@ class MobileMenu extends React.Component {
                     </Link>
                   </AccordionItem>
 
-                  <AccordionItem>
-                    <AccordionItemHeading>
-                      <AccordionItemButton>Compliance</AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <div className="Menu-underLink">
-                        <ul>
-                          <li>
-                            <a href="https://csp.global/frameworks#essentialeight">
-                              Essential Eight
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://csp.global/frameworks#nist">
-                              NIST
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://csp.global/frameworks#zerotrust">
-                              Zero Trust
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </AccordionItemPanel>
-                  </AccordionItem>
+                  
 
                   <AccordionItem>
                     <AccordionItemHeading>
@@ -179,6 +183,11 @@ class MobileMenu extends React.Component {
                     <AccordionItemPanel>
                       <div className="Menu-underLink">
                         <ul>
+                          <li>
+                          <a href="https://blog.csp.global/">
+                          Blog
+                    </a>
+                          </li>
                           <li>
                             <a
                               target="_blank"
@@ -209,11 +218,7 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <a href="https://blog.csp.global/">
-                      <AccordionItemHeading>
-                        <AccordionItemButton>Blog</AccordionItemButton>
-                      </AccordionItemHeading>
-                    </a>
+                   
                   </AccordionItem>
                   <AccordionItem>
                     <a href="/contact">
