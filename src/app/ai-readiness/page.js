@@ -1,7 +1,7 @@
 import SecurityMani from "../ai-readiness/ai-readiness.js";
 
 export const metadata = {
-  title: "AI Readiness CSP",
+  title: "CSP Global | Intelligent automation solutions powered by Microsoft and Gen AI ",
   description:
     "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
   alternates: {

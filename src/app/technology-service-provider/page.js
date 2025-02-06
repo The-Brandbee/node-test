@@ -1,7 +1,7 @@
 import Enablement from "../technology-service-provider/enablement.js";
 
 export const metadata = {
-  title: "Enablement",
+  title: "Australia's Leading Technology Solution Provider | IT Managed Services",
   description: "",
   alternates: {
     canonical: "https://csp.global/contact",
