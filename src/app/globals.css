@@ -1928,7 +1928,7 @@ color: #fff;
   min-width: 240px;
 }
 .header-menubar-middle li a{
-  position: relative;
+  /*position: relative;*/
   display: inline-block;
 }
 .header-menubar-middle li:hover .dropdown-content {
@@ -1967,7 +1967,7 @@ color: #fff;
   height: 0;
   border-left: 16px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 18px solid #eb5e26;
+  /*border-bottom: 18px solid #eb5e26;*/
   clear: both;
 }
 .header-menubar-middle li .dropdown-content.Services-menu.new::after{
@@ -2160,8 +2160,9 @@ margin-right: 90px;
   width: 47%;
 }
 .header-menubar-middle li:hover .dropdown-content.Services-menu{
-  width: 870px;
+  width: 1070px;
   padding-top: 30px;
+  left: -140px;
 }
 .right-head-menu-main-PRODUCT-TOUR{
   padding: 5px 20px;
@@ -3226,6 +3227,9 @@ font-size: 50px;
   }
   .home-new-add-service-main{
     margin-top: 50px;
+  }
+  .nextjs-toast-errors-parent{
+    display: none !important;      
   }
 @media all and (min-width:120px) and (max-width:670px){
   .new-droup-down-middle.mobile{

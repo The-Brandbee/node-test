@@ -9,6 +9,9 @@ import Three from "../img/Cyber-Security-Uplift.png";
 import Four from "../img/GovernanceRisk-and-Compliance.png";
 import Five from "../img/Vulnerability-Assessments.png";
 import Six from "../img/Threat-Intelligence.png";
+import Seven from "../img/Managed-IT-Services.png";
+import Eight from "../img/Managed-SOC.png";
+import Nine from "../img/AI-Readiness.png";
 import MobileMenu from "../common/MobileMenu.js";
 
 function IndexPage() {
@@ -34,8 +37,54 @@ function IndexPage() {
                   <Link href="/">Services</Link>
                   <div class="dropdown-content Services-menu new">
                     <div className="dropdown-content-Services-menu-middle ">
+                    <div className="dropdown-content-Services-menu-middle-left">
+                         <ul className="new-droup-down-middle">
+                        
+                         <li>
+                          <Link href="/technology-service-provider">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Seven} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Managed <br/>IT Services </h3>
+                                     <p>Technology support and IT management that drives innovation.</p>
+                                  </div>
+                              </div>
+                            </Link> 
+                          </li>
+                          <li>
+                          <Link href="/mdr">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Eight} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>Managed Detection <br/>and Response</h3>
+                                     <p>Protect your assets with managed detection and response.</p>
+                                  </div>
+                              </div>
+                            </Link> 
+                          </li>
+                          <li>
+                          <Link href="/ai-readiness">
+                              <div className="new-droup-down-main">
+                                  <div className="new-droup-down-main-left">
+                                     <Image src={Nine} alt="" />
+                                  </div>
+                                  <div className="new-droup-down-main-right">
+                                     <h3>AI <br/>Readiness </h3>
+                                     <p>Prepare for AI and Intelligent Automation within your industry.</p>
+                                  </div>
+                              </div>
+                            </Link> 
+                          </li>
+                         
+                         </ul>
+                      </div>
                       <div className="dropdown-content-Services-menu-middle-left">
                          <ul className="new-droup-down-middle">
+                        
                           <li>
                           <Link href="/technology-service-provider">
                               <div className="new-droup-down-main">
