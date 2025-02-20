@@ -13,7 +13,7 @@ import Leveraging from "../img/Path-icon.png";
 import BenefitsOne from "../img/data-management.png";  
 import BenefitsTwo from "../img/business-person.png";
 import BenefitsThree from "../img/Path-37.png";
-import ArrowOneNew from "../img/New-Project.png";
+import ArrowOneNew from "../img/ainew.jpg";
 import BenefitsFour from "../img/futuristic-computer.png";
 import BenefitsFive from "../img/Web_Optimizatio.png";
 import BenefitsSix from "../img/Ai-ready.jpg";
@@ -89,17 +89,24 @@ const Posts = ({ posts, loading }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <div className="phase-main-middle-frame">
-                       <h3>AI Risk Assessment</h3>
+                       <h3>AI Adoption and Management Framework (AI-AMF)</h3>
                        <div className="phase-main-middle-frame-middle">
                         <div className="phase-main-middle-frame-middle-left">
-                          <h4>AI Unified Framework </h4>
-                          <p>AI introduces several security vulnerabilities, such as leakage and compliance risks. Ignoring the assessment of AI risk may lead to unexpected reversals in operations, along with huge losses in terms of money or data. That is why it is crucial to have an AI Framework and security roadmap before moving ahead with any implementation. This can be done in parallel with Innovation. We recommend starting with a cybersecurity assessment along with a 4-week innovation sprint.</p>
-                          
+                         
+                          <p>AI introduces several security vulnerabilities, such as leakage and compliance risks. Ignoring the assessment of AI risk may lead to unexpected reversals in operations, along with huge losses in terms of money or data. 
+                          </p>
+                          <p>This is one reason why we decided to use the open-source AI Adoption and Management Framework (AI-AMF) to guide our clients. This was developed by a number of leading experts to optimize the implementation and management of artificial intelligence across diverse organizations. 
+                          </p>
+                          <p>This framework not only ensures that AI initiatives are aligned with business goals but also reinforces them with robust security measures and responsible governance practices, thus facilitating a seamless and sustainable transition into the AI-enhanced future. We discuss all of this, and much more, in our unique AI Webinars alongside our partner, Insentra.</p>
                           <div class="introduces-New">
                           
                             <Link href="/contact">
                         <Image src={ArrowOneNew} alt="" />
                         </Link>
+
+                        <p className="source">
+                          <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">Source</a>
+                        </p>
                           </div>
                          {/* <ul>
                             <li>
