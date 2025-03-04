@@ -34,7 +34,7 @@ const BlogPost = () => {
       <Pagination
         postsPerPage={postsPerPage}
         totalPosts={posts.length}
-        paginate={paginate}
+        paginate={paginate}  
       />
     </div>
   );
