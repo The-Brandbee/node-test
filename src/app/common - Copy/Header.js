@@ -39,7 +39,7 @@ function IndexPage() {
                           
 
                           <Link href="/frameworks">Cyber Frameworks</Link>
-                          <Link href="/technology-service-advisory">Technology Service Provider</Link>
+                          <Link href="/advisory">Technology Service Provider</Link>
                           <Link href="/ai-readiness">AI Readiness</Link>
                         </div>
                       </div>

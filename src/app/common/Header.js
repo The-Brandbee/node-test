@@ -41,7 +41,7 @@ function IndexPage() {
                          <ul className="new-droup-down-middle">
                         
                          <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Seven} alt="" />
@@ -86,7 +86,7 @@ function IndexPage() {
                          <ul className="new-droup-down-middle">
                         
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={One} alt="" />
@@ -130,7 +130,7 @@ function IndexPage() {
                       <div className="dropdown-content-Services-menu-middle-left">
                       <ul className="new-droup-down-middle">
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Four} alt="" />
@@ -143,7 +143,7 @@ function IndexPage() {
                             </Link> 
                           </li>
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Five} alt="" />
@@ -156,7 +156,7 @@ function IndexPage() {
                             </Link> 
                           </li>
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Six} alt="" />

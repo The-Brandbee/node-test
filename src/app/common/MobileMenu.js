@@ -85,7 +85,7 @@ class MobileMenu extends React.Component {
                     <AccordionItemPanel>
                     <ul className="new-droup-down-middle mobile">
                     <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Seven} alt="" />
@@ -124,7 +124,7 @@ class MobileMenu extends React.Component {
                             </Link> 
                           </li>
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={One} alt="" />
@@ -163,7 +163,7 @@ class MobileMenu extends React.Component {
                             </Link> 
                           </li>
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Four} alt="" />
@@ -176,7 +176,7 @@ class MobileMenu extends React.Component {
                             </Link> 
                           </li>
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Five} alt="" />
@@ -189,7 +189,7 @@ class MobileMenu extends React.Component {
                             </Link> 
                           </li>
                           <li>
-                          <Link href="/technology-service-advisory">
+                          <Link href="/advisory">
                               <div className="new-droup-down-main">
                                   <div className="new-droup-down-main-left">
                                      <Image src={Six} alt="" />
