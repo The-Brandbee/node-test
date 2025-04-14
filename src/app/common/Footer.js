@@ -90,7 +90,18 @@ function IndexPage() {
         async
       />*/} 
 
-    <SCRP/>
+<Script
+        id="chatgenie-widget-loader"
+        strategy="lazyOnload"
+        src="https://messenger.chatgenie.io/widget.js"
+        onLoad={() => {
+          if (window.chatgenie) {
+            window.chatgenie.default.messenger().initialize({
+              appId: "f492b7b2-de96-4571-afa3-aa5b0ae3bb78"
+            });
+          }
+        }}
+      />
 
     </footer> 
   );
