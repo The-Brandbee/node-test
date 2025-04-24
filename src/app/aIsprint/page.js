@@ -3,7 +3,7 @@ import Nextsteps from "./aIsprintInner";
 export const metadata = {
   title: "AIsprint CSP",
   description:
-    "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
+    "CSP's cutting-edge technology solutions will safeguard your business and help you modernize with our strategic vision.",
   alternates: {
     canonical: "https://csp.global//ai-readiness",
   },

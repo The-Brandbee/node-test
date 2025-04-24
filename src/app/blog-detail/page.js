@@ -15,7 +15,7 @@ export default function InnerBlog() {
 //   },
 //   openGraph: {
 //     images:
-//       "https://cms.csplighthouse.com/public/uploads/blogs/blogs31a094f7cd7a260a28be8d150e4a99fc.png",
+//       "",
 //   },
 // };
 export async function generateMetadata({ params, searchParams }) {

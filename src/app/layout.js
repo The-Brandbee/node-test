@@ -8,14 +8,14 @@ export const metadata = {
   title:
     "CSP Global | Australia's Leading Technology Solution Provider | IT Managed Services",
   description:
-    "Explore CSP's cutting-edge cybersecurity solutions. Safeguard your business with advanced protection and proactive defence strategies.",
+    "CSP's cutting-edge technology solutions will safeguard your business and help you modernize with our strategic vision.",
 
   alternates: {
     canonical: "https://csp.global",
   },
   openGraph: {
     images:
-      "https://cms.csplighthouse.com/public/uploads/blogs/blogs31a094f7cd7a260a28be8d150e4a99fc.png",
+      "",
   },
 };
 
