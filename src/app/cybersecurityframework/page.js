@@ -8,7 +8,7 @@ export const metadata = {
   },
   openGraph: {
     images:
-      "h",
+      "http://blog.csp.global/wp-content/uploads/2025/04/fav.jpg",
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata = {
   },
   openGraph: {
     images:
-      "",
+      "http://blog.csp.global/wp-content/uploads/2025/04/fav.jpg",
   },
 };
 
