@@ -111,12 +111,12 @@ export default function Home() {
            <div className="team-section-middle top-new-frame">
                             <div className="team-section-middle-inner"> 
                             <Image src={Guardian} alt="icon" className="" />
-                              <h4>MANAGED SERVICE</h4>
+                              <h4>MANAGED SERVICES</h4>
                               <p>Our Next-Gen <span>Managed Services</span> lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
-                                <h4>MANAGED SERVICE</h4>
+                                <h4>MANAGED SERVICES</h4>
                                   
                                   <p>
                                   Let us transform your IT Management and guide you through the Tech Jungle. Our team of qualified professionals in advisory, compliance, cybersecurity, and our dedicated helpdesk with a bespoke client portal. We resolve bottlenecks and eliminate technical frustrations from day one. Whether you need full IT management or targeted support, we handle the technology so you can focus on growing your business. Entrust us with your IT operations and experience the freedom of having an innovative and highly responsive partner by your side.
