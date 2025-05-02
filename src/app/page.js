@@ -110,7 +110,7 @@ export default function Home() {
     <div className="home-new-add-service-main-middle">
            <div className="team-section-middle top-new-frame">
                             <div className="team-section-middle-inner"> 
-                            <Image src={Guardian} alt="icon" className="" />
+                            <Image src={Guardian} alt="icon" className="Services-home" /> 
                               <h4>MANAGED SERVICES</h4>
                               <p>Our Next-Gen <span>Managed Services</span> lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
                               
@@ -125,7 +125,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="team-section-middle-inner">
-                            <Image src={Lighthouse} alt="icon" className="" />
+                            <Image src={Lighthouse} alt="icon" className="Services-home" />
                               <h4>CYBERSECURITY</h4>
                               <p>Our <span>Cybersecurity</span> expert detection and response team are armed with Threat Intel and resources that guarantee enhanced security posture.</p>
                               
@@ -141,7 +141,7 @@ export default function Home() {
                             </div>
           
                             <div className="team-section-middle-inner">
-                            <Image src={Autopilot} alt="icon" className="" />
+                            <Image src={Autopilot} alt="icon" className="Services-home" />
                               <h4>AUTOMATION & INNOVATION</h4>
                               <p> 
                               Our <span>automation</span> experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools.
@@ -158,7 +158,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="team-section-middle-inner">
-                            <Image src={Compass} alt="icon" className="" />
+                            <Image src={Compass} alt="icon" className="Services-home" />
                               <h4>STRATEGIC ADVISORY</h4>
                               <p><span>Strategic</span> technology guidance that bridges business and IT. Our virtual advisory service aligns technology investments with your goals, delivering clear, actionable insights that drive security, compliance, governance, and operational efficiency.</p>
                               
