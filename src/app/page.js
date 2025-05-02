@@ -111,12 +111,12 @@ export default function Home() {
            <div className="team-section-middle top-new-frame">
                             <div className="team-section-middle-inner"> 
                             <Image src={Guardian} alt="icon" className="" />
-                              <h4>GUARDIAN</h4>
+                              <h4>MANAGED SERVICE</h4>
                               <p>Our Next-Gen <span>Managed Services</span> lets you navigate the IT landscape confidently. We provide comprehensive cybersecurity, compliance, helpdesk, advisory, and technology mangement.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
-                                <h4>GUARDIAN</h4>
+                                <h4>MANAGED SERVICE</h4>
                                   
                                   <p>
                                   Let us transform your IT Management and guide you through the Tech Jungle. Our team of qualified professionals in advisory, compliance, cybersecurity, and our dedicated helpdesk with a bespoke client portal. We resolve bottlenecks and eliminate technical frustrations from day one. Whether you need full IT management or targeted support, we handle the technology so you can focus on growing your business. Entrust us with your IT operations and experience the freedom of having an innovative and highly responsive partner by your side.
@@ -126,12 +126,12 @@ export default function Home() {
                             </div>
                             <div className="team-section-middle-inner">
                             <Image src={Lighthouse} alt="icon" className="" />
-                              <h4>LIGHTHOUSE</h4>
+                              <h4>CYBERSECURITY</h4>
                               <p>Our <span>Cybersecurity</span> expert detection and response team are armed with Threat Intel and resources that guarantee enhanced security posture.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
-                                <h4>LIGHTHOUSE</h4>
+                                <h4>CYBERSECURITY</h4>
                                   
                                   <p>
                                   Our layered defences and rapid response times (SLAs) give you unparalleled insights and protection. We have a dedicated Threat Hunting and Intelligence team that guarantee the confidentiality, integrity, and availability of your data around the clock. We also run regular staff cyber awareness training so your team are well prepared to spot any early warning signs. 
@@ -142,14 +142,14 @@ export default function Home() {
           
                             <div className="team-section-middle-inner">
                             <Image src={Autopilot} alt="icon" className="" />
-                              <h4>AUTOPILOT</h4>
+                              <h4>AUTOMATION & INNOVATION</h4>
                               <p> 
                               Our <span>automation</span> experts transform business operations using Microsoft's AI and Power Platform, delivering custom solutions that streamline workflows, reduce manual tasks, and empower employees with intelligent automation tools.
                               </p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
-                                <h4>AUTOPILOT</h4>
+                                <h4>AUTOMATION & INNOVATION</h4>
                                   
                                   <p>
                                   Our automation team make dreams come true by reducing repetitive tasks, including user onboarding, device management, HR workflows, and security threat response, and many more. We take Microsoft's leading automation /AI platforms - including Copilot Studio and Power Automate – and deliver crystal-clear outcomes. We ensure your staff become Microsoft Copilot (Gen AI-powered) experts through education and innovation workshops, minimizing human error and maximizing productivity, efficiency, and job satisfaction.
@@ -159,12 +159,12 @@ export default function Home() {
                             </div>
                             <div className="team-section-middle-inner">
                             <Image src={Compass} alt="icon" className="" />
-                              <h4>COMPASS</h4>
+                              <h4>STRATEGIC ADVISORY</h4>
                               <p><span>Strategic</span> technology guidance that bridges business and IT. Our virtual advisory service aligns technology investments with your goals, delivering clear, actionable insights that drive security, compliance, governance, and operational efficiency.</p>
                               
                               <div className="top-new-frame-hover">
                                 <div className="top-new-frame-hover-inner2">
-                                <h4>COMPASS</h4>
+                                <h4>STRATEGIC ADVISORY</h4>
                                   
                                   <p>  
                                   Strategic IT planning, gap analysis, technology roadmaps and digital transformation guidance. Your vCIO will evaluate your technology landscape holistically, creating an action plan that is aligned with your budget, company mission, industry requirements, organizational structure, and business goals. Our assessment covers critical areas including security posture, risk management, operational efficiency, and IT governance - all supported by industry-leading tools like Microsoft Purview, Vanta GRC and our own bespoke client self-service portal. 
