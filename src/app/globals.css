@@ -3350,6 +3350,10 @@ font-size: 50px;
     display: none !important;      
   }
 @media all and (min-width:120px) and (max-width:670px){
+  .Teams-integrated-heading-video-link iframe {
+    width: 100%; 
+    height: 300px;
+}
   .self-service-portal-main-section-middle {
     display: inline-block;
     justify-content: space-between;

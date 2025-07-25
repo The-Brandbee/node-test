@@ -223,7 +223,9 @@ function IndexPage() {
                     </a>
                   </div>
                 </li>
-
+  <li>
+                  <Link href="/portals">Portals</Link> 
+                </li>
               </ul>
             </div>
             <div className="header-menubar-right">
