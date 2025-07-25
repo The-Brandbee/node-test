@@ -59,7 +59,7 @@ export default function Home() {
              <div className="container">
                  <div className="self-service-portal-main-section-middle">
                       <div className="self-service-portal-main-section-left">
-                        <h4>What are the benefits of chats?</h4>
+                        <h4>Experience our Microsoft Teams integrated Service Desk</h4>
 <ul>
                     <li>
                         <div className="Developed-left">
@@ -121,10 +121,10 @@ export default function Home() {
                          <ul>
                             <li>Transparency of active and closed tickets </li> 
                              <li>Full and live asset library</li>
-                              <li>Partner referral scheme</li>
+                             
                                <li>Service Level Agreement performance </li>
                                 <li>Site-to-site network visibility</li>
-                                
+
                          </ul>
                          <div className="LOGIN-TO-PORTAL-link">
                              <Link target="_blank" href="https://csplighthouse.halopsa.com/portal">LOGIN TO PORTAL</Link> 
