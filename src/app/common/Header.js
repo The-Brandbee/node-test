@@ -12,7 +12,8 @@ import Six from "../img/Threat-Intelligence.png";
 import Seven from "../img/Managed-IT-Services.png";
 import Eight from "../img/Managed-SOC.png";
 import Nine from "../img/AI-Readiness.png";
-import MobileMenu from "../common/MobileMenu.js";
+import Meet from "../img/Team@300x.png";
+import MobileMenu from "../common/MobileMenu.js"; 
 
 function IndexPage() {
   return (
@@ -30,7 +31,10 @@ function IndexPage() {
                 <li>
                   <Link href="/about">About Us </Link>
                   <div class="dropdown-content">
+                    <div className="dropdown-content-meet">
+                    <Image src={Meet} alt="" className="Meet-icon"/>  
                     <Link href="/about#our-team-se">Meet The Team</Link>
+                    </div>
                   </div>
                 </li>
                 <li>

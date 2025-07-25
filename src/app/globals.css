@@ -6,6 +6,114 @@
   font-family:Poppins-Light;
   src:url('../app/fonts/Poppins-Light.ttf');
 }
+
+/*portal page */
+.portal-main-page-home{
+
+}
+.portal-main-page-home .navbar-main-frame {
+     position: relative;
+    background: #000;
+    padding: 20px 0px;
+}
+.portal-main-page-home .navbar-menu {
+    margin-top: 0px;
+}
+.Meet-icon{
+     width: 25px;
+    height: 25px;
+        margin-right: 10px;
+}
+.dropdown-content-meet{
+  display: flex;
+      align-items: center;
+}
+.self-service-portal-main-section-middle{
+  display: flex;
+      justify-content: space-between;
+}
+.self-service-portal-main-section-left{
+  width: 52%;
+}
+.self-service-portal-main-section-right{
+width: 45%;
+}
+.self-service-portal-main-section-right h3{
+
+}
+.self-service-portal-main-section-right p{
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+.self-service-portal-main-section-right ul{
+  padding-left: 20px !important;
+}
+.self-service-portal-main-section-right ul li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+.LOGIN-TO-PORTAL-link a{
+    background: #EA5E26;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.self-service-portal-main-section-middle{
+      padding: 60px 0px; 
+}
+.self-service-portal-main-section-left h4{
+      font-size: 16px;
+}
+.self-service-portal-main-section-left ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+        margin-top: 32px !important;
+}
+.self-service-portal-main-section-left ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+      margin-bottom: 15px;
+}
+.self-service-portal-main-section-left ul li img{
+      width: 30px;
+    height: 30px;
+    
+}
+.Developed-left{
+    width: 10%;
+      margin-right: 15px;
+}
+.Developed-right{
+    width: 90%;
+}
+.Developed-right h6{
+      font-family: Poppins-Bold !important;
+    font-size: 14px;
+}
+.Developed-right p{
+  
+}
+.Teams-integrated-heading-video-link iframe{
+      width: 85%;
+    margin: 0 auto;
+    display: table;
+    height: 500px;
+}
+.Teams-integrated-heading-k{
+  margin-bottom: 20px;
+}
+.Teams-integrated-heading-video{
+      background: #F2F2F2;
+    padding: 70px 0px;
+}
+/*portal page end*/
+
+
+
 body{
   padding: 0px;
   margin: 0px;
@@ -1919,7 +2027,7 @@ color: #fff;
 .header-menubar-middle li .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 210px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   left: 0px;  
@@ -3242,6 +3350,19 @@ font-size: 50px;
     display: none !important;      
   }
 @media all and (min-width:120px) and (max-width:670px){
+  .self-service-portal-main-section-middle {
+    display: inline-block;
+    justify-content: space-between;
+}
+.self-service-portal-main-section-left {
+    width: 100%;
+}
+.self-service-portal-main-section-left ul li{
+      width: 100%;
+}
+.self-service-portal-main-section-right {
+    width: 100%;
+}
   .new-droup-down-middle.mobile{
         background: #eb5e26;
         color: #fff;
