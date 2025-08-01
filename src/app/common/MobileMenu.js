@@ -241,7 +241,7 @@ class MobileMenu extends React.Component {
                           <li>
                             <a
                               target="_blank"
-                              href="https://cms.csplighthouse.com/public/uploads/CSP-datasheet.pdf"
+                              href="https://csp.global/datasheet"
                             >
                               Datasheet
                             </a>
