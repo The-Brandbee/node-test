@@ -8,6 +8,62 @@
 }
 
 /*Modern Workplace page start */
+.ClientTestimonials-main-page-m .Next-Gen-middle-frame h5{
+    font-weight: 600;
+    font-style: italic;
+    line-height: 34px;
+}
+
+
+.ClientTestimonials-main-page-m .Next-Gen-middle-frame {
+  
+    margin-top: 0%;
+    background: #fff;
+    border-top-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+        padding: 60px;
+}
+.ClientTestimonials-main-page-m .Next-Gen-middle-frame p{
+      margin-top: 50px;
+          margin-bottom: 0px;
+}
+.ClientTestimonials-main-page-m .Next-Gen-middle-frame p span{
+    display: block;
+    color: #eb5e26;
+    margin-top: 5px;
+}
+.Endorsements-test-sect-page .container{
+  position: relative; 
+}
+.Endorsements-test-sect-page-middle{
+  display: flex;
+      justify-content: space-between;
+}
+.Endorsements-test-sect-page-right{
+ width: 50%;                    
+}
+.Endorsements-test-sect-page-left{
+ width: 30%;
+}
+.Endorsements-test-sect-page-left h5{
+  color: #eb5e26;
+}
+.Endorsements-test-sect-page-left h3{
+  color: #000;
+}
+.Endorsements-test-sect-page-left h3 span{
+  color: #eb5e26;
+}
+.Endorsements-test-sect-page-left p{
+  color: #000;
+      margin-top: 30px; 
+}
+.Endorsements-test-sect-page{
+  background: #ecf0ee;
+  padding: 70px 0px;         
+}
 .contact-us-middle-main {
     background-image: url(https://www.brennanit.com.au/wp-content/uploads/2024/11/footer-gradient-banner-v3-min-scaled.jpg);
     background-size: cover;
@@ -234,6 +290,7 @@
     text-align: center;
     letter-spacing: -0.3px;
         margin-top: 25px;
+            margin-bottom: 40px;
 }
 .ct-section>.ct-section-inner-wrap {
     display: flex;
@@ -3789,6 +3846,29 @@ font-size: 50px;
     display: none !important;      
   }
 @media all and (min-width:120px) and (max-width:670px){
+  .ClientTestimonials-main-page-m .Next-Gen-middle-frame {
+    margin-top: 0%;
+    background: #fff;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+  .Endorsements-test-sect-page-middle {
+    display: inline-block;
+    justify-content: space-between;
+}
+.Endorsements-test-sect-page-left {
+    width: 100%;
+}
+.Endorsements-test-sect-page-right
+
+ {
+    width: 100%;
+            position: relative;
+}
   .Teams-integrated-heading-video-link iframe {
     width: 100%; 
     height: 300px;
@@ -5217,6 +5297,64 @@ width: 100%;
 }
 .cybersecurityframework-main-page.enablement-main-page-list .Security-Posture-frame-bottom ul li p {
   width: 100%;
+}
+.Modern-Workplace-top-frame-main ul{
+      grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-column-gap: 2px;
+    grid-row-gap: 7px;
+}
+.Brennan-Experience-main-frame-middle {
+    display: inline-block;
+    width: 100%;
+}
+.Brennan-Experience-main-frame-middle-left {
+    width: 100%;
+}
+.Brennan-Experience-main-frame-middle-right {
+    width: 100%;
+}
+#div_block-949-180
+ {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+#div_block-2428-213 {
+    background-image: url(/_next/static/media/Making-work.871d5a50.png);
+    background-size: cover;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-position: 0% 50%;
+    height: 310px;
+    margin-bottom: 20px;
+}
+#div_block-966-180 {
+width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+        padding-right: 0px;
+}
+#div_block-970-180 {
+    background-image: url(/_next/static/media/Making-work.871d5a50.png);
+    background-size: cover;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-position: 0% 50%;
+    height: 300px;
+    margin-top: 20px;
+}
+.explore-solution-wrap:not(.ct-section):not(.oxy-easy-posts), .explore-solution-wrap.oxy-easy-posts .oxy-posts, .explore-solution-wrap.ct-section .ct-section-inner-wrap{
+      grid-template-columns: repeat(1, minmax(200px, 1fr));
 }
 } 
 

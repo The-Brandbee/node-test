@@ -45,7 +45,7 @@ const Posts = ({ posts, loading }) => {
             <AccordionItem uuid={'a'} >
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    Copilot Readiness, Information Management, & Security
+                    Experience the CSP approach 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -63,7 +63,7 @@ const Posts = ({ posts, loading }) => {
             <AccordionItem uuid={'b'}>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                   Microsoft 365 Productivity
+                   Copilot Readiness Program 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -78,7 +78,7 @@ const Posts = ({ posts, loading }) => {
             <AccordionItem uuid={'c'}>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                   SharePoint Management
+                  Microsoft Lists and Loop adoption
 
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -92,7 +92,7 @@ const Posts = ({ posts, loading }) => {
              <AccordionItem uuid={'D'}>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                  Corporate Intranets
+                 Copilot Studio with Agents 
 
 
                     </AccordionItemButton>
@@ -107,8 +107,7 @@ const Posts = ({ posts, loading }) => {
                <AccordionItem uuid={'E'}>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                  Forms & Workflow Digitisation
-
+                 SharePoint Intranet and Data Security 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -122,7 +121,7 @@ const Posts = ({ posts, loading }) => {
              <AccordionItem uuid={'F'}>     
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                  Adoption & Change Management
+                Change Advisory Board approval processes 
 </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

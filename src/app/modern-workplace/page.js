@@ -7,6 +7,7 @@ import Link from "next/link";
 import Header from "../common/Header.js";
 import Footer from "../common/Footer.js";
 import TestimonialSlide from "../common/TestimonialSlide.js";
+import ClientTestimonials from "../common/ClientTestimonials.js";
 import BrennanExperienceTab from "../common/BrennanExperienceTab.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
@@ -75,12 +76,13 @@ export default function Home() {
 
        <section className="Modern-Workplace-top-frame-main">
          <ul>
-            <Link href="#">Overview</Link>
-            <Link href="#">Brennan Experience</Link>
-           <Link href="#">Customer Success Stories</Link>
-           <Link href="#">Other Solutions</Link>
+            <Link href="#ELIMINATE">Overview</Link>
+            <Link href="#experience">Brennan Experience</Link>
+           <Link href="#ClientTestimonials">Customer Success Stories</Link>
+           <Link href="#other-solutions">Other Solutions</Link>
          </ul>   
        </section>
+       <section id="ELIMINATE">
        <div className="container">
 
        <div className="ct-section-inner-wrap">
@@ -95,21 +97,17 @@ export default function Home() {
       data-aos-enable="true"
       data-aos="fade-up"
     >
-      Engaged. Efficient. Empowered. <br />
+     ELIMINATE. SIMPLIFY. PROTECT <br />
     </h2>
     <div id="_rich_text-506-167" className="oxy-rich-text sol-main-sec-copy">
       <p>
-        Technology has always been inseparable from industriousness. But the
-        modern workplace isn't solely about technology as a tool. It's about
-        technology as a goal, and how users experience, adopt, and adapt it to
-        meet your organisation's objectives.
+        Technology should drive your business forward, not hold it back. As your strategic technology partner, we don't just manage systems – we transform how you work through three fundamental principles: Eliminate, Simplify and Protect.
       </p>
-      <p>
-        At Brennan, we give you the time, tools and skills that enable you to
-        collaborate, innovate, and drive long-term success across the board -
-        inside your organisation, with other key stakeholders, and for your
-        customers.
-      </p>
+     <ul>
+      <li>Eliminate inefficiencies, outdated systems, licences /software, and barriers to growth.</li>
+      <li>Simplify complexity through intuitive, user-friendly and integrated solutions.</li>
+      <li>Protect your people, data, and operations with robust, modern security.</li>
+     </ul>
     </div>
   </div>
   <div
@@ -122,7 +120,7 @@ export default function Home() {
       className="ct-div-block curve-box curve-box-90 solcurve-box-0"
     >
       <div id="text_block-510-167" className="ct-text-block">
-        Support hybrid working&nbsp;
+       Enhance technology adoption
       </div>
     </div>
     <div
@@ -130,9 +128,7 @@ export default function Home() {
       className="ct-div-block curve-box curve-box-90 solcurvebg-1"
     >
       <div id="text_block-512-167" className="ct-text-block">
-        Enhance employee
-        <br />
-        engagement &amp; efficiency
+       Unify disparate security 
       </div>
     </div>
     <div
@@ -140,7 +136,7 @@ export default function Home() {
       className="ct-div-block curve-box curve-box-90 solcurvebg-2"
     >
       <div id="text_block-514-167" className="ct-text-block">
-        Improve internal &amp; external collaboration <br />
+      Simplify helpdesk support
       </div>
     </div>
     <div
@@ -148,7 +144,7 @@ export default function Home() {
       className="ct-div-block curve-box curve-box-120 curve-box-90 solcurvebg-4"
     >
       <div id="text_block-518-167" className="ct-text-block">
-        Reduce operational costs
+       Maximize Generative AI usage 
       </div>
     </div>
     <div
@@ -156,14 +152,22 @@ export default function Home() {
       className="ct-div-block curve-box curve-box-120 curve-box-90 solcurvebg-5"
     >
       <div id="text_block-930-180" className="ct-text-block">
-        Simplify IT support
+       Secure Remote work 
+      </div>
+    </div>
+       <div
+      id="div_block-929-180"
+      className="ct-div-block curve-box curve-box-120 curve-box-90 solcurvebg-5"
+    >
+      <div id="text_block-930-180" className="ct-text-block">
+     Drive policy compliance 
       </div>
     </div>
   </div>
 </div>
 </div>      
 
-
+</section>
 
 <section id="section-528-167" className="ct-section">
     <div className="container">
@@ -203,7 +207,7 @@ export default function Home() {
   </div>
 </section>
 
-<section className="Brennan-Experience-main-frame">
+<section className="Brennan-Experience-main-frame" id="experience">
     <div className="container">
         <div className="Brennan-Experience-main-frame-middle">
             <div className="Brennan-Experience-main-frame-middle-left">
@@ -229,17 +233,11 @@ export default function Home() {
       <div id="div_block-949-180" className="ct-div-block">
         <div id="div_block-950-180" className="ct-div-block right-box-content">
           <h3 id="headline-951-180" className="ct-headline sec-h-32">
-            Making work 'work'
+            Eliminate barriers to growth, risk and downtime
           </h3>
           <div id="_rich_text-952-180" className="oxy-rich-text body-text">
             <p>
-              Whether it’s extending investment value, empowering collaboration,
-              consolidating legacy infrastructure, applications and technology
-              sprawl, reducing internal and external support via a simplified
-              infrastructure and business application portfolio, or enhancing
-              the employee experience for remote, office and hybrid profiles,
-              our Modern Workplace solutions are laser-focussed on making work
-              ‘work’.
+           We help you eliminate inefficiencies with the right-fit technology stack, eliminate vulnerabilities through layered security strategies, and eliminate operational disruptions by aligning people, processes, and technology under a proactive managed service model.
             </p>
           </div>
         </div>
@@ -249,17 +247,17 @@ export default function Home() {
       <div id="div_block-966-180" className="ct-div-block">
         <div id="div_block-967-180" className="ct-div-block left-box-content">
           <h3 id="headline-968-180" className="ct-headline sec-h-32">
-            Digital transformation, brilliantly deployed
+            Protect what matters most
           </h3>
           <div id="_rich_text-969-180" className="oxy-rich-text body-text">
             <p>
-              Through modern business applications, familiar Microsoft platforms
-              and a simplified employee technology experience, we ensure
-              employees have access to the latest collaboration and productivity
-              tools; employers benefit from robust security features; and
-              everyone benefits from digital transformation – wherever and
-              however they work.
+             We safeguard your business continuity with robust disaster recovery and resilience planning, protect sensitive data through alignment with Zero Trust and Essential Eight frameworks, and protect your technology investments by ensuring every solution delivers measurable ROI.
             </p>
+            <ul>
+              <li>Update customer success stories with ours </li>
+              <li>Update Client testimonials with ours </li>
+              <li>Change Explore Solutions to below </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -335,11 +333,10 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2307-213" className="ct-text-block exsol-title">
-          Advanced Networking
+          Networking 
         </div>
         <div id="text_block-2308-213" className="ct-text-block exsol-copy">
-          From business-grade internet to next-gen data security, unified
-          connectivity expertise starts here.
+         Internet and WIFI services with top of the range connectivity, visibility and uptime
         </div>
        
       </div>
@@ -361,11 +358,10 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2313-213" className="ct-text-block exsol-title">
-          Cloud &amp; Infrastructure
+          Cloud and Infra 
         </div>
         <div id="text_block-2314-213" className="ct-text-block exsol-copy">
-          Engineer a future-proofed cloud strategy, without compromising on
-          performance or security.
+        Drive cloud strategies that work for you with state of the art expert delivery.
         </div>
        
       </div>
@@ -387,11 +383,10 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2319-213" className="ct-text-block exsol-title">
-          Cybersecurity
+         Cybersecurity
         </div>
         <div id="text_block-2320-213" className="ct-text-block exsol-copy">
-          Protection that is as continuous, comprehensive and uncompromising as
-          the risks you face.
+         Managed detection and response 24x7 is included as part of our service and available at a fraction of cost. Affordable cyber for SME’s.
         </div>
         
       </div>
@@ -413,11 +408,10 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2325-213" className="ct-text-block exsol-title">
-          Data and AI
+         Data and Gen AI
         </div>
         <div id="text_block-2326-213" className="ct-text-block exsol-copy">
-          Innovate, grow and gain market advantage by unlocking the true value
-          of your data.
+         Unlock the potential of Generative AI without sacrificing on security. Data Security Posture Management is the foundation of success. 
         </div>
       
       </div>
@@ -439,10 +433,10 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2331-213" className="ct-text-block exsol-title">
-          Hardware &amp; Software
+          Hardware & Software 
         </div>
         <div id="text_block-2332-213" className="ct-text-block exsol-copy">
-          Cost-effective and customer-first solutions grounded in expert advice.
+         Our reseller partnerships stack ensure you get expert sales advice whenever you need it. 
         </div>
         
       </div>
@@ -464,11 +458,10 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2337-213" className="ct-text-block exsol-title">
-          Microsoft Dynamics
+         Service Desk
         </div>
         <div id="text_block-2338-213" className="ct-text-block exsol-copy">
-          Harness the full potential of the Microsoft toolset and master true
-          productivity.
+         Our state-of-the-art Microsoft Teams integrated service desk app eliminates 40% of first level support requirements and significantly increases customer satisfaction. 
         </div>
        
       </div>
@@ -490,12 +483,11 @@ export default function Home() {
           />
         </div>
         <div id="text_block-2349-213" className="ct-text-block exsol-title">
-          Service Desk
+          Embedded IT Specialist 
         </div>
         <div id="text_block-2350-213" className="ct-text-block exsol-copy">
-          Continuously improving, highly systemised, world-leading customer
-          support.
-        </div>
+         We recruit and embed on your behalf. As a trusted Microsoft Solution Provider (gold partner), our skilling, technology stack and culture ensure staff retention and best IT staff are ready to support you in-house. 
+        </div>    
      
       </div>
     </div>
@@ -503,8 +495,21 @@ export default function Home() {
     </div>
 </section>
 
-<section className="">
-     
+<section className="Endorsements-test-sect-page" id="ClientTestimonials">
+       <div className="container">
+            <div className="Endorsements-test-sect-page-middle">
+                  <div className="Endorsements-test-sect-page-left">
+                     <h5>Client Testimonials</h5>
+                     <h3>Endorsements that can<br/>
+only come from true <br/>
+<span>connection</span></h3> 
+<p>Here’s how we’ve earned the trust of complex businesses, in their words.</p>                      
+                  </div>
+                   <div className="Endorsements-test-sect-page-right">
+                    <ClientTestimonials/>
+                  </div>
+            </div>
+       </div>
 </section>
 
 <section
