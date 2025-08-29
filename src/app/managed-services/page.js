@@ -516,7 +516,7 @@ only come from true <br/>
             <div className="contact-us-middle-main-m">
               <div className="contact-us-middle-main-m-right">
                 <div className="contact-us-middle-main-m-right-middle">
-                
+                  <Contact />
                 </div>
               </div>
               <div className="contact-us-middle-main-m-left new-cont">
