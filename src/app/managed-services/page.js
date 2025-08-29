@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div className="container">
             <div className="about-bannner-contact Modern-SOC-main">
-              <h3>Modern Workplace</h3>
+              <h3>Managed Services</h3>
             </div>
           </div>
         </header>
