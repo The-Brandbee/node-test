@@ -11,7 +11,7 @@ import ClientTestimonials from "../common/ClientTestimonials.js";
 import BrennanExperienceTab from "../common/BrennanExperienceTab.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
-import Contact from "../common/Contact";
+import Contact from "../common/Contact.js";
 import Cybersecurity from "../img/enablement-banner-3.jpg";
 import CybersecurityMobile from "../img/enablement-banner-3.jpg";
 import CybersecurityT from "../img/Adoption.png";
@@ -516,7 +516,7 @@ only come from true <br/>
             <div className="contact-us-middle-main-m">
               <div className="contact-us-middle-main-m-right">
                 <div className="contact-us-middle-main-m-right-middle">
-                  <Contact />
+                
                 </div>
               </div>
               <div className="contact-us-middle-main-m-left new-cont">
