@@ -8,6 +8,9 @@
 }
 
 /*Modern Workplace page start */
+.Brennan-Experience-main-frame .accordion__button:before{
+transform: rotate(-45deg) !important;
+}
 .ClientTestimonials-main-page-m .Next-Gen-middle-frame h5{
     font-weight: 600;
     font-style: italic;
@@ -42,7 +45,7 @@
       justify-content: space-between;
 }
 .Endorsements-test-sect-page-right{
- width: 50%;                    
+ width: 60%;                    
 }
 .Endorsements-test-sect-page-left{
  width: 30%;

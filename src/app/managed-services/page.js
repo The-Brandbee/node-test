@@ -77,7 +77,7 @@ export default function Home() {
        <section className="Modern-Workplace-top-frame-main">
          <ul>
             <Link href="#ELIMINATE">Overview</Link>
-            <Link href="#experience">Brennan Experience</Link>
+            <Link href="#experience">Csp Experience</Link>
            <Link href="#ClientTestimonials">Customer Success Stories</Link>
            <Link href="#other-solutions">Other Solutions</Link>
          </ul>   
@@ -211,7 +211,7 @@ export default function Home() {
     <div className="container">
         <div className="Brennan-Experience-main-frame-middle">
             <div className="Brennan-Experience-main-frame-middle-left">
-                <p>Brennan Experience</p>
+                <p>Csp Experience</p>
                 <h4>Modern tools,<br/> operational<br/> excellence</h4>
             </div>
              <div className="Brennan-Experience-main-frame-middle-right">
@@ -253,11 +253,7 @@ export default function Home() {
             <p>
              We safeguard your business continuity with robust disaster recovery and resilience planning, protect sensitive data through alignment with Zero Trust and Essential Eight frameworks, and protect your technology investments by ensuring every solution delivers measurable ROI.
             </p>
-            <ul>
-              <li>Update customer success stories with ours </li>
-              <li>Update Client testimonials with ours </li>
-              <li>Change Explore Solutions to below </li>
-            </ul>
+         
           </div>
         </div>
       </div>
@@ -503,7 +499,7 @@ export default function Home() {
                      <h3>Endorsements that can<br/>
 only come from true <br/>
 <span>connection</span></h3> 
-<p>Here’s how we’ve earned the trust of complex businesses, in their words.</p>                      
+<p>Here's how we've earned the trust of complex businesses, in their words.</p>                      
                   </div>
                    <div className="Endorsements-test-sect-page-right">
                     <ClientTestimonials/>

@@ -37,17 +37,17 @@ export default class TestimonialSlide extends Component {
           responsive={this.responsive}
         >
           <div className="Next-Gen-middle-frame">
-           <h5>“We now have a far better support turnaround. The Brennan team is so much more knowledgeable, visible and responsive, helping both our team and our broader people.”</h5>
-           <p>Shrija Pradhan <span>Business Operations Manager, Elanor Investors Group </span></p>
+           <h5> “On engaging with CSP, they listened very closely to our unique challenges as a college. They firstly helped increase our Essential Eight maturity, while also bolstering our Microsoft Cloud ecosystem. The team at CSP have a wealth of knowledge and were always ready to explain the more complex configurations in very simple terms so that we can scale our IT operation. We now feel far more confident in defending ourselves against threats than we did before. We will continue to work closely with CSP as we navigate new cyber and IT challenges.”</h5>
+           <p>Andrew Larner <span>IT Manager | Trinity College </span></p>
           </div>
           <div className="Next-Gen-middle-frame">
-            <h5>“Brennan had the in-depth experience to do this project and provided really detailed planning of what needed to be done, from day one to day one hundred. They were very good, very professional and very knowledgeable.”</h5>
-           <p>Franz Tanamal <span>Group Systems Analyst, Elanor Investors Group  </span></p>
+            <h5>“It has been a real pleasure to work with CSP. We embarked on our journey with CSP with the challenge of having many disparate cybersecurity solutions in place, which was both operationally and financially inefficient. Since setting up Microsoft XDR, we now feel far more secure knowing all our assets are protected and visible under one roof. They have helped us improve IT efficiency when it comes to managing devices and data across the entire group, as well as adopt a more robust risk management culture.”</h5>
+           <p>IT Manager  <span>Agostino Group   </span></p>
           
           </div>
           <div className="Next-Gen-middle-frame">
-           <h5>“With Brennan, we have finally found a partner who can lead us in the right technology direction and give us the performance we need. We are a family-owned and -operated business that is now future-proofed and ready for the 21st century.” </h5>
-           <p>Heather Cross <span>Chief Financial Officer, Priestley's Gourmet Delights </span></p> 
+           <h5>  “Choosing to work with the CSP team in late 2022 was the single most valuable decision I made for the year. With their support and guidance, they assisted Mobo Group in implementing Essential 8 security controls, along with many others, necessary for us to achieve Right Fit For Risk accreditation to ISO 27001. CSP's proactive, responsive, and supportive manner has captivated the entire team at Mobo Group who have been incredibly impressed by their tireless work in support of our business. I will be forever grateful for CSP's support, guidance, patience and understanding afforded to me in completing the RFFR project and becoming our trusted managed security service provider.” </h5>
+           <p>Andrew Ramsey <span> CEO Mobo Group </span></p> 
           </div>
         
         </Carousel> 
