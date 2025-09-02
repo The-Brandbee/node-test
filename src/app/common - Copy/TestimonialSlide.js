@@ -13,7 +13,7 @@ export default function TestimonialSlide() {
 
   useEffect(() => {
     axios
-      .get("https://cms.csplighthouse.com/api/testimonial")
+      .get("")
       .then((response) => {
         setTestimonials(response.data);
       })
@@ -54,32 +54,39 @@ export default function TestimonialSlide() {
         autoPlaySpeed={10000}
         responsive={responsive}
       >
-        {testimonials.map((testimonial, index) => (
+       
           <div key={index}>
             <div className="testimonial-frame-middle">
               <div className="testimonial-frame-left">
                 <div className="testimonial-frame-left">
-                  <img
-                    src={"https://cms.csplighthouse.com/" + testimonial.image}
-                  />
+                 <Image src={Ticon} alt="" />
                 </div>
                 <div className="testimonial-frame-left-right">
                   <Image src={Ticon} alt="" />
                 </div>
               </div>
               <div className="testimonial-frame-right">
-                <div
-                  dangerouslySetInnerHTML={{ __html: testimonial.desc }}
-                ></div>
+               <div> <p>
+                  On engaging with CSP, they listened very closely to our unique
+                  challenges as a college. They firstly helped increase our
+                  Essential Eight maturity, while also bolstering our Microsoft
+                  Cloud ecosystem. The team at CSP have a wealth of knowledge
+                  and were always ready to explain the more complex
+                  configurations in very simple terms so that we can scale our
+                  IT operation. We now feel far more confident in defending
+                  ourselves against threats than we did before. We will continue
+                  to work closely with CSP as we navigate new cyber and IT
+                  challenges.
+                </p></div>
 
                 <div className="sob-test">
-                  <h4>{testimonial.name}</h4>
-                  <p>{testimonial.shortdesc}</p>
+                  <h4>Andrew Larner</h4>
+                  <p>IT Manager | Trinity College</p>
                 </div>
               </div>
             </div>
           </div>
-        ))}
+       
       </Carousel>
     </div>
   );

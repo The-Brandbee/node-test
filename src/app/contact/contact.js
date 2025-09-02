@@ -20,7 +20,7 @@ export default function Home() {
   // Call the API and log the data to the console
   const fetchData = async () => {
     const response = await fetch(
-      "https://cms.csplighthouse.com/api/leadershippage"
+      ""
     );
     const data = await response.json();
     setDataNew(data[0]);
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
           <div className="about-bannner-contact Contact-Us">
             <div className="container">
-              <h3 dangerouslySetInnerHTML={{ __html: dataNew.bannerheading }} />
+              <h3>CONTACT US</h3>
             </div>
           </div>
         </header>
@@ -55,22 +55,32 @@ export default function Home() {
                 </div>
               </div>
               <div className="contact-us-middle-main-m-left new-cont">
-                <h3 dangerouslySetInnerHTML={{ __html: dataNew.mainheading }} />
+              <h3>
+  How do our <br /> Guardians help <br /> you{/* */} <span>stay ahead?</span>
+</h3>
                 <div className="Discover-contact-us-page">
                   <h5>Discover:</h5>
-                  <p
-                    dangerouslySetInnerHTML={{ __html: dataNew.discovertext }}
-                  />
+                  <p>
+  We first want to hear about your most recent cybersecurity and IT challenges.
+</p>
                 </div>
                 <div className="Discover-contact-us-page">
                   <h5>Demo:</h5>
-                  <p dangerouslySetInnerHTML={{ __html: dataNew.demotext }} />
+                 <p>
+  We then take you on a tour of our{/* */}{" "}
+  <a href="/lighthouse-platform">Lighthouse Platform</a>
+</p>
                 </div>
                 <div className="Discover-contact-us-page">
                   <h5>Future:</h5>
-                  <div
-                    dangerouslySetInnerHTML={{ __html: dataNew.futuretext }}
-                  />
+                 <div>
+  <p>
+    We provide personalized ideas for a future with less cyber challenges and
+    more IT enablement.
+  </p>
+  <p>Are we a good fit? Let's find out - complete the form to get started.</p>
+</div>
+
                 </div>
               </div>
             </div>
@@ -79,11 +89,25 @@ export default function Home() {
         <section className="contact-us-addrs">
           <div className="container">
             <div className="Australia-min-f">
-              <p
-                dangerouslySetInnerHTML={{ __html: dataNew.australiaaddress }}
-              />
+             <div className="Australia-min-f">
+  <h5>Australia (HQ)</h5>
+  <p>
+    Westpac House, 91 King William <br />
+    Street, Adelaide, Australia (HQ)
+    <br />
+    <a href="Tel:1300199093">1300 199 093</a>
+    <br />
+    <a href="mailto:info@csp.global">info@csp.global</a>
+  </p>
+</div>
+
             </div>
-            <div dangerouslySetInnerHTML={{ __html: dataNew.ukaddress }} />
+          <div>
+  <div className="Australia-min-f">
+    <h5>UK Office</h5>
+    <p>124 City Road, London, EC1V 2NX</p>
+  </div>
+</div>
           </div>
         </section>
 

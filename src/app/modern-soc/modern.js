@@ -13,10 +13,10 @@ const BlogPost = () => {
     const fetchPosts = async () => {
       setLoading(true);
       const res = await axios.get(
-        "https://cms.csplighthouse.com/api/partnership/"
+        ""
       );
       setPosts(res.data);
-      setLoading(false);
+      setLoading(false); 
     };
 
     fetchPosts();

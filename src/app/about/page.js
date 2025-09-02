@@ -12,7 +12,7 @@ export const metadata = {
   },
 };
 
-export default function Aboutus() {
+export default function Aboutus() { 
   return (
     <>
       <About />

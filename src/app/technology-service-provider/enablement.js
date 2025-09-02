@@ -35,7 +35,7 @@ export default function Home() {
   const [dataNew, setDataNew] = useState("");
   // Call the API and log the data to the console
   const fetchData = async () => {
-    const response = await fetch("https://cms.csplighthouse.com/api/overview");
+    const response = await fetch(""); 
     const data = await response.json();
     setDataNew(data[0]);
     console.log(data[0]);

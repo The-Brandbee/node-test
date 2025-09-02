@@ -11,7 +11,7 @@ export const metadata = {
     images:
       "https://cms.csplighthouse.com/public/uploads/blogs/th.jpeg",
   },
-};
+}; 
 
 export default function Security() {
   return (

@@ -40,8 +40,8 @@ const Posts = ({ posts, loading }) => {
     <>
       <GoogleTagManager gtmId="GTM-PVLGJK24" />
       <main className="About-us-page modernsoc-page-new">
-        {posts.map((post) => (
-          <div key={post.id}>
+      
+          <div > 
             <header>
               <Header />
               <div className="Inner-page-banner-frame">
@@ -72,8 +72,8 @@ const Posts = ({ posts, loading }) => {
                   </p>
                   <h3>
                     <span className="br header-about">
-                      {" "}
-                      Our Founders Vision{" "}
+                     
+                      Our Founders Vision
                     </span>
                   </h3>
                   <p>
@@ -103,16 +103,26 @@ const Posts = ({ posts, loading }) => {
                   <div className="Unlocking-the-Full-Potential-middle-left">
                     <Image src={visionOne} alt="" />
 
-                    <h3
-                      dangerouslySetInnerHTML={{
-                        __html: post.whoweareheading,
-                      }}
-                    />
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.whowearetext,
-                      }}
-                    />
+                   <h3>FOUNDING</h3>
+                
+  <p>
+   
+    Callum Golding, founder and CEO, brings almost 20 years of expertise in the
+    IT and cybersecurity service industry. His mission is born of three core
+    principles: eliminate, simplify, and protect. These principles guide the
+    entire organization and help clients confidently navigate modern challenges.
+  </p>
+  <p>
+    Based in Adelaide, CSP has earned a reputation for delivering customized,
+    client-focused, and pro-active IT services across various industries in
+    Australia. By eliminating obsolete vendors and systems, simplifying the IT
+    ecosystem with automation and enhanced visibility, and providing
+    cutting-edge threat protection across the Microsoft security family, CSP
+    delivers a holistic service that always puts their customers&nbsp;first.
+  </p>
+
+
+
 
                     <div className="know-more BOOK-A-MEETING">
                       <a href="https://csp.expert/book" target="_blank">
@@ -123,17 +133,32 @@ const Posts = ({ posts, loading }) => {
                   <div className="Unlocking-the-Full-Potential-middle-left">
                     <Image src={visionTwo} alt="" />
 
-                    <h3
-                      dangerouslySetInnerHTML={{
-                        __html: post.ourfounderheading,
-                      }}
-                    />
+                   <h3>Why CSP?</h3>
 
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.foundervisiontext,
-                      }}
-                    />
+                  
+
+  <p>
+    At CSP, we don't react, we respond. As a leading provider of managed
+    security and enablement services, we understand your challenges and are
+    dedicated to alleviating them. Our approach is empathetic and proactive,
+    ensuring we address your pain points effectively.
+  </p>
+  <p>
+    We have developed a unique approach that addresses the risk profiles of each
+    individual client. By dedicating time and effort to thoroughly understand
+    your needs, we create robust, cost-effective strategies, deliver 24x7
+    detection and response, and minimize your attack surface by aligning with
+    the industry's best security frameworks.
+  </p>
+  <p>
+    In a rapidly evolving landscape, including advancements in AI, staying ahead
+    requires a proactive and expert team. We are that team, ready to help you
+    navigate and thrive during the age of digital transformation and
+    achieve&nbsp;more&nbsp;with&nbsp;less.
+  </p>
+   
+
+
                   </div>
                 </div>
               </div>
@@ -203,34 +228,171 @@ const Posts = ({ posts, loading }) => {
             </section>
 
             <section className="Our-Values-middle-section-main">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: post.ourvaluesection,
-                }}
-              />
+              <div className="container">
+  <div className="Our-Values-middle-section-main-middle">
+    <div className="Our-Values-middle-section-main-middle-left">
+      <img
+        alt=""
+        loading="lazy"
+        width={162}
+        height={178}
+        decoding="async"
+        data-nimg={1}
+        srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Four-value.e55d8244.png&w=256&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Four-value.e55d8244.png&w=384&q=75 2x"
+        src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Four-value.e55d8244.png&w=384&q=75"
+        style={{ color: "transparent" }}
+      />
+      <h4>Our Values</h4>
+      <h5>
+        Building Strong Relationships <br />
+        through Trust and Integrity
+      </h5>
+    </div>
+    <div className="Our-Values-middle-section-main-middle-right">
+      <ul>
+        <li>
+          <span>Innovation:</span> We continuously seek innovative solutions to
+          address evolving cybersecurity challenges.
+        </li>
+        <li>
+          <span>Trustworthiness:</span> We prioritize the security and
+          reliability of our solutions, fostering trust with our clients.
+        </li>
+        <li>
+          <span>Simplicity:</span> We believe in simplifying complex IT
+          challenges, making cybersecurity accessible.
+        </li>
+        <li>
+          <span>Continuous Learning: </span> We foster a culture of continuous
+          learning, staying at the forefront of cybersecurity developments to
+          better serve our clients.
+        </li>
+        <li>
+          <span>Customer-Centricity:</span> We are dedicated to providing
+          exceptional service and support to meet their speciﬁc needs.
+        </li>
+        <li>
+          <span>Future-Oriented:</span> We are future-oriented, preparing our
+          clients for the challenges and opportunities that lie ahead in the
+          digital landscape.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
             </section>
 
             <section className="Unique-Approach-Simple-frame">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: post.ouruniqueapproach,
-                }}
-              />
+             <div className="container">
+  <div className="Unique-Approach-heading">
+    <h3>
+      Our Unique Approach is Simple
+      <span>Eliminate, Simplify, Protect - The CSP Way</span>
+    </h3>
+  </div>
+  <div className="Unique-Approach-Simple-middle">
+    <div className="Unique-Approach-Simple-middle-left">
+      <h4>Eliminate redundant solutions</h4>
+      <ul>
+        <li>
+          Streamline and Optimize Your IT Environment: Say goodbye to
+          unnecessary, overlapping IT solutions.
+        </li>
+        <li>
+          Consolidate Complex Licensing Structure: Simplify your licensing maze.
+        </li>
+        <li>
+          Seamless Integration: Benefit from seamless, native integration,
+          reducing complexities.
+        </li>
+        <li>
+          Cost-Efficiency: Slash consulting, deployment, and integration costs
+          with a unified solution.
+        </li>
+        <li>
+          Cost Savings: Save over 60% on licensing expenses compared to
+          fragmented point solutions, all through Microsoft 365's consolidation.
+        </li>
+      </ul>
+    </div>
+    <div className="Unique-Approach-Simple-middle-left">
+      <h4>Simplify IT Management</h4>
+      <ul>
+        <li>
+          Automated Updates: Automate system updates, significantly cutting
+          device management expenses while optimizing IT administration.
+        </li>
+        <li>
+          Enhanced Efficiency: Boost IT efficiencies for new devices, apps, and
+          infrastructure.
+        </li>
+        <li>
+          Simplified Onboarding: Streamline onboarding processes with automated
+          provisioning.
+        </li>
+        <li>
+          Time and Cost Savings: Automate system updates and reduce IT
+          management costs by up to 40%, along with cutting device management
+          time by as much as 25%.
+        </li>
+      </ul>
+    </div>
+    <div className="Unique-Approach-Simple-middle-left">
+      <h4>Protect digital worker</h4>
+      <ul>
+        <li>
+          Flexible Work Environment: Enable secure remote work from anywhere,
+          providing employees with flexibility.
+        </li>
+        <li>
+          Robust Data Protection: Reduce the risk of data breaches while
+          safeguarding identities, devices, apps, and data.
+        </li>
+        <li>
+          Integrated Security: Decrease security costs with pre-integrated
+          identity, endpoint management, and security solutions, advancing a
+          zero-trust architecture.
+        </li>
+        <li>
+          Enhanced Security: Implement a zero-trust security model, reducing
+          data breach risk by up to 50% and streamlining IAM security management
+          by as much as 50%.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
             </section>
 
             <section className="Ignite-Cybersecurity-frame">
               <div className="Ignite-Cybersecurity-frame-img">
                 <Image src={Cybersecurity} alt="" />
               </div>
-              <div className="container">
-                <div className="Ignite-Cybersecurity-frame-cont">
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: post.achievemorewithless,
-                    }}
-                  />
-                </div>
-              </div>
+             <div className="container">
+  <div className="Ignite-Cybersecurity-frame-cont">
+    <div>
+      
+      <h3 className="ho-heading">
+        Achieve More with Less
+        <span className="br Commitment_Success">
+        
+          Our Commitment to Your Success
+        </span>
+      </h3>
+      <p>
+        At CSP, we are your trusted partner in navigating the complexities of
+        the modern IT landscape. Our commitment is to empower your organization
+        with innovative solutions, ensuring security, efficiency, and success.
+      </p>
+      <p>
+        <a href="/contact">Get in Touch</a>
+      </p>
+    </div>
+  </div>
+</div>
+
             </section>
             <section className="team-section-about-page" id="our-team-se">
               <div className="container">
@@ -417,16 +579,16 @@ const Posts = ({ posts, loading }) => {
                     <Image src={Adam} alt="" />
                   </div>
                   <div className="Partners-about-sect-middle-right ">
-                    <h4
-                      dangerouslySetInnerHTML={{
-                        __html: post.ourpartnername1,
-                      }}
-                    />
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.ourpartnertext1,
-                      }}
-                    />
+                    <h4>Adam Nye | Networking Specialist<span>Founder of Spoon Tech</span></h4>
+                   <p>
+  Adam is the founder of Spoon Technologies and trusted partner of CSP. As a
+  solutions architect and engineer with 18 years' experience, Adam has managed
+  global IT environments with a strong focus on cyber security, automation,
+  Linux/UNIX, network, and compute infrastructure. He has also designed and
+  built mission-critical systems within health, oil and gas, and defence
+  sectors.
+</p>
+
                   </div>
                 </div>
                 <div className="Partners-about-sect-middle">
@@ -437,24 +599,25 @@ const Posts = ({ posts, loading }) => {
                   </div>
                   <div className="Partners-about-sect-middle-right ">
                     <a href="https://www.cyberops.com.au/" target="_blank">
-                      <h4
-                        dangerouslySetInnerHTML={{
-                          __html: post.ourpartnername2,
-                        }}
-                      />
+                      <h4>Cyberops | Space, Cyber, Defence</h4>
                     </a>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.ourpartnertext2,
-                      }}
-                    />
+                    <p>
+  Cyberops have been a trusted and strategic partner of CSP for many years. They
+  are experts in Defence, Cyber and Space and have delivered, designed, and led
+  prominent technology and cyber security projects all over the Asia-Pacific,
+  Europe, and the Americas. They designed the Cyber Range at the Australian
+  Cyber Collaboration Centre, developed the Space Cyber Architecture, Space
+  Cyber Framework and continually contribute to space domain awareness through
+  SpaceIQ
+</p>
+
                   </div>
                 </div>
               </div>
             </section>
             <Footer />
           </div>
-        ))}
+     
       </main>
     </>
   );

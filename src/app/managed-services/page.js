@@ -26,7 +26,7 @@ import Securityseven from "../img/Microsoft-icon-7.png";
 import Securityeight from "../img/Microsoft-icon-8.png";
 import EmpoweringRight from "../img/Organizations.png";
 import Main from "../img/logo.png";
-import People from "../img/people.jpg";
+import People from "../img/people.jpg"; 
 import EmpoweringRightMail from "../img/CSP-WEBSITE-ILLUSTRATION.jpg";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -48,7 +48,7 @@ export default function Home() {
   const [dataNew, setDataNew] = useState("");
   // Call the API and log the data to the console
   const fetchData = async () => {
-    const response = await fetch("https://cms.csplighthouse.com/api/overview");
+    const response = await fetch("");
     const data = await response.json();
     setDataNew(data[0]);
     console.log(data[0]);
@@ -77,9 +77,9 @@ export default function Home() {
        <section className="Modern-Workplace-top-frame-main">
          <ul>
             <Link href="#ELIMINATE">Overview</Link>
-            <Link href="#experience">Csp Experience</Link>
+            <Link href="#experience">CSP Experience</Link>
            <Link href="#ClientTestimonials">Customer Success Stories</Link>
-           <Link href="#other-solutions">Other Solutions</Link>
+           <Link href="#contact">Contact Us</Link>
          </ul>   
        </section>
        <section id="ELIMINATE">
@@ -211,7 +211,7 @@ export default function Home() {
     <div className="container">
         <div className="Brennan-Experience-main-frame-middle">
             <div className="Brennan-Experience-main-frame-middle-left">
-                <p>Csp Experience</p>
+                <p>CSP Experience</p>
                 <h4>Modern tools,<br/> operational<br/> excellence</h4>
             </div>
              <div className="Brennan-Experience-main-frame-middle-right">
@@ -509,7 +509,7 @@ only come from true <br/>
 </section>
 
 <section
-  className="contact-us-middle-main"
+  className="contact-us-middle-main" id="contact"
   style={{ paddingTop: 0 }}
 >
           <div className="container">
@@ -520,7 +520,7 @@ only come from true <br/>
                 </div>
               </div>
               <div className="contact-us-middle-main-m-left new-cont">
-                <h3 dangerouslySetInnerHTML={{ __html: dataNew.mainheading }} />
+               
                 <div className="Discover-contact-us-page">
                   <h3>Boost your
 business efficiency</h3>

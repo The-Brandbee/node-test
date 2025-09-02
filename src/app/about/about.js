@@ -12,7 +12,7 @@ const BlogPost = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);
-      const res = await axios.get("https://cms.csplighthouse.com/api/about/");
+      const res = await axios.get("");
       setPosts(res.data);
       setLoading(false);
     };

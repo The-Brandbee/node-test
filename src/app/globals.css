@@ -5301,8 +5301,11 @@ width: 100%;
 .cybersecurityframework-main-page.enablement-main-page-list .Security-Posture-frame-bottom ul li p {
   width: 100%;
 }
+  .Modern-Workplace-top-frame-main ul a{
+        font-size: 14px;
+    }
 .Modern-Workplace-top-frame-main ul{
-      grid-template-columns: repeat(2, minmax(200px, 1fr));
+      grid-template-columns: repeat(2, minmax(50%, 1fr));
     grid-column-gap: 2px;
     grid-row-gap: 7px;
 }

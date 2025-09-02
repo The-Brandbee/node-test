@@ -30,7 +30,7 @@ export default function Home() {
   const [dataNew, setDataNew] = useState("");
   // Call the API and log the data to the console
   const fetchData = async () => {
-    const response = await fetch("https://cms.csplighthouse.com/api/overview");
+    const response = await fetch("");
     const data = await response.json();
     setDataNew(data[0]);
     console.log(data[0]);
@@ -78,8 +78,14 @@ export default function Home() {
           </div>
           <div className="container">
             <div className="Strengthen-Your-Cyber-Defenses">
-              <h4 dangerouslySetInnerHTML={{ __html: dataNew.bannerheading }} />
-              <p dangerouslySetInnerHTML={{ __html: dataNew.bannertext }} />
+             <h4>
+  NEXT-GEN IT <br />
+  MANAGED SERVICE<span>.</span> 
+</h4>
+
+              
+              <p>Driving Innovation, Delivering Excellence</p>
+
               <div className="know-more">
                 <Link href="/contact"> Get started &gt; </Link>
               </div>
@@ -204,21 +210,234 @@ export default function Home() {
           </div>
         </section>
         <section className="Security-Posture-frame">
-          <div
-            dangerouslySetInnerHTML={{ __html: dataNew.enhancingyousecurity }}
-          />
+        <div className="container">
+  <div className="Security-Posture-frame-top">
+    <div className="Security-Posture-frame-top-left">
+      <h4>Enhancing Your Security Posture and Productivity</h4>
+    </div>
+    <div className="Security-Posture-frame-top-right">
+      <p>
+        Our services are designed to protect your organization, streamline
+        processes, and ensure compliance with industry standards.
+      </p>
+    </div>
+  </div>
+  <div className="Security-Posture-frame-bottom">
+    <ul>
+      <li>
+        <img
+          alt=""
+          loading="lazy"
+          width={75}
+          height={73}
+          decoding="async"
+          data-nimg={1}
+          style={{ color: "transparent" }}
+          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-1.dae262b2.png&w=96&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-1.dae262b2.png&w=256&q=75 2x"
+          src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-1.dae262b2.png&w=256&q=75"
+        />
+        <h4>HOLISTIC IT SERVICE</h4>
+        <p>
+          While generic service providers fall short, we stand out as a single
+          source of wisdom with capabilities that match the challenges of today.
+          Providing end-to-end technology support that streamline operations,
+          improve efficiency, and support growth.
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          loading="lazy"
+          width={71}
+          height={71}
+          decoding="async"
+          data-nimg={1}
+          style={{ color: "transparent" }}
+          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-2.222f3958.png&w=96&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-2.222f3958.png&w=256&q=75 2x"
+          src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-2.222f3958.png&w=256&q=75"
+        />
+        <h4>MORE FOR LESS</h4>
+        <p>
+          You get a technologically-diverse team at your disposal with one fixed
+          and predicatable cost. Either you get to eliminate the expense of a
+          FTE or we supplement your IT team to provide the holistic support your
+          organization requires.
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          loading="lazy"
+          width={69}
+          height={69}
+          decoding="async"
+          data-nimg={1}
+          style={{ color: "transparent" }}
+          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-5.ebd3c901.png&w=96&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-5.ebd3c901.png&w=256&q=75 2x"
+          src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-5.ebd3c901.png&w=256&q=75"
+        />
+        <h4>INSTANTANEOUS</h4>
+        <p>
+          We never stop working, so that you can. Our support team prioritizes
+          our SLA customers at all times. If the problem cannot be fixed
+          remotely, a technician will be sent to you on that day. We don't quit
+          until you are satisfied and the issue or incident is under control.
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          loading="lazy"
+          width={74}
+          height={71}
+          decoding="async"
+          data-nimg={1}
+          style={{ color: "transparent" }}
+          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-4.47d76a7d.png&w=96&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-4.47d76a7d.png&w=256&q=75 2x"
+          src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-4.47d76a7d.png&w=256&q=75"
+        />
+        <h4>CYBER EXPERTS</h4>
+        <p>
+          Our team of qualified experts know exactly how to deal with cyber
+          threats and we react with unparalled speed and accuracy. Our processes
+          also ensure the right stakeholders are informed before any action is
+          taken during a critical incident that might impact operations.
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          loading="lazy"
+          width={70}
+          height={70}
+          decoding="async"
+          data-nimg={1}
+          style={{ color: "transparent" }}
+          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-3.4351eec7.png&w=96&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-3.4351eec7.png&w=256&q=75 2x"
+          src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-3.4351eec7.png&w=256&q=75"
+        />
+        <h4>GRC</h4>
+        <p>
+          We are a reseller of one of the leading Grovernance, Risk and
+          Compliance platforms on the market. This not only helps you automate
+          your compliance journey and deliver policies around IT use, but will
+          demonstrate progress to key stakeholders with a comprehensive
+          reporting page. Your customers will now be able to trust that you take
+          security and compliance seriously.
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          loading="lazy"
+          width={67}
+          height={67}
+          decoding="async"
+          data-nimg={1}
+          style={{ color: "transparent" }}
+          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-6.bf036ed8.png&w=96&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-6.bf036ed8.png&w=256&q=75 2x"
+          src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fit-icon-6.bf036ed8.png&w=256&q=75"
+        />
+        <h4>OPERATIONAL EFFICIENCY</h4>
+        <p>
+          Let us help you navigate the tech jungle. With software updates and
+          proactive maintenance, we keep IT systems running faster and more
+          stable, leading to more productive employees and happier customers. We
+          unlock digital success through AI, automation, and digital
+          transformation.
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+
         </section>
         <section className="Managed-Detection-frame">
-          <div
-            dangerouslySetInnerHTML={{ __html: dataNew.transformingsecurity }}
-          />
+        <div className="container">
+  <div className="Managed-Detection-frame-top-heading">
+    <h3 className="ho-heading">WHAT IS A TECHNOLOGY SOLUTION PROVIDER?</h3>
+  </div>
+  <div className="Managed-Detection-frame-middle">
+    <div className="Managed-Detection-frame-middle-left">
+      <h5>More than tech support</h5>
+      <p>
+        Modern service providers should not only deliver holistic IT and vendor
+        management but also digital transformation. Our managed service company
+        based our of Adelaide works closely with organizations to identify pain
+        points, design roadmaps, and implement new technologies that drive
+        growth and productivity. Our ‘better together’ philosophy means we are
+        partnered with some of the best solution providers in Australia. If your
+        requirement is outside our expertise we have the ability to always say
+        YES and have someone onhand to your vision to life.
+      </p>
+    </div>
+    <div className="Managed-Detection-frame-middle-left">
+      <h5>Driving Innovation</h5>
+      <p>
+        We unclog bottlenecks and open avenues for revenue growth and
+        operational efficiency. Our quarterly business reviews bring are the
+        catalyst for driving innovation. We bring you up to speed and share
+        relevant success stories from other clients. The most important role
+        over the next 10 years will be the Chief AI officer and our virtual
+        advisory service has already helped many customers start adopting AI
+        securely and develop governance policies for fair usage.{" "}
+      </p>
+    </div>
+  </div>
+  <div className="know-more">
+    <a href="/contact">LEARN MORE</a>
+  </div>
+</div>
+
         </section>
         <section className="Excellence-in-Three-Steps">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: dataNew.cybersecurityexcellence,
-            }}
-          />
+          <div className="container">
+  <div className="Excellence-in-Three-Steps-top">
+    <div className="Excellence-in-Three-Steps-top-left">
+      <h3 className="ho-heading">Cybersecurity Excellence in Three Steps</h3>
+    </div>
+    <div className="Excellence-in-Three-Steps-top-right">
+      <p>
+        Our approach to cybersecurity revolves around three key principles:
+        Eliminate, Simplify, and Protect. We enable you to achieve more with
+        less and unlock the full potential of cloud technology while
+        safeguarding your digital estate.
+      </p>
+    </div>
+  </div>
+  <div className="Eliminate-Complexity-main">
+    <div className="Eliminate-Complexity-main-left">
+      <h2>1</h2>
+      <h4>Eliminate Complexity and Reduce Costs:</h4>
+      <p>
+        We help organizations streamline their complex licensing structures and
+        eliminate unnecessary IT products, reducing patchwork solution costs by
+        up to 60%.
+      </p>
+    </div>
+    <div className="Eliminate-Complexity-main-left">
+      <h2>2</h2>
+      <h4>Simplify Workflows for Efficiency:</h4>
+      <p>
+        We streamline IT workflows and reduce device management overhead,
+        enabling a focus on higher-value tasks such as defence and response.
+        Leveraging automation and modern technologies, we cut device management
+        by up to 25%.
+      </p>
+    </div>
+    <div className="Eliminate-Complexity-main-left">
+      <h2>3</h2>
+      <h4>Protect Modern Digital Worker:</h4>
+      <p>
+        We harness the Microsoft E5 Security license, a world leader in extended
+        detection and response (XDR) solutions. Focusing on Zero Trust and
+        Essential Eight frameworks, we optimize critical areas to reduce data
+        breach risk by up to 50%.
+      </p>
+    </div>
+  </div>
+</div>
+
         </section>
         {/*  <section className="Ignite-Cybersecurity-frame Eight-Framework">
           <div className="Ignite-Cybersecurity-frame-img">
@@ -280,11 +499,20 @@ export default function Home() {
           </div>
           <div className="container">
             <div className="Ignite-Cybersecurity-frame-cont">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: dataNew.ignitecybersecurity,
-                }}
-              />
+             <div>
+
+  <h3 className="ho-heading">
+    Ignite Cybersecurity Transformation with<span className="br">CSP</span>
+  </h3>
+  <p>
+    Your Trusted Partner for Comprehensive Cybersecurity
+    <span className="br">Solutions, Empowering Your Digital Future</span>
+  </p>
+  <p>
+    <a href="/contact">Take Command of Your Security Now!</a>
+  </p>
+</div>
+
             </div>
           </div>
         </section>
