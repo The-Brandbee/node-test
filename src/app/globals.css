@@ -99,6 +99,9 @@ transform: rotate(-45deg) !important;
     margin-bottom: 20px;
     transition-duration: 0.4s;
 }
+.explore-solution-icon{
+      display: none !important;
+}
 .explore-solution-icon img{
       visibility: hidden;
 }
