@@ -3848,7 +3848,24 @@ font-size: 50px;
   .nextjs-toast-errors-parent{
     display: none !important;      
   }
+  #_rich_text-506-167 ul li{
+     list-style-type: disc;
+    width: fit-content;
+  }
+    #_rich_text-506-167 ul{
+        display: inline-block;
+  }
 @media all and (min-width:120px) and (max-width:670px){
+  #_rich_text-506-167 ul {
+    display: inline-block;
+    width: 93%;
+}
+#_rich_text-506-167 ul li {
+    list-style-type: disc;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 15px; 
+}
   .ClientTestimonials-main-page-m .Next-Gen-middle-frame {
     margin-top: 0%;
     background: #fff;
@@ -3860,8 +3877,13 @@ font-size: 50px;
     margin-bottom: 0px;
 }
   .Endorsements-test-sect-page-middle {
-    display: inline-block;
-    justify-content: space-between;
+  display: inline;
+          overflow: hidden;
+}
+.ClientTestimonials-main-page-m .Next-Gen-middle-frame h5{
+  font-style: italic;
+    line-height: 28px;
+    font-size: 14px;
 }
 .Endorsements-test-sect-page-left {
     width: 100%;
